@@ -1,0 +1,18 @@
+# 生成物・大きなバイナリは管理外
+__pycache__/
+*.pyc
+.venv/
+
+# PDF からの中間生成物（再生成可能）
+raw/
+normalized/
+# 並置版 Markdown（shinryou.md がマスター、並置を見たいときは再生成）
+md/r6.md
+md/r8.md
+
+# 比較用一時ファイル
+shinryou.txt
+
+
+# 履歴整理用の一時退避ディレクトリ
+.tmp-cleanup/
