@@ -30,7 +30,7 @@ HEADING_RULES = [
     (re.compile(r"^第[\d０-９]+節"), 4),
     (re.compile(r"^通則$"), 4),
     (re.compile(r"^第[\d０-９]+款"), 5),
-    (re.compile(r"^[\uFF21-\uFF3A][\uFF10-\uFF19]{3}"), 6),  # 区分 A000
+    (re.compile(r"^[\uFF21-\uFF3A][\uFF10-\uFF19]{3}"), 5),  # 区分 A000 → h5
 ]
 
 ITEM_HARD = [
@@ -74,17 +74,16 @@ def is_ruby(line, prev):
 
 
 def slice_chapter1(text: str) -> str:
-    """目次以外の本文中の『第１章 基本診療料』〜『第２章』直前を抽出。"""
+    """『第１章 基本診療料』本文先頭〜『第２部 入院料等』直前を抽出（= 第１部 初・再診料）。"""
     lines = text.split("\n")
     starts = [i for i, ln in enumerate(lines) if CHAPTER_START.match(ln.strip())]
-    # 1つ目は目次。2つ目が本文先頭
     if len(starts) < 2:
         raise SystemExit("第1章 が見つからない")
     start = starts[1]
     end = len(lines)
+    part2 = re.compile(r"^第[\d０-９]+部\s*入院料等")
     for i in range(start + 1, len(lines)):
-        s = lines[i].strip()
-        if CHAPTER_NEXT.match(s) and not CHAPTER_START.match(s):
+        if part2.match(lines[i].strip()):
             end = i
             break
     return "\n".join(lines[start:end])
@@ -155,14 +154,29 @@ def normalize(text: str) -> list[str]:
             return ("top", num, m.group(2))
         return None
 
+    # 単独「N点」「削除」行は tariff（料金）として後付けで処理するため、
+    # 段落連結のフェーズではフラグだけ立てておく。
+    TARIFF_RE = re.compile(r"^[\d,]+点$")
+
     for ln in cleaned:
         s = ln.strip()
         if not s:
+            continue
+        if s == "区分":
+            # PDF のラベル「区分」見出し行は捨てる（テーブル化で代替）
+            flush()
             continue
         lvl = heading_level(ln)
         if lvl is not None:
             flush()
             paras.append((f"h{lvl}", s))
+            cur_kind = "body"
+            cur_label = ""
+            continue
+        # 単独行の点数 / 削除
+        if TARIFF_RE.fullmatch(s) or s == "削除":
+            flush()
+            paras.append(("tariff", s))
             cur_kind = "body"
             cur_label = ""
             continue
@@ -194,23 +208,110 @@ HANSU = str.maketrans("０１２３４５６７８９", "0123456789")
 
 
 def to_markdown(paras: list[tuple[str, str]]) -> str:
-    """段落配列を Markdown へ。項番は順序付きリストに変換する。
-    - top  : `1. ` (Markdown が自動採番)
-    - note : `1. **注N** ` (注ラベルは本文に残す)
-    - sub1 : `    1. ` （(N)は1段下げ、原番号は捨て自動採番）
-    - sub2 : `        - イ ` （イロハは番号付与せず箇条書きでラベル保持）
+    """整形ルール:
+    - 区分 (h5) の直後の tariff は見出し並記 ` — 291点`
+    - 節 (h4) 配下の各区分を集めて、節見出しの直後に区分一覧テーブルを挿入
+    - 区分配下の top 数字項目は「注N」連番として強制ラベル付与（注1のみ明記、以降は数字省略の慣例を補完）
+    - sub1=(N), sub2=イロハ
     """
+    # --- 1) 区分見出しに点数を結合 + h4(節) ごとに区分一覧を準備 ---
+    enriched: list[tuple[str, str]] = []
+    section_tables: dict[int, list[tuple[str, str, str]]] = {}  # paras index -> rows
+    last_section_idx: int | None = None
+    last_section_pos: int | None = None  # in enriched
+    pending_division = None  # (idx_in_enriched, code, name)
+
+    i = 0
+    while i < len(paras):
+        kind, txt = paras[i]
+        if kind == "h4":
+            enriched.append((kind, txt))
+            last_section_idx = len(enriched) - 1
+            section_tables.setdefault(last_section_idx, [])
+            i += 1
+            continue
+        if kind == "h5":
+            # 区分: 「Ａ０００ 初診料」を分離
+            m = re.match(r"^([\uFF21-\uFF3A][\uFF10-\uFF19]{3})[\s　]*(.*)$", txt)
+            if m:
+                code, name = m.group(1), m.group(2)
+                # 直後の tariff を結合
+                tariff = ""
+                j = i + 1
+                while j < len(paras) and paras[j][0] == "tariff":
+                    tariff = paras[j][1]
+                    j += 1
+                heading = f"##### {code} {name}" + (f" — {tariff}" if tariff else "")
+                enriched.append(("hraw", heading))
+                if last_section_idx is not None:
+                    section_tables[last_section_idx].append((code, name, tariff or "—"))
+                i = j
+                continue
+        enriched.append((kind, txt))
+        i += 1
+
+    # --- 2) 節テーブルを enriched に挿入 ---
+    # 節 hraw が処理されるタイミングで、その節の区分テーブルを直後に出す
     out: list[str] = []
     last_was_list = False
 
-    for kind, txt in paras:
-        if kind.startswith("h"):
-            if out and out[-1] != "":
+    def emit_blank():
+        nonlocal last_was_list
+        if out and out[-1] != "":
+            out.append("")
+        last_was_list = False
+
+    # 節 index を再計算（enriched 上で）
+    sec_indices: list[int] = [k for k, (kk, _) in enumerate(enriched) if kk == "h4"]
+    sec_tables: dict[int, list[tuple[str, str, str]]] = {}
+    # 元の paras index → enriched index の対応取得が面倒なので作り直し
+    cur_sec = None
+    cur_sec_rows: list[tuple[str, str, str]] = []
+    for k, (kk, vv) in enumerate(enriched):
+        if kk == "h4":
+            if cur_sec is not None:
+                sec_tables[cur_sec] = cur_sec_rows
+            cur_sec = k
+            cur_sec_rows = []
+        elif kk == "hraw" and vv.startswith("##### "):
+            m = re.match(r"^##### ([\uFF21-\uFF3A][\uFF10-\uFF19]{3}) (\S+)(?: — (.+))?$", vv)
+            if m and cur_sec is not None:
+                cur_sec_rows.append((m.group(1), m.group(2), m.group(3) or "—"))
+    if cur_sec is not None:
+        sec_tables[cur_sec] = cur_sec_rows
+
+    for k, (kind, txt) in enumerate(enriched):
+        if kind == "h4":
+            emit_blank()
+            out.append("#### " + txt)
+            out.append("")
+            rows = sec_tables.get(k, [])
+            if rows:
+                out.append("| 区分 | 名称 | 点数 |")
+                out.append("|---|---|---|")
+                for code, name, tariff in rows:
+                    out.append(f"| {code} | {name} | {tariff} |")
                 out.append("")
+            continue
+
+        if kind == "hraw":
+            emit_blank()
+            out.append(txt)
+            out.append("")
+            continue
+
+        if kind.startswith("h"):
+            emit_blank()
             lvl = int(kind[1:])
             out.append("#" * lvl + " " + txt)
             out.append("")
-            last_was_list = False
+            continue
+
+        if kind == "tariff":
+            # 区分以外（節通則など）に出る tariff はそのまま太字で
+            emit_blank()
+            out.append(f"**{txt}**")
+            out.append("")
             continue
 
         if kind.startswith("item-"):
@@ -221,6 +322,7 @@ def to_markdown(paras: list[tuple[str, str]]) -> str:
                 marker = "1. "
                 body = txt
             elif level == "note":
+                # 原文に明示された「注N」のみ表示。自動採番はしない
                 marker = "1. "
                 body = f"**{label}** {txt}" if txt else f"**{label}**"
             elif level == "sub1":
@@ -235,8 +337,8 @@ def to_markdown(paras: list[tuple[str, str]]) -> str:
                 marker = ""
                 body = txt
             sub_lines = body.split("\n")
-            for i, sl in enumerate(sub_lines):
-                if i == 0:
+            for n, sl in enumerate(sub_lines):
+                if n == 0:
                     out.append(indent + marker + sl)
                 else:
                     out.append(indent + " " * len(marker) + sl)
@@ -259,13 +361,13 @@ def to_markdown(paras: list[tuple[str, str]]) -> str:
 
 FRONTMATTER = (
     "---\n"
-    "title: 診療報酬の算定方法 別表第一 医科診療報酬点数表 抜粋（第1章 基本診療料）\n"
+    "title: 診療報酬の算定方法 別表第一 医科診療報酬点数表 抜粋（第1章 第1部 初・再診料）\n"
     "version: {version}\n"
     "source_pdf: {pdf}\n"
     "source_org: 厚生労働省\n"
     "source_url: https://www.mhlw.go.jp/\n"
     "license: 政府著作物（著作権法第13条により著作権の対象外）\n"
-    "scope: 第1章 基本診療料 のみ抜粋（デモ用）\n"
+    "scope: 第1章 第1部 初・再診料 のみ抜粋（デモ用）\n"
     "---\n\n"
 )
 
