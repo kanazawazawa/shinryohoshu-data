@@ -1,0 +1,28 @@
+code: K190-5
+name: 重症痙性麻痺治療薬髄腔内持続注入用植込型ポンプ薬剤再充填
+version: r8
+points: 780
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第3款 神経系・頭蓋
+raw_text: 'Ｋ１９０－５重症痙性麻痺治療薬髄腔内持続注入用植込型ポンプ薬剤再充填780点
+
+  - 注１月に１回に限り算定する。
+
+  '
+notes:
+- id: 注1
+  text: '月に１回に限り算定する。
+
+    '
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

@@ -1,0 +1,32 @@
+code: J087
+name: 前房穿
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第9部 処置
+  section: 第1節 処置料
+raw_text: 'Ｊ０８７前房穿
+
+  刺又は注射（前房内注入を含む。）180点
+
+  - 注顕微鏡下に行った場合は、顕微鏡下処置加算として、180点を加算する。
+
+  '
+notes:
+- id: 注1
+  text: '顕微鏡下に行った場合は、顕微鏡下処置加算として、180点を加算する。
+
+    '
+  additions:
+  - name: 顕微鏡下処置加算
+    points: 180
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-09-01-処置料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

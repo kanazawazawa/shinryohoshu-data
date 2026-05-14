@@ -1,0 +1,36 @@
+code: K555
+name: 弁置換術
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第8款 心・脈管
+raw_text: 'Ｋ５５５弁置換術
+
+  - １１弁のもの85,500点
+
+  - ２２弁のもの100,200点
+
+  - ３３弁のもの114,510点
+
+  - ４大動脈弁、僧帽弁及び中心線維体の再建を含むもの198,000点
+
+  - 注過去に心臓弁手術を行ったものに対して弁手術を行った場合には、心臓弁再置換術加算として、所定点数に所定点数の100分の50に相当する点数を加算する。
+
+  '
+notes:
+- id: 注1
+  text: '過去に心臓弁手術を行ったものに対して弁手術を行った場合には、心臓弁再置換術加算として、所定点数に所定点数の100分の50に相当する点数を加算する。
+
+    '
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

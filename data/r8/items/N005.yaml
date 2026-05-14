@@ -1,0 +1,25 @@
+code: N005
+name: ＨＥＲ２遺伝子標本作製
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第13部 病理診断
+  section: 第1節 病理標本作製料
+raw_text: 'Ｎ００５ＨＥＲ２遺伝子標本作製
+
+  - １単独の場合2,700点
+
+  - ２区分番号Ｎ００２に掲げる免疫染色（免疫抗体法）病理組織標本作製の３による病理標本作製を併せて行った場合3,050点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-13-01-病理標本作製料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

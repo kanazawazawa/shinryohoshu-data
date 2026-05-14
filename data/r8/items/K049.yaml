@@ -1,0 +1,50 @@
+code: K049
+name: 骨部分切除術
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第2款 筋骨格系・四肢・体幹
+raw_text: 'Ｋ０４９骨部分切除術
+
+  - １肩甲骨部分切除術5,900点
+
+  - ２上腕骨部分切除術5,900点
+
+  - ３大腿骨部分切除術5,900点
+
+  - ４前腕骨部分切除術4,940点
+
+  - ５下腿骨部分切除術4,940点
+
+  - ６鎖骨部分切除術3,280点
+
+  - ７膝蓋骨部分切除術3,280点
+
+  - ８手根骨部分切除術3,280点
+
+  - ９中手骨部分切除術3,280点
+
+  - 10手指骨部分切除術3,280点
+
+  - 11足根骨部分切除術3,280点
+
+  - 12中足骨部分切除術3,280点
+
+  - 13足趾骨部分切除術3,280点
+
+  - 14その他の骨部分切除術3,280点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

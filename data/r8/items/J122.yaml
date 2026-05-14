@@ -1,0 +1,33 @@
+code: J122
+name: 四肢ギプス包帯
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第9部 処置
+  section: 第1節 処置料
+raw_text: 'Ｊ１２２四肢ギプス包帯
+
+  - １鼻ギプス310点
+
+  - ２手指及び手、足（片側）490点
+
+  - ３半肢（片側）780点
+
+  - ４内反足矯正ギプス包帯（片側）1,140点
+
+  - ５上肢、下肢（片側）1,200点
+
+  - ６体幹から四肢にわたるギプス包帯（片側）1,840点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-09-01-処置料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

@@ -1,0 +1,21 @@
+code: K695-2
+name: 腹腔鏡下肝切除術
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第9款 腹部
+raw_text: "Ｋ６９５－２腹腔鏡下肝切除術\n- １部分切除\n    - イ単回の切除によるもの58,680点\n    - ロ複数回の切除を要するもの63,680点\n- ２外側区域切除74,880点\n- ３亜区域切除108,820点\n\
+  - ４１区域切除（外側区域切除を除く。）130,730点\n- ５２区域切除152,440点\n- ６３区域切除以上のもの174,090点Ｋ６９６肝内胆管（肝管）胃（腸）吻合術30,940点\n"
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

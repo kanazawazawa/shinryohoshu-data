@@ -1,0 +1,35 @@
+code: I008
+name: 入院生活技能訓練療法
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第8部 精神科専門療法
+  section: 第2節 薬剤料
+raw_text: 'Ｉ００８入院生活技能訓練療法
+
+  - １入院の日から起算して６月以内の期間に行った場合100点
+
+  - ２入院の日から起算して６月を超えた期間に行った場合75点
+
+  - 注１入院中の患者について、週１回に限り算定する。
+
+  - ２入院生活技能訓練療法と同一日に行う他の精神科専門療法は、所定点数に含まれるものとする。
+
+  '
+notes:
+- id: 注1
+  text: 入院中の患者について、週１回に限り算定する。
+- id: 注2
+  text: '入院生活技能訓練療法と同一日に行う他の精神科専門療法は、所定点数に含まれるものとする。
+
+    '
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-08-02-薬剤料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

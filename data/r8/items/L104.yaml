@@ -1,0 +1,21 @@
+code: L104
+name: トリガーポイント注射
+version: r8
+points: 70
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第11部 麻酔
+  section: 第2節 神経ブロック料
+raw_text: 'Ｌ１０４トリガーポイント注射70点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-11-02-神経ブロック料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

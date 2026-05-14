@@ -1,0 +1,31 @@
+code: I005
+name: 入院集団精神療法（１日につき）
+version: r8
+points: 100
+unit: 日
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第8部 精神科専門療法
+  section: 第2節 薬剤料
+raw_text: 'Ｉ００５入院集団精神療法（１日につき）100点
+
+  - 注１入院中の患者について、入院の日から起算して６月を限度として週２回に限り算定する。
+
+  - ２入院集団精神療法と同一日に行う他の精神科専門療法は、所定点数に含まれるものとする。
+
+  '
+notes:
+- id: 注1
+  text: 入院中の患者について、入院の日から起算して６月を限度として週２回に限り算定する。
+- id: 注2
+  text: '入院集団精神療法と同一日に行う他の精神科専門療法は、所定点数に含まれるものとする。
+
+    '
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-08-02-薬剤料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

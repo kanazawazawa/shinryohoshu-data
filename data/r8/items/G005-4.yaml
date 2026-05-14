@@ -1,0 +1,35 @@
+code: G005-4
+name: カフ型緊急時ブラッドアクセス用留置カテーテル挿入
+version: r8
+points: 2500
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第6部 注射
+  section: 第1節 注射料
+  subsection: 第1款 注射実施料
+raw_text: 'Ｇ００５－４カフ型緊急時ブラッドアクセス用留置カテーテル挿入2,500点
+
+  - 注１カテーテルの挿入に伴う検査及び画像診断の費用は、所定点数に含まれるものとする。
+
+  - ２６歳未満の乳幼児に対して行った場合には、乳幼児加算として、500点を所定点数に加算する。
+
+  '
+notes:
+- id: 注1
+  text: カテーテルの挿入に伴う検査及び画像診断の費用は、所定点数に含まれるものとする。
+- id: 注2
+  text: '6歳未満の乳幼児に対して行った場合には、乳幼児加算として、500点を所定点数に加算する。
+
+    '
+  additions:
+  - name: 乳幼児加算
+    points: 500
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-06-01-注射料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

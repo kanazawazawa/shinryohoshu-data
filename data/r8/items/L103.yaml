@@ -1,0 +1,21 @@
+code: L103
+name: カテラン硬膜外注射
+version: r8
+points: 140
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第11部 麻酔
+  section: 第2節 神経ブロック料
+raw_text: 'Ｌ１０３カテラン硬膜外注射140点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-11-02-神経ブロック料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

@@ -1,0 +1,26 @@
+code: K707
+name: 膵嚢胞外瘻造設術
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第9款 腹部
+raw_text: 'Ｋ７０７膵嚢胞外瘻造設術
+
+  - １内視鏡によるもの18,370点
+
+  - ２開腹によるもの12,460点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

@@ -1,0 +1,28 @@
+code: K886
+name: 子宮附属器癒着剥
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第11款 性器
+raw_text: 'Ｋ８８６子宮附属器癒着剥
+
+  離術（両側）１開腹によるもの13,890点
+
+  - ２腹腔鏡によるもの21,370点Ｋ８８７卵巣部分切除術（腟式を含む。）１開腹によるもの6,150点
+
+  - ２腹腔鏡によるもの18,810点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

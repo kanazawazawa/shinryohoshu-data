@@ -1,0 +1,27 @@
+code: M200
+name: 特定保険医療材料材料価格を10円で除して得た点数
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第12部 放射線治療
+  section: 第2節 特定保険医療材料料
+raw_text: 'Ｍ２００特定保険医療材料材料価格を10円で除して得た点数
+
+  - 注使用した特定保険医療材料の材料価格は、別に厚生労働大臣が定める。
+
+  '
+notes:
+- id: 注1
+  text: '使用した特定保険医療材料の材料価格は、別に厚生労働大臣が定める。
+
+    '
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-12-02-特定保険医療材料料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

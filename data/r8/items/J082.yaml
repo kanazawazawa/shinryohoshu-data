@@ -1,0 +1,21 @@
+code: J082
+name: 子宮脱非観血的整復法（ペッサリー）
+version: r8
+points: 290
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第9部 処置
+  section: 第1節 処置料
+raw_text: 'Ｊ０８２子宮脱非観血的整復法（ペッサリー）290点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-09-01-処置料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

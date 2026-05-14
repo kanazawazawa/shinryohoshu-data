@@ -1,0 +1,50 @@
+code: K052
+name: 骨腫瘍切除術
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第2款 筋骨格系・四肢・体幹
+raw_text: 'Ｋ０５２骨腫瘍切除術
+
+  - １肩甲骨腫瘍切除術17,410点
+
+  - ２上腕骨腫瘍切除術17,410点
+
+  - ３大腿骨腫瘍切除術17,410点
+
+  - ４前腕骨腫瘍切除術9,370点
+
+  - ５下腿骨腫瘍切除術9,370点
+
+  - ６鎖骨腫瘍切除術4,340点
+
+  - ７膝蓋骨腫瘍切除術4,340点
+
+  - ８手根骨腫瘍切除術4,340点
+
+  - ９中手骨腫瘍切除術4,340点
+
+  - 10手指骨腫瘍切除術4,340点
+
+  - 11足根骨腫瘍切除術4,340点
+
+  - 12中足骨腫瘍切除術4,340点
+
+  - 13足趾骨腫瘍切除術4,340点
+
+  - 14その他の骨腫瘍切除術4,340点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

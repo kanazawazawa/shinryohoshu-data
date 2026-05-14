@@ -1,0 +1,28 @@
+code: C169
+name: 気管切開患者用人工鼻加算
+version: r8
+points: 1500
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第2部 在宅医療
+  section: 第2節 在宅療養指導管理料
+  subsection: 第2款 在宅療養指導管理材料加算
+raw_text: 'Ｃ１６９気管切開患者用人工鼻加算1,500点
+
+  - 注気管切開を行っている患者であって入院中の患者以外のものに対して、人工鼻を使用した場合に、第１款の所定点数に加算する。
+
+  '
+notes:
+- id: 注1
+  text: '気管切開を行っている患者であって入院中の患者以外のものに対して、人工鼻を使用した場合に、第１款の所定点数に加算する。
+
+    '
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-02-02-在宅療養指導管理料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

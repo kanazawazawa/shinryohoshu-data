@@ -1,0 +1,30 @@
+code: K610
+name: 動脈形成術、吻合術１頭蓋内動脈
+version: r8
+points: 99700
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第8款 心・脈管
+raw_text: 'Ｋ６１０動脈形成術、吻合術１頭蓋内動脈99,700点
+
+  - ２胸腔内動脈（大動脈を除く。）52,570点
+
+  - ３腹腔内動脈（大動脈を除く。）47,790点
+
+  - ４指（手、足）の動脈18,400点
+
+  - ５その他の動脈21,700点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

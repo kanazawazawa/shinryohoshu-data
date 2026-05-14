@@ -1,0 +1,35 @@
+code: D241
+name: 神経・筋検査判断料
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第3部 検査
+  section: 第3節 生体検査料
+raw_text: 'Ｄ２４１神経・筋検査判断料
+
+  - １筋電図検査の場合180点
+
+  - ２その他の場合180点
+
+  - 注神経・筋検査等の種類又は回数にかかわらず月１回に限り算定するものとする。
+
+  ただし、いずれかの神経・筋検査判断料を算定した場合には、同一月において他の神経・筋検査判断料は算定しない。
+
+  '
+notes:
+- id: 注1
+  text: '神経・筋検査等の種類又は回数にかかわらず月１回に限り算定するものとする。
+
+    ただし、いずれかの神経・筋検査判断料を算定した場合には、同一月において他の神経・筋検査判断料は算定しない。
+
+    '
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-03-03-生体検査料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

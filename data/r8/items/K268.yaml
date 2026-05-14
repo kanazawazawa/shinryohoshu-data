@@ -1,0 +1,21 @@
+code: K268
+name: 緑内障手術
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第4款 眼
+raw_text: "Ｋ２６８緑内障手術\n- １虹彩切除術4,740点\n- ２流出路再建術\n    - イ眼内法14,490点\n    - ロその他のもの19,020点\n- ３濾過手術23,600点\n- ４緑内障治療用インプラント挿入術（プレートのないもの）34,480点\n\
+  - ５緑内障治療用インプラント挿入術（プレートのあるもの）45,480点\n- ６水晶体再建術併用眼内ドレーン挿入術27,990点\n- ７濾過胞再建術（needle法）3,440点\n"
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

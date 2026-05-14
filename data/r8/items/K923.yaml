@@ -1,0 +1,33 @@
+code: K923
+name: 術中術後自己血回収術（自己血回収器具によるもの）１濃縮及び洗浄を行うもの
+version: r8
+points: 5500
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第2節 輸血料
+raw_text: 'Ｋ９２３術中術後自己血回収術（自己血回収器具によるもの）１濃縮及び洗浄を行うもの5,500点
+
+  - ２濾過を行うもの3,500点
+
+  - 注１併施される手術の所定点数とは別に算定する。
+
+  - ２使用した術中術後自己血回収セットの費用は、所定点数に含まれるものとする。
+
+  '
+notes:
+- id: 注1
+  text: 併施される手術の所定点数とは別に算定する。
+- id: 注2
+  text: '使用した術中術後自己血回収セットの費用は、所定点数に含まれるものとする。
+
+    '
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-02-輸血料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

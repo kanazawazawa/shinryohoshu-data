@@ -1,0 +1,21 @@
+code: A308-2
+name: 削除
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第1章 基本診療料
+  part: 第2部 入院料等
+  section: 第3節 特定入院料
+raw_text: 'Ａ３０８－２削除
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/01-02-03-特定入院料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

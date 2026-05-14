@@ -1,0 +1,28 @@
+code: K514-5
+name: 移植用部分肺採取術（生体）
+version: r8
+points: 60750
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第7款 胸部
+raw_text: 'Ｋ５１４－５移植用部分肺採取術（生体）60,750点
+
+  - 注肺提供者に係る組織適合性試験の費用は、所定点数に含まれる。
+
+  '
+notes:
+- id: 注1
+  text: '肺提供者に係る組織適合性試験の費用は、所定点数に含まれる。
+
+    '
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

@@ -1,0 +1,22 @@
+code: K635-4
+name: 腹腔鏡下連続携行式腹膜灌流用カテーテル腹腔内留置術
+version: r8
+points: 16660
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第9款 腹部
+raw_text: 'Ｋ６３５－４腹腔鏡下連続携行式腹膜灌流用カテーテル腹腔内留置術16,660点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

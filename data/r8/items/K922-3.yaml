@@ -1,0 +1,27 @@
+code: K922-3
+name: 自己骨髄由来間葉系幹細胞投与（一連につき）
+version: r8
+points: 22280
+unit: 一連
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第2節 輸血料
+raw_text: 'Ｋ９２２－３自己骨髄由来間葉系幹細胞投与（一連につき）22,280点
+
+  - 注自己骨髄由来間葉系幹細胞投与に当たって使用した輸血用バッグ及び輸血用針は、所定点数に含まれるものとする。
+
+  '
+notes:
+- id: 注1
+  text: '自己骨髄由来間葉系幹細胞投与に当たって使用した輸血用バッグ及び輸血用針は、所定点数に含まれるものとする。
+
+    '
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-02-輸血料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

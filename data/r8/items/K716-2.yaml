@@ -1,0 +1,32 @@
+code: K716-2
+name: 腹腔鏡下小腸切除術
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第9款 腹部
+raw_text: 'Ｋ７１６－２腹腔鏡下小腸切除術
+
+  - １複雑なもの37,380点
+
+  - ２その他のもの31,370点Ｋ７１６－３移植用部分小腸採取術（生体）56,850点
+
+  - 注小腸提供者に係る組織適合性試験の費用は、所定点数に含まれる。
+
+  '
+notes:
+- id: 注1
+  text: '小腸提供者に係る組織適合性試験の費用は、所定点数に含まれる。
+
+    '
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

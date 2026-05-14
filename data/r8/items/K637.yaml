@@ -1,0 +1,30 @@
+code: K637
+name: 限局性腹腔膿瘍手術
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第9款 腹部
+raw_text: 'Ｋ６３７限局性腹腔膿瘍手術
+
+  - １横隔膜下膿瘍10,690点
+
+  - ２ダグラス窩膿瘍5,710点
+
+  - ３虫垂周囲膿瘍5,340点
+
+  - ４その他のもの10,380点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

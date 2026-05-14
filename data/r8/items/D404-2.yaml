@@ -1,0 +1,30 @@
+code: D404-2
+name: 骨髄生検
+version: r8
+points: 730
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第3部 検査
+  section: 第4節 診断穿刺・検体採取料
+raw_text: 'Ｄ４０４－２骨髄生検730点
+
+  - 注６歳未満の乳幼児の場合は、乳幼児加算として、100点を所定点数に加算する。
+
+  '
+notes:
+- id: 注6
+  text: '歳未満の乳幼児の場合は、乳幼児加算として、100点を所定点数に加算する。
+
+    '
+  additions:
+  - name: 乳幼児加算
+    points: 100
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-03-04-診断穿刺・検体採取料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

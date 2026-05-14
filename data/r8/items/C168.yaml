@@ -1,0 +1,28 @@
+code: C168
+name: 携帯型精密輸液ポンプ加算
+version: r8
+points: 10000
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第2部 在宅医療
+  section: 第2節 在宅療養指導管理料
+  subsection: 第2款 在宅療養指導管理材料加算
+raw_text: 'Ｃ１６８携帯型精密輸液ポンプ加算10,000点
+
+  - 注肺高血圧症の患者であって入院中の患者以外のものに対して、携帯型精密輸液ポンプを使用した場合に、第１款の所定点数に加算する。
+
+  '
+notes:
+- id: 注1
+  text: '肺高血圧症の患者であって入院中の患者以外のものに対して、携帯型精密輸液ポンプを使用した場合に、第１款の所定点数に加算する。
+
+    '
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-02-02-在宅療養指導管理料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

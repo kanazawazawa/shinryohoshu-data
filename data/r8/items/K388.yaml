@@ -1,0 +1,22 @@
+code: K388
+name: 喉頭粘膜下異物挿入術
+version: r8
+points: 3630
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第5款 耳鼻咽喉
+raw_text: 'Ｋ３８８喉頭粘膜下異物挿入術3,630点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

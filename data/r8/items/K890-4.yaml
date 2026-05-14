@@ -1,0 +1,24 @@
+code: K890-4
+name: 採卵術
+version: r8
+points: 3200
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第11款 性器
+raw_text: "Ｋ８９０－４採卵術3,200点\n- 注採取された卵子の数に応じて、次に掲げる点数をそれぞれ１回につき所定点数に加算する。\n    - イ１個の場合2,400点\n    - ロ２個から５個までの場合3,600点\n \
+  \   - ハ６個から９個までの場合5,500点\n    - ニ10個以上の場合7,200点（産科手術）\n"
+notes:
+- id: 注1
+  text: "採取された卵子の数に応じて、次に掲げる点数をそれぞれ１回につき所定点数に加算する。\n    - イ１個の場合2,400点\n    - ロ２個から５個までの場合3,600点\n    - ハ６個から９個までの場合5,500点\n\
+    \    - ニ10個以上の場合7,200点（産科手術）\n"
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

@@ -1,0 +1,32 @@
+code: K609-2
+name: 経皮的頸動脈ステント留置術
+version: r8
+points: 34740
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第8款 心・脈管
+raw_text: 'Ｋ６０９－２経皮的頸動脈ステント留置術34,740点
+
+  - 注１手術に伴う画像診断及び検査の費用は算定しない。
+
+  - ２内頸動脈又は総頸動脈に対して行われた場合に限り算定する。
+
+  '
+notes:
+- id: 注1
+  text: 手術に伴う画像診断及び検査の費用は算定しない。
+- id: 注2
+  text: '内頸動脈又は総頸動脈に対して行われた場合に限り算定する。
+
+    '
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

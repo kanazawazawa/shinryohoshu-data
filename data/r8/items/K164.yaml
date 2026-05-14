@@ -1,0 +1,26 @@
+code: K164
+name: 頭蓋内血腫除去術（開頭して行うもの）１硬膜外のもの
+version: r8
+points: 35790
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第3款 神経系・頭蓋
+raw_text: 'Ｋ１６４頭蓋内血腫除去術（開頭して行うもの）１硬膜外のもの35,790点
+
+  - ２硬膜下のもの36,970点
+
+  - ３脳内のもの47,020点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

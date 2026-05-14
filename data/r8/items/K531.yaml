@@ -1,0 +1,26 @@
+code: K531
+name: 食道切除後２次的再建術
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第7款 胸部
+raw_text: 'Ｋ５３１食道切除後２次的再建術
+
+  - １皮弁形成によるもの43,920点
+
+  - ２消化管利用によるもの64,300点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

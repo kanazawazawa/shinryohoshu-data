@@ -1,0 +1,32 @@
+code: K193
+name: 神経腫切除術
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第3款 神経系・頭蓋
+raw_text: 'Ｋ１９３神経腫切除術
+
+  - １指（手、足）5,770点
+
+  - ２その他のもの10,770点
+
+  - 注神経腫が２個以上の場合は、神経腫を１個増すごとに、指（手、足）の場合は2,800点を、その他の場合は4,000点を所定点数に加算する。
+
+  '
+notes:
+- id: 注1
+  text: '神経腫が２個以上の場合は、神経腫を１個増すごとに、指（手、足）の場合は2,800点を、その他の場合は4,000点を所定点数に加算する。
+
+    '
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

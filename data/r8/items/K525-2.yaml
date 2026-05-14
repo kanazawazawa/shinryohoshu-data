@@ -1,0 +1,30 @@
+code: K525-2
+name: 胸壁外皮膚管形成吻合術
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第7款 胸部
+raw_text: 'Ｋ５２５－２胸壁外皮膚管形成吻合術
+
+  - １頸部、胸部、腹部の操作によるもの77,040点
+
+  - ２胸部、腹部の操作によるもの69,690点
+
+  - ３腹部の操作によるもの51,420点
+
+  - ４バイパスのみ作成する場合45,230点Ｋ５２５－３非開胸食道抜去術（消化管再建手術を併施するもの）69,690点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

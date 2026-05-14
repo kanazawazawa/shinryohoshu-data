@@ -1,0 +1,26 @@
+code: K190-6
+name: 仙骨神経刺激装置植込術
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第3款 神経系・頭蓋
+raw_text: 'Ｋ１９０－６仙骨神経刺激装置植込術
+
+  - １脊髄刺激電極を留置した場合24,200点
+
+  - ２ジェネレーターを留置した場合16,100点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

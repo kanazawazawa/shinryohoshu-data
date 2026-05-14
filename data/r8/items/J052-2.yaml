@@ -1,0 +1,31 @@
+code: J052-2
+name: 熱傷温浴療法（１日につき）
+version: r8
+points: 2175
+unit: 日
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第9部 処置
+  section: 第1節 処置料
+raw_text: 'Ｊ０５２－２熱傷温浴療法（１日につき）2,175点
+
+  - 注広範囲熱傷の患者であって、入院中のものについて行った場合に受傷後60日以内に限り算定する。
+
+  （皮膚科処置）
+
+  '
+notes:
+- id: 注1
+  text: '広範囲熱傷の患者であって、入院中のものについて行った場合に受傷後60日以内に限り算定する。
+
+    （皮膚科処置）
+
+    '
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-09-01-処置料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

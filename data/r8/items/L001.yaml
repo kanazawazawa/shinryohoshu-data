@@ -1,0 +1,25 @@
+code: L001
+name: 吸入麻酔又は静脈麻酔による鎮静
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第11部 麻酔
+  section: 第1節 麻酔料
+raw_text: 'Ｌ００１吸入麻酔又は静脈麻酔による鎮静
+
+  - １10分未満のもの120点
+
+  - ２10分以上20分未満のもの310点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-11-01-麻酔料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

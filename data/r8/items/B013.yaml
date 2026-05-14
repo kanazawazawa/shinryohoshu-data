@@ -1,0 +1,27 @@
+code: B013
+name: 療養費同意書交付料
+version: r8
+points: 100
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第1部 医学管理等
+  section: 第1節 医学管理料等
+raw_text: 'Ｂ０１３療養費同意書交付料100点
+
+  - 注健康保険法第87条の規定による療養費（柔道整復以外の施術に係るものに限る。）に係る同意書を交付した場合に算定する。
+
+  '
+notes:
+- id: 注1
+  text: '健康保険法第87条の規定による療養費（柔道整復以外の施術に係るものに限る。）に係る同意書を交付した場合に算定する。
+
+    '
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-01-01-医学管理料等.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

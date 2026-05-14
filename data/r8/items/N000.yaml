@@ -1,0 +1,34 @@
+code: N000
+name: 病理組織標本作製
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第13部 病理診断
+  section: 第1節 病理標本作製料
+raw_text: 'Ｎ０００病理組織標本作製
+
+  - １組織切片によるもの（１臓器につき）860点
+
+  - ２セルブロック法によるもの（１部位につき）860点
+
+  - 注特殊染色を併せて行った場合は、特殊染色加算として、１臓器又は１部位ごとにそれぞれ50点を所定点数に加算する。
+
+  '
+notes:
+- id: 注1
+  text: '特殊染色を併せて行った場合は、特殊染色加算として、１臓器又は１部位ごとにそれぞれ50点を所定点数に加算する。
+
+    '
+  additions:
+  - name: 特殊染色加算
+    points: 50
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-13-01-病理標本作製料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

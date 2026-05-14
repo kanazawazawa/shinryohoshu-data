@@ -1,0 +1,21 @@
+code: B006-2
+name: 削除
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第1部 医学管理等
+  section: 第1節 医学管理料等
+raw_text: 'Ｂ００６－２削除
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-01-01-医学管理料等.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

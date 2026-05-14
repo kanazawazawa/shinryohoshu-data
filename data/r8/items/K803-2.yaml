@@ -1,0 +1,28 @@
+code: K803-2
+name: 腹腔鏡下膀胱悪性腫瘍手術
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第10款 尿路系・副腎
+raw_text: 'Ｋ８０３－２腹腔鏡下膀胱悪性腫瘍手術
+
+  - １全摘（腸管等を利用して尿路変更を行わないもの）86,110点
+
+  - ２全摘（回腸又は結腸導管を利用して尿路変更を行うもの）129,569点
+
+  - ３全摘（代用膀胱を利用して尿路変更を行うもの）120,590点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

@@ -1,0 +1,21 @@
+code: J116-2
+name: 粘（滑）液嚢穿刺注入（片側）
+version: r8
+points: 100
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第9部 処置
+  section: 第1節 処置料
+raw_text: 'Ｊ１１６－２粘（滑）液嚢穿刺注入（片側）100点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-09-01-処置料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

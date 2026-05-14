@@ -1,0 +1,35 @@
+code: C100
+name: 退院前在宅療養指導管理料
+version: r8
+points: 120
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第2部 在宅医療
+  section: 第2節 在宅療養指導管理料
+  subsection: 第1款 在宅療養指導管理料
+raw_text: 'Ｃ１００退院前在宅療養指導管理料120点
+
+  - 注１入院中の患者が在宅療養に備えて一時的に外泊するに当たり、当該在宅療養に関する指導管理を行った場合に算定する。
+
+  - ２６歳未満の乳幼児に対して在宅療養に関する指導管理を行った場合には、乳幼児加算として、200点を所定点数に加算する。
+
+  '
+notes:
+- id: 注1
+  text: 入院中の患者が在宅療養に備えて一時的に外泊するに当たり、当該在宅療養に関する指導管理を行った場合に算定する。
+- id: 注2
+  text: '6歳未満の乳幼児に対して在宅療養に関する指導管理を行った場合には、乳幼児加算として、200点を所定点数に加算する。
+
+    '
+  additions:
+  - name: 乳幼児加算
+    points: 200
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-02-02-在宅療養指導管理料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

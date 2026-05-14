@@ -1,0 +1,38 @@
+code: K082-3
+name: 人工関節再置換術
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第2款 筋骨格系・四肢・体幹
+raw_text: 'Ｋ０８２－３人工関節再置換術
+
+  - １人工肩関節再置換術54,810点
+
+  - ２人工股関節再置換術54,810点
+
+  - ３人工膝関節再置換術54,810点
+
+  - ４人工肘関節再置換術34,190点
+
+  - ５人工手関節再置換術34,190点
+
+  - ６人工足関節再置換術34,190点
+
+  - ７人工手指関節再置換術21,930点
+
+  - ８人工足趾関節再置換術21,930点Ｋ０８２－４関節形成術（自家肋骨肋軟骨を用いるもの）91,500点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

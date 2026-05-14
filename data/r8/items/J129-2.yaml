@@ -1,0 +1,25 @@
+code: J129-2
+name: 練習用仮義足又は仮義手採型法
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第9部 処置
+  section: 第1節 処置料
+raw_text: 'Ｊ１２９－２練習用仮義足又は仮義手採型法
+
+  - １四肢切断の場合（１肢につき）700点
+
+  - ２股関節、肩関節離断の場合（１肢につき）1,050点Ｊ１２９－３治療用装具採寸法（１肢につき）200点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-09-01-処置料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

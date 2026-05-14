@@ -1,0 +1,34 @@
+code: K006-3
+name: 鶏眼・胼胝
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第1款 皮膚・皮下組織
+raw_text: 'Ｋ００６－３鶏眼・胼胝
+
+  切除術（露出部以外で縫合を伴うもの）１長径３センチメートル未満1,280点
+
+  - ２長径３センチメートル以上６センチメートル未満3,230点
+
+  - ３長径６センチメートル以上4,160点Ｋ００６－４皮膚腫瘍冷凍凝固摘出術（一連につき）１長径３センチメートル未満の良性皮膚腫瘍1,280点
+
+  - ２長径３センチメートル未満の悪性皮膚腫瘍2,050点
+
+  - ３長径３センチメートル以上６センチメートル未満の良性又は悪性皮膚腫瘍3,230点
+
+  - ４長径６センチメートル以上の良性又は悪性皮膚腫瘍4,160点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

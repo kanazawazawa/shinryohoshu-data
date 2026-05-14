@@ -1,0 +1,42 @@
+code: K072
+name: 関節切除術
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第2款 筋骨格系・四肢・体幹
+raw_text: 'Ｋ０７２関節切除術
+
+  - １肩関節切除術23,280点
+
+  - ２股関節切除術23,280点
+
+  - ３膝関節切除術23,280点
+
+  - ４胸鎖関節切除術16,070点
+
+  - ５肘関節切除術16,070点
+
+  - ６手関節切除術16,070点
+
+  - ７足関節及び距骨周囲関節切除術16,070点
+
+  - ８肩鎖関節切除術6,800点
+
+  - ９手指関節切除術6,800点
+
+  - 10足趾関節切除術6,800点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

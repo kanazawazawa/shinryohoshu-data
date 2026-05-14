@@ -1,0 +1,28 @@
+code: K823-2
+name: 尿失禁又は膀胱尿管逆流現象コラーゲン注入手術
+version: r8
+points: 23320
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第10款 尿路系・副腎
+raw_text: 'Ｋ８２３－２尿失禁又は膀胱尿管逆流現象コラーゲン注入手術23,320点
+
+  - 注コラーゲン注入手術に伴って使用したコラーゲンの費用は、所定点数に含まれるものとする。
+
+  '
+notes:
+- id: 注1
+  text: 'コラーゲン注入手術に伴って使用したコラーゲンの費用は、所定点数に含まれるものとする。
+
+    '
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

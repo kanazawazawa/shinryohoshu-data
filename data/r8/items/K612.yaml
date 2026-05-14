@@ -1,0 +1,25 @@
+code: K612
+name: 末梢動静脈瘻造設術
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第8款 心・脈管
+raw_text: "Ｋ６１２末梢動静脈瘻造設術\n- １内シャント造設術\n    - イ単純なもの12,080点\n    - ロ静脈転位を伴うもの15,300点\n- ２その他のもの7,760点Ｋ６１３腎血管性高血圧症手術（経皮的腎血管拡張術）31,840点\n\
+  - 注手術に伴う画像診断及び検査の費用は算定しない。\n"
+notes:
+- id: 注1
+  text: '手術に伴う画像診断及び検査の費用は算定しない。
+
+    '
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

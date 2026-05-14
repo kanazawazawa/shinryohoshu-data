@@ -1,0 +1,21 @@
+code: J034-3
+name: 内視鏡的結腸軸捻転解除術（一連につき）
+version: r8
+points: 5360
+unit: 一連
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第9部 処置
+  section: 第1節 処置料
+raw_text: 'Ｊ０３４－３内視鏡的結腸軸捻転解除術（一連につき）5,360点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-09-01-処置料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

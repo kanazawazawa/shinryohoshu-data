@@ -1,0 +1,27 @@
+code: I003
+name: 標準型精神分析療法（１回につき）
+version: r8
+points: 390
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第8部 精神科専門療法
+  section: 第2節 薬剤料
+raw_text: 'Ｉ００３標準型精神分析療法（１回につき）390点
+
+  - 注診療に要した時間が45分を超えたときに限り算定する。
+
+  '
+notes:
+- id: 注1
+  text: '診療に要した時間が45分を超えたときに限り算定する。
+
+    '
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-08-02-薬剤料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

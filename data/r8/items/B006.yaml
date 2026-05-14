@@ -1,0 +1,31 @@
+code: B006
+name: 救急救命管理料
+version: r8
+points: 500
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第1部 医学管理等
+  section: 第1節 医学管理料等
+raw_text: 'Ｂ００６救急救命管理料500点
+
+  - 注１患者の発生した現場に保険医療機関の救急救命士が赴いて必要な処置等を行った場合において、当該救急救命士に対して必要な指示を行った場合に算定する。
+
+  - ２救急救命士が行った処置等の費用は、所定点数に含まれるものとする。
+
+  '
+notes:
+- id: 注1
+  text: 患者の発生した現場に保険医療機関の救急救命士が赴いて必要な処置等を行った場合において、当該救急救命士に対して必要な指示を行った場合に算定する。
+- id: 注2
+  text: '救急救命士が行った処置等の費用は、所定点数に含まれるものとする。
+
+    '
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-01-01-医学管理料等.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

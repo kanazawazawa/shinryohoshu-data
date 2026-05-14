@@ -1,0 +1,28 @@
+code: K610-5
+name: 血管吻
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第8款 心・脈管
+raw_text: 'Ｋ６１０－５血管吻
+
+  合術及び神経再接合術（上腕動脈、正中神経及び尺骨神経）18,080点Ｋ６１１抗悪性腫瘍剤動脈、静脈又は腹腔内持続注入用植込型カテーテル設置１開腹して設置した場合17,940点
+
+  - ２四肢に設置した場合16,250点
+
+  - ３頭頸部その他に設置した場合16,640点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

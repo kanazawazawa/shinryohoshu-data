@@ -1,0 +1,21 @@
+code: D210-2
+name: 体表面心電図、心外膜興奮伝播図
+version: r8
+points: 1500
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第3部 検査
+  section: 第3節 生体検査料
+raw_text: 'Ｄ２１０－２体表面心電図、心外膜興奮伝播図1,500点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-03-03-生体検査料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

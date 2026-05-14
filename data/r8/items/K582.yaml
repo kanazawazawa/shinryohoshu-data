@@ -1,0 +1,28 @@
+code: K582
+name: 両大血管右室起始症手術
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第8款 心・脈管
+raw_text: 'Ｋ５８２両大血管右室起始症手術
+
+  - １単独のもの85,880点
+
+  - ２右室流出路形成を伴うもの128,820点
+
+  - ３心室中隔欠損閉鎖術及び大血管血流転換を伴うもの（タウシッヒ・ビング奇形手術）192,920点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

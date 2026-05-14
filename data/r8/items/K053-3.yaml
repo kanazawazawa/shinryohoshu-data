@@ -1,0 +1,24 @@
+code: K053-3
+name: 骨悪性腫瘍、類骨骨腫及び四肢軟部腫瘍凝固・焼灼術（冷凍凝固によるもの）１２センチメートル以内のもの
+version: r8
+points: 51200
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第2款 筋骨格系・四肢・体幹
+raw_text: 'Ｋ０５３－３骨悪性腫瘍、類骨骨腫及び四肢軟部腫瘍凝固・焼灼術（冷凍凝固によるもの）１２センチメートル以内のもの51,200点
+
+  - ２２センチメートルを超えるもの66,200点
+
+  '
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

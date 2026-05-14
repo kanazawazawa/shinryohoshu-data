@@ -1,0 +1,21 @@
+code: K082
+name: 人工関節置換術
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第2款 筋骨格系・四肢・体幹
+raw_text: "Ｋ０８２人工関節置換術\n- １人工肩関節置換術\n    - イ腱移行を伴わないもの37,690点\n    - ロ腱移行を伴うもの46,690点\n- ２人工股関節置換術37,690点\n- ３人工膝関節置換術37,690点\n\
+  - ４人工肘関節置換術28,210点\n- ５人工手関節置換術28,210点\n- ６人工足関節置換術28,210点\n- ７人工手指関節置換術15,970点\n- ８人工足趾関節置換術15,970点\n"
+notes: []
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

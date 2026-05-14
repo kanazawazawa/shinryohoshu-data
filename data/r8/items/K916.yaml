@@ -1,0 +1,35 @@
+code: K916
+name: 体外式膜型人工肺管理料（１日につき）１７日目まで
+version: r8
+points: 4500
+unit: 日
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第13款 手術等管理料
+raw_text: 'Ｋ９１６体外式膜型人工肺管理料（１日につき）１７日目まで4,500点
+
+  - ２８日目以降14日目まで4,000点
+
+  - ３15日目以降3,000点
+
+  - 注治療開始時においては、導入時加算として、初回に限り5,000点を所定点数に加算する。
+
+  '
+notes:
+- id: 注1
+  text: '治療開始時においては、導入時加算として、初回に限り5,000点を所定点数に加算する。
+
+    '
+  additions:
+  - name: 導入時加算
+    points: 5000
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

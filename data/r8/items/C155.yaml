@@ -1,0 +1,28 @@
+code: C155
+name: 自動腹膜灌流装置加算
+version: r8
+points: 2500
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第2部 在宅医療
+  section: 第2節 在宅療養指導管理料
+  subsection: 第2款 在宅療養指導管理材料加算
+raw_text: 'Ｃ１５５自動腹膜灌流装置加算2,500点
+
+  - 注在宅自己連続携行式腹膜灌流を行っている入院中の患者以外の患者に対して、自動腹膜灌流装置を使用した場合に、第１款の所定点数に加算する。
+
+  '
+notes:
+- id: 注1
+  text: '在宅自己連続携行式腹膜灌流を行っている入院中の患者以外の患者に対して、自動腹膜灌流装置を使用した場合に、第１款の所定点数に加算する。
+
+    '
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-02-02-在宅療養指導管理料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

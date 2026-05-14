@@ -1,0 +1,36 @@
+code: J019
+name: 持続的胸腔
+version: r8
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第9部 処置
+  section: 第1節 処置料
+raw_text: 'Ｊ０１９持続的胸腔
+
+  ドレナージ（開始日）990点
+
+  - 注１持続的胸腔ドレナージの費用は、挿入したドレーンの本数にかかわらず、１日に１回に限り算定する。
+
+  - ２３歳未満の乳幼児の場合は、乳幼児加算として、110点を加算する。
+
+  '
+notes:
+- id: 注1
+  text: 持続的胸腔ドレナージの費用は、挿入したドレーンの本数にかかわらず、１日に１回に限り算定する。
+- id: 注2
+  text: '3歳未満の乳幼児の場合は、乳幼児加算として、110点を加算する。
+
+    '
+  additions:
+  - name: 乳幼児加算
+    points: 110
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-09-01-処置料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false
