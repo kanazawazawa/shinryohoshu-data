@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/shinryohoshu/item.schema.json",
+  "title": "診療報酬点数表 区分 詳細 (T2)",
+  "type": "object",
+  "required": ["code", "name", "version", "chapter", "notes", "source", "_meta"],
+  "properties": {
+    "code":    { "type": "string", "pattern": "^[A-Z][0-9]{3}(-[0-9]+)?$" },
+    "name":    { "type": "string" },
+    "version": { "type": "string", "enum": ["r6", "r8"] },
+    "points": {
+      "type": ["integer", "string", "null"],
+      "description": "所定点数。複雑な場合は文字列で原文をそのまま、削除区分は null"
+    },
+    "unit":    { "type": "string" },
+    "chapter": {
+      "type": "object",
+      "required": ["chapter"],
+      "properties": {
+        "chapter":    { "type": "string" },
+        "part":       { "type": "string" },
+        "section":    { "type": "string" },
+        "subsection": { "type": "string" }
+      }
+    },
+    "raw_text": {
+      "type": "string",
+      "description": "PDFからの原文（注一覧含む全本文）。データ損失保証のため必須。"
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "text"],
+        "properties": {
+          "id":   { "type": "string", "pattern": "^注[0-9]+$" },
+          "text": { "type": "string", "description": "注の原文（要約しない）" },
+          "additions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name", "points"],
+              "properties": {
+                "name":   { "type": "string" },
+                "points": { "type": ["integer", "string"] },
+                "limit":  { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": ["pdf", "url", "raw_file"],
+      "properties": {
+        "pdf":      { "type": "string" },
+        "url":      { "type": "string", "format": "uri" },
+        "raw_file": { "type": "string", "description": "raw/ 配下の参照先（loss検証用）" }
+      }
+    },
+    "_meta": {
+      "type": "object",
+      "required": ["generated_by", "human_reviewed"],
+      "properties": {
+        "generated_by":  { "type": "string", "description": "rule-based / llm-auto / human" },
+        "human_reviewed": { "type": "boolean" },
+        "has_unparsed":   { "type": "boolean", "description": "構造化未完了の箇所があるか" }
+      }
+    }
+  }
+}
