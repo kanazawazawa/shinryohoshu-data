@@ -8,16 +8,13 @@ chapter:
   part: 第10部 手術
   section: 第1節 手術料
   subsection: 第3款 神経系・頭蓋
-raw_text: 'Ｋ１７８－２経皮的脳血管形成術39,780点
-
+raw_text: |
+  Ｋ１７８－２経皮的脳血管形成術39,780点
   - 注手術に伴う画像診断及び検査の費用は算定しない。
-
-  '
 notes:
 - id: 注1
-  text: '手術に伴う画像診断及び検査の費用は算定しない。
-
-    '
+  text: |
+    手術に伴う画像診断及び検査の費用は算定しない。
 source:
   pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/

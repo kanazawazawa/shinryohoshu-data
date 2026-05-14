@@ -7,16 +7,13 @@ chapter:
   chapter: 第2章 特掲診療料
   part: 第9部 処置
   section: 第1節 処置料
-raw_text: 'Ｊ０５７－３鶏眼・胼胝処置170点
-
+raw_text: |
+  Ｊ０５７－３鶏眼・胼胝処置170点
   - 注月２回に限り算定する。
-
-  '
 notes:
 - id: 注1
-  text: '月２回に限り算定する。
-
-    '
+  text: |
+    月２回に限り算定する。
 source:
   pdf: 001251499.pdf
   url: https://www.mhlw.go.jp/

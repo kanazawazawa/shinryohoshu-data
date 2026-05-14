@@ -7,15 +7,11 @@ chapter:
   chapter: 第2章 特掲診療料
   part: 第9部 処置
   section: 第1節 処置料
-raw_text: 'Ｊ０５７軟属腫摘除
-
+raw_text: |
+  Ｊ０５７軟属腫摘除
   - １10箇所未満120点
-
   - ２10箇所以上30箇所未満220点
-
   - ３30箇所以上350点
-
-  '
 notes: []
 source:
   pdf: 001686842.pdf

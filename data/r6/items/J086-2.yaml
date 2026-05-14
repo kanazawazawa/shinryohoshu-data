@@ -7,16 +7,13 @@ chapter:
   chapter: 第2章 特掲診療料
   part: 第9部 処置
   section: 第1節 処置料
-raw_text: 'Ｊ０８６－２義眼処置25点
-
+raw_text: |
+  Ｊ０８６－２義眼処置25点
   - 注入院中の患者以外の患者についてのみ算定する。
-
-  '
 notes:
 - id: 注1
-  text: '入院中の患者以外の患者についてのみ算定する。
-
-    '
+  text: |
+    入院中の患者以外の患者についてのみ算定する。
 source:
   pdf: 001251499.pdf
   url: https://www.mhlw.go.jp/

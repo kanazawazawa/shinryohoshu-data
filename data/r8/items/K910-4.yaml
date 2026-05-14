@@ -8,18 +8,14 @@ chapter:
   part: 第10部 手術
   section: 第1節 手術料
   subsection: 第11款 性器
-raw_text: 'Ｋ９１０－４無心体双胎焼灼
-
+raw_text: |
+  Ｋ９１０－４無心体双胎焼灼
   術（一連につき）40,000点
-
   - 注手術に伴う画像診断及び検査の費用は算定しない。
-
-  '
 notes:
 - id: 注1
-  text: '手術に伴う画像診断及び検査の費用は算定しない。
-
-    '
+  text: |
+    手術に伴う画像診断及び検査の費用は算定しない。
 source:
   pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
