@@ -1,0 +1,28 @@
+code: K604-2
+name: 植込型補助人工心臓（非拍動流型）１初日（１日につき）
+version: r6
+points: 58500
+unit: 日
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第8款 心・脈管
+raw_text: 'Ｋ６０４－２植込型補助人工心臓（非拍動流型）１初日（１日につき）58,500点
+
+  - ２２日目以降30日目まで（１日につき）5,000点
+
+  - ３31日目以降90日目まで（１日につき）2,780点
+
+  - ４91日目以降（１日につき）1,800点
+
+  '
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

@@ -1,0 +1,21 @@
+code: J125
+name: ギプスベッド
+version: r6
+points: 1400
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第9部 処置
+  section: 第1節 処置料
+raw_text: 'Ｊ１２５ギプスベッド1,400点
+
+  '
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-09-01-処置料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

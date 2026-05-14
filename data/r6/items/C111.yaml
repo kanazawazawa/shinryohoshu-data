@@ -1,0 +1,28 @@
+code: C111
+name: 在宅肺高血圧症患者指導管理料
+version: r6
+points: 1500
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第2部 在宅医療
+  section: 第2節 在宅療養指導管理料
+  subsection: 第1款 在宅療養指導管理料
+raw_text: 'Ｃ１１１在宅肺高血圧症患者指導管理料1,500点
+
+  - 注肺高血圧症の患者であって入院中の患者以外の患者に対して、プロスタグランジンＩ２製剤の投与等に関する医学管理等を行った場合に算定する。
+
+  '
+notes:
+- id: 注1
+  text: '肺高血圧症の患者であって入院中の患者以外の患者に対して、プロスタグランジンＩ２製剤の投与等に関する医学管理等を行った場合に算定する。
+
+    '
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-02-02-在宅療養指導管理料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

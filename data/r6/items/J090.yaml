@@ -1,0 +1,21 @@
+code: J090
+name: 結膜異物除去（１眼瞼ごと）
+version: r6
+points: 100
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第9部 処置
+  section: 第1節 処置料
+raw_text: 'Ｊ０９０結膜異物除去（１眼瞼ごと）100点
+
+  '
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-09-01-処置料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

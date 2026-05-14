@@ -1,0 +1,26 @@
+code: K296
+name: 耳介形成手術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第5款 耳鼻咽喉
+raw_text: 'Ｋ２９６耳介形成手術
+
+  - １耳介軟骨形成を要するもの19,240点
+
+  - ２耳介軟骨形成を要しないもの9,960点
+
+  '
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

@@ -1,0 +1,21 @@
+code: E000
+name: 透視診断
+version: r6
+points: 110
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第4部 画像診断
+  section: 第1節 エックス線診断料
+raw_text: 'Ｅ０００透視診断110点
+
+  '
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-04-01-エックス線診断料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

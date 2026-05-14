@@ -1,0 +1,26 @@
+code: K888
+name: 子宮附属器腫瘍摘出術（両側）１開腹によるもの
+version: r6
+points: 17080
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第11款 性器
+raw_text: 'Ｋ８８８子宮附属器腫瘍摘出術（両側）１開腹によるもの17,080点
+
+  - ２腹腔鏡によるもの25,940点Ｋ８８８－２卵管全摘除術、卵管腫瘤全摘除術、子宮卵管留血腫手術（両側）１開腹によるもの13,960点
+
+  - ２腹腔鏡によるもの25,540点Ｋ８８９子宮附属器悪性腫瘍手術（両側）58,500点Ｋ８９０卵管形成手術（卵管・卵巣移植、卵管架橋等）27,380点
+
+  '
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

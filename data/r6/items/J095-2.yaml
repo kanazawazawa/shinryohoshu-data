@@ -1,0 +1,27 @@
+code: J095-2
+name: 鼓室処置（片側）
+version: r6
+points: 62
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第9部 処置
+  section: 第1節 処置料
+raw_text: 'Ｊ０９５－２鼓室処置（片側）62点
+
+  - 注鼓室洗浄及び鼓室内薬液注入の費用は、所定点数に含まれる。
+
+  '
+notes:
+- id: 注1
+  text: '鼓室洗浄及び鼓室内薬液注入の費用は、所定点数に含まれる。
+
+    '
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-09-01-処置料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

@@ -1,0 +1,27 @@
+code: B001-8
+name: 臍ヘルニア圧迫指導管理料
+version: r6
+points: 100
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第1部 医学管理等
+  section: 第1節 医学管理料等
+raw_text: 'Ｂ００１－８臍ヘルニア圧迫指導管理料100点
+
+  - 注保険医療機関において、医師が１歳未満の乳児に対する臍ヘルニアについて療養上の必要な指導を行った場合に、患者１人につき１回に限り算定する。
+
+  '
+notes:
+- id: 注1
+  text: '保険医療機関において、医師が１歳未満の乳児に対する臍ヘルニアについて療養上の必要な指導を行った場合に、患者１人につき１回に限り算定する。
+
+    '
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-01-01-医学管理料等.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

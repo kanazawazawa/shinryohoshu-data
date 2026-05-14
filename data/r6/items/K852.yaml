@@ -1,0 +1,30 @@
+code: K852
+name: 腟
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第11款 性器
+raw_text: 'Ｋ８５２腟
+
+  壁裂創縫合術（分娩時を除く。）１前又は後壁裂創2,760点
+
+  - ２前後壁裂創6,330点
+
+  - ３腟円蓋に及ぶ裂創8,280点
+
+  - ４直腸裂傷を伴うもの31,940点
+
+  '
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

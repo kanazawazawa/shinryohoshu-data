@@ -1,0 +1,37 @@
+code: K081
+name: 人工骨頭挿入術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第2款 筋骨格系・四肢・体幹
+raw_text: 'Ｋ０８１人工骨頭挿入術
+
+  - １肩、股19,500点
+
+  - ２肘、手、足18,810点
+
+  - ３指（手、足）10,880点
+
+  - 注大腿骨近位部の骨折に対して、骨折後48時間以内に人工骨頭の挿入を行った場合は、緊急挿入加算として、4,000点を所定点数に加算する。
+
+  '
+notes:
+- id: 注1
+  text: '大腿骨近位部の骨折に対して、骨折後48時間以内に人工骨頭の挿入を行った場合は、緊急挿入加算として、4,000点を所定点数に加算する。
+
+    '
+  additions:
+  - name: 緊急挿入加算
+    points: 4000
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

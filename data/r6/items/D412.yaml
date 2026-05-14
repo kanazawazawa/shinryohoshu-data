@@ -1,0 +1,21 @@
+code: D412
+name: 経皮的針生検法（透視、心電図検査及び超音波検査を含む。）
+version: r6
+points: 1600
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第3部 検査
+  section: 第4節 診断穿刺・検体採取料
+raw_text: 'Ｄ４１２経皮的針生検法（透視、心電図検査及び超音波検査を含む。）1,600点
+
+  '
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-03-04-診断穿刺・検体採取料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

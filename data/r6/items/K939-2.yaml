@@ -1,0 +1,27 @@
+code: K939-2
+name: 術中血管等描出撮影加算
+version: r6
+points: 500
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第3節 手術医療機器等加算
+raw_text: 'Ｋ９３９－２術中血管等描出撮影加算500点
+
+  - 注手術に当たって、血管や腫瘍等を確認するために薬剤を用いて、血管撮影を行った場合に算定する。
+
+  '
+notes:
+- id: 注1
+  text: '手術に当たって、血管や腫瘍等を確認するために薬剤を用いて、血管撮影を行った場合に算定する。
+
+    '
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-03-手術医療機器等加算.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

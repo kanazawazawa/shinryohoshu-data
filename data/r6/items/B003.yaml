@@ -1,0 +1,27 @@
+code: B003
+name: 開放型病院共同指導料（Ⅱ）
+version: r6
+points: 220
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第1部 医学管理等
+  section: 第1節 医学管理料等
+raw_text: 'Ｂ００３開放型病院共同指導料（Ⅱ）220点
+
+  - 注診察に基づき紹介された患者が開放型病院に入院中である場合において、当該開放型病院において、当該患者を診察した保険医療機関の医師と共同して療養上必要な指導を行った場合に、患者１人１日につき１回算定する。
+
+  '
+notes:
+- id: 注1
+  text: '診察に基づき紹介された患者が開放型病院に入院中である場合において、当該開放型病院において、当該患者を診察した保険医療機関の医師と共同して療養上必要な指導を行った場合に、患者１人１日につき１回算定する。
+
+    '
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-01-01-医学管理料等.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

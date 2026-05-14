@@ -1,0 +1,24 @@
+code: K675-2
+name: 腹腔鏡下胆嚢
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第9款 腹部
+raw_text: 'Ｋ６７５－２腹腔鏡下胆嚢
+
+  悪性腫瘍手術（胆嚢床切除を伴うもの）70,220点
+
+  '
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

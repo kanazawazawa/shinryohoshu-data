@@ -1,0 +1,24 @@
+code: K498
+name: 胸郭形成手術（膿胸手術の場合）１肋骨切除を主とするもの
+version: r6
+points: 42020
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第7款 胸部
+raw_text: 'Ｋ４９８胸郭形成手術（膿胸手術の場合）１肋骨切除を主とするもの42,020点
+
+  - ２胸膜胼胝切除を併施するもの49,200点Ｋ４９９胸郭形成手術（肺切除後遺残腔を含む。）16,540点
+
+  '
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

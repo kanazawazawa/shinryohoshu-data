@@ -1,0 +1,27 @@
+code: F000
+name: 調剤料
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第5部 投薬
+  section: 第1節 調剤料
+raw_text: "Ｆ０００調剤料\n- １入院中の患者以外の患者に対して投薬を行った場合\n    - イ内服薬、浸煎薬及び屯服薬（１回の処方に係る調剤につき）11点\n    - ロ外用薬（１回の処方に係る調剤につき）８点\n- ２入院中の患者に対して投薬を行った場合（１日につき）７点\n\
+  - 注麻薬、向精神薬、覚醒剤原料又は毒薬を調剤した場合は、麻薬等加算として、１に係る場合には１処方につき１点を、２に係る場合には１日につき１点を、それぞれ所定点数に加算する。\n"
+notes:
+- id: 注1
+  text: '麻薬、向精神薬、覚醒剤原料又は毒薬を調剤した場合は、麻薬等加算として、１に係る場合には１処方につき１点を、２に係る場合には１日につき１点を、それぞれ所定点数に加算する。
+
+    '
+  additions:
+  - name: 麻薬等加算
+    points: 1
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-05-01-調剤料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

@@ -1,0 +1,28 @@
+code: C108-2
+name: 在宅腫瘍化学療法注射指導管理料
+version: r6
+points: 1500
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第2部 在宅医療
+  section: 第2節 在宅療養指導管理料
+  subsection: 第1款 在宅療養指導管理料
+raw_text: 'Ｃ１０８－２在宅腫瘍化学療法注射指導管理料1,500点
+
+  - 注悪性腫瘍の患者であって、入院中の患者以外の患者に対して、在宅における抗悪性腫瘍剤等の注射に関する指導管理を行った場合に算定する。
+
+  '
+notes:
+- id: 注1
+  text: '悪性腫瘍の患者であって、入院中の患者以外の患者に対して、在宅における抗悪性腫瘍剤等の注射に関する指導管理を行った場合に算定する。
+
+    '
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-02-02-在宅療養指導管理料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

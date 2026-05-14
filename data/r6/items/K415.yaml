@@ -1,0 +1,26 @@
+code: K415
+name: 舌悪性腫瘍手術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第6款 顔面・口腔・頸部
+raw_text: 'Ｋ４１５舌悪性腫瘍手術
+
+  - １切除26,410点
+
+  - ２亜全摘84,080点
+
+  '
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

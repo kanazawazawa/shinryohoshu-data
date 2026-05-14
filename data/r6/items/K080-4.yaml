@@ -1,0 +1,28 @@
+code: K080-4
+name: 関節鏡下肩腱板断裂手術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第2款 筋骨格系・四肢・体幹
+raw_text: 'Ｋ０８０－４関節鏡下肩腱板断裂手術
+
+  - １簡単なもの27,040点
+
+  - ２簡単なもの（上腕二頭筋腱の固定を伴うもの）37,490点
+
+  - ３複雑なもの38,670点
+
+  '
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

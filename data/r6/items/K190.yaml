@@ -1,0 +1,32 @@
+code: K190
+name: 脊髄刺激装置植込術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第3款 神経系・頭蓋
+raw_text: 'Ｋ１９０脊髄刺激装置植込術
+
+  - １脊髄刺激電極を留置した場合27,830点
+
+  - ２ジェネレーターを留置した場合16,100点
+
+  - 注脊髄刺激電極を２本留置する場合は、8,000点を所定点数に加算する。
+
+  '
+notes:
+- id: 注1
+  text: '脊髄刺激電極を２本留置する場合は、8,000点を所定点数に加算する。
+
+    '
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

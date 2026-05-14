@@ -1,0 +1,26 @@
+code: K579-2
+name: 完全型房室中隔欠損症手術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第8款 心・脈管
+raw_text: 'Ｋ５７９－２完全型房室中隔欠損症手術
+
+  - １心房及び心室中隔欠損パッチ閉鎖術を伴うもの107,350点
+
+  - ２ファロー四徴症手術を伴うもの192,920点
+
+  '
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

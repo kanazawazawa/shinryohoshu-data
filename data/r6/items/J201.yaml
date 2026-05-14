@@ -1,0 +1,31 @@
+code: J201
+name: 酸素加算
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第9部 処置
+  section: 第2節 処置医療機器等加算
+raw_text: 'Ｊ２０１酸素加算
+
+  - 注１区分番号Ｊ０２４からＪ０２８まで及びＪ０４５に掲げる処置に当たって酸素を使用した場合は、その価格を10円で除して得た点数（窒素を使用した場合は、その価格を10円で除して得た点数を合算した点数）を加算する。
+
+  - ２酸素及び窒素の価格は、別に厚生労働大臣が定める。
+
+  '
+notes:
+- id: 注1
+  text: 区分番号Ｊ０２４からＪ０２８まで及びＪ０４５に掲げる処置に当たって酸素を使用した場合は、その価格を10円で除して得た点数（窒素を使用した場合は、その価格を10円で除して得た点数を合算した点数）を加算する。
+- id: 注2
+  text: '酸素及び窒素の価格は、別に厚生労働大臣が定める。
+
+    '
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-09-02-処置医療機器等加算.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

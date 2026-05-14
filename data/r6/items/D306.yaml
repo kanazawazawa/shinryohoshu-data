@@ -1,0 +1,37 @@
+code: D306
+name: 食道ファイバースコピー
+version: r6
+points: 800
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第3部 検査
+  section: 第3節 生体検査料
+raw_text: 'Ｄ３０６食道ファイバースコピー800点
+
+  - 注１粘膜点墨法を行った場合は、粘膜点墨法加算として、60点を所定点数に加算する。
+
+  - ２拡大内視鏡を用いて、狭帯域光による観察を行った場合には、狭帯域光強調加算として、200点を所定点数に加算する。
+
+  '
+notes:
+- id: 注1
+  text: 粘膜点墨法を行った場合は、粘膜点墨法加算として、60点を所定点数に加算する。
+  additions:
+  - name: 粘膜点墨法加算
+    points: 60
+- id: 注2
+  text: '拡大内視鏡を用いて、狭帯域光による観察を行った場合には、狭帯域光強調加算として、200点を所定点数に加算する。
+
+    '
+  additions:
+  - name: 狭帯域光強調加算
+    points: 200
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-03-03-生体検査料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

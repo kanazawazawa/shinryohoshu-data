@@ -1,0 +1,28 @@
+code: K223
+name: 結膜嚢形成手術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第4款 眼
+raw_text: 'Ｋ２２３結膜嚢形成手術
+
+  - １部分形成2,250点
+
+  - ２皮膚及び結膜の形成14,960点
+
+  - ３全部形成（皮膚又は粘膜の移植を含む。）16,730点
+
+  '
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

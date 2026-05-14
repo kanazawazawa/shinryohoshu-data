@@ -1,0 +1,27 @@
+code: J017
+name: エタノールの局所注入
+version: r6
+points: 1200
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第9部 処置
+  section: 第1節 処置料
+raw_text: 'Ｊ０１７エタノールの局所注入1,200点
+
+  - 注甲状腺又は副甲状腺に対する局所注入については、別に厚生労働大臣が定める施設基準に適合しているものとして地方厚生局長等に届け出た保険医療機関において行われる場合に限り算定する。
+
+  '
+notes:
+- id: 注1
+  text: '甲状腺又は副甲状腺に対する局所注入については、別に厚生労働大臣が定める施設基準に適合しているものとして地方厚生局長等に届け出た保険医療機関において行われる場合に限り算定する。
+
+    '
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-09-01-処置料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

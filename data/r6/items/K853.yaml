@@ -1,0 +1,26 @@
+code: K853
+name: 腟閉鎖術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第11款 性器
+raw_text: 'Ｋ８５３腟閉鎖術
+
+  - １中央腟閉鎖術（子宮全脱）7,410点
+
+  - ２その他2,580点
+
+  '
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

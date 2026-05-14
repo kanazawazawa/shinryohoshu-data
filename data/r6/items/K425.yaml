@@ -1,0 +1,32 @@
+code: K425
+name: 口腔
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第6款 顔面・口腔・頸部
+raw_text: 'Ｋ４２５口腔
+
+  、顎、顔面悪性腫瘍切除術121,740点Ｋ４２６口唇裂形成手術（片側）１口唇のみの場合13,180点
+
+  - ２口唇裂鼻形成を伴う場合18,810点
+
+  - ３鼻腔底形成を伴う場合24,350点Ｋ４２６－２口唇裂形成手術（両側）１口唇のみの場合18,810点
+
+  - ２口唇裂鼻形成を伴う場合23,790点
+
+  - ３鼻腔底形成を伴う場合36,620点（顔面骨、顎関節）
+
+  '
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

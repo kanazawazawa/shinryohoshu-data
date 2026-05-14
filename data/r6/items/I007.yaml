@@ -1,0 +1,27 @@
+code: I007
+name: 精神科作業療法（１日につき）
+version: r6
+points: 220
+unit: 日
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第8部 精神科専門療法
+  section: 第1節 精神科専門療法料
+raw_text: 'Ｉ００７精神科作業療法（１日につき）220点
+
+  - 注別に厚生労働大臣が定める施設基準に適合しているものとして地方厚生局長等に届け出た保険医療機関において行われる場合に算定する。
+
+  '
+notes:
+- id: 注1
+  text: '別に厚生労働大臣が定める施設基準に適合しているものとして地方厚生局長等に届け出た保険医療機関において行われる場合に算定する。
+
+    '
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-08-01-精神科専門療法料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

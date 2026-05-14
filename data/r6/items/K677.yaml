@@ -1,0 +1,30 @@
+code: K677
+name: 胆管悪性腫瘍手術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第9款 腹部
+raw_text: 'Ｋ６７７胆管悪性腫瘍手術
+
+  - １膵頭十二指腸切除及び肝切除（葉以上）を伴うもの173,500点
+
+  - ２膵頭十二指腸切除及び血行再建を伴うもの104,800点
+
+  - ３肝外胆道切除術によるもの50,000点
+
+  - ４その他のもの94,860点
+
+  '
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

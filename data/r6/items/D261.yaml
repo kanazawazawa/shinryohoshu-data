@@ -1,0 +1,38 @@
+code: D261
+name: 屈折検査
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第3部 検査
+  section: 第3節 生体検査料
+raw_text: 'Ｄ２６１屈折検査
+
+  - １６歳未満の場合69点
+
+  - ２１以外の場合69点
+
+  - 注１について、弱視又は不同視と診断された患者に対して、眼鏡処方箋の交付を行わずに矯正視力検査を実施した場合には、小児矯正視力検査加算として、35点を所定点数に加算する。
+
+  この場合において、区分番号Ｄ２６３に掲げる矯正視力検査は算定しない。
+
+  '
+notes:
+- id: 注1
+  text: 'について、弱視又は不同視と診断された患者に対して、眼鏡処方箋の交付を行わずに矯正視力検査を実施した場合には、小児矯正視力検査加算として、35点を所定点数に加算する。
+
+    この場合において、区分番号Ｄ２６３に掲げる矯正視力検査は算定しない。
+
+    '
+  additions:
+  - name: 小児矯正視力検査加算
+    points: 35
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-03-03-生体検査料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

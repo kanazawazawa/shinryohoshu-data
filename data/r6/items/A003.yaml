@@ -1,0 +1,21 @@
+code: A003
+name: 削除
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第1章 基本診療料
+  part: 第1部 初・再診料
+  section: 第2節 再診料
+raw_text: 'Ａ００３削除
+
+  '
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/01-01-02-再診料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

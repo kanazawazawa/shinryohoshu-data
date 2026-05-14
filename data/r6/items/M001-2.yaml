@@ -1,0 +1,21 @@
+code: M001-2
+name: ガンマナイフによる定位放射線治療
+version: r6
+points: 50000
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第12部 放射線治療
+  section: 第1節 放射線治療管理・実施料
+raw_text: 'Ｍ００１－２ガンマナイフによる定位放射線治療50,000点
+
+  '
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-12-01-放射線治療管理・実施料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

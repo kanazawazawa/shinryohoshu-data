@@ -1,0 +1,28 @@
+code: K865-2
+name: 腹腔鏡下仙骨腟固定術
+version: r6
+points: 48240
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第11款 性器
+raw_text: 'Ｋ８６５－２腹腔鏡下仙骨腟固定術48,240点
+
+  - 注メッシュを使用した場合に算定する。
+
+  '
+notes:
+- id: 注1
+  text: 'メッシュを使用した場合に算定する。
+
+    '
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

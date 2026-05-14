@@ -1,0 +1,22 @@
+code: K198
+name: 神経移植術
+version: r6
+points: 23520
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第3款 神経系・頭蓋
+raw_text: 'Ｋ１９８神経移植術23,520点
+
+  '
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

@@ -1,0 +1,34 @@
+code: K180
+name: 頭蓋骨形成手術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第3款 神経系・頭蓋
+raw_text: 'Ｋ１８０頭蓋骨形成手術
+
+  - １頭蓋骨のみのもの17,530点
+
+  - ２硬膜形成を伴うもの23,660点
+
+  - ３骨移動を伴うもの47,090点
+
+  - 注３については、先天奇形に対して行われた場合に限り算定する。
+
+  '
+notes:
+- id: 注3
+  text: 'については、先天奇形に対して行われた場合に限り算定する。
+
+    '
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false
