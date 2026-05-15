@@ -23,8 +23,8 @@ tiers:
   name: 足部ガングリオン摘出術
   points: 3050
 - id: '3'
-  name: 手指ガングリオン摘出術
-  points: 3050
+  name: 手指ガングリオン摘出術3
+  points: 50
 - id: '4'
   name: 足趾ガングリオン摘出術
   points: 3050

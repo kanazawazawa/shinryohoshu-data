@@ -15,14 +15,14 @@ raw_text: |
   - ３４指以上32,710点
 tiers:
 - id: '1'
-  name: 1指
-  points: 10430
+  name: 1指1
+  points: 430
 - id: '2'
-  name: 2指から３指
-  points: 22480
+  name: 2指から３指2
+  points: 2480
 - id: '3'
-  name: 4指以上
-  points: 32710
+  name: 4指以上3
+  points: 2710
 notes: []
 source:
   pdf: 001686842.pdf

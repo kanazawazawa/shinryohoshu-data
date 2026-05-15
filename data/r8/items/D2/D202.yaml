@@ -13,8 +13,8 @@ raw_text: |
   - ２クロージングボリューム測定135点
 tiers:
 - id: '1'
-  name: 指標ガス洗い出し検査
-  points: 135
+  name: 指標ガス洗い出し検査1
+  points: 35
 - id: '2'
   name: クロージングボリューム測定
   points: 135

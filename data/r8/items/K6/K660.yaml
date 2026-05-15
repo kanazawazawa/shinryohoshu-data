@@ -15,14 +15,14 @@ raw_text: |
   - ３胃切除術を併施するもの37,620点
 tiers:
 - id: '1'
-  name: 単独のもの
-  points: 19500
+  name: 単独のもの1
+  points: 9500
 - id: '2'
-  name: ドレナージを併施するもの
-  points: 28210
+  name: ドレナージを併施するもの2
+  points: 8210
 - id: '3'
-  name: 胃切除術を併施するもの
-  points: 37620
+  name: 胃切除術を併施するもの3
+  points: 7620
 notes: []
 source:
   pdf: 001686842.pdf

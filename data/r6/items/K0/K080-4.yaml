@@ -21,8 +21,8 @@ tiers:
   name: 簡単なもの（上腕二頭筋腱の固定を伴うもの）
   points: 37490
 - id: '3'
-  name: 複雑なもの
-  points: 38670
+  name: 複雑なもの3
+  points: 8670
 notes: []
 source:
   pdf: 001251499.pdf

@@ -17,8 +17,8 @@ tiers:
   name: 単純なもの（膜性閉鎖）
   points: 4360
 - id: '2'
-  name: 複雑なもの（骨性閉鎖）
-  points: 27040
+  name: 複雑なもの（骨性閉鎖）2
+  points: 7040
 notes: []
 source:
   pdf: 001251499.pdf

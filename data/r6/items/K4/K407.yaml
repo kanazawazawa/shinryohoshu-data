@@ -17,11 +17,11 @@ raw_text: |
       - ロ両側31,940点
 tiers:
 - id: '1'
-  name: 軟口蓋のみのもの
-  points: 15770
+  name: 軟口蓋のみのもの1
+  points: 5770
 - id: '2'
-  name: 硬口蓋に及ぶもの
-  points: 24170
+  name: 硬口蓋に及ぶもの2
+  points: 4170
 - id: '3'
   name: 顎裂を伴うもの
   sub_tiers:

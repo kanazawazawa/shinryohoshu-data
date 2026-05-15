@@ -50,8 +50,8 @@ tiers:
     name: 療養病棟入院基本料等の場合
     points: 635
 - id: '3'
-  name: 入退院支援加算
-  points: 31200
+  name: 入退院支援加算３
+  points: 1200
 notes:
 - id: 注1
   text: |-

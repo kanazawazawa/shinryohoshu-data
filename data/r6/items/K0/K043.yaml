@@ -15,14 +15,14 @@ raw_text: |
   - ３鎖骨、膝蓋骨、手、足その他3,590点
 tiers:
 - id: '1'
-  name: 肩甲骨、上腕、大腿
-  points: 12270
+  name: 肩甲骨、上腕、大腿1
+  points: 2270
 - id: '2'
   name: 前腕、下腿
   points: 8040
 - id: '3'
-  name: 鎖骨、膝蓋骨、手、足その他
-  points: 3590
+  name: 鎖骨、膝蓋骨、手、足その他3
+  points: 590
 notes: []
 source:
   pdf: 001251499.pdf

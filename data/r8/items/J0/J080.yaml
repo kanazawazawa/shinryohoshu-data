@@ -15,8 +15,8 @@ raw_text: |
   - ４メトロイリンテル340点
 tiers:
 - id: '1'
-  name: ラミナリア
-  points: 120
+  name: ラミナリア1
+  points: 20
 - id: '2'
   name: コルポイリンテル
   points: 120

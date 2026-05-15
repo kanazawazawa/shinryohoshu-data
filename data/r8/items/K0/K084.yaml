@@ -21,8 +21,8 @@ tiers:
   name: 上腕切断術
   points: 24320
 - id: '2'
-  name: 前腕切断術
-  points: 24320
+  name: 前腕切断術2
+  points: 4320
 - id: '3'
   name: 手切断術
   points: 24320

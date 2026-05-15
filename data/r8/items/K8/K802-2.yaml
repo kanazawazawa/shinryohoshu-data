@@ -17,8 +17,8 @@ tiers:
   name: メッシュを使用するもの
   points: 30880
 - id: '2'
-  name: その他のもの
-  points: 23260
+  name: その他のもの2
+  points: 3260
 notes: []
 source:
   pdf: 001686842.pdf

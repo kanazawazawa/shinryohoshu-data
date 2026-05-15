@@ -20,8 +20,8 @@ raw_text: |
   - ８足趾関節非観血的授動術490点
 tiers:
 - id: '1'
-  name: 肩関節非観血的授動術
-  points: 1590
+  name: 肩関節非観血的授動術1
+  points: 590
 - id: '2'
   name: 股関節非観血的授動術
   points: 1590

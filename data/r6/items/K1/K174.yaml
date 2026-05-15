@@ -21,8 +21,8 @@ tiers:
   name: 脳室穿破術（神経内視鏡手術によるもの）
   points: 38840
 - id: '2'
-  name: シャント手術
-  points: 24310
+  name: シャント手術2
+  points: 4310
 - id: '3'
   name: シャント再建術
   sub_tiers:

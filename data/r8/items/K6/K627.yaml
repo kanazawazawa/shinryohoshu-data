@@ -21,11 +21,11 @@ raw_text: |
   - ９腹部22,000点
 tiers:
 - id: '1'
-  name: 顎下部又は舌下部（浅在性）
-  points: 10870
+  name: 顎下部又は舌下部（浅在性）1
+  points: 870
 - id: '2'
-  name: 頸部（深在性）
-  points: 24090
+  name: 頸部（深在性）2
+  points: 4090
 - id: '3'
   name: 鎖骨上窩及び下窩
   points: 14460

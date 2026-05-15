@@ -31,8 +31,8 @@ tiers:
   name: 肩甲骨骨折観血的手術
   points: 21630
 - id: '2'
-  name: 上腕骨骨折観血的手術
-  points: 21630
+  name: 上腕骨骨折観血的手術2
+  points: 1630
 - id: '3'
   name: 大腿骨骨折観血的手術
   points: 21630
@@ -58,8 +58,8 @@ tiers:
   name: 中手骨骨折観血的手術
   points: 11370
 - id: '11'
-  name: 手指骨骨折観血的手術
-  points: 11370
+  name: 手指骨骨折観血的手術11
+  points: 370
 - id: '12'
   name: 足根骨骨折観血的手術
   points: 11370

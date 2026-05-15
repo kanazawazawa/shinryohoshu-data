@@ -21,8 +21,8 @@ tiers:
   name: 胸鎖、肘、手、足
   points: 13130
 - id: '3'
-  name: 肩鎖、指（手、足）
-  points: 3330
+  name: 肩鎖、指（手、足）3
+  points: 330
 notes: []
 source:
   pdf: 001251499.pdf

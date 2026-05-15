@@ -15,8 +15,8 @@ raw_text: |
   - ３内視鏡によるもの10,300点
 tiers:
 - id: '1'
-  name: 腸管切除を伴わないもの
-  points: 11580
+  name: 腸管切除を伴わないもの1
+  points: 1580
 - id: '2'
   name: 腸管切除を伴うもの
   points: 17900

@@ -14,8 +14,8 @@ raw_text: |
   - ２腱剥離術（内視鏡下）13,580点
 tiers:
 - id: '1'
-  name: 腱剥離術
-  points: 13580
+  name: 腱剥離術1
+  points: 3580
 - id: '2'
   name: 腱剥離術（内視鏡下）
   points: 13580

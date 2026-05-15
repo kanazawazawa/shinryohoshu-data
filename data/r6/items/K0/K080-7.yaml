@@ -14,11 +14,11 @@ raw_text: |
   - ２関節鏡下で行うもの23,370点
 tiers:
 - id: '1'
-  name: 観血的に行うもの
-  points: 18080
+  name: 観血的に行うもの1
+  points: 8080
 - id: '2'
-  name: 関節鏡下で行うもの
-  points: 23370
+  name: 関節鏡下で行うもの2
+  points: 3370
 notes: []
 source:
   pdf: 001251499.pdf

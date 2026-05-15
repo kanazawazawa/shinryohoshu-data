@@ -18,8 +18,8 @@ tiers:
   name: 自動給水加湿チャンバーを用いる場合
   points: 3500
 - id: '2'
-  name: 1以外の場合
-  points: 2500
+  name: 1以外の場合2
+  points: 500
 notes:
 - id: 注1
   text: |

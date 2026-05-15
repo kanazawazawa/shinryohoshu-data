@@ -14,8 +14,8 @@ raw_text: |
   - ２腟式8,450点
 tiers:
 - id: '1'
-  name: 腹式
-  points: 15240
+  name: 腹式1
+  points: 5240
 - id: '2'
   name: 腟式
   points: 8450

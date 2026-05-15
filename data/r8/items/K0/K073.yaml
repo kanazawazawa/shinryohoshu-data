@@ -34,8 +34,8 @@ tiers:
   name: 肩関節内骨折観血的手術
   points: 22836
 - id: '2'
-  name: 股関節内骨折観血的手術
-  points: 22836
+  name: 股関節内骨折観血的手術2
+  points: 2836
 - id: '3'
   name: 膝関節内骨折観血的手術
   points: 22836

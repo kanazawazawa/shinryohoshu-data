@@ -17,8 +17,8 @@ tiers:
   name: 頸部からのもの、経食道によるもの
   points: 6390
 - id: '2'
-  name: 経胸腔によるもの、経腹によるもの
-  points: 20050
+  name: 経胸腔によるもの、経腹によるもの2
+  points: 50
 notes: []
 source:
   pdf: 001686842.pdf

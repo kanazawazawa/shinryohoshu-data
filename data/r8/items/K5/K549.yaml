@@ -19,8 +19,8 @@ tiers:
   name: 急性心筋梗塞に対するもの
   points: 34380
 - id: '2'
-  name: 不安定狭心症に対するもの
-  points: 24380
+  name: 不安定狭心症に対するもの2
+  points: 4380
 - id: '3'
   name: その他のもの
   points: 21680

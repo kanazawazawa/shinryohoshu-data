@@ -14,8 +14,8 @@ raw_text: |
   - ２その他のもの35,130点
 tiers:
 - id: '1'
-  name: 内視鏡によるもの
-  points: 10300
+  name: 内視鏡によるもの1
+  points: 300
 - id: '2'
   name: その他のもの
   points: 35130

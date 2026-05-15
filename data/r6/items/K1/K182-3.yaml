@@ -14,11 +14,11 @@ raw_text: |
   - ２その他のもの21,590点
 tiers:
 - id: '1'
-  name: 指（手、足）
-  points: 12640
+  name: 指（手、足）1
+  points: 2640
 - id: '2'
-  name: その他のもの
-  points: 21590
+  name: その他のもの2
+  points: 1590
 notes: []
 source:
   pdf: 001251499.pdf

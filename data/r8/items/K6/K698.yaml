@@ -17,8 +17,8 @@ tiers:
   name: 感染性壊死部切除を伴うもの
   points: 49390
 - id: '2'
-  name: その他のもの
-  points: 28210
+  name: その他のもの2
+  points: 8210
 notes: []
 source:
   pdf: 001686842.pdf

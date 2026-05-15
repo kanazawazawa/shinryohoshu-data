@@ -22,8 +22,8 @@ tiers:
   name: 経皮的大動脈弁置換術
   points: 39060
 - id: '3'
-  name: 経皮的肺動脈弁置換術
-  points: 39060
+  name: 経皮的肺動脈弁置換術3
+  points: 9060
 notes:
 - id: 注1
   text: |

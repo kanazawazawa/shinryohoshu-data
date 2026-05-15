@@ -14,11 +14,11 @@ raw_text: |
   - ２上腕二頭筋腱固定術（関節鏡下）23,370点
 tiers:
 - id: '1'
-  name: 上腕二頭筋腱固定術
-  points: 18080
+  name: 上腕二頭筋腱固定術1
+  points: 8080
 - id: '2'
-  name: 上腕二頭筋腱固定術（関節鏡下）
-  points: 23370
+  name: 上腕二頭筋腱固定術（関節鏡下）2
+  points: 3370
 notes: []
 source:
   pdf: 001686842.pdf

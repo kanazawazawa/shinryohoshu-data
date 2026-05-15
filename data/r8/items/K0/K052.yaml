@@ -26,8 +26,8 @@ raw_text: |
   - 14その他の骨腫瘍切除術4,340点
 tiers:
 - id: '1'
-  name: 肩甲骨腫瘍切除術
-  points: 17410
+  name: 肩甲骨腫瘍切除術1
+  points: 7410
 - id: '2'
   name: 上腕骨腫瘍切除術
   points: 17410

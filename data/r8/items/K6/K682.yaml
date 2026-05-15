@@ -15,8 +15,8 @@ raw_text: |
   - 注挿入時に行う画像診断及び検査の費用は算定しない。
 tiers:
 - id: '1'
-  name: 開腹によるもの
-  points: 14760
+  name: 開腹によるもの1
+  points: 4760
 - id: '2'
   name: 経皮経肝によるもの
   points: 10800

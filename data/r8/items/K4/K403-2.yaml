@@ -16,14 +16,14 @@ raw_text: |
   - ４喉頭全摘術28,210点
 tiers:
 - id: '1'
-  name: 輪状咽頭筋切断術
-  points: 18810
+  name: 輪状咽頭筋切断術1
+  points: 8810
 - id: '2'
   name: 喉頭挙上術
   points: 18370
 - id: '3'
-  name: 喉頭気管分離術
-  points: 30260
+  name: 喉頭気管分離術3
+  points: 260
 - id: '4'
   name: 喉頭全摘術
   points: 28210

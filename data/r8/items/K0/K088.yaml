@@ -15,8 +15,8 @@ raw_text: |
   - ３足趾切断再接合術81,900点（手、足）
 tiers:
 - id: '1'
-  name: 四肢切断再接合術
-  points: 144680
+  name: 四肢切断再接合術1
+  points: 44680
 - id: '2'
   name: 手指切断再接合術
   points: 81900

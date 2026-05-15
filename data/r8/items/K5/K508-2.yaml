@@ -14,8 +14,8 @@ raw_text: |
   - ２軟性鏡によるもの8,960点
 tiers:
 - id: '1'
-  name: 硬性鏡によるもの
-  points: 11400
+  name: 硬性鏡によるもの1
+  points: 1400
 - id: '2'
   name: 軟性鏡によるもの
   points: 8960

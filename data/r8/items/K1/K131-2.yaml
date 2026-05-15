@@ -1,7 +1,7 @@
 code: K131-2
 name: 椎弓切除術（内視鏡下）
 version: r8
-points: 17300
+points: null
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
@@ -17,7 +17,8 @@ raw_text: |
   ただし、加算は４椎弓を超えないものとする。
 tiers:
 - id: '1'
-  name: 頸椎椎弓切除術
+  name: 頸椎椎弓切除術１
+  points: 7300
 - id: '2'
   name: 胸椎椎弓切除術
   points: 17300

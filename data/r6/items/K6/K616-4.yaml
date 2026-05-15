@@ -15,8 +15,8 @@ raw_text: |
   - 注手術に伴う画像診断及び検査の費用は算定しない。
 tiers:
 - id: '1'
-  name: 初回
-  points: 12000
+  name: 初回1
+  points: 2000
 - id: '2'
   name: 1の実施後３月以内に実施する場合
   points: 12000

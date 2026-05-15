@@ -14,8 +14,8 @@ raw_text: |
   - ２腹腔に通ずるもの10,050点
 tiers:
 - id: '1'
-  name: 腹壁に限局するもの
-  points: 1820
+  name: 腹壁に限局するもの1
+  points: 820
 - id: '2'
   name: 腹腔に通ずるもの
   points: 10050

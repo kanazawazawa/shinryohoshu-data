@@ -17,8 +17,8 @@ tiers:
   name: 簡単なもの
   points: 500
 - id: '2'
-  name: 複雑なもの
-  points: 2100
+  name: 複雑なもの2
+  points: 100
 notes: []
 source:
   pdf: 001686842.pdf

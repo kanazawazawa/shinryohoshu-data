@@ -15,8 +15,8 @@ tiers:
 - id: '1'
   name: 持続的吸引を行うもの
 - id: '2'
-  name: その他のもの
-  points: 25
+  name: その他のもの2
+  points: 5
 notes:
 - id: 注3
   text: |

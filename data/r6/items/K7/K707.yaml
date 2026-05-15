@@ -14,8 +14,8 @@ raw_text: |
   - ２開腹によるもの12,460点
 tiers:
 - id: '1'
-  name: 内視鏡によるもの
-  points: 18370
+  name: 内視鏡によるもの1
+  points: 8370
 - id: '2'
   name: 開腹によるもの
   points: 12460

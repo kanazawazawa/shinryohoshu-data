@@ -23,11 +23,11 @@ tiers:
   name: 月10個以上15個未満の場合
   points: 3160
 - id: '3'
-  name: 月15個以上20個未満の場合
-  points: 3990
+  name: 月15個以上20個未満の場合3
+  points: 990
 - id: '4'
-  name: 月20個以上の場合
-  points: 4820
+  name: 月20個以上の場合4
+  points: 820
 notes:
 - id: 注1
   text: |

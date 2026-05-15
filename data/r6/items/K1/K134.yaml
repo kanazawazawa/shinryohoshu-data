@@ -21,8 +21,8 @@ tiers:
   name: 前方摘出術
   points: 40180
 - id: '2'
-  name: 後方摘出術
-  points: 23520
+  name: 後方摘出術2
+  points: 3520
 - id: '3'
   name: 側方摘出術
   points: 28210

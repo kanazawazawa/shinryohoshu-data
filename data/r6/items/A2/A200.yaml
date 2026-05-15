@@ -1,7 +1,7 @@
 code: A200
 name: 総合入院体制加算（１日につき）
 version: r6
-points: 1260
+points: null
 unit: 日
 chapter:
   chapter: 第1章 基本診療料
@@ -15,13 +15,14 @@ raw_text: |
   この場合において、区分番号Ａ２００－２に掲げる急性期充実体制加算は別に算定できない。
 tiers:
 - id: '1'
-  name: 総合入院体制加算
+  name: 総合入院体制加算１
+  points: 260
 - id: '2'
-  name: 総合入院体制加算
-  points: 2200
+  name: 総合入院体制加算２
+  points: 200
 - id: '3'
-  name: 総合入院体制加算
-  points: 3120
+  name: 総合入院体制加算３
+  points: 120
 notes:
 - id: 注1
   text: |

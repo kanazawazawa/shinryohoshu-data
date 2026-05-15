@@ -17,8 +17,8 @@ tiers:
   name: 早期悪性腫瘍粘膜切除術
   points: 8840
 - id: '2'
-  name: 早期悪性腫瘍粘膜下層剥離術
-  points: 22100
+  name: 早期悪性腫瘍粘膜下層剥離術2
+  points: 2100
 notes: []
 source:
   pdf: 001686842.pdf

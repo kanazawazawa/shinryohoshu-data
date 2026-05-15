@@ -33,8 +33,8 @@ tiers:
   name: 上腕骨変形治癒骨折矯正手術
   points: 34400
 - id: '3'
-  name: 大腿骨変形治癒骨折矯正手術
-  points: 34400
+  name: 大腿骨変形治癒骨折矯正手術3
+  points: 4400
 - id: '4'
   name: 前腕骨変形治癒骨折矯正手術
   points: 30860

@@ -14,8 +14,8 @@ raw_text: |
   - ２後部尿道37,700点
 tiers:
 - id: '1'
-  name: 前部尿道
-  points: 17030
+  name: 前部尿道1
+  points: 7030
 - id: '2'
   name: 後部尿道
   points: 37700

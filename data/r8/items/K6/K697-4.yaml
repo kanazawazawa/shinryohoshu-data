@@ -1,7 +1,7 @@
 code: K697-4
 name: 移植用部分肝採取術（生体）
 version: r8
-points: 105000
+points: null
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
@@ -14,7 +14,8 @@ raw_text: |
   - 注肝提供者に係る組織適合性試験の費用は、所定点数に含まれる。
 tiers:
 - id: '1'
-  name: 腹腔鏡によるもの
+  name: 腹腔鏡によるもの１
+  points: 5000
 - id: '2'
   name: その他のもの
   points: 82800

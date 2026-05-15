@@ -17,8 +17,8 @@ tiers:
   name: 鼠径部切開によるもの
   points: 3980
 - id: '2'
-  name: その他
-  points: 2630
+  name: その他2
+  points: 630
 notes: []
 source:
   pdf: 001251499.pdf

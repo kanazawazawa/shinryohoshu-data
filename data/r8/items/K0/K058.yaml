@@ -22,8 +22,8 @@ raw_text: |
   - 注骨提供者に係る組織適合性試験の費用は、所定点数に含まれる。
 tiers:
 - id: '1'
-  name: 骨端軟骨発育抑制術
-  points: 16340
+  name: 骨端軟骨発育抑制術1
+  points: 6340
 - id: '2'
   name: 骨短縮術
   points: 15200

@@ -34,8 +34,8 @@ tiers:
   name: 人工股関節置換術
   points: 37690
 - id: '3'
-  name: 人工膝関節置換術
-  points: 37690
+  name: 人工膝関節置換術3
+  points: 7690
 - id: '4'
   name: 人工肘関節置換術
   points: 28210

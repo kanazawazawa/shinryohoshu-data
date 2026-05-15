@@ -1,7 +1,7 @@
 code: E100
 name: シンチグラム（画像を伴うもの）
 version: r8
-points: 1300
+points: null
 unit: 一連
 chapter:
   chapter: 第2章 特掲診療料
@@ -17,7 +17,8 @@ raw_text: |
   - ４ラジオアイソトープの注入手技料は、所定点数に含まれるものとする。
 tiers:
 - id: '1'
-  name: 部分（静態）（一連につき）
+  name: 部分（静態）（一連につき）１
+  points: 300
 - id: '2'
   name: 部分（動態）（一連につき）
   points: 1800

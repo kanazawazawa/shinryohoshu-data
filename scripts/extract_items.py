@@ -220,17 +220,34 @@ def detect_unit(name: str, default: str = "回") -> str:
     return norm or raw or default
 
 
-def _parse_pts_from_tail(text: str) -> tuple[str, int | str | None]:
-    """末尾の 'XXXX 530点' から (前文, 点数) を分離。点数なしなら (text, None)。"""
+def _parse_pts_from_tail(text: str, tier_id_hint: str | None = None) -> tuple[str, int | str | None]:
+    """末尾の 'XXXX 530点' から (前文, 点数) を分離。点数なしなら (text, None)。
+
+    PDF原文ではしばしば tier 番号が直前の名前末尾に重複表記される
+    (例: '- ２総合入院体制加算２200点' → 名前=総合入院体制加算２, 点数=200)。
+    tier_id_hint が与えられかつ pts 先頭桁がそれと一致し残桁が 1 以上ある場合、
+    先頭桁を名前側へ戻す。
+    """
     text = text.strip()
     m = TRAILING_PTS_RE.match(text)
     if not m:
         return text, None
-    pts_str = zen2han_digits(m.group(2)).replace(",", "").replace("，", "")
+    name_part = m.group(1).strip()
+    pts_orig = m.group(2)
+    pts_raw = zen2han_digits(pts_orig).replace(",", "").replace("，", "")
+    if (
+        tier_id_hint
+        and len(pts_raw) > len(tier_id_hint)
+        and pts_raw.startswith(tier_id_hint)
+    ):
+        # 元の全角/半角表記を保ちつつ tier-id 桁を name 側へ戻す
+        name_part = (name_part + pts_orig[: len(tier_id_hint)]).strip()
+        pts_raw = pts_raw[len(tier_id_hint):]
+        pts_orig = pts_orig[len(tier_id_hint):]
     try:
-        return m.group(1).strip(), int(pts_str)
+        return name_part, int(pts_raw)
     except ValueError:
-        return m.group(1).strip(), m.group(2)
+        return name_part, m.group(2)
 
 
 def _split_name_for_header_tier(name: str) -> tuple[str, dict | None]:
@@ -292,7 +309,7 @@ def extract_tiers(block: str, header_tier: dict | None) -> list[dict]:
                 break
             taken = exp_str
             rest = raw_num[len(exp_str):] + m.group(2)
-            tier_name, pts = _parse_pts_from_tail(rest)
+            tier_name, pts = _parse_pts_from_tail(rest, tier_id_hint=exp_str)
             if not tier_name:
                 # 名前が空ならスキップ
                 break
@@ -327,12 +344,34 @@ def build_item(ver: str, idx_entry: dict, full_text: str, names_to_codes: dict) 
     # tier が取れたら名前は "1AAA" 部分を落とした base_name に置き換え
     out_name = base_name if tiers and header_tier else name
 
+    # 所定点数が "1NNN" として誤吸収されている場合の補正:
+    # 「…加算（１日につき）１…加算１260点」のような行で extract_index は
+    # 末尾の "１260点" を 1260 として読んでしまう。tier 1 が header_tier として
+    # 検出された場合、先頭桁 "1" は tier-id 表記なので剥がして tier 1 の points にする。
+    raw_pts = idx_entry.get("points")
+    out_points = raw_pts
+    if tiers and header_tier and isinstance(raw_pts, int):
+        s = str(raw_pts)
+        if s.startswith("1") and len(s) > 1:
+            real_pts = int(s[1:])
+            # header_tier (= tiers[0]) を上書き: name に末尾「１」を付け足し、points 設定
+            t1 = tiers[0]
+            if not t1["name"].rstrip().endswith(("1", "１")):
+                t1["name"] = t1["name"].rstrip() + "１"
+            t1["points"] = real_pts
+            out_points = None
+            # index.yaml にも反映 (再書き出しで永続化)
+            idx_entry["points"] = None
+    # name もクリーン版に揃える (index.yaml と items/*.yaml で表示一致)
+    if tiers and header_tier:
+        idx_entry["name"] = base_name
+
     pdf, url = PDF_BY_VER[ver]
     item: dict = {
         "code": code,
         "name": out_name,
         "version": ver,
-        "points": idx_entry.get("points"),
+        "points": out_points,
         "unit": unit,
         "chapter": idx_entry["chapter"],
         "raw_text": block,

@@ -15,14 +15,14 @@ raw_text: |
   - 注実施時間が２時間を超えた場合は、麻酔管理時間加算として、30分又はその端数を増すごとに、それぞれ750点、400点、170点を所定点数に加算する。
 tiers:
 - id: '1'
-  name: 頸・胸部
-  points: 1500
+  name: 頸・胸部1
+  points: 500
 - id: '2'
   name: 腰部
   points: 800
 - id: '3'
-  name: 仙骨部
-  points: 340
+  name: 仙骨部3
+  points: 40
 notes:
 - id: 注1
   text: |

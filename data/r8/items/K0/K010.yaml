@@ -14,8 +14,8 @@ raw_text: |
   - ２その他8,060点
 tiers:
 - id: '1'
-  name: 顔面
-  points: 12660
+  name: 顔面1
+  points: 2660
 - id: '2'
   name: その他
   points: 8060

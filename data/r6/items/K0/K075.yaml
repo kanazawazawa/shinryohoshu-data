@@ -15,8 +15,8 @@ raw_text: |
   - ３肩鎖、指（手、足）490点
 tiers:
 - id: '1'
-  name: 肩、股、膝
-  points: 1590
+  name: 肩、股、膝1
+  points: 590
 - id: '2'
   name: 胸鎖、肘、手、足
   points: 1260

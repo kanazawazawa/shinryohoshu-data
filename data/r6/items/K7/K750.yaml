@@ -17,8 +17,8 @@ tiers:
   name: 瘢痕切除又は縫縮によるもの
   points: 3990
 - id: '2'
-  name: 組織置換によるもの
-  points: 23660
+  name: 組織置換によるもの2
+  points: 3660
 notes: []
 source:
   pdf: 001251499.pdf

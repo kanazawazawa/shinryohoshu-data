@@ -14,11 +14,11 @@ raw_text: |
   - ２腹腔鏡によるもの22,950点
 tiers:
 - id: '1'
-  name: 開腹によるもの
-  points: 14110
+  name: 開腹によるもの1
+  points: 4110
 - id: '2'
-  name: 腹腔鏡によるもの
-  points: 22950
+  name: 腹腔鏡によるもの2
+  points: 2950
 notes: []
 source:
   pdf: 001686842.pdf

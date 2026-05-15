@@ -32,8 +32,8 @@ tiers:
   name: 股関節観血的授動術
   points: 38890
 - id: '3'
-  name: 膝関節観血的授動術
-  points: 38890
+  name: 膝関節観血的授動術3
+  points: 8890
 - id: '4'
   name: 肘関節観血的授動術
   points: 28210

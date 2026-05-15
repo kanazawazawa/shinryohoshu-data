@@ -1,7 +1,7 @@
 code: D215
 name: 超音波検査（記録に要する費用を含む。）
 version: r8
-points: 150
+points: null
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
@@ -39,7 +39,8 @@ raw_text: |
   - ７４のロについて、微小栓子シグナル（ＨＩＴＳ／ＭＥＳ）の検出を行った場合は、微小栓子シグナル加算として、150点を所定点数に加算する。
 tiers:
 - id: '1'
-  name: Ａモード法
+  name: Ａモード法１
+  points: 50
 - id: '2'
   name: 断層撮影法（心臓超音波検査を除く。）
   sub_tiers:

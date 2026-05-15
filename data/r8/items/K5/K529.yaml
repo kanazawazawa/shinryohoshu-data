@@ -1,7 +1,7 @@
 code: K529
 name: 食道悪性腫瘍手術（消化管再建手術を併施するもの）
 version: r8
-points: 122540
+points: null
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
@@ -16,7 +16,8 @@ raw_text: |
   - ２血行再建を併せて行った場合は、3,000点を加算する。
 tiers:
 - id: '1'
-  name: 頸部、胸部、腹部の操作によるもの
+  name: 頸部、胸部、腹部の操作によるもの１
+  points: 22540
 - id: '2'
   name: 胸部、腹部の操作によるもの
   points: 101490

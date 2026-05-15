@@ -20,8 +20,8 @@ tiers:
   name: 内視鏡によるもの
   points: 9450
 - id: '2'
-  name: 食道ブジー法
-  points: 2950
+  name: 食道ブジー法2
+  points: 950
 - id: '3'
   name: 拡張用バルーンによるもの
   points: 12480

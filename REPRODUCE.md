@@ -70,6 +70,8 @@ Copilot へのプロンプト例:
 | 6 | TOC 部分の偽コード混入 | 助詞始まり名・名前なし点数なし | `_is_valid_code_line()` で除外 |
 | 7 | R6/R8 yaml diff がノイズだらけ | dumper の quote style が呼び出しごとに違う | `common.py` で `str_representer` を `add_representer` し literal block (`|`) 統一 |
 | 8 | GitHub Web UI で 1000 件超えのディレクトリが切り捨てられる | GitHub 仕様 (1 dir 1000 file 上限) | `data/<ver>/items/<XX>/<CODE>.yaml` と 2 文字プレフィックスでシャード (最大シャード 188件) |
+| 9 | A200 等で `points: 1260` のような実在しない数値 | 行末 `…加算１260点` の `１` (tier-id) と `260` (points) が連結され、貪欲な `[\d０-９,，]+点` が両方吸う | `_parse_pts_from_tail(tier_id_hint=…)` で先頭桁が tier-id と一致する場合 1 桁剥がして name 側に戻す + `build_item` で header_tier 検出時に top-level points を補正 (idx_entry の name/points も同期) |
+| 10 | `- ２総合入院体制加算２200点` で tier 2 の points が 2200 になる | 同上 (重複表記された tier 番号) | 同上 |
 
 → **これらは抽出元のレイアウトに固有なので、別の告示なら別のハマり方をする。** Copilot に「精度を上げて」と頼んで、stats (`without_points`, `rejected_lines`, `has_unparsed`) を見ながら反復改善する。
 

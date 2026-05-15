@@ -18,8 +18,8 @@ tiers:
   name: 薬剤溶出型生体吸収性下肢動脈用ステントを用いるもの
   points: 22590
 - id: '2'
-  name: その他のもの
-  points: 22590
+  name: その他のもの2
+  points: 2590
 notes:
 - id: 注1
   text: |

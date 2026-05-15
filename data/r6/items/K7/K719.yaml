@@ -19,11 +19,11 @@ tiers:
   name: 小範囲切除
   points: 24170
 - id: '2'
-  name: 結腸半側切除
-  points: 29940
+  name: 結腸半側切除2
+  points: 9940
 - id: '3'
-  name: 全切除、亜全切除又は悪性腫瘍手術
-  points: 39960
+  name: 全切除、亜全切除又は悪性腫瘍手術3
+  points: 9960
 notes:
 - id: 注1
   text: |

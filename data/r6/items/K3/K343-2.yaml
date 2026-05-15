@@ -14,8 +14,8 @@ raw_text: |
   - ２その他のもの60,000点
 tiers:
 - id: '1'
-  name: 頭蓋底郭清、再建を伴うもの
-  points: 110950
+  name: 頭蓋底郭清、再建を伴うもの1
+  points: 10950
 - id: '2'
   name: その他のもの
   points: 60000

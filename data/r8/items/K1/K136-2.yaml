@@ -16,8 +16,8 @@ raw_text: |
   - ４仙椎腫瘍脊椎骨全摘術113,830点
 tiers:
 - id: '1'
-  name: 頸椎腫瘍脊椎骨全摘術
-  points: 113830
+  name: 頸椎腫瘍脊椎骨全摘術1
+  points: 13830
 - id: '2'
   name: 胸椎腫瘍脊椎骨全摘術
   points: 113830

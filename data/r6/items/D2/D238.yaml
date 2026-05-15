@@ -18,11 +18,11 @@ raw_text: |
   （神経・筋検査）
 tiers:
 - id: '1'
-  name: 脳波検査判断料
-  points: 1350
+  name: 脳波検査判断料１
+  points: 350
 - id: '2'
-  name: 脳波検査判断料
-  points: 2180
+  name: 脳波検査判断料２
+  points: 180
 notes:
 - id: 注1
   text: 脳波検査等の種類又は回数にかかわらず月１回に限り算定するものとする。

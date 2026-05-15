@@ -21,8 +21,8 @@ tiers:
   name: 前腕、下腿
   points: 4940
 - id: '3'
-  name: 鎖骨、膝蓋骨、手、足、指（手、足）その他
-  points: 3280
+  name: 鎖骨、膝蓋骨、手、足、指（手、足）その他3
+  points: 280
 notes: []
 source:
   pdf: 001251499.pdf

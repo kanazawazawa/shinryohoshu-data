@@ -26,8 +26,8 @@ tiers:
   name: 骨盤
   points: 41090
 - id: '4'
-  name: 側方
-  points: 41090
+  name: 側方4
+  points: 1090
 notes:
 - id: 注1
   text: |

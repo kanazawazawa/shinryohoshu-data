@@ -15,8 +15,8 @@ tiers:
 - id: '1'
   name: 基幹型
 - id: '2'
-  name: 協力型
-  points: 20
+  name: 協力型2
+  points: 0
 notes:
 - id: 注1
   text: |

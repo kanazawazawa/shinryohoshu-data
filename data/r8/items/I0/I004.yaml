@@ -1,7 +1,7 @@
 code: I004
 name: 心身医学療法（１回につき）
 version: r8
-points: 150
+points: null
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
@@ -19,7 +19,8 @@ raw_text: |
   - ５20歳未満の患者に対して心身医学療法を行った場合は、所定点数に所定点数の100分の200に相当する点数を加算する。
 tiers:
 - id: '1'
-  name: 入院中の患者
+  name: 入院中の患者１
+  points: 50
 - id: '2'
   name: 入院中の患者以外の患者
   sub_tiers:

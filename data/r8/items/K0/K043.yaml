@@ -22,8 +22,8 @@ raw_text: |
   - 10その他の骨掻爬術3,590点
 tiers:
 - id: '1'
-  name: 肩甲骨掻爬術
-  points: 12270
+  name: 肩甲骨掻爬術1
+  points: 2270
 - id: '2'
   name: 上腕骨掻爬術
   points: 12270

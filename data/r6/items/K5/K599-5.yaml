@@ -18,8 +18,8 @@ tiers:
   name: レーザーシースを用いるもの
   points: 28600
 - id: '2'
-  name: レーザーシースを用いないもの
-  points: 22210
+  name: レーザーシースを用いないもの2
+  points: 2210
 notes:
 - id: 注1
   text: |

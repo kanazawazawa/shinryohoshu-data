@@ -18,8 +18,8 @@ raw_text: |
   - ６足関節及び距骨周囲関節鼠摘出手術10,580点
 tiers:
 - id: '1'
-  name: 肩関節鼠摘出手術
-  points: 15600
+  name: 肩関節鼠摘出手術1
+  points: 5600
 - id: '2'
   name: 股関節鼠摘出手術
   points: 15600

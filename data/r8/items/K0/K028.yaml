@@ -17,8 +17,8 @@ tiers:
   name: 腱鞘切開術
   points: 2350
 - id: '2'
-  name: 腱鞘切開術（内視鏡下）
-  points: 2350
+  name: 腱鞘切開術（内視鏡下）2
+  points: 350
 notes: []
 source:
   pdf: 001686842.pdf

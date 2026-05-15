@@ -18,8 +18,8 @@ tiers:
   name: 膠芽腫の場合
   points: 2800
 - id: '2'
-  name: 非小細胞肺癌の場合
-  points: 2800
+  name: 非小細胞肺癌の場合2
+  points: 800
 notes:
 - id: 注1
   text: |

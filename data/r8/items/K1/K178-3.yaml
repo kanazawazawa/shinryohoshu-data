@@ -18,8 +18,8 @@ tiers:
   name: 頭蓋内脳血管の場合
   points: 36280
 - id: '2'
-  name: 頸部脳血管の場合（内頸動脈、椎骨動脈）
-  points: 25880
+  name: 頸部脳血管の場合（内頸動脈、椎骨動脈）2
+  points: 5880
 notes:
 - id: 注1
   text: |

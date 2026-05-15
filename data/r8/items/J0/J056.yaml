@@ -16,8 +16,8 @@ tiers:
   name: 3箇所以下
   points: 210
 - id: '2'
-  name: 4箇所以上
-  points: 270
+  name: 4箇所以上2
+  points: 70
 notes: []
 source:
   pdf: 001686842.pdf

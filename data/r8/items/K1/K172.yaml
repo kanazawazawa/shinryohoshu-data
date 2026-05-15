@@ -14,8 +14,8 @@ raw_text: |
   - ２複雑なもの179,830点
 tiers:
 - id: '1'
-  name: 単純なもの
-  points: 141830
+  name: 単純なもの1
+  points: 41830
 - id: '2'
   name: 複雑なもの
   points: 179830

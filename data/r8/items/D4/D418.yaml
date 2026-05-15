@@ -17,11 +17,11 @@ tiers:
   name: 子宮頸管粘液採取
   points: 40
 - id: '2'
-  name: 子宮膣部組織採取
-  points: 200
+  name: 子宮膣部組織採取2
+  points: 0
 - id: '3'
-  name: 子宮内膜組織採取
-  points: 370
+  name: 子宮内膜組織採取3
+  points: 70
 notes: []
 source:
   pdf: 001686842.pdf

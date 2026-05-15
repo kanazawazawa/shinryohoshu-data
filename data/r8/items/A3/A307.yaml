@@ -1,7 +1,7 @@
 code: A307
 name: 小児入院医療管理料（１日につき）
 version: r8
-points: 15216
+points: null
 unit: 日
 chapter:
   chapter: 第1章 基本診療料
@@ -17,19 +17,20 @@ raw_text: |
   ただし、小児入院医療管理料５を算定する病棟において、当該入院医療管理料に係る算定要件に該当しない患者が当該病棟（精神病棟に限る。）に入院した場合は、区分番号
 tiers:
 - id: '1'
-  name: 小児入院医療管理料
+  name: 小児入院医療管理料１
+  points: 5216
 - id: '2'
-  name: 小児入院医療管理料
-  points: 24486
+  name: 小児入院医療管理料２
+  points: 4486
 - id: '3'
-  name: 小児入院医療管理料
-  points: 34022
+  name: 小児入院医療管理料３
+  points: 4022
 - id: '4'
-  name: 小児入院医療管理料
-  points: 43361
+  name: 小児入院医療管理料４
+  points: 3361
 - id: '5'
-  name: 小児入院医療管理料
-  points: 52357
+  name: 小児入院医療管理料５
+  points: 2357
 notes:
 - id: 注1
   text: |

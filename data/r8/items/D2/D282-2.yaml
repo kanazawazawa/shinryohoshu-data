@@ -13,8 +13,8 @@ raw_text: |
   - ２乳幼児視力測定（テラーカード等によるもの）60点
 tiers:
 - id: '1'
-  name: ＰＬ（ＰreferentialＬooking）法
-  points: 100
+  name: ＰＬ（ＰreferentialＬooking）法1
+  points: 0
 - id: '2'
   name: 乳幼児視力測定（テラーカード等によるもの）
   points: 60

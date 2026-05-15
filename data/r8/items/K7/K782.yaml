@@ -14,8 +14,8 @@ raw_text: |
   - ２膀胱近接部15,310点
 tiers:
 - id: '1'
-  name: 上部及び中部
-  points: 10310
+  name: 上部及び中部1
+  points: 310
 - id: '2'
   name: 膀胱近接部
   points: 15310

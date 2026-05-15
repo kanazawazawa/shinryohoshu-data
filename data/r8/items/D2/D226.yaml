@@ -1,7 +1,7 @@
 code: D226
 name: 中心静脈圧測定（１日につき）
 version: r8
-points: 120
+points: null
 unit: 日
 chapter:
   chapter: 第2章 特掲診療料
@@ -13,10 +13,11 @@ raw_text: |
   - 注カテーテルの交換の有無にかかわらず一連として算定する。
 tiers:
 - id: '1'
-  name: ４回以下の場合
+  name: ４回以下の場合１
+  points: 20
 - id: '2'
-  name: 5回以上の場合
-  points: 240
+  name: 5回以上の場合2
+  points: 40
 notes:
 - id: 注1
   text: |

@@ -23,8 +23,8 @@ tiers:
   name: ギャンブル依存症の場合
   points: 300
 - id: '3'
-  name: アルコール依存症の場合
-  points: 300
+  name: アルコール依存症の場合3
+  points: 0
 notes:
 - id: 注11
   text: |-

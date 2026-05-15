@@ -47,11 +47,11 @@ tiers:
   name: 気管分岐部再建を伴う肺切除
   points: 127130
 - id: '9'
-  name: 胸膜肺全摘
-  points: 92000
+  name: 胸膜肺全摘9
+  points: 2000
 - id: '10'
-  name: 壁側・臓側胸膜全切除（横隔膜、心膜合併切除を伴うもの）
-  points: 105000
+  name: 壁側・臓側胸膜全切除（横隔膜、心膜合併切除を伴うもの）10
+  points: 5000
 notes:
 - id: 注9
   text: |

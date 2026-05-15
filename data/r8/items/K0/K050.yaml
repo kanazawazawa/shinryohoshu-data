@@ -22,8 +22,8 @@ raw_text: |
   - 10その他の腐骨摘出術4,100点
 tiers:
 - id: '1'
-  name: 肩甲骨腐骨摘出術
-  points: 15570
+  name: 肩甲骨腐骨摘出術1
+  points: 5570
 - id: '2'
   name: 上腕骨腐骨摘出術
   points: 15570

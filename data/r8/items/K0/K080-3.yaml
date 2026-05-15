@@ -14,11 +14,11 @@ raw_text: |
   - ２複雑なもの24,310点
 tiers:
 - id: '1'
-  name: 簡単なもの
-  points: 18700
+  name: 簡単なもの1
+  points: 8700
 - id: '2'
-  name: 複雑なもの
-  points: 24310
+  name: 複雑なもの2
+  points: 4310
 notes: []
 source:
   pdf: 001686842.pdf

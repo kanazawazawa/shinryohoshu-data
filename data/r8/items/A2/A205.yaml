@@ -1,7 +1,7 @@
 code: A205
 name: 救急医療管理加算（１日につき）
 version: r8
-points: 11050
+points: null
 unit: 日
 chapter:
   chapter: 第1章 基本診療料
@@ -16,10 +16,11 @@ raw_text: |
   - ３救急医療管理加算を算定する患者が６歳以上15歳未満である場合には、小児加算として、200点を更に所定点数に加算する。
 tiers:
 - id: '1'
-  name: 救急医療管理加算
+  name: 救急医療管理加算１
+  points: 1050
 - id: '2'
-  name: 救急医療管理加算
-  points: 2420
+  name: 救急医療管理加算２
+  points: 420
 notes:
 - id: 注1
   text: |-

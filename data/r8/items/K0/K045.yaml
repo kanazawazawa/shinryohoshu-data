@@ -35,8 +35,8 @@ tiers:
   name: 大腿骨骨折経皮的鋼線刺入固定術
   points: 7060
 - id: '4'
-  name: 前腕骨骨折経皮的鋼線刺入固定術
-  points: 4100
+  name: 前腕骨骨折経皮的鋼線刺入固定術4
+  points: 100
 - id: '5'
   name: 下腿骨骨折経皮的鋼線刺入固定術
   points: 4100

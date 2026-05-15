@@ -35,8 +35,8 @@ tiers:
   name: 大腿骨部分切除術
   points: 5900
 - id: '4'
-  name: 前腕骨部分切除術
-  points: 4940
+  name: 前腕骨部分切除術4
+  points: 940
 - id: '5'
   name: 下腿骨部分切除術
   points: 4940

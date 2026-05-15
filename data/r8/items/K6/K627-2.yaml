@@ -27,8 +27,8 @@ tiers:
   name: 骨盤
   points: 41090
 - id: '4'
-  name: 側方
-  points: 41090
+  name: 側方4
+  points: 1090
 - id: '5'
   name: 腹部
   points: 32000

@@ -46,8 +46,8 @@ tiers:
   name: 腰椎前方椎体固定術
   points: 41710
 - id: '4'
-  name: 仙椎前方椎体固定術
-  points: 41710
+  name: 仙椎前方椎体固定術4
+  points: 1710
 - id: '5'
   name: 頸椎後方又は後側方固定術
   points: 32890
@@ -106,8 +106,8 @@ tiers:
   name: 腰椎椎弓形成術
   points: 24260
 - id: '24'
-  name: 仙椎椎弓形成術
-  points: 24260
+  name: 仙椎椎弓形成術24
+  points: 260
 notes:
 - id: 注1
   text: |-

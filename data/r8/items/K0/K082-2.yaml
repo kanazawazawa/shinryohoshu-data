@@ -26,8 +26,8 @@ tiers:
   name: 人工股関節抜去術
   points: 30230
 - id: '3'
-  name: 人工膝関節抜去術
-  points: 30230
+  name: 人工膝関節抜去術3
+  points: 230
 - id: '4'
   name: 人工肘関節抜去術
   points: 23650

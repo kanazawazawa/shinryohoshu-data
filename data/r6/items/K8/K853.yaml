@@ -17,8 +17,8 @@ tiers:
   name: 中央腟閉鎖術（子宮全脱）
   points: 7410
 - id: '2'
-  name: その他
-  points: 2580
+  name: その他2
+  points: 580
 notes: []
 source:
   pdf: 001251499.pdf

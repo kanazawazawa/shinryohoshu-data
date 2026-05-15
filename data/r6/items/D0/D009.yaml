@@ -78,8 +78,8 @@ tiers:
   name: エラスターゼ
   points: 1120
 - id: '9'
-  name: 前立腺特異抗原（ＰＳＡ）、ＣＡ19－
-  points: 9121
+  name: 前立腺特異抗原（ＰＳＡ）、ＣＡ19－９
+  points: 121
 - id: '10'
   name: ＰＩＶＫＡ－Ⅱ半定量、ＰＩＶＫＡ－Ⅱ定量
   points: 131
@@ -93,8 +93,8 @@ tiers:
   name: シアリルＬｅx－ｉ抗原（ＳＬＸ）
   points: 140
 - id: '14'
-  name: 神経特異エノラーゼ（ＮＳＥ）
-  points: 142
+  name: 神経特異エノラーゼ（ＮＳＥ）14
+  points: 2
 - id: '15'
   name: ＳＰan－
   points: 1144

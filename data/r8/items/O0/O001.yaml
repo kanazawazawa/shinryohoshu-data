@@ -1,7 +1,7 @@
 code: O001
 name: 外来・在宅ベースアップ評価料（Ⅰ）
 version: r8
-points: 17
+points: null
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
@@ -27,7 +27,8 @@ raw_text: |
   - ７注５に規定する点数について、令和９年６月以降においては、１、２並びに３のイ及びロの所定点数に代えて、それぞれ40点、10点、186点及び45点を算定する。
 tiers:
 - id: '1'
-  name: 初診時
+  name: 初診時１
+  points: 7
 - id: '2'
   name: 再診時等
   points: 4

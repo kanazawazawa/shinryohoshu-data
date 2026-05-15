@@ -30,8 +30,8 @@ tiers:
   name: 股関節離断術
   points: 31000
 - id: '3'
-  name: 膝関節離断術
-  points: 31000
+  name: 膝関節離断術3
+  points: 1000
 - id: '4'
   name: 肘関節離断術
   points: 11360

@@ -21,8 +21,8 @@ raw_text: |
   - ５往診又は訪問診療に要した交通費は、患家の負担とする。
 tiers:
 - id: '1'
-  name: 往診の場合
-  points: 1500
+  name: 往診の場合1
+  points: 500
 - id: '2'
   name: 訪問診療の場合（同一建物居住者以外）
   points: 1000

@@ -51,14 +51,14 @@ tiers:
   name: アルブミン定性（尿）
   points: 49
 - id: '7'
-  name: 黄体形成ホルモン（ＬＨ）定性（尿）
-  points: 72
+  name: 黄体形成ホルモン（ＬＨ）定性（尿）7
+  points: 2
 - id: '8'
   name: フィブリン・フィブリノゲン分解産物（ＦＤＰ）（尿）
   points: 77
 - id: '9'
-  name: トランスフェリン（尿）
-  points: 98
+  name: トランスフェリン（尿）9
+  points: 8
 - id: '10'
   name: アルブミン定量（尿）
   points: 99
@@ -84,8 +84,8 @@ tiers:
   name: 総ヨウ素（尿）、ポルフォビリノゲン（尿）
   points: 186
 - id: '18'
-  name: プロスタグランジンＥ主要代謝物(尿)
-  points: 187
+  name: プロスタグランジンＥ主要代謝物(尿)18
+  points: 7
 - id: '19'
   name: シュウ酸（尿）
   points: 200

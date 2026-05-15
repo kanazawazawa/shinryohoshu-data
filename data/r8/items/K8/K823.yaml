@@ -17,8 +17,8 @@ tiers:
   name: 恥骨固定式膀胱頸部吊上術を行うもの
   points: 23510
 - id: '2'
-  name: その他のもの
-  points: 20680
+  name: その他のもの2
+  points: 680
 notes: []
 source:
   pdf: 001686842.pdf

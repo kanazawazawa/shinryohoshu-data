@@ -24,8 +24,8 @@ raw_text: |
   - ２その他3,390点
 tiers:
 - id: '1'
-  name: 肩関節脱臼非観血的整復術
-  points: 1800
+  name: 肩関節脱臼非観血的整復術1
+  points: 800
 - id: '2'
   name: 股関節脱臼非観血的整復術
   points: 1800
@@ -48,8 +48,8 @@ tiers:
   name: 肩鎖関節脱臼非観血的整復術
   points: 960
 - id: '9'
-  name: 手指関節脱臼非観血的整復術
-  points: 960
+  name: 手指関節脱臼非観血的整復術9
+  points: 60
 - id: '10'
   name: 足趾関節脱臼非観血的整復術
   points: 960

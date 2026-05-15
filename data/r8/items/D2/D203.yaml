@@ -13,8 +13,8 @@ raw_text: |
   - ２死腔量測定、肺内シャント検査135点
 tiers:
 - id: '1'
-  name: 肺拡散能力検査
-  points: 180
+  name: 肺拡散能力検査1
+  points: 80
 - id: '2'
   name: 死腔量測定、肺内シャント検査
   points: 135

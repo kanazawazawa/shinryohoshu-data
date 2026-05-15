@@ -18,8 +18,8 @@ tiers:
   name: 肩、股、膝
   points: 21640
 - id: '2'
-  name: 胸鎖、肘、手、足
-  points: 22300
+  name: 胸鎖、肘、手、足2
+  points: 2300
 - id: '3'
   name: 肩鎖、指（手、足）
   points: 8640

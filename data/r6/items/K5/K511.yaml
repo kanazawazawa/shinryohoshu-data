@@ -30,8 +30,8 @@ tiers:
   name: 複合切除（１肺葉を超えるもの）
   points: 64850
 - id: '5'
-  name: 1側肺全摘
-  points: 59830
+  name: 1側肺全摘5
+  points: 9830
 - id: '6'
   name: 気管支形成を伴う肺切除
   points: 76230

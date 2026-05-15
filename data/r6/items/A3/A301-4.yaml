@@ -1,7 +1,7 @@
 code: A301-4
 name: 小児特定集中治療室管理料（１日につき）
 version: r6
-points: 16362
+points: null
 unit: 日
 chapter:
   chapter: 第1章 基本診療料
@@ -25,7 +25,8 @@ raw_text: |
   ただし、区分番号Ｂ００１の10に掲げる入院栄養食事指導料は別に算定できない。
 tiers:
 - id: '1'
-  name: ７日以内の期間
+  name: ７日以内の期間１
+  points: 6362
 - id: '2'
   name: 8日以上の期間
   points: 14256

@@ -14,8 +14,8 @@ raw_text: |
   - ２その他のもの10,900点
 tiers:
 - id: '1'
-  name: 鏡視下によるもの
-  points: 14170
+  name: 鏡視下によるもの1
+  points: 4170
 - id: '2'
   name: その他のもの
   points: 10900

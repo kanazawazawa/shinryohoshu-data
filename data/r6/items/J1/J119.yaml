@@ -22,8 +22,8 @@ tiers:
   name: 器具等による療法
   points: 35
 - id: '3'
-  name: 湿布処置
-  points: 35
+  name: 湿布処置3
+  points: 5
 notes:
 - id: 注11
   text: から３までの療法を行った場合に、療法の種類、回数又は部位数にかかわらず、本区分により算定する。

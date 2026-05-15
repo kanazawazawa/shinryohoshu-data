@@ -14,11 +14,11 @@ raw_text: |
   - ２虫垂周囲膿瘍を伴うもの22,050点
 tiers:
 - id: '1'
-  name: 虫垂周囲膿瘍を伴わないもの
-  points: 13760
+  name: 虫垂周囲膿瘍を伴わないもの1
+  points: 3760
 - id: '2'
-  name: 虫垂周囲膿瘍を伴うもの
-  points: 22050
+  name: 虫垂周囲膿瘍を伴うもの2
+  points: 2050
 notes: []
 source:
   pdf: 001251499.pdf

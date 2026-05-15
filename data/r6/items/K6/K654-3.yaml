@@ -17,8 +17,8 @@ tiers:
   name: 内視鏡処置を併施するもの
   points: 28500
 - id: '2'
-  name: その他のもの
-  points: 20400
+  name: その他のもの2
+  points: 400
 notes: []
 source:
   pdf: 001251499.pdf

@@ -19,8 +19,8 @@ raw_text: |
   - ３下行大動脈89,250点
 tiers:
 - id: '1'
-  name: 弓部大動脈
-  points: 114510
+  name: 弓部大動脈1
+  points: 14510
 - id: '2'
   name: 上行大動脈及び弓部大動脈の同時手術
   sub_tiers:

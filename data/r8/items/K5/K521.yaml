@@ -18,8 +18,8 @@ tiers:
   name: 開胸手術
   points: 28210
 - id: '2'
-  name: 胸骨切開によるもの
-  points: 23290
+  name: 胸骨切開によるもの2
+  points: 3290
 - id: '3'
   name: その他のもの（頸部手術を含む。）
   points: 7920

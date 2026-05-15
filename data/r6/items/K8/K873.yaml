@@ -14,8 +14,8 @@ raw_text: |
   - ２その他のもの17,100点
 tiers:
 - id: '1'
-  name: 電解質溶液利用のもの
-  points: 19000
+  name: 電解質溶液利用のもの1
+  points: 9000
 - id: '2'
   name: その他のもの
   points: 17100

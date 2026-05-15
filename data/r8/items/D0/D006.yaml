@@ -55,8 +55,8 @@ raw_text: |
       - ロ５項目以上722点
 tiers:
 - id: '1'
-  name: 出血時間
-  points: 15
+  name: 出血時間1
+  points: 5
 - id: '2'
   name: プロトロンビン時間（ＰＴ）
   points: 18

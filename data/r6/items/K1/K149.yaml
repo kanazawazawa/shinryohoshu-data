@@ -17,8 +17,8 @@ tiers:
   name: キアリ奇形、脊髄空洞症の場合
   points: 28280
 - id: '2'
-  name: その他の場合
-  points: 26470
+  name: その他の場合2
+  points: 6470
 notes: []
 source:
   pdf: 001251499.pdf

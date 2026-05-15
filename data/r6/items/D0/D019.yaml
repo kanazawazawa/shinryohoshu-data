@@ -17,14 +17,14 @@ raw_text: |
   - ５抗菌薬併用効果スクリーニング150点
 tiers:
 - id: '1'
-  name: 1菌種
-  points: 185
+  name: 1菌種1
+  points: 85
 - id: '2'
-  name: 2菌種
-  points: 240
+  name: 2菌種2
+  points: 40
 - id: '3'
-  name: 3菌種以上
-  points: 310
+  name: 3菌種以上3
+  points: 10
 - id: '4'
   name: 薬剤耐性菌検出
   points: 50

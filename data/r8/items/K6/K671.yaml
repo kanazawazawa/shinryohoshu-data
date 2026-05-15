@@ -15,8 +15,8 @@ tiers:
 - id: '1'
   name: 胆嚢摘出を含むもの
 - id: '2'
-  name: 胆嚢摘出を含まないもの
-  points: 26880
+  name: 胆嚢摘出を含まないもの2
+  points: 6880
 notes: []
 source:
   pdf: 001686842.pdf

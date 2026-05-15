@@ -15,8 +15,8 @@ tiers:
 - id: '1'
   name: カテーテルによる耳管通気法（片側）
 - id: '2'
-  name: ポリッツェル球による耳管通気法
-  points: 24
+  name: ポリッツェル球による耳管通気法2
+  points: 4
 notes:
 - id: 注1
   text: |

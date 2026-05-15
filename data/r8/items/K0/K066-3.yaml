@@ -23,8 +23,8 @@ raw_text: |
   - ６足関節及び距骨周囲関節滑液包摘出術17,030点
 tiers:
 - id: '1'
-  name: 肩関節滑液包摘出術
-  points: 17750
+  name: 肩関節滑液包摘出術1
+  points: 7750
 - id: '2'
   name: 股関節滑液包摘出術
   points: 17750

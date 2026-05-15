@@ -18,8 +18,8 @@ tiers:
   name: 膀胱内圧測定
   points: 312
 - id: '2'
-  name: 尿道圧測定図
-  points: 260
+  name: 尿道圧測定図2
+  points: 60
 - id: '3'
   name: 尿流測定
   points: 205

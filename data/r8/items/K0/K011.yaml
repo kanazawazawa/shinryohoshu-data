@@ -14,8 +14,8 @@ raw_text: |
   - ２動的なもの64,350点
 tiers:
 - id: '1'
-  name: 静的なもの
-  points: 19110
+  name: 静的なもの1
+  points: 9110
 - id: '2'
   name: 動的なもの
   points: 64350

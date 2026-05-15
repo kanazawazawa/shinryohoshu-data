@@ -14,8 +14,8 @@ raw_text: |
   - ２摘出3,600点
 tiers:
 - id: '1'
-  name: 切除
-  points: 1720
+  name: 切除1
+  points: 720
 - id: '2'
   name: 摘出
   points: 3600

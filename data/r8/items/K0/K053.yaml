@@ -29,8 +29,8 @@ tiers:
   name: 上腕骨悪性腫瘍手術
   points: 36600
 - id: '3'
-  name: 大腿骨悪性腫瘍手術
-  points: 36600
+  name: 大腿骨悪性腫瘍手術3
+  points: 6600
 - id: '4'
   name: 前腕骨悪性腫瘍手術
   points: 35000

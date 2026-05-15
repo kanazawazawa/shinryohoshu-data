@@ -17,8 +17,8 @@ tiers:
   name: 膵切開によるもの
   points: 28210
 - id: '2'
-  name: 経十二指腸乳頭によるもの
-  points: 28210
+  name: 経十二指腸乳頭によるもの2
+  points: 8210
 notes: []
 source:
   pdf: 001251499.pdf

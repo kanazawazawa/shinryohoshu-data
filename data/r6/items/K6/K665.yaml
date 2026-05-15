@@ -14,8 +14,8 @@ raw_text: |
   - ２内視鏡によるもの10,300点
 tiers:
 - id: '1'
-  name: 開腹又は腹腔鏡によるもの
-  points: 12040
+  name: 開腹又は腹腔鏡によるもの1
+  points: 2040
 - id: '2'
   name: 内視鏡によるもの
   points: 10300

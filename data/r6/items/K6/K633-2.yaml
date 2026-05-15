@@ -17,8 +17,8 @@ raw_text: |
   - ５閉鎖孔ヘルニア24,130点
 tiers:
 - id: '1'
-  name: 腹壁瘢痕ヘルニア
-  points: 16520
+  name: 腹壁瘢痕ヘルニア1
+  points: 6520
 - id: '2'
   name: 大腿ヘルニア
   points: 18550

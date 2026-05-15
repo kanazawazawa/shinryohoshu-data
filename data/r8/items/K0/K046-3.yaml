@@ -28,8 +28,8 @@ tiers:
   name: 前腕骨骨折一時的創外固定術
   points: 34000
 - id: '3'
-  name: 手部骨折一時的創外固定術
-  points: 34000
+  name: 手部骨折一時的創外固定術3
+  points: 4000
 - id: '4'
   name: 大腿骨骨折一時的創外固定術
   points: 34000

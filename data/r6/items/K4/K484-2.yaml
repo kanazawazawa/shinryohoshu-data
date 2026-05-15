@@ -17,8 +17,8 @@ tiers:
   name: 胸壁形成手術を併施するもの
   points: 43750
 - id: '2'
-  name: その他のもの
-  points: 28210
+  name: その他のもの2
+  points: 8210
 notes: []
 source:
   pdf: 001251499.pdf

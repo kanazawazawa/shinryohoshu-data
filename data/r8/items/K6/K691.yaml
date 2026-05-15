@@ -14,8 +14,8 @@ raw_text: |
   - ２開胸によるもの12,520点
 tiers:
 - id: '1'
-  name: 開腹によるもの
-  points: 11860
+  name: 開腹によるもの1
+  points: 1860
 - id: '2'
   name: 開胸によるもの
   points: 12520

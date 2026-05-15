@@ -30,8 +30,8 @@ tiers:
   name: 肩甲骨骨切り術
   points: 28210
 - id: '2'
-  name: 上腕骨骨切り術
-  points: 28210
+  name: 上腕骨骨切り術2
+  points: 8210
 - id: '3'
   name: 大腿骨骨切り術
   points: 28210
@@ -48,8 +48,8 @@ tiers:
   name: 膝蓋骨骨切り術
   points: 8150
 - id: '8'
-  name: 手根骨骨切り術
-  points: 8150
+  name: 手根骨骨切り術8
+  points: 150
 - id: '9'
   name: 中手骨骨切り術
   points: 8150

@@ -14,11 +14,11 @@ raw_text: |
   - ２長径３センチメートル以上2,880点
 tiers:
 - id: '1'
-  name: 長径３センチメートル未満
-  points: 1200
+  name: 長径３センチメートル未満1
+  points: 200
 - id: '2'
-  name: 長径３センチメートル以上
-  points: 2880
+  name: 長径３センチメートル以上2
+  points: 880
 notes: []
 source:
   pdf: 001686842.pdf

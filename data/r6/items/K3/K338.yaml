@@ -14,8 +14,8 @@ raw_text: |
   - ２その他のもの3,810点
 tiers:
 - id: '1'
-  name: 高周波電気凝固法によるもの
-  points: 1240
+  name: 高周波電気凝固法によるもの1
+  points: 240
 - id: '2'
   name: その他のもの
   points: 3810

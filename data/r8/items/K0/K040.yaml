@@ -14,8 +14,8 @@ raw_text: |
   - ２その他の腱移行術18,080点
 tiers:
 - id: '1'
-  name: 手指及び足趾腱移行術
-  points: 15570
+  name: 手指及び足趾腱移行術1
+  points: 5570
 - id: '2'
   name: その他の腱移行術
   points: 18080

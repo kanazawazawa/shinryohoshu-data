@@ -14,11 +14,11 @@ raw_text: |
   - ２両側27,320点
 tiers:
 - id: '1'
-  name: 片側
-  points: 13000
+  name: 片側1
+  points: 3000
 - id: '2'
-  name: 両側
-  points: 27320
+  name: 両側2
+  points: 7320
 notes: []
 source:
   pdf: 001251499.pdf

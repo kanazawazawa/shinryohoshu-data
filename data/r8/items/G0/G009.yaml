@@ -19,8 +19,8 @@ tiers:
   name: 脳室
   points: 360
 - id: '2'
-  name: 後頭下
-  points: 264
+  name: 後頭下2
+  points: 64
 - id: '3'
   name: 腰椎
   points: 160

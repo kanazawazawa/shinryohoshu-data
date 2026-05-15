@@ -15,8 +15,8 @@ raw_text: |
   - ３全摘68,480点
 tiers:
 - id: '1'
-  name: 掻爬
-  points: 10530
+  name: 掻爬1
+  points: 530
 - id: '2'
   name: 切除
   points: 34420

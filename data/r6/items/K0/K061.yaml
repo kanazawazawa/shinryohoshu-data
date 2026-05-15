@@ -16,8 +16,8 @@ raw_text: |
   - ２その他3,390点
 tiers:
 - id: '1'
-  name: 肩、股、膝
-  points: 1800
+  name: 肩、股、膝1
+  points: 800
 - id: '2'
   name: 胸鎖、肘、手、足
   points: 1560

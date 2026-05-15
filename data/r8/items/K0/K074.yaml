@@ -17,8 +17,8 @@ raw_text: |
   - ５その他の靱帯断裂縫合術7,600点
 tiers:
 - id: '1'
-  name: 十字靱帯断裂縫合術
-  points: 17070
+  name: 十字靱帯断裂縫合術1
+  points: 7070
 - id: '2'
   name: 膝側副靱帯断裂縫合術
   points: 16560

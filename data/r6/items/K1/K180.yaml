@@ -16,11 +16,11 @@ raw_text: |
   - 注３については、先天奇形に対して行われた場合に限り算定する。
 tiers:
 - id: '1'
-  name: 頭蓋骨のみのもの
-  points: 17530
+  name: 頭蓋骨のみのもの1
+  points: 7530
 - id: '2'
-  name: 硬膜形成を伴うもの
-  points: 23660
+  name: 硬膜形成を伴うもの2
+  points: 3660
 - id: '3'
   name: 骨移動を伴うもの
   points: 47090

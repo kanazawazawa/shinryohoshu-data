@@ -15,8 +15,8 @@ raw_text: |
   - ３リードレスペースメーカーの場合9,520点
 tiers:
 - id: '1'
-  name: 心筋電極の場合
-  points: 16870
+  name: 心筋電極の場合1
+  points: 6870
 - id: '2'
   name: 経静脈電極の場合
   points: 9520

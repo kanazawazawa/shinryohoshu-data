@@ -14,11 +14,11 @@ raw_text: |
   - ２腸管切除を伴うもの28,210点
 tiers:
 - id: '1'
-  name: 腸管切除を伴わないもの
-  points: 13650
+  name: 腸管切除を伴わないもの1
+  points: 3650
 - id: '2'
-  name: 腸管切除を伴うもの
-  points: 28210
+  name: 腸管切除を伴うもの2
+  points: 8210
 notes: []
 source:
   pdf: 001686842.pdf

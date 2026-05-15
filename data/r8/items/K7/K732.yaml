@@ -16,8 +16,8 @@ raw_text: |
       - ロその他のもの28,210点
 tiers:
 - id: '1'
-  name: 腸管切除を伴わないもの
-  points: 11470
+  name: 腸管切除を伴わないもの1
+  points: 1470
 - id: '2'
   name: 腸管切除を伴うもの
   sub_tiers:

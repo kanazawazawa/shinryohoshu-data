@@ -18,8 +18,8 @@ tiers:
   name: 心室中隔欠損パッチ閉鎖術
   points: 85790
 - id: '2'
-  name: 根治手術（ダブルスイッチ手術）
-  points: 201630
+  name: 根治手術（ダブルスイッチ手術）2
+  points: 1630
 notes:
 - id: 注2
   text: |

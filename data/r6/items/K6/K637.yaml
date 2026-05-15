@@ -16,8 +16,8 @@ raw_text: |
   - ４その他のもの10,380点
 tiers:
 - id: '1'
-  name: 横隔膜下膿瘍
-  points: 10690
+  name: 横隔膜下膿瘍1
+  points: 690
 - id: '2'
   name: ダグラス窩膿瘍
   points: 5710

@@ -14,11 +14,11 @@ raw_text: |
   - ２全中隔のもの2,540点
 tiers:
 - id: '1'
-  name: 不全隔のもの
-  points: 1510
+  name: 不全隔のもの1
+  points: 510
 - id: '2'
-  name: 全中隔のもの
-  points: 2540
+  name: 全中隔のもの2
+  points: 540
 notes: []
 source:
   pdf: 001251499.pdf

@@ -33,8 +33,8 @@ raw_text: |
   - 11掌指関節滑膜切除術16,060点
 tiers:
 - id: '1'
-  name: 肩関節滑膜切除術
-  points: 17750
+  name: 肩関節滑膜切除術1
+  points: 7750
 - id: '2'
   name: 股関節滑膜切除術
   points: 17750
@@ -54,8 +54,8 @@ tiers:
   name: 足関節及び距骨周囲関節滑膜切除術
   points: 11200
 - id: '8'
-  name: 肩鎖関節滑膜切除術
-  points: 8880
+  name: 肩鎖関節滑膜切除術8
+  points: 880
 - id: '9'
   name: 手指関節滑膜切除術
   points: 8880

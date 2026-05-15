@@ -1,7 +1,7 @@
 code: K193-2
 name: レックリングハウゼン病偽神経腫切除術（露出部）
 version: r8
-points: 1660
+points: null
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
@@ -16,7 +16,8 @@ raw_text: |
   - ３長径６センチメートル以上4,160点
 tiers:
 - id: '1'
-  name: 長径２センチメートル未満
+  name: 長径２センチメートル未満１
+  points: 660
 - id: '2'
   name: 長径２センチメートル以上４センチメートル未満
   points: 3670

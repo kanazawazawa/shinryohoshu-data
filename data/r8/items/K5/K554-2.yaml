@@ -14,8 +14,8 @@ raw_text: |
   - ２２弁のもの123,170点
 tiers:
 - id: '1'
-  name: 1弁のもの
-  points: 109860
+  name: 1弁のもの1
+  points: 9860
 - id: '2'
   name: 2弁のもの
   points: 123170

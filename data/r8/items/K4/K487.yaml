@@ -22,8 +22,8 @@ tiers:
   name: 胸骨翻転法によるもの
   points: 37370
 - id: '3'
-  name: 胸腔鏡によるもの
-  points: 39260
+  name: 胸腔鏡によるもの3
+  points: 9260
 - id: '4'
   name: 胸骨挙上用固定具抜去術7,836点（胸腔、胸膜）
 notes: []

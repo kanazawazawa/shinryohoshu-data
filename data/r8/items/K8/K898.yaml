@@ -18,8 +18,8 @@ tiers:
   name: 緊急帝王切開
   points: 22200
 - id: '2'
-  name: 選択帝王切開
-  points: 20140
+  name: 選択帝王切開2
+  points: 140
 notes:
 - id: 注1
   text: |

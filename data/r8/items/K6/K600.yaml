@@ -1,7 +1,7 @@
 code: K600
 name: 大動脈内バルーンパンピング法（ＩＡＢＰ法）（１日につき）
 version: r8
-points: 10536
+points: null
 unit: 日
 chapter:
   chapter: 第2章 特掲診療料
@@ -14,7 +14,8 @@ raw_text: |
   - 注挿入に伴う画像診断及び検査の費用は算定しない。
 tiers:
 - id: '1'
-  name: 初日
+  name: 初日１
+  points: 536
 - id: '2'
   name: 2日目以降
   points: 4230

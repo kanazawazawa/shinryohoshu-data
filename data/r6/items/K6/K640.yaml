@@ -14,11 +14,11 @@ raw_text: |
   - ２腸管切除を伴うもの26,880点
 tiers:
 - id: '1'
-  name: 縫合、修復のみのもの
-  points: 10390
+  name: 縫合、修復のみのもの1
+  points: 390
 - id: '2'
-  name: 腸管切除を伴うもの
-  points: 26880
+  name: 腸管切除を伴うもの2
+  points: 6880
 notes: []
 source:
   pdf: 001251499.pdf

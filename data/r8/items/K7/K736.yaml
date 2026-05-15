@@ -14,8 +14,8 @@ raw_text: |
   - ２その他のもの3,670点（直腸）
 tiers:
 - id: '1'
-  name: 開腹を伴うもの
-  points: 10030
+  name: 開腹を伴うもの1
+  points: 30
 - id: '2'
   name: その他のもの3,670点（直腸）
 notes: []

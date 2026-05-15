@@ -14,11 +14,11 @@ raw_text: |
   - ２その他のもの2,940点
 tiers:
 - id: '1'
-  name: 粘液嚢胞摘出術
-  points: 1220
+  name: 粘液嚢胞摘出術1
+  points: 220
 - id: '2'
-  name: その他のもの
-  points: 2940
+  name: その他のもの2
+  points: 940
 notes: []
 source:
   pdf: 001251499.pdf
