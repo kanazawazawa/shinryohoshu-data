@@ -57,6 +57,18 @@ R6（現行）と R8（改定）は **両方とも `data/r6/` と `data/r8/` に
 
 ---
 
+## 改定差分（R6 → R8）を見たい
+
+| 目的 | 推奨手段 |
+|---|---|
+| **構造化サマリ** (改定なし区分は表示されず、変化のあった区分だけ要点抽出) | **[`docs/diff/r6-r8/`](docs/diff/r6-r8/)** ← 第一推奨。GitHub Web UI で直接読める |
+| **生 YAML diff** (フィールド単位で完全差分) | `revisions` ブランチで `git log -p data/items/<XX>/<CODE>.yaml`<br>または [Blame ビュー](https://github.com/kanazawazawa/shinryohoshu-data/blame/revisions/data/items/A0/A001.yaml) |
+| **任意 2 ファイル比較** | `git diff --no-index data/r6/items/<XX>/<CODE>.yaml data/r8/items/<XX>/<CODE>.yaml` |
+
+サマリ統計 (R6 → R8): 削除 37 / 新設 50 / 構造変化 213 件。
+
+---
+
 ## 使い方（再生成）
 
 ```bash
@@ -68,7 +80,7 @@ PYTHONIOENCODING=utf-8 uv run python scripts/build_all.py
 
 1. `extract_raw.py` &nbsp; PDF → `data/<ver>/raw/`
 2. `extract_index.py` &nbsp; raw → `data/<ver>/index.yaml`
-3. `extract_items.py` &nbsp; index + raw → `data/<ver>/items/<CODE>.yaml`
+3. `extract_items.py` &nbsp; index + raw → `data/<ver>/items/<XX>/<CODE>.yaml`
 4. `validate.py` &nbsp; JSON Schema 検証 + 索引↔個別ファイル整合 + 文字数突合
 5. `render_md.py` &nbsp; YAML → `docs/<ver>/`
 6. `diff_revisions.py` &nbsp; R6 vs R8 → `docs/diff/r6-r8/`

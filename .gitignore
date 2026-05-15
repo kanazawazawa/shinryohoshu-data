@@ -8,7 +8,10 @@ archive/
 
 # 生成物（後フェーズで定義する T3 / docs などの自動生成物）
 data/**/raw/
-docs/
+# 各版の Markdown レンダリング結果は巨大なので公開対象外
+docs/r6/
+docs/r8/
+# ※ docs/diff/ は人間が一次窓口として参照するため公開する
 
 # 一時ファイル
 .tmp-cleanup/
