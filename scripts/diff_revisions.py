@@ -23,7 +23,7 @@ ROOT = Path(__file__).resolve().parent.parent
 
 def load_items(ver: str) -> dict[str, dict]:
     d = ROOT / "data" / ver / "items"
-    return {f.stem: yaml.safe_load(f.read_text(encoding="utf-8")) for f in d.glob("*.yaml")}
+    return {f.stem: yaml.safe_load(f.read_text(encoding="utf-8")) for f in d.rglob("*.yaml")}
 
 
 def index_adds(note: dict) -> dict[str, dict]:

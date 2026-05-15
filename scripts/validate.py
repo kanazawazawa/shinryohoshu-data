@@ -44,7 +44,8 @@ def main() -> int:
 
         # items
         items_dir = ver_dir / "items"
-        item_files = sorted(items_dir.glob("*.yaml"))
+        # シャード化対応: items/<LETTER>/<CODE>.yaml を再帰的に拾う
+        item_files = sorted(items_dir.rglob("*.yaml"))
         item_validator = Draft202012Validator(ITEM_SCHEMA)
         bad = 0
         for f in item_files:

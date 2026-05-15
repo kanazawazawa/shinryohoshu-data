@@ -260,9 +260,13 @@ def main() -> None:
         )
         items_dir = ROOT / "data" / ver / "items"
         items_dir.mkdir(parents=True, exist_ok=True)
-        # 既存削除
-        for f in items_dir.glob("*.yaml"):
-            f.unlink()
+        # 既存削除 (シャード前のフラット配置 + シャード後のサブディレクトリ両方)
+        import shutil
+        for child in items_dir.iterdir():
+            if child.is_dir():
+                shutil.rmtree(child)
+            elif child.suffix == ".yaml":
+                child.unlink()
 
         names_to_codes = {it["name"]: it["code"] for it in idx["items"]}
         targets_idx = idx["items"][: args.limit] if args.limit else idx["items"]
@@ -271,7 +275,11 @@ def main() -> None:
         n_with_additions = 0
         for entry in targets_idx:
             item = build_item(ver, entry, full_text, names_to_codes)
-            out = items_dir / f"{item['code']}.yaml"
+            # GitHub Web UI の 1000 件制限を回避するため、コードの先頭 2 文字 (章プレフィックス + 上位桁) でシャード
+            shard = item['code'][:2]
+            shard_dir = items_dir / shard
+            shard_dir.mkdir(parents=True, exist_ok=True)
+            out = shard_dir / f"{item['code']}.yaml"
             out.write_text(
                 yaml.safe_dump(item, allow_unicode=True, sort_keys=False, width=120),
                 encoding="utf-8",

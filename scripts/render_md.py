@@ -124,7 +124,8 @@ def render_toc(ver: str, idx: dict) -> str:
         for it in items:
             pts = it.get("points")
             pts_s = f"{pts}点" if isinstance(pts, int) else (str(pts) if pts else "—")
-            lines.append(f"| [{it['code']}](items/{it['code']}.md) | {it['name']} | {pts_s} |")
+            shard = it["code"][:2]
+            lines.append(f"| [{it['code']}](items/{shard}/{it['code']}.md) | {it['name']} | {pts_s} |")
         lines.append("")
     return "\n".join(lines).rstrip() + "\n"
 
@@ -139,11 +140,19 @@ def main() -> None:
         out_dir = ROOT / "docs" / ver
         items_out = out_dir / "items"
         items_out.mkdir(parents=True, exist_ok=True)
-        for f in items_out.glob("*.md"):
-            f.unlink()
-        for f in (ver_dir / "items").glob("*.yaml"):
+        # 既存削除（シャード前のフラット配置 + シャード後のサブディレクトリ両方）
+        import shutil
+        for child in items_out.iterdir():
+            if child.is_dir():
+                shutil.rmtree(child)
+            elif child.suffix == ".md":
+                child.unlink()
+        for f in (ver_dir / "items").rglob("*.yaml"):
             item = yaml.safe_load(f.read_text(encoding="utf-8"))
-            (items_out / f"{item['code']}.md").write_text(
+            shard = item["code"][:2]
+            shard_dir = items_out / shard
+            shard_dir.mkdir(parents=True, exist_ok=True)
+            (shard_dir / f"{item['code']}.md").write_text(
                 render_item(item), encoding="utf-8"
             )
         (out_dir / "README.md").write_text(render_toc(ver, idx), encoding="utf-8")

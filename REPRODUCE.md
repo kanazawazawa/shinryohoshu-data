@@ -69,6 +69,7 @@ Copilot へのプロンプト例:
 | 5 | unit が "回" ハードコード | 名前末尾の (○○につき) を見ていない | `detect_unit()` で動的判別 (回/日/一連) |
 | 6 | TOC 部分の偽コード混入 | 助詞始まり名・名前なし点数なし | `_is_valid_code_line()` で除外 |
 | 7 | R6/R8 yaml diff がノイズだらけ | dumper の quote style が呼び出しごとに違う | `common.py` で `str_representer` を `add_representer` し literal block (`|`) 統一 |
+| 8 | GitHub Web UI で 1000 件超えのディレクトリが切り捨てられる | GitHub 仕様 (1 dir 1000 file 上限) | `data/<ver>/items/<XX>/<CODE>.yaml` と 2 文字プレフィックスでシャード (最大シャード 188件) |
 
 → **これらは抽出元のレイアウトに固有なので、別の告示なら別のハマり方をする。** Copilot に「精度を上げて」と頼んで、stats (`without_points`, `rejected_lines`, `has_unparsed`) を見ながら反復改善する。
 

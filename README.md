@@ -18,11 +18,11 @@ data/
   r6/                    令和6年度版（現行）
     raw/                 T3: 章節単位プレーンテキスト（lossless）
     index.yaml           T1: 全区分の索引（コード・名称・点数・章節）
-    items/<CODE>.yaml    T2: 区分ごと詳細（raw_text 必須保持）
+    items/<XX>/<CODE>.yaml T2: 区分ごと詳細（raw_text 必須保持） ; <XX>=コード先頭2文字でシャード
   r8/                    令和8年度版（改定）  同構成
 docs/                    自動生成 Markdown（人間閲覧用 / .gitignore）
-  r6/items/<CODE>.md
-  r8/items/<CODE>.md
+  r6/items/<XX>/<CODE>.md
+  r8/items/<XX>/<CODE>.md
   diff/r6-r8/            R6→R8 構造差分
 schema/                  JSON Schema (Draft 2020-12)
 scripts/                 抽出・検証・差分パイプライン
@@ -39,7 +39,9 @@ scripts/                 抽出・検証・差分パイプライン
 |---|---|---|---|
 | **T3** | `data/<ver>/raw/*.txt` | PDF→正規化テキスト（章節単位） | ゼロ（章ごとの SHA-256 と文字数を `_manifest.yaml` に記録） |
 | **T1** | `data/<ver>/index.yaml` | 全区分の一覧（コード・名称・点数・章節） | 構造化のため一部欠落あり |
-| **T2** | `data/<ver>/items/<CODE>.yaml` | 区分ごと（注・加算等） + **必ず原文 `raw_text` を同梱** | `raw_text` で原文保持 |
+| **T2** | `data/<ver>/items/<XX>/<CODE>.yaml` | 区分ごと（注・加算等） + **必ず原文 `raw_text` を同梱** | `raw_text` で原文保持 |
+
+> `<XX>` はコード先頭 2 文字（例: `K6/K637-2.yaml`）。GitHub Web UI の 1 ディレクトリ 1000 ファイル上限を回避するためのシャーディング。
 
 T1 / T2 は機械的抽出のため誤りを含み得るが、`raw_text` を必ず残すことで
 **「自動抽出結果」と「原文」の両方を 1 ファイルで照合できる** 設計になっている。
