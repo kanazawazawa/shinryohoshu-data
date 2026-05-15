@@ -13,6 +13,19 @@ raw_text: |
   - ２コルポイリンテル120点
   - ３金属拡張器（ヘガール等）180点
   - ４メトロイリンテル340点
+tiers:
+- id: '1'
+  name: ラミナリア
+  points: 120
+- id: '2'
+  name: コルポイリンテル
+  points: 120
+- id: '3'
+  name: 金属拡張器（ヘガール等）
+  points: 180
+- id: '4'
+  name: メトロイリンテル
+  points: 340
 notes: []
 source:
   pdf: 001686842.pdf

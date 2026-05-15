@@ -15,6 +15,22 @@ raw_text: |
   - ３経副鼻腔8,790点
   - ４外切開によるもの16,590点
   - ５鏡視下によるもの8,050点
+tiers:
+- id: '1'
+  name: 経口腔
+  points: 5350
+- id: '2'
+  name: 経鼻腔
+  points: 6070
+- id: '3'
+  name: 経副鼻腔
+  points: 8790
+- id: '4'
+  name: 外切開によるもの
+  points: 16590
+- id: '5'
+  name: 鏡視下によるもの
+  points: 8050
 notes: []
 source:
   pdf: 001686842.pdf

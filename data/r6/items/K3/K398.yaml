@@ -13,6 +13,16 @@ raw_text: |
   - １前方開大術23,430点
   - ２前壁形成手術23,320点
   - ３Ｔチューブ挿入術14,040点
+tiers:
+- id: '1'
+  name: 前方開大術
+  points: 23430
+- id: '2'
+  name: 前壁形成手術
+  points: 23320
+- id: '3'
+  name: Ｔチューブ挿入術
+  points: 14040
 notes: []
 source:
   pdf: 001251499.pdf

@@ -12,6 +12,13 @@ raw_text: |
   Ｋ２８６外耳道異物除去術
   - １単純なもの260点
   - ２複雑なもの850点
+tiers:
+- id: '1'
+  name: 単純なもの
+  points: 260
+- id: '2'
+  name: 複雑なもの
+  points: 850
 notes: []
 source:
   pdf: 001686842.pdf

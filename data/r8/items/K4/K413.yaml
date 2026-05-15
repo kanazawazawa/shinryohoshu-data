@@ -12,6 +12,13 @@ raw_text: |
   Ｋ４１３舌腫瘍摘出術
   - １粘液嚢胞摘出術1,220点
   - ２その他のもの2,940点
+tiers:
+- id: '1'
+  name: 粘液嚢胞摘出術
+  points: 1220
+- id: '2'
+  name: その他のもの
+  points: 2940
 notes: []
 source:
   pdf: 001686842.pdf

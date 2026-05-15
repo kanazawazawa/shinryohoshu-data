@@ -14,6 +14,19 @@ raw_text: |
   - ２ダグラス窩膿瘍5,710点
   - ３虫垂周囲膿瘍5,340点
   - ４その他のもの10,380点
+tiers:
+- id: '1'
+  name: 横隔膜下膿瘍
+  points: 10690
+- id: '2'
+  name: ダグラス窩膿瘍
+  points: 5710
+- id: '3'
+  name: 虫垂周囲膿瘍
+  points: 5340
+- id: '4'
+  name: その他のもの
+  points: 10380
 notes: []
 source:
   pdf: 001251499.pdf

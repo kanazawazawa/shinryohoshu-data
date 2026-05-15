@@ -11,6 +11,13 @@ raw_text: |
   Ｄ２８２－２行動観察による視力検査
   - １ＰＬ（ＰreferentialＬooking）法100点
   - ２乳幼児視力測定（テラーカード等によるもの）60点
+tiers:
+- id: '1'
+  name: ＰＬ（ＰreferentialＬooking）法
+  points: 100
+- id: '2'
+  name: 乳幼児視力測定（テラーカード等によるもの）
+  points: 60
 notes: []
 source:
   pdf: 001251499.pdf

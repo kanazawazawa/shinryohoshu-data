@@ -1,5 +1,5 @@
 code: O002
-name: 外来・在宅ベースアップ評価料（Ⅱ）１外来・在宅ベースアップ評価料（Ⅱ）１
+name: 外来・在宅ベースアップ評価料（Ⅱ）
 version: r8
 points: null
 unit: 回
@@ -695,6 +695,223 @@ raw_text: |
   - 500入院ベースアップ評価料500500点
   - 注１当該保険医療機関において勤務する職員の賃金の改善を図る体制につき別に厚生労働大臣が定める施設基準に適合しているものとして地方厚生局長等に届け出た保険医療機関に入院している患者であって、第１章第２部第１節の入院基本料（特別入院基本料等を含む。）、同部第３節の特定入院料又は同部第４節の短期滞在手術等基本料（短期滞在手術等基本料１を除く。）を算定しているものについて、当該基準に係る区分に従い、それぞれ所定点数を算定する。
   - ２251から500までに規定する点数については、令和９年６月以降において算定する。
+tiers:
+- id: '1'
+  name: 外来・在宅ベースアップ評価料（Ⅱ）１
+  sub_tiers:
+  - label: イ
+    name: 初診又は訪問診療を行った場合
+    points: 8
+  - label: ロ
+    name: 再診時等
+    points: 1
+- id: '2'
+  name: 外来・在宅ベースアップ評価料（Ⅱ）２
+  sub_tiers:
+  - label: イ
+    name: 初診又は訪問診療を行った場合
+    points: 16
+  - label: ロ
+    name: 再診時等
+    points: 2
+- id: '3'
+  name: 外来・在宅ベースアップ評価料（Ⅱ）３
+  sub_tiers:
+  - label: イ
+    name: 初診又は訪問診療を行った場合
+    points: 24
+  - label: ロ
+    name: 再診時等
+    points: 3
+- id: '4'
+  name: 外来・在宅ベースアップ評価料（Ⅱ）４
+  sub_tiers:
+  - label: イ
+    name: 初診又は訪問診療を行った場合
+    points: 32
+  - label: ロ
+    name: 再診時等
+    points: 4
+- id: '5'
+  name: 外来・在宅ベースアップ評価料（Ⅱ）５
+  sub_tiers:
+  - label: イ
+    name: 初診又は訪問診療を行った場合
+    points: 40
+  - label: ロ
+    name: 再診時等
+    points: 5
+- id: '6'
+  name: 外来・在宅ベースアップ評価料（Ⅱ）６
+  sub_tiers:
+  - label: イ
+    name: 初診又は訪問診療を行った場合
+    points: 48
+  - label: ロ
+    name: 再診時等
+    points: 6
+- id: '7'
+  name: 外来・在宅ベースアップ評価料（Ⅱ）７
+  sub_tiers:
+  - label: イ
+    name: 初診又は訪問診療を行った場合
+    points: 56
+  - label: ロ
+    name: 再診時等
+    points: 7
+- id: '8'
+  name: 外来・在宅ベースアップ評価料（Ⅱ）８
+  sub_tiers:
+  - label: イ
+    name: 初診又は訪問診療を行った場合
+    points: 64
+  - label: ロ
+    name: 再診時等
+    points: 8
+- id: '9'
+  name: 外来・在宅ベースアップ評価料（Ⅱ）９
+  sub_tiers:
+  - label: イ
+    name: 初診又は訪問診療を行った場合
+    points: 72
+  - label: ロ
+    name: 再診時等
+    points: 9
+- id: '10'
+  name: 外来・在宅ベースアップ評価料（Ⅱ）10
+  sub_tiers:
+  - label: イ
+    name: 初診又は訪問診療を行った場合
+    points: 80
+  - label: ロ
+    name: 再診時等
+    points: 10
+- id: '11'
+  name: 外来・在宅ベースアップ評価料（Ⅱ）11
+  sub_tiers:
+  - label: イ
+    name: 初診又は訪問診療を行った場合
+    points: 88
+  - label: ロ
+    name: 再診時等
+    points: 11
+- id: '12'
+  name: 外来・在宅ベースアップ評価料（Ⅱ）12
+  sub_tiers:
+  - label: イ
+    name: 初診又は訪問診療を行った場合
+    points: 96
+  - label: ロ
+    name: 再診時等
+    points: 12
+- id: '13'
+  name: 外来・在宅ベースアップ評価料（Ⅱ）13
+  sub_tiers:
+  - label: イ
+    name: 初診又は訪問診療を行った場合
+    points: 104
+  - label: ロ
+    name: 再診時等
+    points: 13
+- id: '14'
+  name: 外来・在宅ベースアップ評価料（Ⅱ）14
+  sub_tiers:
+  - label: イ
+    name: 初診又は訪問診療を行った場合
+    points: 112
+  - label: ロ
+    name: 再診時等
+    points: 14
+- id: '15'
+  name: 外来・在宅ベースアップ評価料（Ⅱ）15
+  sub_tiers:
+  - label: イ
+    name: 初診又は訪問診療を行った場合
+    points: 120
+  - label: ロ
+    name: 再診時等
+    points: 15
+- id: '16'
+  name: 外来・在宅ベースアップ評価料（Ⅱ）16
+  sub_tiers:
+  - label: イ
+    name: 初診又は訪問診療を行った場合
+    points: 128
+  - label: ロ
+    name: 再診時等
+    points: 16
+- id: '17'
+  name: 外来・在宅ベースアップ評価料（Ⅱ）17
+  sub_tiers:
+  - label: イ
+    name: 初診又は訪問診療を行った場合
+    points: 136
+  - label: ロ
+    name: 再診時等
+    points: 17
+- id: '18'
+  name: 外来・在宅ベースアップ評価料（Ⅱ）18
+  sub_tiers:
+  - label: イ
+    name: 初診又は訪問診療を行った場合
+    points: 144
+  - label: ロ
+    name: 再診時等
+    points: 18
+- id: '19'
+  name: 外来・在宅ベースアップ評価料（Ⅱ）19
+  sub_tiers:
+  - label: イ
+    name: 初診又は訪問診療を行った場合
+    points: 152
+  - label: ロ
+    name: 再診時等
+    points: 19
+- id: '20'
+  name: 外来・在宅ベースアップ評価料（Ⅱ）20
+  sub_tiers:
+  - label: イ
+    name: 初診又は訪問診療を行った場合
+    points: 160
+  - label: ロ
+    name: 再診時等
+    points: 20
+- id: '21'
+  name: 外来・在宅ベースアップ評価料（Ⅱ）21
+  sub_tiers:
+  - label: イ
+    name: 初診又は訪問診療を行った場合
+    points: 168
+  - label: ロ
+    name: 再診時等
+    points: 21
+- id: '22'
+  name: 外来・在宅ベースアップ評価料（Ⅱ）22
+  sub_tiers:
+  - label: イ
+    name: 初診又は訪問診療を行った場合
+    points: 176
+  - label: ロ
+    name: 再診時等
+    points: 22
+- id: '23'
+  name: 外来・在宅ベースアップ評価料（Ⅱ）23
+  sub_tiers:
+  - label: イ
+    name: 初診又は訪問診療を行った場合
+    points: 184
+  - label: ロ
+    name: 再診時等
+    points: 23
+- id: '24'
+  name: 外来・在宅ベースアップ評価料（Ⅱ）24
+  sub_tiers:
+  - label: イ
+    name: 初診又は訪問診療を行った場合
+    points: 192
+  - label: ロ
+    name: 再診時等
+    points: 24
 notes:
 - id: 注1
   text: 当該保険医療機関において勤務する職員の賃金の改善を図る体制につき別に厚生労働大臣が定める施設基準に適合しているものとして地方厚生局長等に届け出た保険医療機関において、入院中の患者以外の患者に対して診療を行った場合に、当該基準に係る区分に従い、それぞれ所定点数を算定する。

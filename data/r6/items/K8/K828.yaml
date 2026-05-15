@@ -12,6 +12,13 @@ raw_text: |
   Ｋ８２８包茎手術
   - １背面切開術830点
   - ２環状切除術2,040点
+tiers:
+- id: '1'
+  name: 背面切開術
+  points: 830
+- id: '2'
+  name: 環状切除術
+  points: 2040
 notes: []
 source:
   pdf: 001251499.pdf

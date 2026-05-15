@@ -12,6 +12,13 @@ raw_text: |
   Ｋ８３０－２精巣外傷手術
   - １陰嚢内血腫除去術3,200点
   - ２精巣白膜縫合術3,400点
+tiers:
+- id: '1'
+  name: 陰嚢内血腫除去術
+  points: 3200
+- id: '2'
+  name: 精巣白膜縫合術
+  points: 3400
 notes: []
 source:
   pdf: 001251499.pdf

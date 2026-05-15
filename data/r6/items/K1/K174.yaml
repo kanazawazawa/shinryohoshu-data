@@ -16,6 +16,25 @@ raw_text: |
       - イ頭側のもの15,850点
       - ロ腹側のもの6,600点
       - ハ頭側及び腹側のもの19,150点
+tiers:
+- id: '1'
+  name: 脳室穿破術（神経内視鏡手術によるもの）
+  points: 38840
+- id: '2'
+  name: シャント手術
+  points: 24310
+- id: '3'
+  name: シャント再建術
+  sub_tiers:
+  - label: イ
+    name: 頭側のもの
+    points: 15850
+  - label: ロ
+    name: 腹側のもの
+    points: 6600
+  - label: ハ
+    name: 頭側及び腹側のもの
+    points: 19150
 notes: []
 source:
   pdf: 001251499.pdf

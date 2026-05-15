@@ -12,6 +12,13 @@ raw_text: |
   Ｋ１８１脳刺激装置植込術
   - １片側の場合65,100点
   - ２両側の場合71,350点
+tiers:
+- id: '1'
+  name: 片側の場合
+  points: 65100
+- id: '2'
+  name: 両側の場合
+  points: 71350
 notes: []
 source:
   pdf: 001686842.pdf

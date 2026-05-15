@@ -14,6 +14,19 @@ raw_text: |
       - イ脾同時切除の場合53,480点
       - ロ脾温存の場合56,240点
   - ２リンパ節・神経叢郭清等を伴う腫瘍切除術の場合71,690点
+tiers:
+- id: '1'
+  name: 膵尾部切除術の場合
+  sub_tiers:
+  - label: イ
+    name: 脾同時切除の場合
+    points: 53480
+  - label: ロ
+    name: 脾温存の場合
+    points: 56240
+- id: '2'
+  name: リンパ節・神経叢郭清等を伴う腫瘍切除術の場合
+  points: 71690
 notes: []
 source:
   pdf: 001686842.pdf

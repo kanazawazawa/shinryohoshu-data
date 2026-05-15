@@ -12,6 +12,13 @@ raw_text: |
   Ｋ７１５腸重積症整復術
   - １非観血的なもの4,490点
   - ２観血的なもの6,040点
+tiers:
+- id: '1'
+  name: 非観血的なもの
+  points: 4490
+- id: '2'
+  name: 観血的なもの
+  points: 6040
 notes: []
 source:
   pdf: 001686842.pdf

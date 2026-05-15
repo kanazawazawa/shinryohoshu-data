@@ -12,6 +12,13 @@ raw_text: |
   Ｋ３４３鼻副鼻腔悪性腫瘍手術
   - １切除25,040点
   - ２全摘49,690点
+tiers:
+- id: '1'
+  name: 切除
+  points: 25040
+- id: '2'
+  name: 全摘
+  points: 49690
 notes: []
 source:
   pdf: 001686842.pdf

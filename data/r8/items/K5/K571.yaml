@@ -14,6 +14,19 @@ raw_text: |
   - ２総肺静脈還流異常
       - イ心臓型109,310点
       - ロその他のもの129,310点
+tiers:
+- id: '1'
+  name: 部分肺静脈還流異常
+  points: 50970
+- id: '2'
+  name: 総肺静脈還流異常
+  sub_tiers:
+  - label: イ
+    name: 心臓型
+    points: 109310
+  - label: ロ
+    name: その他のもの
+    points: 129310
 notes: []
 source:
   pdf: 001686842.pdf

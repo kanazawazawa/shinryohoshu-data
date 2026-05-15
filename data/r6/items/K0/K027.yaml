@@ -12,6 +12,13 @@ raw_text: |
   Ｋ０２７筋炎手術
   - １腸腰筋、殿筋、大腿筋2,060点
   - ２その他の筋1,210点
+tiers:
+- id: '1'
+  name: 腸腰筋、殿筋、大腿筋
+  points: 2060
+- id: '2'
+  name: その他の筋
+  points: 1210
 notes: []
 source:
   pdf: 001251499.pdf

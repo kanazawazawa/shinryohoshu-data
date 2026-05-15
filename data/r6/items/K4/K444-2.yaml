@@ -12,6 +12,13 @@ raw_text: |
   Ｋ４４４－２下顎骨延長術
   - １片側30,790点
   - ２両側47,550点
+tiers:
+- id: '1'
+  name: 片側
+  points: 30790
+- id: '2'
+  name: 両側
+  points: 47550
 notes: []
 source:
   pdf: 001251499.pdf

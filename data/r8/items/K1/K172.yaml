@@ -12,6 +12,13 @@ raw_text: |
   Ｋ１７２脳動静脈奇形摘出術
   - １単純なもの141,830点
   - ２複雑なもの179,830点
+tiers:
+- id: '1'
+  name: 単純なもの
+  points: 141830
+- id: '2'
+  name: 複雑なもの
+  points: 179830
 notes: []
 source:
   pdf: 001686842.pdf

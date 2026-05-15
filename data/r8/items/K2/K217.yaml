@@ -13,6 +13,16 @@ raw_text: |
   - １縫合法1,990点
   - ２皮膚切開法2,590点
   - ３眼瞼下制筋前転法4,230点
+tiers:
+- id: '1'
+  name: 縫合法
+  points: 1990
+- id: '2'
+  name: 皮膚切開法
+  points: 2590
+- id: '3'
+  name: 眼瞼下制筋前転法
+  points: 4230
 notes: []
 source:
   pdf: 001686842.pdf

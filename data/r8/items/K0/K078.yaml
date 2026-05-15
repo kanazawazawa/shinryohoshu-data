@@ -20,6 +20,37 @@ raw_text: |
   - ８肩鎖関節観血的固定術8,640点
   - ９手指関節観血的固定術8,640点
   - 10足趾関節観血的固定術8,640点
+tiers:
+- id: '1'
+  name: 肩関節観血的固定術
+  points: 21640
+- id: '2'
+  name: 股関節観血的固定術
+  points: 21640
+- id: '3'
+  name: 膝関節観血的固定術
+  points: 21640
+- id: '4'
+  name: 胸鎖関節観血的固定術
+  points: 22300
+- id: '5'
+  name: 肘関節観血的固定術
+  points: 22300
+- id: '6'
+  name: 手関節観血的固定術
+  points: 22300
+- id: '7'
+  name: 足関節及び距骨周囲関節観血的固定術
+  points: 22300
+- id: '8'
+  name: 肩鎖関節観血的固定術
+  points: 8640
+- id: '9'
+  name: 手指関節観血的固定術
+  points: 8640
+- id: '10'
+  name: 足趾関節観血的固定術
+  points: 8640
 notes: []
 source:
   pdf: 001686842.pdf

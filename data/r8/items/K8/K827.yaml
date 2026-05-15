@@ -12,6 +12,13 @@ raw_text: |
   Ｋ８２７陰茎悪性腫瘍手術
   - １陰茎切除23,200点
   - ２陰茎全摘36,500点
+tiers:
+- id: '1'
+  name: 陰茎切除
+  points: 23200
+- id: '2'
+  name: 陰茎全摘
+  points: 36500
 notes: []
 source:
   pdf: 001686842.pdf

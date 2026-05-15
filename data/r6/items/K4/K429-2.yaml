@@ -12,6 +12,13 @@ raw_text: |
   Ｋ４２９－２下顎関節突起骨折観血的手術
   - １片側28,210点
   - ２両側47,020点
+tiers:
+- id: '1'
+  name: 片側
+  points: 28210
+- id: '2'
+  name: 両側
+  points: 47020
 notes: []
 source:
   pdf: 001251499.pdf

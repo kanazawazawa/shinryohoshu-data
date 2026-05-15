@@ -12,6 +12,13 @@ raw_text: |
   Ｋ４２９下顎骨折観血的手術
   - １片側13,000点
   - ２両側27,320点
+tiers:
+- id: '1'
+  name: 片側
+  points: 13000
+- id: '2'
+  name: 両側
+  points: 27320
 notes: []
 source:
   pdf: 001251499.pdf

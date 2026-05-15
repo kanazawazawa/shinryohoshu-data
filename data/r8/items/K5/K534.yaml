@@ -12,6 +12,13 @@ raw_text: |
   Ｋ５３４横隔膜縫合術
   - １経胸又は経腹33,460点
   - ２経胸及び経腹40,910点
+tiers:
+- id: '1'
+  name: 経胸又は経腹
+  points: 33460
+- id: '2'
+  name: 経胸及び経腹
+  points: 40910
 notes: []
 source:
   pdf: 001686842.pdf

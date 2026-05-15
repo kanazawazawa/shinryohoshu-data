@@ -20,6 +20,37 @@ raw_text: |
   - ８手部骨掻爬術3,590点
   - ９足部骨掻爬術3,590点
   - 10その他の骨掻爬術3,590点
+tiers:
+- id: '1'
+  name: 肩甲骨掻爬術
+  points: 12270
+- id: '2'
+  name: 上腕骨掻爬術
+  points: 12270
+- id: '3'
+  name: 大腿骨掻爬術
+  points: 12270
+- id: '4'
+  name: 前腕骨掻爬術
+  points: 8040
+- id: '5'
+  name: 下腿骨掻爬術
+  points: 8040
+- id: '6'
+  name: 鎖骨掻爬術
+  points: 3590
+- id: '7'
+  name: 膝蓋骨掻爬術
+  points: 3590
+- id: '8'
+  name: 手部骨掻爬術
+  points: 3590
+- id: '9'
+  name: 足部骨掻爬術
+  points: 3590
+- id: '10'
+  name: その他の骨掻爬術
+  points: 3590
 notes: []
 source:
   pdf: 001686842.pdf

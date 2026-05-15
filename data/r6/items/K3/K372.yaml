@@ -12,6 +12,13 @@ raw_text: |
   Ｋ３７２中咽頭腫瘍摘出術
   - １経口腔2,710点
   - ２外切開によるもの16,260点
+tiers:
+- id: '1'
+  name: 経口腔
+  points: 2710
+- id: '2'
+  name: 外切開によるもの
+  points: 16260
 notes: []
 source:
   pdf: 001251499.pdf

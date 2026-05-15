@@ -12,6 +12,13 @@ raw_text: |
   Ｋ５０４縦隔悪性腫瘍手術
   - １単純摘出38,850点
   - ２広汎摘出58,820点
+tiers:
+- id: '1'
+  name: 単純摘出
+  points: 38850
+- id: '2'
+  name: 広汎摘出
+  points: 58820
 notes: []
 source:
   pdf: 001251499.pdf

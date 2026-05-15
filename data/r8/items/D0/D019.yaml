@@ -15,6 +15,22 @@ raw_text: |
   - ３３菌種以上310点
   - ４薬剤耐性菌検出50点
   - ５抗菌薬併用効果スクリーニング150点
+tiers:
+- id: '1'
+  name: 1菌種
+  points: 185
+- id: '2'
+  name: 2菌種
+  points: 240
+- id: '3'
+  name: 3菌種以上
+  points: 310
+- id: '4'
+  name: 薬剤耐性菌検出
+  points: 50
+- id: '5'
+  name: 抗菌薬併用効果スクリーニング
+  points: 150
 notes: []
 source:
   pdf: 001686842.pdf

@@ -39,6 +39,34 @@ def render_item(item: dict) -> str:
         )
     lines.append("")
 
+    tiers = item.get("tiers") or []
+    if tiers:
+        lines.append("## 階層点数")
+        lines.append("")
+        flat = all(not (t.get("sub_tiers")) for t in tiers)
+        if flat:
+            lines.append("| # | 名称 | 点数 |")
+            lines.append("|---|---|---|")
+            for t in tiers:
+                p = t.get("points")
+                p_s = f"**{p}点**" if isinstance(p, int) else (str(p) if p else "—")
+                lines.append(f"| {t['id']} | {t['name']} | {p_s} |")
+        else:
+            lines.append("| # | 区分 | 細目 | 点数 |")
+            lines.append("|---|---|---|---|")
+            for t in tiers:
+                subs = t.get("sub_tiers") or []
+                if not subs:
+                    p = t.get("points")
+                    p_s = f"**{p}点**" if isinstance(p, int) else (str(p) if p else "—")
+                    lines.append(f"| {t['id']} | {t['name']} | — | {p_s} |")
+                else:
+                    for st in subs:
+                        p = st.get("points")
+                        p_s = f"**{p}点**" if isinstance(p, int) else (str(p) if p else "—")
+                        lines.append(f"| {t['id']} | {t['name']} | {st['label']} {st['name']} | {p_s} |")
+        lines.append("")
+
     notes = item.get("notes") or []
     if notes:
         lines.append("## 注一覧")

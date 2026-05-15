@@ -11,6 +11,13 @@ raw_text: |
   Ｄ２６３矯正視力検査
   - １眼鏡処方箋の交付を行う場合69点
   - ２１以外の場合69点
+tiers:
+- id: '1'
+  name: 眼鏡処方箋の交付を行う場合
+  points: 69
+- id: '2'
+  name: 1以外の場合
+  points: 69
 notes: []
 source:
   pdf: 001686842.pdf

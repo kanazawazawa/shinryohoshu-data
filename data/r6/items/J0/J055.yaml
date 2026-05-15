@@ -11,6 +11,13 @@ raw_text: |
   Ｊ０５５いぼ焼灼法
   - １３箇所以下210点
   - ２４箇所以上260点
+tiers:
+- id: '1'
+  name: 3箇所以下
+  points: 210
+- id: '2'
+  name: 4箇所以上
+  points: 260
 notes: []
 source:
   pdf: 001251499.pdf

@@ -15,6 +15,19 @@ raw_text: |
       - ロその他の場合9,840点
   - ２１の実施後３月以内に実施する場合12,000点
   - 注手術に伴う画像診断及び検査の費用は算定しない。
+tiers:
+- id: '1'
+  name: 初回
+  sub_tiers:
+  - label: イ
+    name: 透析シャント閉塞又は高度狭窄の場合
+    points: 12000
+  - label: ロ
+    name: その他の場合
+    points: 9840
+- id: '2'
+  name: 1の実施後３月以内に実施する場合
+  points: 12000
 notes:
 - id: 注1
   text: |

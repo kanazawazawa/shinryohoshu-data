@@ -12,6 +12,13 @@ raw_text: |
   Ｋ７４８肛門悪性腫瘍手術
   - １切除28,210点
   - ２直腸切断を伴うもの70,680点
+tiers:
+- id: '1'
+  name: 切除
+  points: 28210
+- id: '2'
+  name: 直腸切断を伴うもの
+  points: 70680
 notes: []
 source:
   pdf: 001251499.pdf

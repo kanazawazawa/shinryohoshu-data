@@ -13,6 +13,16 @@ raw_text: |
   - １頸部26,030点
   - ２胸部16,340点
   - ３腰部17,530点
+tiers:
+- id: '1'
+  name: 頸部
+  points: 26030
+- id: '2'
+  name: 胸部
+  points: 16340
+- id: '3'
+  name: 腰部
+  points: 17530
 notes: []
 source:
   pdf: 001686842.pdf

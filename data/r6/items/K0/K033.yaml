@@ -12,6 +12,13 @@ raw_text: |
   Ｋ０３３筋膜移植術
   - １指（手、足）8,720点
   - ２その他のもの10,310点
+tiers:
+- id: '1'
+  name: 指（手、足）
+  points: 8720
+- id: '2'
+  name: その他のもの
+  points: 10310
 notes: []
 source:
   pdf: 001251499.pdf

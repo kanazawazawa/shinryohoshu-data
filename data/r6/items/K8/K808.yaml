@@ -12,6 +12,13 @@ raw_text: |
   Ｋ８０８膀胱腸瘻閉鎖術
   - １内視鏡によるもの10,300点
   - ２その他のもの27,700点
+tiers:
+- id: '1'
+  name: 内視鏡によるもの
+  points: 10300
+- id: '2'
+  name: その他のもの
+  points: 27700
 notes: []
 source:
   pdf: 001251499.pdf

@@ -12,6 +12,13 @@ raw_text: |
   Ｋ４２３頬腫瘍摘出術
   - １粘液嚢胞摘出術910点
   - ２その他のもの5,250点
+tiers:
+- id: '1'
+  name: 粘液嚢胞摘出術
+  points: 910
+- id: '2'
+  name: その他のもの
+  points: 5250
 notes: []
 source:
   pdf: 001251499.pdf

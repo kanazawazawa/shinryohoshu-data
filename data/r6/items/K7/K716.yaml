@@ -12,6 +12,13 @@ raw_text: |
   Ｋ７１６小腸切除術
   - １複雑なもの34,150点
   - ２その他のもの15,940点
+tiers:
+- id: '1'
+  name: 複雑なもの
+  points: 34150
+- id: '2'
+  name: その他のもの
+  points: 15940
 notes: []
 source:
   pdf: 001251499.pdf

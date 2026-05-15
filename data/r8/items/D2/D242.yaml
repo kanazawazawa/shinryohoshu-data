@@ -13,6 +13,18 @@ raw_text: |
   - ２尿道圧測定図260点
   - ３尿流測定205点
   - ４括約筋筋電図310点（耳鼻咽喉科学的検査）
+tiers:
+- id: '1'
+  name: 膀胱内圧測定
+  points: 312
+- id: '2'
+  name: 尿道圧測定図
+  points: 260
+- id: '3'
+  name: 尿流測定
+  points: 205
+- id: '4'
+  name: 括約筋筋電図310点（耳鼻咽喉科学的検査）
 notes: []
 source:
   pdf: 001686842.pdf

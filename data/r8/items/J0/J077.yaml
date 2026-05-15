@@ -11,6 +11,13 @@ raw_text: |
   Ｊ０７７子宮出血止血法
   - １分娩時のもの780点
   - ２分娩外のもの45点
+tiers:
+- id: '1'
+  name: 分娩時のもの
+  points: 780
+- id: '2'
+  name: 分娩外のもの
+  points: 45
 notes: []
 source:
   pdf: 001686842.pdf

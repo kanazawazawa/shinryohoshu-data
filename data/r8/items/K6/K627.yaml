@@ -19,6 +19,34 @@ raw_text: |
   - ７後腹膜46,350点
   - ８骨盤26,800点
   - ９腹部22,000点
+tiers:
+- id: '1'
+  name: 顎下部又は舌下部（浅在性）
+  points: 10870
+- id: '2'
+  name: 頸部（深在性）
+  points: 24090
+- id: '3'
+  name: 鎖骨上窩及び下窩
+  points: 14460
+- id: '4'
+  name: 腋窩
+  points: 17750
+- id: '5'
+  name: 胸骨旁
+  points: 23190
+- id: '6'
+  name: 鼠径部及び股部
+  points: 9760
+- id: '7'
+  name: 後腹膜
+  points: 46350
+- id: '8'
+  name: 骨盤
+  points: 26800
+- id: '9'
+  name: 腹部
+  points: 22000
 notes: []
 source:
   pdf: 001686842.pdf

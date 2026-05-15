@@ -1,5 +1,5 @@
 code: K604-2
-name: 植込型補助人工心臓（非拍動流型）１設置する場合
+name: 植込型補助人工心臓（非拍動流型）
 version: r8
 points: null
 unit: 回
@@ -15,6 +15,25 @@ raw_text: |
       - ハ31日目以降90日目まで（１日につき）2,780点
       - ニ91日目以降（１日につき）1,800点
   - ２その他の場合（１日につき）1,800点
+tiers:
+- id: '1'
+  name: 設置する場合
+  sub_tiers:
+  - label: イ
+    name: 初日（１日につき）
+    points: 88650
+  - label: ロ
+    name: ２日目以降30日目まで（１日につき）
+    points: 5000
+  - label: ハ
+    name: 31日目以降90日目まで（１日につき）
+    points: 2780
+  - label: ニ
+    name: 91日目以降（１日につき）
+    points: 1800
+- id: '2'
+  name: その他の場合（１日につき）
+  points: 1800
 notes: []
 source:
   pdf: 001686842.pdf

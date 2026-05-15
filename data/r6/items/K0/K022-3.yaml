@@ -12,6 +12,13 @@ raw_text: |
   Ｋ０２２－３慢性膿皮症手術
   - １単純なもの4,820点
   - ２複雑なもの8,320点
+tiers:
+- id: '1'
+  name: 単純なもの
+  points: 4820
+- id: '2'
+  name: 複雑なもの
+  points: 8320
 notes: []
 source:
   pdf: 001251499.pdf

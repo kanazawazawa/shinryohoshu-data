@@ -12,6 +12,13 @@ raw_text: |
   Ｋ３１４中耳悪性腫瘍手術
   - １切除41,520点
   - ２側頭骨摘出術68,640点
+tiers:
+- id: '1'
+  name: 切除
+  points: 41520
+- id: '2'
+  name: 側頭骨摘出術
+  points: 68640
 notes: []
 source:
   pdf: 001251499.pdf

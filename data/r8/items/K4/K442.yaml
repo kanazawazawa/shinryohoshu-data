@@ -13,6 +13,16 @@ raw_text: |
   - １掻爬10,530点
   - ２切除34,420点
   - ３全摘68,480点
+tiers:
+- id: '1'
+  name: 掻爬
+  points: 10530
+- id: '2'
+  name: 切除
+  points: 34420
+- id: '3'
+  name: 全摘
+  points: 68480
 notes: []
 source:
   pdf: 001686842.pdf

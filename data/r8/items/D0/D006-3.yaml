@@ -19,6 +19,34 @@ raw_text: |
   - ３ｍｉｎｏｒＢＣＲ－ＡＢＬｍＲＮＡ
       - イ診断の補助に用いるもの2,520点
       - ロモニタリングに用いるもの2,520点
+tiers:
+- id: '1'
+  name: ＭａｊｏｒＢＣＲ－ＡＢＬ１（ｍＲＮＡ定量（国際標準値））
+  sub_tiers:
+  - label: イ
+    name: 診断の補助に用いるもの
+    points: 2520
+  - label: ロ
+    name: モニタリングに用いるもの
+    points: 2520
+- id: '2'
+  name: ＭａｊｏｒＢＣＲ－ＡＢＬ１（ｍＲＮＡ定量）
+  sub_tiers:
+  - label: イ
+    name: 診断の補助に用いるもの
+    points: 2520
+  - label: ロ
+    name: モニタリングに用いるもの
+    points: 2520
+- id: '3'
+  name: ｍｉｎｏｒＢＣＲ－ＡＢＬｍＲＮＡ
+  sub_tiers:
+  - label: イ
+    name: 診断の補助に用いるもの
+    points: 2520
+  - label: ロ
+    name: モニタリングに用いるもの
+    points: 2520
 notes: []
 source:
   pdf: 001686842.pdf

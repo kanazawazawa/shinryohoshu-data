@@ -12,6 +12,13 @@ raw_text: |
   Ｋ４８１肋骨骨折観血的手術
   - １３本以下10,330点
   - ２４本以上20,330点
+tiers:
+- id: '1'
+  name: 3本以下
+  points: 10330
+- id: '2'
+  name: 4本以上
+  points: 20330
 notes: []
 source:
   pdf: 001686842.pdf

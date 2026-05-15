@@ -12,6 +12,13 @@ raw_text: |
   Ｋ３６９咽頭異物摘出術
   - １簡単なもの500点
   - ２複雑なもの2,100点
+tiers:
+- id: '1'
+  name: 簡単なもの
+  points: 500
+- id: '2'
+  name: 複雑なもの
+  points: 2100
 notes: []
 source:
   pdf: 001251499.pdf

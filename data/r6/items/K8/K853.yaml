@@ -12,6 +12,13 @@ raw_text: |
   Ｋ８５３腟閉鎖術
   - １中央腟閉鎖術（子宮全脱）7,410点
   - ２その他2,580点
+tiers:
+- id: '1'
+  name: 中央腟閉鎖術（子宮全脱）
+  points: 7410
+- id: '2'
+  name: その他
+  points: 2580
 notes: []
 source:
   pdf: 001251499.pdf

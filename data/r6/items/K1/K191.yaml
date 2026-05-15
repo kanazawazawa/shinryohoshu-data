@@ -12,6 +12,13 @@ raw_text: |
   Ｋ１９１脊髄腫瘍摘出術
   - １髄外のもの62,000点
   - ２髄内のもの118,230点
+tiers:
+- id: '1'
+  name: 髄外のもの
+  points: 62000
+- id: '2'
+  name: 髄内のもの
+  points: 118230
 notes: []
 source:
   pdf: 001251499.pdf

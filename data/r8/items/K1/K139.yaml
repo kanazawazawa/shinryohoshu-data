@@ -14,6 +14,19 @@ raw_text: |
   - ２胸椎骨切り術60,330点
   - ３腰椎骨切り術60,330点
   - ４仙椎骨切り術60,330点
+tiers:
+- id: '1'
+  name: 頸椎骨切り術
+  points: 60330
+- id: '2'
+  name: 胸椎骨切り術
+  points: 60330
+- id: '3'
+  name: 腰椎骨切り術
+  points: 60330
+- id: '4'
+  name: 仙椎骨切り術
+  points: 60330
 notes: []
 source:
   pdf: 001686842.pdf

@@ -12,6 +12,13 @@ raw_text: |
   Ｋ８７２－４痕跡副角子宮手術
   - １腹式15,240点
   - ２腟式8,450点
+tiers:
+- id: '1'
+  name: 腹式
+  points: 15240
+- id: '2'
+  name: 腟式
+  points: 8450
 notes: []
 source:
   pdf: 001686842.pdf

@@ -19,6 +19,34 @@ raw_text: |
   - ５緑内障治療用インプラント挿入術（プレートのあるもの）45,480点
   - ６水晶体再建術併用眼内ドレーン挿入術27,990点
   - ７濾過胞再建術（needle法）3,440点
+tiers:
+- id: '1'
+  name: 虹彩切除術
+  points: 4740
+- id: '2'
+  name: 流出路再建術
+  sub_tiers:
+  - label: イ
+    name: 眼内法
+    points: 14490
+  - label: ロ
+    name: その他のもの
+    points: 19020
+- id: '3'
+  name: 濾過手術
+  points: 23600
+- id: '4'
+  name: 緑内障治療用インプラント挿入術（プレートのないもの）
+  points: 34480
+- id: '5'
+  name: 緑内障治療用インプラント挿入術（プレートのあるもの）
+  points: 45480
+- id: '6'
+  name: 水晶体再建術併用眼内ドレーン挿入術
+  points: 27990
+- id: '7'
+  name: 濾過胞再建術（needle法）
+  points: 3440
 notes: []
 source:
   pdf: 001686842.pdf

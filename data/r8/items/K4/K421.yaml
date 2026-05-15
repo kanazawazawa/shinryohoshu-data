@@ -12,6 +12,13 @@ raw_text: |
   Ｋ４２１口唇腫瘍摘出術
   - １粘液嚢胞摘出術1,020点
   - ２その他のもの3,050点
+tiers:
+- id: '1'
+  name: 粘液嚢胞摘出術
+  points: 1020
+- id: '2'
+  name: その他のもの
+  points: 3050
 notes: []
 source:
   pdf: 001686842.pdf

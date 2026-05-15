@@ -12,6 +12,13 @@ raw_text: |
   Ｋ４５８耳下腺悪性腫瘍手術
   - １切除33,010点
   - ２全摘44,020点
+tiers:
+- id: '1'
+  name: 切除
+  points: 33010
+- id: '2'
+  name: 全摘
+  points: 44020
 notes: []
 source:
   pdf: 001686842.pdf

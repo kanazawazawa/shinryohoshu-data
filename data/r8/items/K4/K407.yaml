@@ -15,6 +15,22 @@ raw_text: |
   - ３顎裂を伴うもの
       - イ片側25,170点
       - ロ両側31,940点
+tiers:
+- id: '1'
+  name: 軟口蓋のみのもの
+  points: 15770
+- id: '2'
+  name: 硬口蓋に及ぶもの
+  points: 24170
+- id: '3'
+  name: 顎裂を伴うもの
+  sub_tiers:
+  - label: イ
+    name: 片側
+    points: 25170
+  - label: ロ
+    name: 両側
+    points: 31940
 notes: []
 source:
   pdf: 001686842.pdf

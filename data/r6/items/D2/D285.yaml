@@ -16,6 +16,22 @@ raw_text: |
   - ３操作と処理が極めて複雑なもの450点
   - 注同一日に複数の検査を行った場合であっても、主たるもの１種類のみの所定点数により算定する。
   （負荷試験等）
+tiers:
+- id: '1'
+  name: 操作が容易なもの
+  sub_tiers:
+  - label: イ
+    name: 簡易なもの
+    points: 80
+  - label: ロ
+    name: その他のもの
+    points: 80
+- id: '2'
+  name: 操作が複雑なもの
+  points: 280
+- id: '3'
+  name: 操作と処理が極めて複雑なもの
+  points: 450
 notes:
 - id: 注1
   text: |

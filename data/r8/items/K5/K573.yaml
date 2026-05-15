@@ -15,6 +15,19 @@ raw_text: |
       - ロスタティック法16,090点
   - ２心房中隔欠損作成術36,900点
   - 注手術に伴う画像診断及び検査の費用は算定しない。
+tiers:
+- id: '1'
+  name: 経皮的心房中隔欠損作成術
+  sub_tiers:
+  - label: イ
+    name: ラシュキンド法
+    points: 16090
+  - label: ロ
+    name: スタティック法
+    points: 16090
+- id: '2'
+  name: 心房中隔欠損作成術
+  points: 36900
 notes:
 - id: 注1
   text: |

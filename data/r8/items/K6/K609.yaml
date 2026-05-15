@@ -13,6 +13,16 @@ raw_text: |
   - １大動脈に及ぶもの40,950点
   - ２内頸動脈43,880点
   - ３その他のもの28,450点
+tiers:
+- id: '1'
+  name: 大動脈に及ぶもの
+  points: 40950
+- id: '2'
+  name: 内頸動脈
+  points: 43880
+- id: '3'
+  name: その他のもの
+  points: 28450
 notes: []
 source:
   pdf: 001686842.pdf

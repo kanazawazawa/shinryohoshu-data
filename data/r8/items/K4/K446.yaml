@@ -16,6 +16,25 @@ raw_text: |
       - ハ関節腔洗浄療法を併用した場合2,760点
   - ２顎関節鏡下授動術12,090点
   - ３開放授動術25,100点
+tiers:
+- id: '1'
+  name: 徒手的授動術
+  sub_tiers:
+  - label: イ
+    name: 単独の場合
+    points: 440
+  - label: ロ
+    name: パンピングを併用した場合
+    points: 990
+  - label: ハ
+    name: 関節腔洗浄療法を併用した場合
+    points: 2760
+- id: '2'
+  name: 顎関節鏡下授動術
+  points: 12090
+- id: '3'
+  name: 開放授動術
+  points: 25100
 notes: []
 source:
   pdf: 001686842.pdf

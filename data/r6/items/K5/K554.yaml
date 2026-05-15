@@ -13,6 +13,16 @@ raw_text: |
   - １１弁のもの79,860点
   - ２２弁のもの93,170点
   - ３３弁のもの106,480点
+tiers:
+- id: '1'
+  name: 1弁のもの
+  points: 79860
+- id: '2'
+  name: 2弁のもの
+  points: 93170
+- id: '3'
+  name: 3弁のもの
+  points: 106480
 notes: []
 source:
   pdf: 001251499.pdf

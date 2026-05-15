@@ -13,6 +13,16 @@ raw_text: |
   - １経口腔4,460点
   - ２経鼻腔5,060点
   - ３経副鼻腔8,270点
+tiers:
+- id: '1'
+  name: 経口腔
+  points: 4460
+- id: '2'
+  name: 経鼻腔
+  points: 5060
+- id: '3'
+  name: 経副鼻腔
+  points: 8270
 notes: []
 source:
   pdf: 001686842.pdf

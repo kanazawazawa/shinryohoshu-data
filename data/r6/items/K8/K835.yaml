@@ -12,6 +12,13 @@ raw_text: |
   Ｋ８３５陰嚢水腫手術
   - １鼠径部切開によるもの3,980点
   - ２その他2,630点
+tiers:
+- id: '1'
+  name: 鼠径部切開によるもの
+  points: 3980
+- id: '2'
+  name: その他
+  points: 2630
 notes: []
 source:
   pdf: 001251499.pdf

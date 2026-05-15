@@ -12,6 +12,13 @@ raw_text: |
   Ｋ３９４喉頭悪性腫瘍手術
   - １切除38,800点
   - ２全摘71,360点
+tiers:
+- id: '1'
+  name: 切除
+  points: 38800
+- id: '2'
+  name: 全摘
+  points: 71360
 notes: []
 source:
   pdf: 001686842.pdf

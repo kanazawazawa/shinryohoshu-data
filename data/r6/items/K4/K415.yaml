@@ -12,6 +12,13 @@ raw_text: |
   Ｋ４１５舌悪性腫瘍手術
   - １切除26,410点
   - ２亜全摘84,080点
+tiers:
+- id: '1'
+  name: 切除
+  points: 26410
+- id: '2'
+  name: 亜全摘
+  points: 84080
 notes: []
 source:
   pdf: 001251499.pdf

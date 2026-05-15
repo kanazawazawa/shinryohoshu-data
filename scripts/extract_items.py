@@ -43,6 +43,18 @@ LIMIT_PATTERN = re.compile(
 # unit 推定: 「Ａ＿＿＿名称（１日につき）」「Ｂ＿＿＿名称（一連につき）」など
 UNIT_RE = re.compile(r"[（(]\s*([^（）()]*?)につき\s*[）)]")
 
+# === 階層点数 (tier) 抽出用 ===
+# トップレベル tier: "- 1 名前 530点" / "- １ 名前" 等。先頭は 1〜99
+TIER_LINE_RE = re.compile(r"^-\s*([0-9０-９]{1,2})(?![0-9０-９])\s*(.*)$")
+# サブ tier: 字下げ後に "- イ 名前 530点" のような片仮名見出し
+SUBTIER_LINE_RE = re.compile(
+    r"^[\u3000\s]+-\s*([イロハニホヘトチリヌルヲワカヨタレソツネナラム])\s*(.*)$"
+)
+# 末尾点数: "...名前 12,340点" / "...530点"
+TRAILING_PTS_RE = re.compile(r"^(.*?)([\d０-９][\d０-９,，]*)[\s　]*点[\s　]*$")
+# name 末尾の "（X につき）１AAAA" → tier 1 が name に埋まっているケース (A200 等)
+NAME_HEADER_TIER_RE = re.compile(r"^(.*[）)])([1１])(.+)$")
+
 
 def slice_item_block(full_text: str, code: str, names_to_codes: dict[str, str]) -> str:
     """正規化済テキストから当該区分のブロック (区分行〜次の区分行直前) を切り出す。"""
@@ -208,6 +220,95 @@ def detect_unit(name: str, default: str = "回") -> str:
     return norm or raw or default
 
 
+def _parse_pts_from_tail(text: str) -> tuple[str, int | str | None]:
+    """末尾の 'XXXX 530点' から (前文, 点数) を分離。点数なしなら (text, None)。"""
+    text = text.strip()
+    m = TRAILING_PTS_RE.match(text)
+    if not m:
+        return text, None
+    pts_str = zen2han_digits(m.group(2)).replace(",", "").replace("，", "")
+    try:
+        return m.group(1).strip(), int(pts_str)
+    except ValueError:
+        return m.group(1).strip(), m.group(2)
+
+
+def _split_name_for_header_tier(name: str) -> tuple[str, dict | None]:
+    """name 末尾の '...（X につき）１AAAA' から tier 1 を取り出し、本体名と分離。
+
+    例: '急性期総合体制加算（１日につき）１急性期総合体制加算１'
+        → ('急性期総合体制加算（１日につき）', {id:'1', name:'急性期総合体制加算１'})
+    マッチしなければ (name, None)。
+    """
+    m = NAME_HEADER_TIER_RE.match(name)
+    if not m:
+        return name, None
+    base, _digit, sub = m.group(1), m.group(2), m.group(3)
+    sub = sub.strip()
+    if not sub:
+        return name, None
+    return base, {"id": "1", "name": sub}
+
+
+def extract_tiers(block: str, header_tier: dict | None) -> list[dict]:
+    """raw_text から tier (1〜N) と sub_tier (イ/ロ/ハ…) を抽出。
+
+    - header_tier 指定時は tier 1 として先頭に置き、本文 '- N' の期待値は 2 から開始
+    - 連番 (1, 2, 3...) でない場合はそこで打ち切る (誤検出防止)
+    - '- 注' 行に到達したら終了
+    """
+    tiers: list[dict] = []
+    expected = 1
+    if header_tier:
+        tiers.append(dict(header_tier))
+        expected = 2
+    current = tiers[-1] if tiers else None
+
+    lines = block.split("\n")
+    # 1 行目 (区分ヘッダ行) はスキップ
+    body = lines[1:] if lines else []
+
+    for ln in body:
+        # 注以降は対象外
+        if NOTE_PREFIX.match(ln):
+            break
+        # サブ tier 判定 (字下げあり)
+        sm = SUBTIER_LINE_RE.match(ln)
+        if sm and current is not None:
+            sub_name, pts = _parse_pts_from_tail(sm.group(2))
+            sub: dict = {"label": sm.group(1), "name": sub_name}
+            if pts is not None:
+                sub["points"] = pts
+            current.setdefault("sub_tiers", []).append(sub)
+            continue
+        # トップレベル tier 判定
+        m = TIER_LINE_RE.match(ln)
+        if m:
+            raw_num = zen2han_digits(m.group(1))
+            exp_str = str(expected)
+            # 連番期待値で先頭一致しなければ tier ではない (注の連番ITEM等)
+            if not raw_num.startswith(exp_str):
+                # 期待からずれた → 抽出終了 (それ以降は別物の可能性高)
+                break
+            taken = exp_str
+            rest = raw_num[len(exp_str):] + m.group(2)
+            tier_name, pts = _parse_pts_from_tail(rest)
+            if not tier_name:
+                # 名前が空ならスキップ
+                break
+            current = {"id": exp_str, "name": tier_name}
+            if pts is not None:
+                current["points"] = pts
+            tiers.append(current)
+            expected += 1
+            continue
+        # それ以外の行は何もしない (text 継続行など)
+    # 最低 2 件で初めて意味のある tier 構造とみなす
+    if len(tiers) < 2:
+        return []
+    return tiers
+
+
 def build_item(ver: str, idx_entry: dict, full_text: str, names_to_codes: dict) -> dict:
     code = idx_entry["code"]
     name = idx_entry["name"]
@@ -220,10 +321,16 @@ def build_item(ver: str, idx_entry: dict, full_text: str, names_to_codes: dict) 
     has_unparsed = detect_unparsed(notes, block, name)
     unit = detect_unit(name)
 
+    # tier 抽出: name 末尾に隠れた tier 1 を分離 → 本文から残り tier を抽出
+    base_name, header_tier = _split_name_for_header_tier(name)
+    tiers = extract_tiers(block, header_tier)
+    # tier が取れたら名前は "1AAA" 部分を落とした base_name に置き換え
+    out_name = base_name if tiers and header_tier else name
+
     pdf, url = PDF_BY_VER[ver]
     item: dict = {
         "code": code,
-        "name": name,
+        "name": out_name,
         "version": ver,
         "points": idx_entry.get("points"),
         "unit": unit,
@@ -241,6 +348,21 @@ def build_item(ver: str, idx_entry: dict, full_text: str, names_to_codes: dict) 
             "has_unparsed": has_unparsed,
         },
     }
+    if tiers:
+        # source の前に挿入したいので組み立て直し
+        item = {
+            "code": item["code"],
+            "name": item["name"],
+            "version": item["version"],
+            "points": item["points"],
+            "unit": item["unit"],
+            "chapter": item["chapter"],
+            "raw_text": item["raw_text"],
+            "tiers": tiers,
+            "notes": item["notes"],
+            "source": item["source"],
+            "_meta": item["_meta"],
+        }
     return item
 
 
@@ -273,6 +395,8 @@ def main() -> None:
         n_unparsed = 0
         n_notes_total = 0
         n_with_additions = 0
+        n_with_tiers = 0
+        n_tier_pts_total = 0
         for entry in targets_idx:
             item = build_item(ver, entry, full_text, names_to_codes)
             # GitHub Web UI の 1000 件制限を回避するため、コードの先頭 2 文字 (章プレフィックス + 上位桁) でシャード
@@ -289,12 +413,22 @@ def main() -> None:
             n_notes_total += len(item.get("notes") or [])
             if any(n.get("additions") for n in item.get("notes") or []):
                 n_with_additions += 1
+            if item.get("tiers"):
+                n_with_tiers += 1
+                for t in item["tiers"]:
+                    if "points" in t:
+                        n_tier_pts_total += 1
+                    for st in t.get("sub_tiers") or []:
+                        if "points" in st:
+                            n_tier_pts_total += 1
         # 統計を index.yaml にフィードバック
         stats = idx.get("_stats") or {}
         stats["structured_ok"] = len(targets_idx) - n_unparsed
         stats["has_unparsed"] = n_unparsed
         stats["notes_extracted"] = n_notes_total
         stats["with_additions"] = n_with_additions
+        stats["with_tiers"] = n_with_tiers
+        stats["tier_points_total"] = n_tier_pts_total
         idx["_stats"] = stats
         (ROOT / "data" / ver / "index.yaml").write_text(
             yaml.safe_dump(idx, allow_unicode=True, sort_keys=False),
@@ -303,7 +437,8 @@ def main() -> None:
         print(
             f"[{ver}] wrote {len(targets_idx)} items "
             f"(structured_ok={stats['structured_ok']}, has_unparsed={n_unparsed}, "
-            f"notes={n_notes_total}, with_additions={n_with_additions})"
+            f"notes={n_notes_total}, with_additions={n_with_additions}, "
+            f"with_tiers={n_with_tiers}, tier_points={n_tier_pts_total})"
         )
 
 

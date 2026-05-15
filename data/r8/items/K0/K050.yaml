@@ -20,6 +20,37 @@ raw_text: |
   - ８手部腐骨摘出術4,100点
   - ９足部腐骨摘出術4,100点
   - 10その他の腐骨摘出術4,100点
+tiers:
+- id: '1'
+  name: 肩甲骨腐骨摘出術
+  points: 15570
+- id: '2'
+  name: 上腕骨腐骨摘出術
+  points: 15570
+- id: '3'
+  name: 大腿骨腐骨摘出術
+  points: 15570
+- id: '4'
+  name: 前腕骨腐骨摘出術
+  points: 12510
+- id: '5'
+  name: 下腿骨腐骨摘出術
+  points: 12510
+- id: '6'
+  name: 鎖骨腐骨摘出術
+  points: 4100
+- id: '7'
+  name: 膝蓋骨腐骨摘出術
+  points: 4100
+- id: '8'
+  name: 手部腐骨摘出術
+  points: 4100
+- id: '9'
+  name: 足部腐骨摘出術
+  points: 4100
+- id: '10'
+  name: その他の腐骨摘出術
+  points: 4100
 notes: []
 source:
   pdf: 001686842.pdf

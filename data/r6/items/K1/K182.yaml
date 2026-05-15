@@ -12,6 +12,13 @@ raw_text: |
   Ｋ１８２神経縫合術
   - １指（手、足）15,160点
   - ２その他のもの24,510点
+tiers:
+- id: '1'
+  name: 指（手、足）
+  points: 15160
+- id: '2'
+  name: その他のもの
+  points: 24510
 notes: []
 source:
   pdf: 001251499.pdf

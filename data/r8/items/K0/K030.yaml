@@ -18,6 +18,31 @@ raw_text: |
   - ６躯幹軟部腫瘍摘出術8,490点
   - ７手軟部腫瘍摘出術3,750点
   - ８足軟部腫瘍摘出術3,750点
+tiers:
+- id: '1'
+  name: 肩軟部腫瘍摘出術
+  points: 8490
+- id: '2'
+  name: 上腕軟部腫瘍摘出術
+  points: 8490
+- id: '3'
+  name: 前腕軟部腫瘍摘出術
+  points: 8490
+- id: '4'
+  name: 大腿軟部腫瘍摘出術
+  points: 8490
+- id: '5'
+  name: 下腿軟部腫瘍摘出術
+  points: 8490
+- id: '6'
+  name: 躯幹軟部腫瘍摘出術
+  points: 8490
+- id: '7'
+  name: 手軟部腫瘍摘出術
+  points: 3750
+- id: '8'
+  name: 足軟部腫瘍摘出術
+  points: 3750
 notes: []
 source:
   pdf: 001686842.pdf

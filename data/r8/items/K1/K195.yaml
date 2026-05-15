@@ -12,6 +12,13 @@ raw_text: |
   Ｋ１９５交感神経切除術
   - １頸動脈周囲8,810点
   - ２股動脈周囲8,810点
+tiers:
+- id: '1'
+  name: 頸動脈周囲
+  points: 8810
+- id: '2'
+  name: 股動脈周囲
+  points: 8810
 notes: []
 source:
   pdf: 001686842.pdf

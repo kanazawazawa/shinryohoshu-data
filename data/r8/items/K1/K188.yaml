@@ -12,6 +12,13 @@ raw_text: |
   Ｋ１８８神経剥離術
   - １鏡視下によるもの14,170点
   - ２その他のもの10,900点
+tiers:
+- id: '1'
+  name: 鏡視下によるもの
+  points: 14170
+- id: '2'
+  name: その他のもの
+  points: 10900
 notes: []
 source:
   pdf: 001686842.pdf

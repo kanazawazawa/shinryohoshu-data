@@ -15,6 +15,22 @@ raw_text: |
   - ３半月状線ヘルニア、白線ヘルニア13,820点
   - ４臍ヘルニア13,130点
   - ５閉鎖孔ヘルニア24,130点
+tiers:
+- id: '1'
+  name: 腹壁瘢痕ヘルニア
+  points: 16520
+- id: '2'
+  name: 大腿ヘルニア
+  points: 18550
+- id: '3'
+  name: 半月状線ヘルニア、白線ヘルニア
+  points: 13820
+- id: '4'
+  name: 臍ヘルニア
+  points: 13130
+- id: '5'
+  name: 閉鎖孔ヘルニア
+  points: 24130
 notes: []
 source:
   pdf: 001686842.pdf

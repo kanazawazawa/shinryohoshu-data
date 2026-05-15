@@ -12,6 +12,13 @@ raw_text: |
   Ｋ０９０ひょう疽手術
   - １軟部組織のもの1,190点
   - ２骨、関節のもの1,470点
+tiers:
+- id: '1'
+  name: 軟部組織のもの
+  points: 1190
+- id: '2'
+  name: 骨、関節のもの
+  points: 1470
 notes: []
 source:
   pdf: 001251499.pdf

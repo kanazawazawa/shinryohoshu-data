@@ -12,6 +12,13 @@ raw_text: |
   Ｋ４６９頸部郭清術
   - １片側27,670点
   - ２両側37,140点
+tiers:
+- id: '1'
+  name: 片側
+  points: 27670
+- id: '2'
+  name: 両側
+  points: 37140
 notes: []
 source:
   pdf: 001251499.pdf

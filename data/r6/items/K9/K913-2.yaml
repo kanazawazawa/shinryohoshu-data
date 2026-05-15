@@ -12,6 +12,13 @@ raw_text: |
   Ｋ９１３－２性腺摘出術
   - １開腹によるもの6,280点
   - ２腹腔鏡によるもの18,590点
+tiers:
+- id: '1'
+  name: 開腹によるもの
+  points: 6280
+- id: '2'
+  name: 腹腔鏡によるもの
+  points: 18590
 notes: []
 source:
   pdf: 001251499.pdf

@@ -17,6 +17,28 @@ raw_text: |
       - ハ自己弁温存型大動脈基部置換術243,580点
       - ニその他のもの171,760点
   - ３下行大動脈89,250点
+tiers:
+- id: '1'
+  name: 弓部大動脈
+  points: 114510
+- id: '2'
+  name: 上行大動脈及び弓部大動脈の同時手術
+  sub_tiers:
+  - label: イ
+    name: 大動脈弁置換術又は形成術を伴うもの
+    points: 187370
+  - label: ロ
+    name: 人工弁置換術を伴う大動脈基部置換術
+    points: 210790
+  - label: ハ
+    name: 自己弁温存型大動脈基部置換術
+    points: 243580
+  - label: ニ
+    name: その他のもの
+    points: 171760
+- id: '3'
+  name: 下行大動脈
+  points: 89250
 notes: []
 source:
   pdf: 001251499.pdf

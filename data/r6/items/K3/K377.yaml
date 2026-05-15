@@ -12,6 +12,13 @@ raw_text: |
   Ｋ３７７口蓋扁桃手術
   - １切除1,720点
   - ２摘出3,600点
+tiers:
+- id: '1'
+  name: 切除
+  points: 1720
+- id: '2'
+  name: 摘出
+  points: 3600
 notes: []
 source:
   pdf: 001251499.pdf

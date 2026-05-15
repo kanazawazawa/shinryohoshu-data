@@ -13,6 +13,16 @@ raw_text: |
   - １肩、股、膝20,020点
   - ２胸鎖、肘、手、足13,130点
   - ３肩鎖、指（手、足）3,330点
+tiers:
+- id: '1'
+  name: 肩、股、膝
+  points: 20020
+- id: '2'
+  name: 胸鎖、肘、手、足
+  points: 13130
+- id: '3'
+  name: 肩鎖、指（手、足）
+  points: 3330
 notes: []
 source:
   pdf: 001251499.pdf

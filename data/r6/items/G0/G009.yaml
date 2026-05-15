@@ -14,6 +14,16 @@ raw_text: |
   - ２後頭下220点
   - ３腰椎160点
   - 注６歳未満の乳幼児に対して行った場合は、乳幼児加算として、60点を所定点数に加算する。
+tiers:
+- id: '1'
+  name: 脳室
+  points: 300
+- id: '2'
+  name: 後頭下
+  points: 220
+- id: '3'
+  name: 腰椎
+  points: 160
 notes:
 - id: 注6
   text: |

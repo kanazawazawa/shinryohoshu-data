@@ -12,6 +12,13 @@ raw_text: |
   Ｋ０２２－２象皮病根治手術
   - １大腿27,380点
   - ２下腿23,400点
+tiers:
+- id: '1'
+  name: 大腿
+  points: 27380
+- id: '2'
+  name: 下腿
+  points: 23400
 notes: []
 source:
   pdf: 001251499.pdf

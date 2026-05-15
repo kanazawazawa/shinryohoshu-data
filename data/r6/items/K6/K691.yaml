@@ -12,6 +12,13 @@ raw_text: |
   Ｋ６９１肝膿瘍切開術
   - １開腹によるもの11,860点
   - ２開胸によるもの12,520点
+tiers:
+- id: '1'
+  name: 開腹によるもの
+  points: 11860
+- id: '2'
+  name: 開胸によるもの
+  points: 12520
 notes: []
 source:
   pdf: 001251499.pdf

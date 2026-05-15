@@ -24,6 +24,49 @@ raw_text: |
   - 12中足骨腫瘍切除術4,340点
   - 13足趾骨腫瘍切除術4,340点
   - 14その他の骨腫瘍切除術4,340点
+tiers:
+- id: '1'
+  name: 肩甲骨腫瘍切除術
+  points: 17410
+- id: '2'
+  name: 上腕骨腫瘍切除術
+  points: 17410
+- id: '3'
+  name: 大腿骨腫瘍切除術
+  points: 17410
+- id: '4'
+  name: 前腕骨腫瘍切除術
+  points: 9370
+- id: '5'
+  name: 下腿骨腫瘍切除術
+  points: 9370
+- id: '6'
+  name: 鎖骨腫瘍切除術
+  points: 4340
+- id: '7'
+  name: 膝蓋骨腫瘍切除術
+  points: 4340
+- id: '8'
+  name: 手根骨腫瘍切除術
+  points: 4340
+- id: '9'
+  name: 中手骨腫瘍切除術
+  points: 4340
+- id: '10'
+  name: 手指骨腫瘍切除術
+  points: 4340
+- id: '11'
+  name: 足根骨腫瘍切除術
+  points: 4340
+- id: '12'
+  name: 中足骨腫瘍切除術
+  points: 4340
+- id: '13'
+  name: 足趾骨腫瘍切除術
+  points: 4340
+- id: '14'
+  name: その他の骨腫瘍切除術
+  points: 4340
 notes: []
 source:
   pdf: 001686842.pdf

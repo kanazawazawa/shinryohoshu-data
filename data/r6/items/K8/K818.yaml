@@ -12,6 +12,13 @@ raw_text: |
   Ｋ８１８尿道形成手術
   - １前部尿道17,030点
   - ２後部尿道37,700点
+tiers:
+- id: '1'
+  name: 前部尿道
+  points: 17030
+- id: '2'
+  name: 後部尿道
+  points: 37700
 notes: []
 source:
   pdf: 001251499.pdf

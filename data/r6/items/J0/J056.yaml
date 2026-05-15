@@ -11,6 +11,13 @@ raw_text: |
   Ｊ０５６いぼ等冷凍凝固法
   - １３箇所以下210点
   - ２４箇所以上270点
+tiers:
+- id: '1'
+  name: 3箇所以下
+  points: 210
+- id: '2'
+  name: 4箇所以上
+  points: 270
 notes: []
 source:
   pdf: 001251499.pdf

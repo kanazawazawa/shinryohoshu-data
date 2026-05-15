@@ -12,6 +12,13 @@ raw_text: |
   Ｋ７８２尿管切石術
   - １上部及び中部10,310点
   - ２膀胱近接部15,310点
+tiers:
+- id: '1'
+  name: 上部及び中部
+  points: 10310
+- id: '2'
+  name: 膀胱近接部
+  points: 15310
 notes: []
 source:
   pdf: 001251499.pdf

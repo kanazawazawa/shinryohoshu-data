@@ -16,6 +16,28 @@ raw_text: |
   - ５耳音響放射（ＯＡＥ）検査
       - イ自発耳音響放射（ＳＯＡＥ）100点
       - ロその他の場合300点
+tiers:
+- id: '1'
+  name: 鼓膜音響インピーダンス検査
+  points: 290
+- id: '2'
+  name: チンパノメトリー
+  points: 340
+- id: '3'
+  name: 耳小骨筋反射検査
+  points: 450
+- id: '4'
+  name: 遊戯聴力検査
+  points: 500
+- id: '5'
+  name: 耳音響放射（ＯＡＥ）検査
+  sub_tiers:
+  - label: イ
+    name: 自発耳音響放射（ＳＯＡＥ）
+    points: 100
+  - label: ロ
+    name: その他の場合
+    points: 300
 notes: []
 source:
   pdf: 001686842.pdf

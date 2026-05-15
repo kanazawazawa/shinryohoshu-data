@@ -50,6 +50,32 @@
         }
       }
     },
+    "tiers": {
+      "type": "array",
+      "description": "階層点数（１区分内に複数の点数階層がある場合）。例: A100 入院料の在院日数別、K053 手術部位別、A200 加算レベル × 期間 など。",
+      "items": {
+        "type": "object",
+        "required": ["id", "name"],
+        "properties": {
+          "id":     { "type": "string", "description": "1, 2, 3 ... の階層番号" },
+          "name":   { "type": "string", "description": "階層名（例: 急性期総合体制加算１）" },
+          "points": { "type": ["integer", "string"], "description": "階層に直接点数がある場合" },
+          "sub_tiers": {
+            "type": "array",
+            "description": "イ/ロ/ハ … の下位階層",
+            "items": {
+              "type": "object",
+              "required": ["label", "name"],
+              "properties": {
+                "label":  { "type": "string", "description": "イ/ロ/ハ/ニ ..." },
+                "name":   { "type": "string" },
+                "points": { "type": ["integer", "string"] }
+              }
+            }
+          }
+        }
+      }
+    },
     "source": {
       "type": "object",
       "required": ["pdf", "url", "raw_file"],

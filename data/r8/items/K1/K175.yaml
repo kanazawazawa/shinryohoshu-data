@@ -12,6 +12,13 @@ raw_text: |
   Ｋ１７５脳動脈瘤被包術
   - １１箇所82,020点
   - ２２箇所以上94,040点
+tiers:
+- id: '1'
+  name: 1箇所
+  points: 82020
+- id: '2'
+  name: 2箇所以上
+  points: 94040
 notes: []
 source:
   pdf: 001686842.pdf

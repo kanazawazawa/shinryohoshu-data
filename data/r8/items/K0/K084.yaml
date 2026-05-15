@@ -16,6 +16,25 @@ raw_text: |
   - ４大腿切断術24,320点
   - ５下腿切断術24,320点
   - ６足切断術24,320点
+tiers:
+- id: '1'
+  name: 上腕切断術
+  points: 24320
+- id: '2'
+  name: 前腕切断術
+  points: 24320
+- id: '3'
+  name: 手切断術
+  points: 24320
+- id: '4'
+  name: 大腿切断術
+  points: 24320
+- id: '5'
+  name: 下腿切断術
+  points: 24320
+- id: '6'
+  name: 足切断術
+  points: 24320
 notes: []
 source:
   pdf: 001686842.pdf

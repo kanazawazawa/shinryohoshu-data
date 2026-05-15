@@ -12,6 +12,13 @@ raw_text: |
   Ｋ８５１会陰形成手術
   - １筋層に及ばないもの2,330点
   - ２筋層に及ぶもの6,910点
+tiers:
+- id: '1'
+  name: 筋層に及ばないもの
+  points: 2330
+- id: '2'
+  name: 筋層に及ぶもの
+  points: 6910
 notes: []
 source:
   pdf: 001686842.pdf

@@ -12,6 +12,16 @@ raw_text: |
   - １喉頭ストロボスコピー450点
   - ２音響分析450点
   - ３音声機能検査450点
+tiers:
+- id: '1'
+  name: 喉頭ストロボスコピー
+  points: 450
+- id: '2'
+  name: 音響分析
+  points: 450
+- id: '3'
+  name: 音声機能検査
+  points: 450
 notes: []
 source:
   pdf: 001686842.pdf

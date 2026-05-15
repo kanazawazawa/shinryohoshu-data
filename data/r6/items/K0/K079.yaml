@@ -13,6 +13,16 @@ raw_text: |
   - １十字靱帯28,210点
   - ２膝側副靱帯18,810点
   - ３指（手、足）その他の靱帯16,350点
+tiers:
+- id: '1'
+  name: 十字靱帯
+  points: 28210
+- id: '2'
+  name: 膝側副靱帯
+  points: 18810
+- id: '3'
+  name: 指（手、足）その他の靱帯
+  points: 16350
 notes: []
 source:
   pdf: 001251499.pdf

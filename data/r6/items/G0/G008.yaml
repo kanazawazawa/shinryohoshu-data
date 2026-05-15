@@ -12,6 +12,13 @@ raw_text: |
   Ｇ００８骨髄内注射
   - １胸骨80点
   - ２その他90点
+tiers:
+- id: '1'
+  name: 胸骨
+  points: 80
+- id: '2'
+  name: その他
+  points: 90
 notes: []
 source:
   pdf: 001251499.pdf

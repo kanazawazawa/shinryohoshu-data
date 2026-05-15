@@ -20,6 +20,37 @@ raw_text: |
   - ８肩鎖関節観血的制動術5,550点
   - ９手指関節観血的制動術5,550点
   - 10足趾関節観血的制動術5,550点
+tiers:
+- id: '1'
+  name: 肩関節観血的制動術
+  points: 27380
+- id: '2'
+  name: 股関節観血的制動術
+  points: 27380
+- id: '3'
+  name: 膝関節観血的制動術
+  points: 27380
+- id: '4'
+  name: 胸鎖関節観血的制動術
+  points: 16040
+- id: '5'
+  name: 肘関節観血的制動術
+  points: 16040
+- id: '6'
+  name: 手関節観血的制動術
+  points: 16040
+- id: '7'
+  name: 足関節及び距骨周囲関節観血的制動術
+  points: 16040
+- id: '8'
+  name: 肩鎖関節観血的制動術
+  points: 5550
+- id: '9'
+  name: 手指関節観血的制動術
+  points: 5550
+- id: '10'
+  name: 足趾関節観血的制動術
+  points: 5550
 notes: []
 source:
   pdf: 001686842.pdf

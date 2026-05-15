@@ -15,6 +15,22 @@ raw_text: |
   - ３眼窩下神経4,410点
   - ４おとがい神経4,410点
   - ５下顎神経7,750点
+tiers:
+- id: '1'
+  name: 後頭神経
+  points: 4410
+- id: '2'
+  name: 上眼窩神経
+  points: 4410
+- id: '3'
+  name: 眼窩下神経
+  points: 4410
+- id: '4'
+  name: おとがい神経
+  points: 4410
+- id: '5'
+  name: 下顎神経
+  points: 7750
 notes: []
 source:
   pdf: 001686842.pdf

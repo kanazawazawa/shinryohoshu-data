@@ -12,6 +12,13 @@ raw_text: |
   Ｋ３１９鼓室形成手術
   - １耳小骨温存術34,660点
   - ２耳小骨再建術51,330点
+tiers:
+- id: '1'
+  name: 耳小骨温存術
+  points: 34660
+- id: '2'
+  name: 耳小骨再建術
+  points: 51330
 notes: []
 source:
   pdf: 001251499.pdf

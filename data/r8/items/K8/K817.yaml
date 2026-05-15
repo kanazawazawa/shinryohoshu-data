@@ -13,6 +13,16 @@ raw_text: |
   - １摘出32,230点
   - ２内視鏡による場合23,130点
   - ３尿路変更を行う場合54,060点
+tiers:
+- id: '1'
+  name: 摘出
+  points: 32230
+- id: '2'
+  name: 内視鏡による場合
+  points: 23130
+- id: '3'
+  name: 尿路変更を行う場合
+  points: 54060
 notes: []
 source:
   pdf: 001686842.pdf

@@ -12,6 +12,13 @@ raw_text: |
   Ｋ０８０－３肩腱板断裂手術
   - １簡単なもの18,700点
   - ２複雑なもの24,310点
+tiers:
+- id: '1'
+  name: 簡単なもの
+  points: 18700
+- id: '2'
+  name: 複雑なもの
+  points: 24310
 notes: []
 source:
   pdf: 001686842.pdf

@@ -12,6 +12,13 @@ raw_text: |
   Ｋ０１１顔面神経麻痺形成手術
   - １静的なもの19,110点
   - ２動的なもの64,350点
+tiers:
+- id: '1'
+  name: 静的なもの
+  points: 19110
+- id: '2'
+  name: 動的なもの
+  points: 64350
 notes: []
 source:
   pdf: 001686842.pdf

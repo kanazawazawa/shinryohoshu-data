@@ -11,6 +11,8 @@ _stats:
   has_unparsed: 0
   notes_extracted: 1897
   with_additions: 260
+  with_tiers: 596
+  tier_points_total: 2101
 items:
 - code: A000
   name: 初診料

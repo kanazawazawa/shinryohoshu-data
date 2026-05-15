@@ -12,6 +12,13 @@ raw_text: |
   Ｋ８５８腟腸瘻閉鎖術
   - １内視鏡によるもの10,300点
   - ２その他のもの35,130点
+tiers:
+- id: '1'
+  name: 内視鏡によるもの
+  points: 10300
+- id: '2'
+  name: その他のもの
+  points: 35130
 notes: []
 source:
   pdf: 001686842.pdf

@@ -12,6 +12,13 @@ raw_text: |
   Ｋ３７５鼻咽腔線維腫手術
   - １切除9,630点
   - ２摘出37,850点
+tiers:
+- id: '1'
+  name: 切除
+  points: 9630
+- id: '2'
+  name: 摘出
+  points: 37850
 notes: []
 source:
   pdf: 001686842.pdf

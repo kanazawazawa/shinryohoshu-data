@@ -14,6 +14,19 @@ raw_text: |
   - ２硬化療法（一連として）1,720点
   - ３高位結紮術3,756点
   - ４静脈瘤切除術1,820点
+tiers:
+- id: '1'
+  name: 抜去切除術
+  points: 10200
+- id: '2'
+  name: 硬化療法（一連として）
+  points: 1720
+- id: '3'
+  name: 高位結紮術
+  points: 3756
+- id: '4'
+  name: 静脈瘤切除術
+  points: 1820
 notes: []
 source:
   pdf: 001686842.pdf

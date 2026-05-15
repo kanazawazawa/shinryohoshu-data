@@ -12,6 +12,13 @@ raw_text: |
   Ｋ０２８腱鞘切開術
   - １腱鞘切開術2,350点
   - ２腱鞘切開術（内視鏡下）2,350点
+tiers:
+- id: '1'
+  name: 腱鞘切開術
+  points: 2350
+- id: '2'
+  name: 腱鞘切開術（内視鏡下）
+  points: 2350
 notes: []
 source:
   pdf: 001686842.pdf

@@ -12,6 +12,13 @@ raw_text: |
   Ｋ５３７食道裂孔ヘルニア手術
   - １経胸又は経腹27,380点
   - ２経胸及び経腹38,290点
+tiers:
+- id: '1'
+  name: 経胸又は経腹
+  points: 27380
+- id: '2'
+  name: 経胸及び経腹
+  points: 38290
 notes: []
 source:
   pdf: 001686842.pdf

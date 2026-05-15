@@ -12,6 +12,16 @@ raw_text: |
   - １体幹装具700点
   - ２四肢装具（１肢につき）700点
   - ３その他（１肢につき）200点
+tiers:
+- id: '1'
+  name: 体幹装具
+  points: 700
+- id: '2'
+  name: 四肢装具（１肢につき）
+  points: 700
+- id: '3'
+  name: その他（１肢につき）
+  points: 200
 notes: []
 source:
   pdf: 001686842.pdf
