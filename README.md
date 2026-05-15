@@ -59,7 +59,7 @@ R6（現行）と R8（改定）は **両方とも `data/r6/` と `data/r8/` に
 
 ```bash
 uv sync
-uv run python scripts/build_all.py
+PYTHONIOENCODING=utf-8 uv run python scripts/build_all.py
 ```
 
 下記が順に実行される:
@@ -70,6 +70,9 @@ uv run python scripts/build_all.py
 4. `validate.py` &nbsp; JSON Schema 検証 + 索引↔個別ファイル整合 + 文字数突合
 5. `render_md.py` &nbsp; YAML → `docs/<ver>/`
 6. `diff_revisions.py` &nbsp; R6 vs R8 → `docs/diff/r6-r8/`
+
+完全冪等です（再ビルド後 `git status` がクリーン）。
+**詳細な再現手順・Copilot 介入工程・既知の落とし穴は [REPRODUCE.md](REPRODUCE.md) を参照。**
 
 ---
 
