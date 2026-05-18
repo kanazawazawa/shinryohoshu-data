@@ -1,0 +1,30 @@
+code: K699-2
+name: 体外衝撃波膵
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第9款 腹部
+raw_text: |
+  Ｋ６９９－２体外衝撃波膵
+  石破砕術（一連につき）19,300点
+  - 注破砕した膵石を内視鏡を用いて除去した場合は、内視鏡的膵石除去加算として、一連につき１回に限り5,640点を所定点数に加算する。
+notes:
+- id: 注1
+  text: |
+    破砕した膵石を内視鏡を用いて除去した場合は、内視鏡的膵石除去加算として、一連につき１回に限り5,640点を所定点数に加算する。
+  additions:
+  - name: 内視鏡的膵石除去加算
+    points: 5640
+    limit: １回
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

@@ -1,0 +1,22 @@
+code: K347-5
+name: 内視鏡下鼻腔
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第5款 耳鼻咽喉
+raw_text: |
+  Ｋ３４７－５内視鏡下鼻腔
+  手術Ⅰ型（下鼻甲介手術）7,940点
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

@@ -1,6 +1,6 @@
 code: K716-4
 name: 生体部分小腸移植術
-version: r6
+version: r8
 points: 164240
 unit: 回
 chapter:
@@ -25,7 +25,7 @@ notes:
   - name: 抗ＨＬＡ抗体検査加算
     points: 4000
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

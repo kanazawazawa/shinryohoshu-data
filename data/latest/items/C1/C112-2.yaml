@@ -1,6 +1,6 @@
 code: C112-2
 name: 在宅喉頭摘出患者指導管理料
-version: r6
+version: r8
 points: 900
 unit: 回
 chapter:
@@ -16,7 +16,7 @@ notes:
   text: |
     喉頭摘出を行っている患者であって入院中の患者以外のものに対して、在宅における人工鼻材料の使用に関する指導管理を行った場合に算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-02-02-在宅療養指導管理料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: E100
 name: シンチグラム（画像を伴うもの）
-version: r6
+version: r8
 points: null
 unit: 一連
 chapter:
@@ -39,7 +39,7 @@ notes:
   text: |
     ラジオアイソトープの注入手技料は、所定点数に含まれるものとする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-04-02-核医学診断料.txt
 _meta:

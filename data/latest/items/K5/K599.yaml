@@ -1,6 +1,6 @@
 code: K599
 name: 植込型除細動器移植術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -13,6 +13,7 @@ raw_text: |
   - １心筋リードを用いるもの31,510点
   - ２経静脈リードを用いるもの31,510点
   - ３皮下植込型リードを用いるもの24,310点
+  - ４胸骨下植込型リードを用いるもの24,310点
 tiers:
 - id: '1'
   name: 心筋リードを用いるもの
@@ -23,9 +24,12 @@ tiers:
 - id: '3'
   name: 皮下植込型リードを用いるもの
   points: 24310
+- id: '4'
+  name: 胸骨下植込型リードを用いるもの
+  points: 24310
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

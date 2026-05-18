@@ -1,6 +1,6 @@
 code: K773-7
 name: 腎悪性腫瘍ラジオ波焼灼
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -21,7 +21,7 @@ notes:
   - name: フュージョンイメージング加算
     points: 200
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: K890-4
 name: 採卵術
-version: r6
+version: r8
 points: 3200
 unit: 回
 chapter:
@@ -24,7 +24,7 @@ notes:
         - ハ６個から９個までの場合5,500点
         - ニ10個以上の場合7,200点（産科手術）
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: K664
 name: 胃瘻
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -10,10 +10,10 @@ chapter:
   subsection: 第9款 腹部
 raw_text: |
   Ｋ６６４胃瘻
-  造設術（経皮的内視鏡下胃瘻造設術、腹腔鏡下胃瘻造設術を含む。）6,070点Ｋ６６４－２経皮経食道胃管挿入術（ＰＴＥＧ）14,610点
+  造設術（経皮的内視鏡下胃瘻造設術、腹腔鏡下胃瘻造設術を含む。）6,570点Ｋ６６４－２経皮経食道胃管挿入術（ＰＴＥＧ）14,610点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

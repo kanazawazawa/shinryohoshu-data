@@ -1,6 +1,6 @@
 code: E201
 name: 非放射性キセノン脳血流動態検査
-version: r6
+version: r8
 points: 2000
 unit: 回
 chapter:
@@ -15,7 +15,7 @@ notes:
   text: |
     非放射性キセノン吸入手技料及び同時に行うコンピューター断層撮影に係る費用は、所定点数に含まれるものとする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-04-03-コンピューター断層撮影診断料.txt
 _meta:

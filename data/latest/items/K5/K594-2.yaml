@@ -1,6 +1,6 @@
 code: K594-2
 name: 肺静脈隔離術
-version: r6
+version: r8
 points: 72230
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ５９４－２肺静脈隔離術72,230点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

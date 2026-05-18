@@ -1,6 +1,6 @@
 code: D238
 name: 脳波検査判断料
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -34,7 +34,7 @@ notes:
     この場合において、受信側の保険医療機関が脳波検査判断料１の届出を行った保険医療機関であり、当該保険医療機関において常勤の医師が脳波診断を行い、その結果を送信側の保険医療機関に文書等により報告した場合は、脳波検査判断料１を算定することができる。
     （神経・筋検査）
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

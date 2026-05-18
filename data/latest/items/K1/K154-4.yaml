@@ -1,6 +1,6 @@
 code: K154-4
 name: 集束超音波による機能的定位脳手術
-version: r6
+version: r8
 points: 105000
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ１５４－４集束超音波による機能的定位脳手術105,000点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

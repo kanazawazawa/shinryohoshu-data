@@ -1,6 +1,6 @@
 code: K843-4
 name: 腹腔
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -13,7 +13,7 @@ raw_text: |
   鏡下前立腺悪性腫瘍手術（内視鏡手術用支援機器を用いるもの）95,280点（外陰、会陰）
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

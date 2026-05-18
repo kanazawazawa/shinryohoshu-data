@@ -1,0 +1,27 @@
+code: K743
+name: 痔
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第9款 腹部
+raw_text: |
+  Ｋ７４３痔
+  核手術（脱肛を含む。）１硬化療法1,660点
+  - ２硬化療法（四段階注射法によるもの）4,010点
+  - ３結紮術、焼灼術、血栓摘出術1,390点
+  - ４根治手術（硬化療法（四段階注射法によるもの）を伴わないもの）5,190点
+  - ５根治手術（硬化療法（四段階注射法によるもの）を伴うもの）6,520点
+  - ６ＰＰＨ11,260点
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

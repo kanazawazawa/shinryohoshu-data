@@ -1,7 +1,7 @@
 code: K616
 name: 四肢の血管拡張術・血栓除去術
-version: r6
-points: 22590
+version: r8
+points: null
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
@@ -9,14 +9,23 @@ chapter:
   section: 第1節 手術料
   subsection: 第8款 心・脈管
 raw_text: |
-  Ｋ６１６四肢の血管拡張術・血栓除去術22,590点
+  Ｋ６１６四肢の血管拡張術・血栓除去術
+  - １薬剤溶出型生体吸収性下肢動脈用ステントを用いるもの22,590点
+  - ２その他のもの22,590点
   - 注手術に伴う画像診断及び検査の費用は算定しない。
+tiers:
+- id: '1'
+  name: 薬剤溶出型生体吸収性下肢動脈用ステントを用いるもの
+  points: 22590
+- id: '2'
+  name: その他のもの2
+  points: 2590
 notes:
 - id: 注1
   text: |
     手術に伴う画像診断及び検査の費用は算定しない。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

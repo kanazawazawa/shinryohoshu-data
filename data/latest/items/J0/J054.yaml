@@ -1,6 +1,6 @@
 code: J054
 name: 皮膚科光線療法（１日につき）１赤外線又は紫外線療法
-version: r6
+version: r8
 points: 45
 unit: 日
 chapter:
@@ -48,7 +48,7 @@ notes:
   - name: 乳幼児加算
     points: 2200
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

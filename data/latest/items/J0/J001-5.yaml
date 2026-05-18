@@ -1,6 +1,6 @@
 code: J001-5
 name: 長期療養患者褥瘡
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -19,7 +19,7 @@ notes:
   text: |
     当該褥瘡処置に係る費用は、所定点数に含まれるものとする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

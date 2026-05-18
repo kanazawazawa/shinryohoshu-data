@@ -1,6 +1,6 @@
 code: K901
 name: 子宮双手圧迫術（大動脈圧迫術を含む。）
-version: r6
+version: r8
 points: 2950
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ９０１子宮双手圧迫術（大動脈圧迫術を含む。）2,950点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

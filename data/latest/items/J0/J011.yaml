@@ -1,6 +1,6 @@
 code: J011
 name: 骨髄穿刺
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -9,13 +9,13 @@ chapter:
   section: 第1節 処置料
 raw_text: |
   Ｊ０１１骨髄穿刺
-  - １胸骨310点
+  - １胸骨330点
   - ２その他330点
   - 注６歳未満の乳幼児の場合は、乳幼児加算として、110点を加算する。
 tiers:
 - id: '1'
   name: 胸骨
-  points: 310
+  points: 330
 - id: '2'
   name: その他
   points: 330
@@ -27,7 +27,7 @@ notes:
   - name: 乳幼児加算
     points: 110
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

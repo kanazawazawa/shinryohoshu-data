@@ -1,0 +1,40 @@
+code: K618
+name: 中心静脈注射用植込型カテーテル設置
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第8款 心・脈管
+raw_text: |
+  Ｋ６１８中心静脈注射用植込型カテーテル設置
+  - １四肢に設置した場合10,500点
+  - ２頭頸部その他に設置した場合10,800点
+  - 注１６歳未満の乳幼児の場合は、乳幼児加算として、300点を加算する。
+  - ２使用したカテーテル、カテーテルアクセス等の材料の費用は、これらの点数に含まれるものとする。
+tiers:
+- id: '1'
+  name: 四肢に設置した場合1
+  points: 500
+- id: '2'
+  name: 頭頸部その他に設置した場合
+  points: 10800
+notes:
+- id: 注16
+  text: 歳未満の乳幼児の場合は、乳幼児加算として、300点を加算する。
+  additions:
+  - name: 乳幼児加算
+    points: 300
+- id: 注2
+  text: |
+    使用したカテーテル、カテーテルアクセス等の材料の費用は、これらの点数に含まれるものとする。
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

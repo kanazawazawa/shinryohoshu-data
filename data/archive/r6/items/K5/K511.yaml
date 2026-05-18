@@ -1,0 +1,46 @@
+code: K511
+name: 肺切除術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第7款 胸部
+raw_text: |
+  Ｋ５１１肺切除術
+  - １楔状部分切除27,520点
+  - ２区域切除（１肺葉に満たないもの）58,430点
+  - ３肺葉切除58,350点
+  - ４複合切除（１肺葉を超えるもの）64,850点
+  - ５１側肺全摘59,830点
+  - ６気管支形成を伴う肺切除76,230点
+tiers:
+- id: '1'
+  name: 楔状部分切除
+  points: 27520
+- id: '2'
+  name: 区域切除（１肺葉に満たないもの）
+  points: 58430
+- id: '3'
+  name: 肺葉切除
+  points: 58350
+- id: '4'
+  name: 複合切除（１肺葉を超えるもの）
+  points: 64850
+- id: '5'
+  name: 1側肺全摘5
+  points: 9830
+- id: '6'
+  name: 気管支形成を伴う肺切除
+  points: 76230
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

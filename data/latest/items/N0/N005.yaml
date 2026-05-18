@@ -1,6 +1,6 @@
 code: N005
 name: ＨＥＲ２遺伝子標本作製
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -20,7 +20,7 @@ tiers:
   points: 3050
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-13-01-病理標本作製料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: K917-2
 name: 受精卵・胚培養管理料
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -38,7 +38,7 @@ notes:
         - ハ６個から９個までの場合2,500点
         - ニ10個以上の場合3,000点
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

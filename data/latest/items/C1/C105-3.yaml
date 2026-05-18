@@ -1,6 +1,6 @@
 code: C105-3
 name: 在宅半固形栄養経管栄養法指導管理料
-version: r6
+version: r8
 points: 2500
 unit: 回
 chapter:
@@ -16,7 +16,7 @@ notes:
   text: |
     在宅半固形栄養経管栄養法を行っている入院中の患者以外の患者（別に厚生労働大臣が定める者に限る。）に対して、在宅半固形栄養経管栄養法に関する指導管理を行った場合に、最初に算定した日から起算して１年を限度として算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-02-02-在宅療養指導管理料.txt
 _meta:

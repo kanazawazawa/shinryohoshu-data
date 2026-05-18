@@ -1,6 +1,6 @@
 code: K190
 name: 脊髄刺激装置植込術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -25,7 +25,7 @@ notes:
   text: |
     脊髄刺激電極を２本留置する場合は、8,000点を所定点数に加算する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

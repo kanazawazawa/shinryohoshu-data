@@ -1,6 +1,6 @@
 code: K509-2
 name: 気管支肺胞洗浄術
-version: r6
+version: r8
 points: 6090
 unit: 回
 chapter:
@@ -16,7 +16,7 @@ notes:
   text: |
     成人の肺胞蛋白症に対して治療の目的で行われた場合に限り算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

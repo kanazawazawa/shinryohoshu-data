@@ -1,6 +1,6 @@
 code: D211-3
 name: 時間内歩行試験
-version: r6
+version: r8
 points: 200
 unit: 回
 chapter:
@@ -18,7 +18,7 @@ notes:
   text: |
     区分番号Ｄ２００に掲げるスパイログラフィー等検査及び区分番号Ｄ２２０からＤ２２３－２までに掲げる諸監視であって、時間内歩行試験と同一日に行われたものの費用は、所定点数に含まれるものとする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

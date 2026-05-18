@@ -1,0 +1,21 @@
+code: K655-3
+name: 十二指腸窓（内方）憩室摘出術
+version: r6
+points: 26910
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第9款 腹部
+raw_text: |
+  Ｋ６５５－３十二指腸窓（内方）憩室摘出術26,910点
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

@@ -1,6 +1,6 @@
 code: K082
 name: 人工関節置換術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -10,22 +10,50 @@ chapter:
   subsection: 第2款 筋骨格系・四肢・体幹
 raw_text: |
   Ｋ０８２人工関節置換術
-  - １肩、股、膝37,690点
-  - ２胸鎖、肘、手、足28,210点
-  - ３肩鎖、指（手、足）15,970点
+  - １人工肩関節置換術
+      - イ腱移行を伴わないもの37,690点
+      - ロ腱移行を伴うもの46,690点
+  - ２人工股関節置換術37,690点
+  - ３人工膝関節置換術37,690点
+  - ４人工肘関節置換術28,210点
+  - ５人工手関節置換術28,210点
+  - ６人工足関節置換術28,210点
+  - ７人工手指関節置換術15,970点
+  - ８人工足趾関節置換術15,970点
 tiers:
 - id: '1'
-  name: 肩、股、膝
-  points: 37690
+  name: 人工肩関節置換術
+  sub_tiers:
+  - label: イ
+    name: 腱移行を伴わないもの
+    points: 37690
+  - label: ロ
+    name: 腱移行を伴うもの
+    points: 46690
 - id: '2'
-  name: 胸鎖、肘、手、足2
-  points: 8210
+  name: 人工股関節置換術
+  points: 37690
 - id: '3'
-  name: 肩鎖、指（手、足）
+  name: 人工膝関節置換術3
+  points: 7690
+- id: '4'
+  name: 人工肘関節置換術
+  points: 28210
+- id: '5'
+  name: 人工手関節置換術
+  points: 28210
+- id: '6'
+  name: 人工足関節置換術
+  points: 28210
+- id: '7'
+  name: 人工手指関節置換術
+  points: 15970
+- id: '8'
+  name: 人工足趾関節置換術
   points: 15970
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

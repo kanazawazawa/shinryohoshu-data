@@ -1,6 +1,6 @@
 code: K884-2
 name: 人工授精
-version: r6
+version: r8
 points: 1820
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ８８４－２人工授精1,820点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

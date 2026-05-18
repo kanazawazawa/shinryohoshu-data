@@ -1,6 +1,6 @@
 code: K533-2
 name: 内視鏡的食道・胃静脈瘤結紮術
-version: r6
+version: r8
 points: 8990
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ５３３－２内視鏡的食道・胃静脈瘤結紮術8,990点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

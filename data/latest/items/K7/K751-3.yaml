@@ -1,6 +1,6 @@
 code: K751-3
 name: 腹腔鏡下鎖肛
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -13,7 +13,7 @@ raw_text: |
   手術（腹会陰、腹仙骨式）70,140点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

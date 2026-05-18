@@ -1,6 +1,6 @@
 code: J001-4
 name: 重度褥瘡
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -25,7 +25,7 @@ notes:
     1については、入院中の患者以外の患者及び手術後の患者（入院中の患者に限る。）についてのみ算定する。
     ただし、手術後の患者（入院中の患者に限る。）については手術日から起算して14日を限度として算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

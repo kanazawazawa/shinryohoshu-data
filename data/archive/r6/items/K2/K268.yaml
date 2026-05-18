@@ -1,0 +1,58 @@
+code: K268
+name: 緑内障手術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第4款 眼
+raw_text: |
+  Ｋ２６８緑内障手術
+  - １虹彩切除術4,740点
+  - ２流出路再建術
+      - イ眼内法14,490点
+      - ロその他のもの19,020点
+  - ３濾過手術23,600点
+  - ４緑内障治療用インプラント挿入術（プレートのないもの）34,480点
+  - ５緑内障治療用インプラント挿入術（プレートのあるもの）45,480点
+  - ６水晶体再建術併用眼内ドレーン挿入術27,990点
+  - ７濾過胞再建術（needle法）3,440点
+tiers:
+- id: '1'
+  name: 虹彩切除術
+  points: 4740
+- id: '2'
+  name: 流出路再建術
+  sub_tiers:
+  - label: イ
+    name: 眼内法
+    points: 14490
+  - label: ロ
+    name: その他のもの
+    points: 19020
+- id: '3'
+  name: 濾過手術
+  points: 23600
+- id: '4'
+  name: 緑内障治療用インプラント挿入術（プレートのないもの）
+  points: 34480
+- id: '5'
+  name: 緑内障治療用インプラント挿入術（プレートのあるもの）
+  points: 45480
+- id: '6'
+  name: 水晶体再建術併用眼内ドレーン挿入術
+  points: 27990
+- id: '7'
+  name: 濾過胞再建術（needle法）
+  points: 3440
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

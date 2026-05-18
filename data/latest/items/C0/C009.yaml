@@ -1,6 +1,6 @@
 code: C009
 name: 在宅患者訪問栄養食事指導料
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -57,7 +57,7 @@ notes:
   text: |
     在宅患者訪問栄養食事指導に要した交通費は、患家の負担とする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-02-01-在宅患者診療・指導料.txt
 _meta:

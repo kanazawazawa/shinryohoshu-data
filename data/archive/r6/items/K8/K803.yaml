@@ -1,0 +1,61 @@
+code: K803
+name: 膀胱悪性腫瘍手術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第10款 尿路系・副腎
+raw_text: |
+  Ｋ８０３膀胱悪性腫瘍手術
+  - １切除34,150点
+  - ２全摘（腸管等を利用して尿路変更を行わないもの）66,890点
+  - ３全摘（尿管Ｓ状結腸吻合を利用して尿路変更を行うもの）80,160点
+  - ４全摘（回腸又は結腸導管を利用して尿路変更を行うもの）120,740点
+  - ５全摘（代用膀胱を利用して尿路変更を行うもの）110,600点
+  - ６経尿道的手術
+      - イ電解質溶液利用のもの13,530点
+      - ロその他のもの10,400点
+  - 注狭帯域光による観察を行った場合には、狭帯域光強調加算として、200点を所定点数に加算する。
+tiers:
+- id: '1'
+  name: 切除
+  points: 34150
+- id: '2'
+  name: 全摘（腸管等を利用して尿路変更を行わないもの）
+  points: 66890
+- id: '3'
+  name: 全摘（尿管Ｓ状結腸吻合を利用して尿路変更を行うもの）
+  points: 80160
+- id: '4'
+  name: 全摘（回腸又は結腸導管を利用して尿路変更を行うもの）
+  points: 120740
+- id: '5'
+  name: 全摘（代用膀胱を利用して尿路変更を行うもの）
+  points: 110600
+- id: '6'
+  name: 経尿道的手術
+  sub_tiers:
+  - label: イ
+    name: 電解質溶液利用のもの
+    points: 13530
+  - label: ロ
+    name: その他のもの
+    points: 10400
+notes:
+- id: 注1
+  text: |
+    狭帯域光による観察を行った場合には、狭帯域光強調加算として、200点を所定点数に加算する。
+  additions:
+  - name: 狭帯域光強調加算
+    points: 200
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

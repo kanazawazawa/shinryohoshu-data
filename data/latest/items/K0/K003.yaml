@@ -1,6 +1,6 @@
 code: K003
 name: 皮膚、皮下、粘膜下血管腫摘出術（露出部）
-version: r6
+version: r8
 points: 3480
 unit: 回
 chapter:
@@ -30,7 +30,7 @@ tiers:
   points: 2110
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

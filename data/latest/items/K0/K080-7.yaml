@@ -1,6 +1,6 @@
 code: K080-7
 name: 上腕二頭筋腱固定術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -10,18 +10,18 @@ chapter:
   subsection: 第2款 筋骨格系・四肢・体幹
 raw_text: |
   Ｋ０８０－７上腕二頭筋腱固定術
-  - １観血的に行うもの18,080点
-  - ２関節鏡下で行うもの23,370点
+  - １上腕二頭筋腱固定術18,080点
+  - ２上腕二頭筋腱固定術（関節鏡下）23,370点
 tiers:
 - id: '1'
-  name: 観血的に行うもの1
+  name: 上腕二頭筋腱固定術1
   points: 8080
 - id: '2'
-  name: 関節鏡下で行うもの2
+  name: 上腕二頭筋腱固定術（関節鏡下）2
   points: 3370
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

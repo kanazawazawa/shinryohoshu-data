@@ -1,6 +1,6 @@
 code: K067
 name: 関節鼠摘出手術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -10,22 +10,34 @@ chapter:
   subsection: 第2款 筋骨格系・四肢・体幹
 raw_text: |
   Ｋ０６７関節鼠摘出手術
-  - １肩、股、膝15,600点
-  - ２胸鎖、肘、手、足10,580点
-  - ３肩鎖、指（手、足）3,970点
+  - １肩関節鼠摘出手術15,600点
+  - ２股関節鼠摘出手術15,600点
+  - ３膝関節鼠摘出手術15,600点
+  - ４肘関節鼠摘出手術10,580点
+  - ５手関節鼠摘出手術10,580点
+  - ６足関節及び距骨周囲関節鼠摘出手術10,580点
 tiers:
 - id: '1'
-  name: 肩、股、膝1
+  name: 肩関節鼠摘出手術1
   points: 5600
 - id: '2'
-  name: 胸鎖、肘、手、足
-  points: 10580
+  name: 股関節鼠摘出手術
+  points: 15600
 - id: '3'
-  name: 肩鎖、指（手、足）3
-  points: 970
+  name: 膝関節鼠摘出手術
+  points: 15600
+- id: '4'
+  name: 肘関節鼠摘出手術
+  points: 10580
+- id: '5'
+  name: 手関節鼠摘出手術
+  points: 10580
+- id: '6'
+  name: 足関節及び距骨周囲関節鼠摘出手術
+  points: 10580
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

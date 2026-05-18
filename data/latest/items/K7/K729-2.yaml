@@ -1,6 +1,6 @@
 code: K729-2
 name: 多発性小腸閉鎖症手術
-version: r6
+version: r8
 points: 47020
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ７２９－２多発性小腸閉鎖症手術47,020点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

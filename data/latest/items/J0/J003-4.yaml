@@ -1,6 +1,6 @@
 code: J003-4
 name: 多血小板血漿処置
-version: r6
+version: r8
 points: 4190
 unit: 回
 chapter:
@@ -18,7 +18,7 @@ notes:
   text: |
     多血小板血漿処置に伴って行われた採血等の費用は、所定点数に含まれるものとする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

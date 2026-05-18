@@ -1,0 +1,66 @@
+code: K514
+name: 肺悪性腫瘍手術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第7款 胸部
+raw_text: |
+  Ｋ５１４肺悪性腫瘍手術
+  - １部分切除60,350点
+  - ２区域切除69,250点
+  - ３肺葉切除又は１肺葉を超えるもの72,640点
+  - ４肺全摘72,640点
+  - ５隣接臓器合併切除を伴う肺切除78,400点
+  - ６気管支形成を伴う肺切除80,460点
+  - ７気管分岐部切除を伴う肺切除124,860点
+  - ８気管分岐部再建を伴う肺切除127,130点
+  - ９胸膜肺全摘92,000点
+  - 10壁側・臓側胸膜全切除（横隔膜、心膜合併切除を伴うもの）105,000点
+  - 注９及び10については、悪性びまん性胸膜中皮腫に対して実施した場合に限り算定する。
+tiers:
+- id: '1'
+  name: 部分切除
+  points: 60350
+- id: '2'
+  name: 区域切除
+  points: 69250
+- id: '3'
+  name: 肺葉切除又は１肺葉を超えるもの
+  points: 72640
+- id: '4'
+  name: 肺全摘
+  points: 72640
+- id: '5'
+  name: 隣接臓器合併切除を伴う肺切除
+  points: 78400
+- id: '6'
+  name: 気管支形成を伴う肺切除
+  points: 80460
+- id: '7'
+  name: 気管分岐部切除を伴う肺切除
+  points: 124860
+- id: '8'
+  name: 気管分岐部再建を伴う肺切除
+  points: 127130
+- id: '9'
+  name: 胸膜肺全摘9
+  points: 2000
+- id: '10'
+  name: 壁側・臓側胸膜全切除（横隔膜、心膜合併切除を伴うもの）10
+  points: 5000
+notes:
+- id: 注9
+  text: |
+    及び10については、悪性びまん性胸膜中皮腫に対して実施した場合に限り算定する。
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

@@ -1,6 +1,6 @@
 code: K709-6
 name: 同種死体膵島移植術
-version: r6
+version: r8
 points: 56490
 unit: 回
 chapter:
@@ -33,7 +33,7 @@ notes:
     手術に伴う画像診断及び検査の費用は算定しない。
     （脾）
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

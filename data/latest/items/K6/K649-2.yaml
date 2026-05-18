@@ -1,6 +1,6 @@
 code: K649-2
 name: 腹腔
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -13,7 +13,7 @@ raw_text: |
   鏡下胃吊上げ固定術（胃下垂症手術）、胃捻転症手術22,320点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

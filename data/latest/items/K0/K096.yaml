@@ -1,7 +1,7 @@
 code: K096
-name: 手掌、足底腱膜切離・切除術１鏡視下によるもの
-version: r6
-points: 4340
+name: 手掌、足底腱膜切離・切除術１手掌腱膜切離・切除術
+version: r8
+points: 2750
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
@@ -9,11 +9,12 @@ chapter:
   section: 第1節 手術料
   subsection: 第2款 筋骨格系・四肢・体幹
 raw_text: |
-  Ｋ０９６手掌、足底腱膜切離・切除術１鏡視下によるもの4,340点
-  - ２その他のもの2,750点
+  Ｋ０９６手掌、足底腱膜切離・切除術１手掌腱膜切離・切除術2,750点
+  - ２足底腱膜切離・切除術2,750点
+  - ３足底腱膜切離・切除術（関節鏡下）4,340点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

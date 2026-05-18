@@ -1,6 +1,6 @@
 code: C110
 name: 在宅自己疼痛管理指導管理料
-version: r6
+version: r8
 points: 1300
 unit: 回
 chapter:
@@ -16,7 +16,7 @@ notes:
   text: |
     疼痛除去のため植込型脳・脊髄刺激装置を植え込んだ後に、在宅において自己疼痛管理を行っている入院中の患者以外の難治性慢性疼痛の患者に対して、在宅自己疼痛管理に関する指導管理を行った場合に算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-02-02-在宅療養指導管理料.txt
 _meta:

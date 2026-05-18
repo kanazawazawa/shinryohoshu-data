@@ -1,6 +1,6 @@
 code: C109
 name: 在宅寝たきり患者処置指導管理料
-version: r6
+version: r8
 points: 1050
 unit: 回
 chapter:
@@ -19,7 +19,7 @@ notes:
   text: |
     区分番号Ｂ００１の８に掲げる皮膚科特定疾患指導管理料を算定している患者については、算定しない。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-02-02-在宅療養指導管理料.txt
 _meta:

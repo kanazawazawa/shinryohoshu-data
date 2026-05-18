@@ -1,6 +1,6 @@
 code: K501
 name: 乳糜胸手術
-version: r6
+version: r8
 points: 17290
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ５０１乳糜胸手術17,290点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

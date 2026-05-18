@@ -1,6 +1,6 @@
 code: K599-3
 name: 両室ペーシング機能付き植込型除細動器移植術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -25,7 +25,7 @@ notes:
   text: |
     両室ペーシング機能付き植込型除細動器の移植術を行った場合に算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

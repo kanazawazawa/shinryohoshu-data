@@ -1,6 +1,6 @@
 code: D211-2
 name: 喘息運動負荷試験
-version: r6
+version: r8
 points: 800
 unit: 回
 chapter:
@@ -15,7 +15,7 @@ notes:
   text: |
     喘息の気道反応性の評価、治療方針の決定等を目的として行った場合に算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

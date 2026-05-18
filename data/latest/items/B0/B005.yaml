@@ -1,6 +1,6 @@
 code: B005
 name: 退院時共同指導料
-version: r6
+version: r8
 points: 2400
 unit: 回
 chapter:
@@ -41,7 +41,7 @@ notes:
   text: |
     区分番号Ｂ００３に掲げる開放型病院共同指導料（Ⅱ）は別に算定できない。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-01-01-医学管理料等.txt
 _meta:

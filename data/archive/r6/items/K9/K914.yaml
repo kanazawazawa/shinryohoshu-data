@@ -1,0 +1,25 @@
+code: K914
+name: 脳死臓器提供管理料
+version: r6
+points: 40000
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第13款 手術等管理料
+raw_text: |
+  Ｋ９１４脳死臓器提供管理料40,000点
+  - 注臓器提供者の脳死後に、臓器提供者の身体に対して行われる処置の費用は、所定点数に含まれる。
+notes:
+- id: 注1
+  text: |
+    臓器提供者の脳死後に、臓器提供者の身体に対して行われる処置の費用は、所定点数に含まれる。
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

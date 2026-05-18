@@ -1,6 +1,6 @@
 code: D204
 name: 基礎代謝測定
-version: r6
+version: r8
 points: 85
 unit: 回
 chapter:
@@ -11,7 +11,7 @@ raw_text: |
   Ｄ２０４基礎代謝測定85点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

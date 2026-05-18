@@ -1,6 +1,6 @@
 code: K190-5
 name: 重症痙性麻痺治療薬髄腔内持続注入用植込型ポンプ薬剤再充填
-version: r6
+version: r8
 points: 780
 unit: 回
 chapter:
@@ -16,7 +16,7 @@ notes:
   text: |
     月に１回に限り算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

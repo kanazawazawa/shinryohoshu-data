@@ -1,6 +1,6 @@
 code: K635-3
 name: 連続携行式腹膜灌流用カテーテル腹腔内留置術
-version: r6
+version: r8
 points: 12000
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ６３５－３連続携行式腹膜灌流用カテーテル腹腔内留置術12,000点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

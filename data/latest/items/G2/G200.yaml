@@ -1,6 +1,6 @@
 code: G200
 name: 特定保険医療材料材料価格を10円で除して得た点数
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -15,7 +15,7 @@ notes:
   text: |
     使用した特定保険医療材料の材料価格は、別に厚生労働大臣が定める。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-06-03-特定保険医療材料料.txt
 _meta:

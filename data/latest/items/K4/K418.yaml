@@ -1,6 +1,6 @@
 code: K418
 name: 舌形成手術（巨舌症手術）
-version: r6
+version: r8
 points: 9100
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ４１８舌形成手術（巨舌症手術）9,100点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

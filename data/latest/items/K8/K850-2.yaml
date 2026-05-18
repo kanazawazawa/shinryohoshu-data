@@ -1,6 +1,6 @@
 code: K850-2
 name: 腟絨毛性腫瘍摘出術
-version: r6
+version: r8
 points: 23830
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ８５０－２腟絨毛性腫瘍摘出術23,830点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

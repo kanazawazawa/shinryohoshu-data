@@ -75,26 +75,36 @@ Copilot へのプロンプト例:
 
 → **これらは抽出元のレイアウトに固有なので、別の告示なら別のハマり方をする。** Copilot に「精度を上げて」と頼んで、stats (`without_points`, `rejected_lines`, `has_unparsed`) を見ながら反復改善する。
 
-### B-4. リポ構造 (3 層 + 並列バージョン + ハイブリッド履歴)
+### B-4. リポ構造 (3 層 + latest/archive レイアウト)
 
 このリポの設計上の判断:
-- **物理並列**: `data/r6/` と `data/r8/` を共存させベンダーが適用日で切り替え可能に
-- **構造化 diff**: `docs/diff/r6-r8/` に per-code 差分を生成
-- **履歴ベース diff (デモ用)**: `revisions` ブランチで `data/items/<CODE>.yaml` 単一パスに R6→R8 を上書きコミット → GitHub の Blame/History で改定が追える
+- **`data/latest/`**: 現行版 (R8) を固定パスで提供。ベンダーはここを読めばよい
+- **`data/archive/<ver>/`**: 旧版スナップショット (R6) を同構成で保持
+- **同一パス上書きによる per-file 履歴**: `main` の 2 commit ([release] R6 → [release] R8) で `data/latest/items/<XX>/<CODE>.yaml` が R6→R8 と modify される → GitHub の File History / Blame がそのまま改定差分ビューになる
+- **構造化 diff**: `docs/diff/r6-r8/` に per-code サマリ Markdown (自動生成、.gitignore)
 
 ---
 
 ## C. このリポで実際にやった Git 操作 (再現参考)
 
-### C-1. main ブランチ: 並列構造の正史を整える
+### C-1. main ブランチ: R6→R8 の 2 commit 直列史を作る
+履歴は `scripts/build_history.py` が自動生成する。手動でやる場合の流れ:
 ```bash
-# 試行錯誤の commit を 3 commit に再構成
-git rebase -i --root  # squash で
-#   ab306d4 [feat] パイプライン基盤
-#   d5407e6 [data] R6 全区分公開 (tag: r6-published)
-#   2420186 [data] R8 全区分公開 (tag: r8-published)
-git tag r6-published <r6-commit>
-git tag r8-published <r8-commit>
+git checkout --orphan main-new && git rm -rf .
+git checkout main -- sources scripts schema README.md REPRODUCE.md LICENSE .gitignore
+git add -A && git commit -m "[init] スクリプト・スキーマ・元 PDF 投入"
+
+PYTHONIOENCODING=utf-8 uv run python scripts/build_history.py
+# 内部で:
+#   1. SHINRYO_LATEST_VERSION=r6 で build → data/latest/ に R6
+#      commit "[release] R6 公開" + tag v-r6
+#   2. data/latest → data/archive/r6/ にコピー
+#   3. SHINRYO_LATEST_VERSION=r8 で build → data/latest/ を R8 で上書き
+#      commit "[release] R8 公開" + tag v-r8
+
+git branch -m main main-old && git branch -m main-new main
+git push --force-with-lease origin main
+git push origin v-r6 v-r8
 ```
 
 ### C-2. YAML スタイル統一 (diff ノイズ排除)
@@ -108,39 +118,15 @@ yaml.SafeDumper.add_representer(str, _str_representer)
 ```
 → `build_all.py` 再実行 → `[chore] YAML dumper を literal block スタイルに統一` でコミット。
 
-### C-3. revisions ブランチ (履歴デモ用) 作成
+### C-3. 1 区分の改定履歴を見る
 ```bash
-git checkout --orphan revisions
-git rm -rf .
+# CLI: 同一パス上の R6→R8 改定が log -p で見える
+git log -p data/latest/items/A0/A001.yaml
 
-# Step 1: R6 を data/items/ に flat 配置してコミット
-git checkout main -- data/r6 README.md
-mkdir -p data/items
-cp -r data/r6/items/* data/items/
-cp data/r6/index.yaml data/index.yaml
-rm -rf data/r6
-git add -A && git commit -m "[r6] 令和6年度 診療報酬点数表 (2227区分)"
-
-# Step 2: R8 を同じパスに上書きコミット
-rm -rf data/items data/index.yaml
-git checkout main -- data/r8
-mkdir -p data/items
-cp -r data/r8/items/* data/items/
-cp data/r8/index.yaml data/index.yaml
-rm -rf data/r8
-git add -A && git commit -m "[r8] 令和8年度 (2240区分) — R6からの改定"
-
-git checkout main
+# CLI: tag 間の単一ファイル diff
+git diff v-r6 v-r8 -- data/latest/items/A0/A001.yaml
 ```
-
-これで `git log -p data/items/A001.yaml` や GitHub Blame で改定履歴が追える。
-
-### C-4. push (履歴書き換え後の初回)
-```bash
-git push --force-with-lease origin main
-git push origin revisions
-git push origin --tags
-```
+GitHub 上では `data/latest/items/A0/A001.yaml` を開き **History** ボタン → 2 commit が並ぶ。
 
 ---
 
@@ -152,9 +138,9 @@ git push origin --tags
 - scripts/common.py に literal-block の str_representer を入れる (diff 安定化)
 - build_all.py で T3→T1→T2→validate→render→diff まで一気通貫
 - 完全冪等にすること (再ビルド後 git status クリーン)
-- R6/R8 のような並列バージョンを data/<ver>/ に共存させる
+- 現行版を data/latest/、旧版を data/archive/<ver>/ に置き、リリースごとに data/latest/ を上書きしつつ前版を archive にコピーする 2 commit 史にする
 - 構造差分を docs/diff/<old>-<new>/ に出す
-- 履歴デモ用に revisions orphan ブランチを別途作る
+- リリース履歴は scripts/build_history.py で再現可能にする
 ```
 
 `scripts/build_all.py` を毎回叩いて stats を見せながら反復させると早い。

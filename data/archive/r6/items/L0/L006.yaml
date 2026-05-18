@@ -1,0 +1,21 @@
+code: L006
+name: 球後麻酔及び顔面・頭頸
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第11部 麻酔
+  section: 第1節 麻酔料
+raw_text: |
+  Ｌ００６球後麻酔及び顔面・頭頸
+  部の伝達麻酔（瞬目麻酔及び眼輪筋内浸潤麻酔を含む。）150点
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-11-01-麻酔料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

@@ -1,6 +1,6 @@
 code: L103
 name: カテラン硬膜外注射
-version: r6
+version: r8
 points: 140
 unit: 回
 chapter:
@@ -11,7 +11,7 @@ raw_text: |
   Ｌ１０３カテラン硬膜外注射140点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-11-02-神経ブロック料.txt
 _meta:

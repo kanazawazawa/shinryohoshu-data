@@ -1,6 +1,6 @@
 code: K854
 name: 腟式子宮旁
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -13,7 +13,7 @@ raw_text: |
   結合織炎（膿瘍）切開術2,230点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

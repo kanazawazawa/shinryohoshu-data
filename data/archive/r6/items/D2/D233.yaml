@@ -1,0 +1,33 @@
+code: D233
+name: 直腸肛門機能検査
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第3部 検査
+  section: 第3節 生体検査料
+raw_text: |
+  Ｄ２３３直腸肛門機能検査
+  - １１項目行った場合800点
+  - ２２項目以上行った場合1,200点
+  - 注直腸肛門機能検査は、患者１人につき月１回に限り算定する。
+tiers:
+- id: '1'
+  name: 1項目行った場合
+  points: 800
+- id: '2'
+  name: 2項目以上行った場合
+  points: 1200
+notes:
+- id: 注1
+  text: |
+    直腸肛門機能検査は、患者１人につき月１回に限り算定する。
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-03-03-生体検査料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

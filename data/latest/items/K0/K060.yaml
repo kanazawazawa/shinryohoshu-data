@@ -1,6 +1,6 @@
 code: K060
 name: 関節切開術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -10,22 +10,50 @@ chapter:
   subsection: 第2款 筋骨格系・四肢・体幹
 raw_text: |
   Ｋ０６０関節切開術
-  - １肩、股、膝3,600点
-  - ２胸鎖、肘、手、足1,470点
-  - ３肩鎖、指（手、足）780点
+  - １肩関節切開術3,600点
+  - ２股関節切開術3,600点
+  - ３膝関節切開術3,600点
+  - ４胸鎖関節切開術1,470点
+  - ５肘関節切開術1,470点
+  - ６手関節切開術1,470点
+  - ７足関節及び距骨周囲関節切開術1,470点
+  - ８肩鎖関節切開術780点
+  - ９手指関節切開術780点
+  - 10足趾関節切開術780点
 tiers:
 - id: '1'
-  name: 肩、股、膝
+  name: 肩関節切開術
   points: 3600
 - id: '2'
-  name: 胸鎖、肘、手、足
-  points: 1470
+  name: 股関節切開術
+  points: 3600
 - id: '3'
-  name: 肩鎖、指（手、足）
+  name: 膝関節切開術3
+  points: 600
+- id: '4'
+  name: 胸鎖関節切開術
+  points: 1470
+- id: '5'
+  name: 肘関節切開術
+  points: 1470
+- id: '6'
+  name: 手関節切開術
+  points: 1470
+- id: '7'
+  name: 足関節及び距骨周囲関節切開術
+  points: 1470
+- id: '8'
+  name: 肩鎖関節切開術
+  points: 780
+- id: '9'
+  name: 手指関節切開術
+  points: 780
+- id: '10'
+  name: 足趾関節切開術
   points: 780
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

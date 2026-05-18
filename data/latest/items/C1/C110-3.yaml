@@ -1,6 +1,6 @@
 code: C110-3
 name: 在宅迷走神経電気刺激治療指導管理料
-version: r6
+version: r8
 points: 810
 unit: 回
 chapter:
@@ -22,7 +22,7 @@ notes:
   - name: 導入期加算
     points: 140
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-02-02-在宅療養指導管理料.txt
 _meta:

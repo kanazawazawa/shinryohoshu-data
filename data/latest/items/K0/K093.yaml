@@ -1,6 +1,6 @@
 code: K093
 name: 手根管開放手術
-version: r6
+version: r8
 points: 4110
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ０９３手根管開放手術4,110点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: K773-4
 name: 腎腫瘍凝固・焼灼
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -10,10 +10,11 @@ chapter:
   subsection: 第10款 尿路系・副腎
 raw_text: |
   Ｋ７７３－４腎腫瘍凝固・焼灼
-  術（冷凍凝固によるもの）52,800点
+  術（冷凍凝固によるもの）１２センチメートル以内のもの51,200点
+  - ２２センチメートルを超えるもの66,200点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

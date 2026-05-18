@@ -1,6 +1,6 @@
 code: J070-3
 name: 冷却痔
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   処置（１日につき）50点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

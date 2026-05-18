@@ -1,6 +1,6 @@
 code: K721
 name: 内視鏡的大腸ポリープ・粘膜切除術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -41,7 +41,7 @@ notes:
   - name: 病変検出支援プログラム加算
     points: 60
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

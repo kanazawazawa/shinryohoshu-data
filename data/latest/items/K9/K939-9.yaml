@@ -1,6 +1,6 @@
 code: K939-9
 name: 切開創局所陰圧閉鎖処置機器加算
-version: r6
+version: r8
 points: 5190
 unit: 回
 chapter:
@@ -11,7 +11,7 @@ raw_text: |
   Ｋ９３９－９切開創局所陰圧閉鎖処置機器加算5,190点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-03-手術医療機器等加算.txt
 _meta:

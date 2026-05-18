@@ -1,6 +1,6 @@
 code: K176
 name: 脳動脈瘤
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -27,7 +27,7 @@ notes:
   - name: ハイフローバイパス術併用加算
     points: 30000
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

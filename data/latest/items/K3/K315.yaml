@@ -1,6 +1,6 @@
 code: K315
 name: 鼓室神経叢
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -13,7 +13,7 @@ raw_text: |
   切除、鼓索神経切断術9,900点Ｋ３１６Ｓ状洞血栓（静脈炎）手術24,730点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

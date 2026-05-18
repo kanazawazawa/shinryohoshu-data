@@ -1,6 +1,6 @@
 code: K834-2
 name: 腹腔鏡下内精巣静脈結紮術
-version: r6
+version: r8
 points: 20500
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ８３４－２腹腔鏡下内精巣静脈結紮術20,500点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

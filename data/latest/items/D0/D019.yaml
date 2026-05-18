@@ -1,6 +1,6 @@
 code: D019
 name: 細菌薬剤感受性検査
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -33,7 +33,7 @@ tiers:
   points: 150
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-01-検体検査料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: D235
 name: 脳波検査（過呼吸、光及び音刺激による負荷検査を含む。）
-version: r6
+version: r8
 points: 720
 unit: 回
 chapter:
@@ -21,7 +21,7 @@ notes:
   text: |
     当該保険医療機関以外の医療機関で描写した脳波について診断を行った場合は、１回につき70点とする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

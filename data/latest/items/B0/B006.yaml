@@ -1,6 +1,6 @@
 code: B006
 name: 救急救命管理料
-version: r6
+version: r8
 points: 500
 unit: 回
 chapter:
@@ -18,7 +18,7 @@ notes:
   text: |
     救急救命士が行った処置等の費用は、所定点数に含まれるものとする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-01-01-医学管理料等.txt
 _meta:

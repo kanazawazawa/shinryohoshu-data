@@ -1,6 +1,6 @@
 code: K800-3
 name: 膀胱水圧拡張術
-version: r6
+version: r8
 points: 6410
 unit: 回
 chapter:
@@ -22,7 +22,7 @@ notes:
   text: |
     手術に伴う画像診断及び検査の費用は算定しない。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

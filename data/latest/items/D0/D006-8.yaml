@@ -1,6 +1,6 @@
 code: D006-8
 name: サイトケラチン19（ＫＲＴ19）ｍＲＮＡ検出
-version: r6
+version: r8
 points: 2400
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｄ００６－８サイトケラチン19（ＫＲＴ19）ｍＲＮＡ検出2,400点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-01-検体検査料.txt
 _meta:

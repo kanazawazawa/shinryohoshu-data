@@ -1,6 +1,6 @@
 code: K601
 name: 人工心肺（１日につき）
-version: r6
+version: r8
 points: 30150
 unit: 日
 chapter:
@@ -29,7 +29,7 @@ notes:
   text: |
     カニュレーション料は、所定点数に含まれるものとする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

@@ -1,0 +1,38 @@
+code: K513
+name: 胸腔鏡下肺切除術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第7款 胸部
+raw_text: |
+  Ｋ５１３胸腔鏡下肺切除術
+  - １肺嚢胞手術（楔状部分切除によるもの）39,830点
+  - ２部分切除45,300点
+  - ３区域切除72,600点
+  - ４肺葉切除又は１肺葉を超えるもの81,000点
+tiers:
+- id: '1'
+  name: 肺嚢胞手術（楔状部分切除によるもの）
+  points: 39830
+- id: '2'
+  name: 部分切除
+  points: 45300
+- id: '3'
+  name: 区域切除
+  points: 72600
+- id: '4'
+  name: 肺葉切除又は１肺葉を超えるもの
+  points: 81000
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

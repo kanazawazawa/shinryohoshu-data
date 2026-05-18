@@ -1,6 +1,6 @@
 code: J097
 name: 鼻処置（鼻吸引、単純鼻出血及び鼻前庭の処置を含む。）
-version: r6
+version: r8
 points: 16
 unit: 回
 chapter:
@@ -21,7 +21,7 @@ notes:
   text: |
     鼻洗浄については、第１章基本診療料に含まれ、別に算定できない。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

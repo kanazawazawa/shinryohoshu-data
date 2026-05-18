@@ -1,6 +1,6 @@
 code: K803-2
 name: 腹腔鏡下膀胱悪性腫瘍手術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -11,7 +11,7 @@ chapter:
 raw_text: |
   Ｋ８０３－２腹腔鏡下膀胱悪性腫瘍手術
   - １全摘（腸管等を利用して尿路変更を行わないもの）86,110点
-  - ２全摘（回腸又は結腸導管を利用して尿路変更を行うもの）117,790点
+  - ２全摘（回腸又は結腸導管を利用して尿路変更を行うもの）129,569点
   - ３全摘（代用膀胱を利用して尿路変更を行うもの）120,590点
 tiers:
 - id: '1'
@@ -19,13 +19,13 @@ tiers:
   points: 86110
 - id: '2'
   name: 全摘（回腸又は結腸導管を利用して尿路変更を行うもの）
-  points: 117790
+  points: 129569
 - id: '3'
   name: 全摘（代用膀胱を利用して尿路変更を行うもの）
   points: 120590
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

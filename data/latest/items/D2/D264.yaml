@@ -1,6 +1,6 @@
 code: D264
 name: 精密眼圧測定
-version: r6
+version: r8
 points: 82
 unit: 回
 chapter:
@@ -18,7 +18,7 @@ notes:
   - name: 負荷測定加算
     points: 55
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

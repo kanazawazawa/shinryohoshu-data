@@ -1,6 +1,6 @@
 code: D212-2
 name: 携帯型発作時心電図記録計使用心電図検査
-version: r6
+version: r8
 points: 500
 unit: 回
 chapter:
@@ -11,7 +11,7 @@ raw_text: |
   Ｄ２１２－２携帯型発作時心電図記録計使用心電図検査500点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: K923
 name: 術中術後自己血回収術（自己血回収器具によるもの）
-version: r6
+version: r8
 points: 5500
 unit: 回
 chapter:
@@ -25,7 +25,7 @@ notes:
   text: |
     使用した術中術後自己血回収セットの費用は、所定点数に含まれるものとする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-02-輸血料.txt
 _meta:

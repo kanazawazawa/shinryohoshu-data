@@ -1,6 +1,6 @@
 code: K921-2
 name: 間葉系幹細胞採取（一連につき）
-version: r6
+version: r8
 points: 17440
 unit: 一連
 chapter:
@@ -11,7 +11,7 @@ raw_text: |
   Ｋ９２１－２間葉系幹細胞採取（一連につき）17,440点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-02-輸血料.txt
 _meta:

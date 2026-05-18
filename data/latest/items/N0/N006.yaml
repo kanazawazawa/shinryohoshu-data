@@ -1,6 +1,6 @@
 code: N006
 name: 病理診断料
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -27,7 +27,7 @@ notes:
   text: |
     2については、病理診断を専ら担当する医師が勤務する病院又は病理診断を専ら担当する常勤の医師が勤務する診療所である保険医療機関において、区分番号
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-13-02-病理診断・判断料.txt
 _meta:

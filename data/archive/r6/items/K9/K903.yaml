@@ -1,0 +1,35 @@
+code: K903
+name: 子宮破裂手術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第11款 性器
+raw_text: |
+  Ｋ９０３子宮破裂手術
+  - １子宮全摘除を行うもの29,190点
+  - ２子宮腟上部切断を行うもの29,190点
+  - ３その他のもの16,130点Ｋ９０４妊娠子宮摘出術（ポロー手術）33,120点Ｋ９０５子宮内反症整復手術（腟式、腹式）１非観血的390点
+  - ２観血的15,490点
+tiers:
+- id: '1'
+  name: 子宮全摘除を行うもの
+  points: 29190
+- id: '2'
+  name: 子宮腟上部切断を行うもの2
+  points: 9190
+- id: '3'
+  name: その他のもの16,130点Ｋ９０４妊娠子宮摘出術（ポロー手術）33,120点Ｋ９０５子宮内反症整復手術（腟式、腹式）１非観血的3
+  points: 90
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

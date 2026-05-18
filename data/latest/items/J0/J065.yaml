@@ -1,6 +1,6 @@
 code: J065
 name: 間歇
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -10,9 +10,16 @@ chapter:
 raw_text: |
   Ｊ０６５間歇
   的導尿（１日につき）150点
-notes: []
+  - 注在宅自己導尿を予定している入院中の患者に対し、間歇導尿用ディスポーザブルカテーテルを使用した場合に、親水性カテーテル加算として70点を所定点数に加算する。
+notes:
+- id: 注1
+  text: |
+    在宅自己導尿を予定している入院中の患者に対し、間歇導尿用ディスポーザブルカテーテルを使用した場合に、親水性カテーテル加算として70点を所定点数に加算する。
+  additions:
+  - name: 親水性カテーテル加算
+    points: 70
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

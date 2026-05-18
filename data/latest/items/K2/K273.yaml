@@ -1,6 +1,6 @@
 code: K273
 name: 隅角光凝固術
-version: r6
+version: r8
 points: 9660
 unit: 回
 chapter:
@@ -13,7 +13,7 @@ raw_text: |
   （眼房、網膜）Ｋ２７４前房、虹彩内異物除去術8,800点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

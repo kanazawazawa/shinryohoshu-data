@@ -1,6 +1,6 @@
 code: K410
 name: 口腔底悪性腫瘍手術
-version: r6
+version: r8
 points: 29360
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ４１０口腔底悪性腫瘍手術29,360点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: J119
 name: 消炎鎮痛等処置（１日につき）
-version: r6
+version: r8
 points: 35
 unit: 日
 chapter:
@@ -35,7 +35,7 @@ notes:
   text: |
     区分番号Ｃ１０９に掲げる在宅寝たきり患者処置指導管理料を算定している患者に対して行った消炎鎮痛等処置の費用は算定しない。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: K930
 name: 脊髄誘発電位測定等加算
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -20,7 +20,7 @@ tiers:
   points: 3130
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-03-手術医療機器等加算.txt
 _meta:

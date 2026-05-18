@@ -1,12 +1,12 @@
 code: I008-2
 name: 精神科ショート・ケア（１日につき）
-version: r6
+version: r8
 points: 275
 unit: 日
 chapter:
   chapter: 第2章 特掲診療料
   part: 第8部 精神科専門療法
-  section: 第1節 精神科専門療法料
+  section: 第2節 薬剤料
 raw_text: |
   Ｉ００８－２精神科ショート・ケア（１日につき）１小規模なもの275点
   - ２大規模なもの330点
@@ -52,9 +52,9 @@ notes:
     points: 200
     limit: 週１回
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+  raw_file: raw/02-08-02-薬剤料.txt
 _meta:
   generated_by: rule-based
   human_reviewed: false

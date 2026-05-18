@@ -1,6 +1,6 @@
 code: K646
 name: 胃血管結紮
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -13,7 +13,7 @@ raw_text: |
   術（急性胃出血手術）11,360点Ｋ６４７胃縫合術（大網充填術又は被覆術を含む。）12,190点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

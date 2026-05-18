@@ -1,6 +1,6 @@
 code: K309
 name: 鼓膜（排液、換気）チューブ挿入術
-version: r6
+version: r8
 points: 2670
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ３０９鼓膜（排液、換気）チューブ挿入術2,670点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: K529-5
 name: 喉頭温存頸
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -13,7 +13,7 @@ raw_text: |
   部食道悪性腫瘍手術（消化管再建手術を併施するもの）153,330点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

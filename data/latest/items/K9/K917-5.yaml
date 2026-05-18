@@ -1,6 +1,6 @@
 code: K917-5
 name: 精子凍結保存管理料
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -33,7 +33,7 @@ notes:
   text: |
     については、精子の凍結保存を開始した場合に算定し、２については、精子の凍結保存の開始から１年を経過している場合であって、凍結精子の保存に係る維持管理を行った場合に、１年に１回に限り算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

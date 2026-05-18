@@ -1,0 +1,53 @@
+code: D244
+name: 自覚的聴力検査
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第3部 検査
+  section: 第3節 生体検査料
+raw_text: |
+  Ｄ２４４自覚的聴力検査
+  - １標準純音聴力検査、自記オージオメーターによる聴力検査350点
+  - ２標準語音聴力検査、ことばのききとり検査350点
+  - ３簡易聴力検査
+      - イ気導純音聴力検査110点
+      - ロその他（種目数にかかわらず一連につき）40点
+  - ４後迷路機能検査（種目数にかかわらず一連につき）400点
+  - ５内耳機能検査（種目数にかかわらず一連につき）、耳鳴検査（種目数にかかわらず一連につき）400点
+  - ６中耳機能検査（種目数にかかわらず一連につき）150点
+tiers:
+- id: '1'
+  name: 標準純音聴力検査、自記オージオメーターによる聴力検査
+  points: 350
+- id: '2'
+  name: 標準語音聴力検査、ことばのききとり検査
+  points: 350
+- id: '3'
+  name: 簡易聴力検査
+  sub_tiers:
+  - label: イ
+    name: 気導純音聴力検査
+    points: 110
+  - label: ロ
+    name: その他（種目数にかかわらず一連につき）
+    points: 40
+- id: '4'
+  name: 後迷路機能検査（種目数にかかわらず一連につき）4
+  points: 0
+- id: '5'
+  name: 内耳機能検査（種目数にかかわらず一連につき）、耳鳴検査（種目数にかかわらず一連につき）
+  points: 400
+- id: '6'
+  name: 中耳機能検査（種目数にかかわらず一連につき）
+  points: 150
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-03-03-生体検査料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

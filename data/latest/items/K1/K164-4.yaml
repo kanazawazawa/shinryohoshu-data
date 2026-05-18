@@ -1,6 +1,6 @@
 code: K164-4
 name: 定位的脳内血腫除去術
-version: r6
+version: r8
 points: 18220
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ１６４－４定位的脳内血腫除去術18,220点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

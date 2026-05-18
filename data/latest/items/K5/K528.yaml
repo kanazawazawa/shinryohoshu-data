@@ -1,6 +1,6 @@
 code: K528
 name: 先天性食道閉鎖症根治手術
-version: r6
+version: r8
 points: 64820
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ５２８先天性食道閉鎖症根治手術64,820点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

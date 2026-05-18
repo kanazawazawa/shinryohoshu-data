@@ -1,6 +1,6 @@
 code: K685
 name: 内視鏡的胆道結石除去術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -28,7 +28,7 @@ notes:
   - name: バルーン内視鏡加算
     points: 3500
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: K165
 name: 脳内異物摘出術
-version: r6
+version: r8
 points: 45630
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ１６５脳内異物摘出術45,630点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

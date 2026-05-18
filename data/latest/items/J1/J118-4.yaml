@@ -1,6 +1,6 @@
 code: J118-4
 name: 歩行運動処置（ロボットスーツによるもの）（１日につき）
-version: r6
+version: r8
 points: 1100
 unit: 日
 chapter:
@@ -24,7 +24,7 @@ notes:
   text: |
     導入期５週間に限り、１日につき2,000点を９回に限り加算する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

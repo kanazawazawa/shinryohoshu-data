@@ -1,6 +1,6 @@
 code: J070-2
 name: 干渉低周波による膀胱等刺激法
-version: r6
+version: r8
 points: 50
 unit: 回
 chapter:
@@ -15,7 +15,7 @@ notes:
   text: |
     入院中の患者以外の患者について算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

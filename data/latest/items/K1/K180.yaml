@@ -1,6 +1,6 @@
 code: K180
 name: 頭蓋骨形成手術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ１８０頭蓋骨形成手術
   - １頭蓋骨のみのもの17,530点
   - ２硬膜形成を伴うもの23,660点
-  - ３骨移動を伴うもの47,090点
+  - ３骨移動を伴うもの56,508点
   - 注３については、先天奇形に対して行われた場合に限り算定する。
 tiers:
 - id: '1'
@@ -23,13 +23,13 @@ tiers:
   points: 3660
 - id: '3'
   name: 骨移動を伴うもの
-  points: 47090
+  points: 56508
 notes:
 - id: 注3
   text: |
     については、先天奇形に対して行われた場合に限り算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

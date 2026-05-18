@@ -1,6 +1,6 @@
 code: K225-4
 name: 角結膜悪性腫瘍切除術
-version: r6
+version: r8
 points: 6290
 unit: 回
 chapter:
@@ -10,10 +10,18 @@ chapter:
   subsection: 第4款 眼
 raw_text: |
   Ｋ２２５－４角結膜悪性腫瘍切除術6,290点
+  - 注羊膜移植術を併せて行った場合は、羊膜移植加算として、5,000点を所定点数に加算する。
   （眼窩、涙腺）
-notes: []
+notes:
+- id: 注1
+  text: |
+    羊膜移植術を併せて行った場合は、羊膜移植加算として、5,000点を所定点数に加算する。
+    （眼窩、涙腺）
+  additions:
+  - name: 羊膜移植加算
+    points: 5000
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

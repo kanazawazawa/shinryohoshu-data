@@ -1,6 +1,6 @@
 code: D230
 name: 観血的肺動脈圧測定
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -33,7 +33,7 @@ notes:
   text: |
     カテーテルの交換の有無にかかわらず一連として算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: B005-7
 name: 認知症専門診断管理料
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -49,7 +49,7 @@ notes:
   text: |
     区分番号Ｂ０００に掲げる特定疾患療養管理料は、別に算定できない。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-01-01-医学管理料等.txt
 _meta:

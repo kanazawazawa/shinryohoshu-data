@@ -1,0 +1,37 @@
+code: D201
+name: 換気力学的検査
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第3部 検査
+  section: 第3節 生体検査料
+raw_text: |
+  Ｄ２０１換気力学的検査
+  - １呼吸抵抗測定
+      - イ広域周波オシレーション法を用いた場合150点
+      - ロその他の場合60点
+  - ２コンプライアンス測定、気道抵抗測定、肺粘性抵抗測定、１回呼吸法による吸気分布検査135点
+tiers:
+- id: '1'
+  name: 呼吸抵抗測定
+  sub_tiers:
+  - label: イ
+    name: 広域周波オシレーション法を用いた場合
+    points: 150
+  - label: ロ
+    name: その他の場合
+    points: 60
+- id: '2'
+  name: コンプライアンス測定、気道抵抗測定、肺粘性抵抗測定、１回呼吸法による吸気分布検査
+  points: 135
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-03-03-生体検査料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

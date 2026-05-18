@@ -1,6 +1,6 @@
 code: K096-2
 name: 体外衝撃波疼
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -10,10 +10,11 @@ chapter:
   subsection: 第2款 筋骨格系・四肢・体幹
 raw_text: |
   Ｋ０９６－２体外衝撃波疼
-  痛治療術（一連につき）5,000点Ｋ０９７手掌、足底異物摘出術3,190点
+  痛治療術（一連につき）5,000点Ｋ０９７手掌、足底異物摘出術１手掌異物摘出術3,190点
+  - ２足底異物摘出術3,190点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

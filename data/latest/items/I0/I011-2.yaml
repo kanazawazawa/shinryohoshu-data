@@ -1,12 +1,12 @@
 code: I011-2
 name: 精神科退院前訪問指導料
-version: r6
+version: r8
 points: 380
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
   part: 第8部 精神科専門療法
-  section: 第1節 精神科専門療法料
+  section: 第2節 薬剤料
 raw_text: |
   Ｉ０１１－２精神科退院前訪問指導料380点
   - 注１入院中の患者の円滑な退院のため、患家等を訪問し、当該患者又はその家族等に対して、退院後の療養上の指導を行った場合に、当該入院中３回（入院期間が６月を超えると見込まれる患者にあっては、当該入院中６回）に限り算定する。
@@ -21,9 +21,9 @@ notes:
   text: |
     注１に掲げる指導に要した交通費は、患家の負担とする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+  raw_file: raw/02-08-02-薬剤料.txt
 _meta:
   generated_by: rule-based
   human_reviewed: false

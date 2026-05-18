@@ -1,6 +1,6 @@
 code: K194-3
 name: 眼窩下孔部神経切断術
-version: r6
+version: r8
 points: 4410
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ１９４－３眼窩下孔部神経切断術4,410点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

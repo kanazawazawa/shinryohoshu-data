@@ -1,6 +1,6 @@
 code: D277-2
 name: 涙道内視鏡検査
-version: r6
+version: r8
 points: 640
 unit: 回
 chapter:
@@ -15,7 +15,7 @@ notes:
   text: |
     同一日に区分番号Ｋ２０２に掲げる涙管チューブ挿入術を実施した場合には、涙道内視鏡検査は算定できない。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

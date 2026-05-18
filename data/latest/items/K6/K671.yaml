@@ -1,6 +1,6 @@
 code: K671
 name: 胆管切開結石摘出術（チューブ挿入を含む。）
-version: r6
+version: r8
 points: 33850
 unit: 回
 chapter:
@@ -19,7 +19,7 @@ tiers:
   points: 6880
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

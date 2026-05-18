@@ -1,6 +1,6 @@
 code: D234
 name: 胃・食道内24時間pＨ測定
-version: r6
+version: r8
 points: 3000
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   （脳波検査等）
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

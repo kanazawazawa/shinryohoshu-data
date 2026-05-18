@@ -1,6 +1,6 @@
 code: K654-4
 name: 腹腔
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -13,7 +13,7 @@ raw_text: |
   鏡下十二指腸局所切除術（内視鏡処置を併施するもの）30,000点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

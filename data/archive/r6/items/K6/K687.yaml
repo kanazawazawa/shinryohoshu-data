@@ -1,0 +1,41 @@
+code: K687
+name: 内視鏡的乳頭切開術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第9款 腹部
+raw_text: |
+  Ｋ６８７内視鏡的乳頭切開術
+  - １乳頭括約筋切開のみのもの11,270点
+  - ２胆道砕石術を伴うもの24,550点
+  - ３胆道鏡下結石破砕術を伴うもの31,700点
+  - 注バルーン内視鏡を用いて実施した場合は、バルーン内視鏡加算として、3,500点を所定点数に加算する。
+tiers:
+- id: '1'
+  name: 乳頭括約筋切開のみのもの1
+  points: 1270
+- id: '2'
+  name: 胆道砕石術を伴うもの2
+  points: 4550
+- id: '3'
+  name: 胆道鏡下結石破砕術を伴うもの3
+  points: 1700
+notes:
+- id: 注1
+  text: |
+    バルーン内視鏡を用いて実施した場合は、バルーン内視鏡加算として、3,500点を所定点数に加算する。
+  additions:
+  - name: バルーン内視鏡加算
+    points: 3500
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

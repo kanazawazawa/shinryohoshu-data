@@ -1,6 +1,6 @@
 code: D325
 name: 肺臓カテーテル法、肝臓カテーテル法、膵臓カテーテル法
-version: r6
+version: r8
 points: 3600
 unit: 回
 chapter:
@@ -26,7 +26,7 @@ notes:
   text: |
     エックス線撮影に用いられたフィルムの費用は、区分番号Ｅ４００に掲げるフィルムの所定点数により算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

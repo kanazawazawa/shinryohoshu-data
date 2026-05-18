@@ -1,6 +1,6 @@
 code: K820
 name: 尿道上裂形成手術
-version: r6
+version: r8
 points: 39000
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ８２０尿道上裂形成手術39,000点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

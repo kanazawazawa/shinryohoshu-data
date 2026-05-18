@@ -1,6 +1,6 @@
 code: K434-2
 name: 顔面多発骨折変形治癒矯正術
-version: r6
+version: r8
 points: 47630
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ４３４－２顔面多発骨折変形治癒矯正術47,630点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

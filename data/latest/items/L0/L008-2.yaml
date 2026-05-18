@@ -1,6 +1,6 @@
 code: L008-2
 name: 体温維持療法（１日につき）
-version: r6
+version: r8
 points: 12200
 unit: 日
 chapter:
@@ -21,7 +21,7 @@ notes:
   - name: 体温維持迅速導入加算
     points: 5000
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-11-01-麻酔料.txt
 _meta:

@@ -1,12 +1,12 @@
 code: I004
 name: 心身医学療法（１回につき）
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
   part: 第8部 精神科専門療法
-  section: 第1節 精神科専門療法料
+  section: 第2節 薬剤料
 raw_text: |
   Ｉ００４心身医学療法（１回につき）１入院中の患者150点
   - ２入院中の患者以外の患者
@@ -43,9 +43,9 @@ notes:
   text: |
     20歳未満の患者に対して心身医学療法を行った場合は、所定点数に所定点数の100分の200に相当する点数を加算する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+  raw_file: raw/02-08-02-薬剤料.txt
 _meta:
   generated_by: rule-based
   human_reviewed: false

@@ -1,6 +1,6 @@
 code: D256-3
 name: 光干渉断層血管撮影
-version: r6
+version: r8
 points: 400
 unit: 回
 chapter:
@@ -17,7 +17,7 @@ notes:
     光干渉断層血管撮影は、患者１人につき月１回に限り算定する。
     ただし、当該検査と併せて行った、区分番号Ｄ２５６に掲げる眼底カメラ撮影に係る費用は、所定点数に含まれるものとする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

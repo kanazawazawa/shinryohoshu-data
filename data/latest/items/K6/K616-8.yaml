@@ -1,6 +1,6 @@
 code: K616-8
 name: 吸着式潰瘍治療法（１日につき）1,680点（静脈）
-version: r6
+version: r8
 points: null
 unit: 日
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ６１６－８吸着式潰瘍治療法（１日につき）1,680点（静脈）
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

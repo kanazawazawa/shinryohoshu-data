@@ -1,6 +1,6 @@
 code: K341
 name: 上顎洞性後鼻孔ポリープ切除術
-version: r6
+version: r8
 points: 1730
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ３４１上顎洞性後鼻孔ポリープ切除術1,730点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: B006-2
 name: 削除
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -11,7 +11,7 @@ raw_text: |
   Ｂ００６－２削除
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-01-01-医学管理料等.txt
 _meta:

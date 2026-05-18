@@ -1,6 +1,6 @@
 code: K764
 name: 経皮的尿路結石除去術（経皮的腎瘻造設術を含む。）
-version: r6
+version: r8
 points: 32800
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ７６４経皮的尿路結石除去術（経皮的腎瘻造設術を含む。）32,800点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: K156
 name: 延髄における脊髄視床路切截術
-version: r6
+version: r8
 points: 40950
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ１５６延髄における脊髄視床路切截術40,950点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

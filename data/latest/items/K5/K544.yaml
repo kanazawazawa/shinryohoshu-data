@@ -1,6 +1,6 @@
 code: K544
 name: 心腫瘍摘出術、心腔内粘液腫摘出術１単独のもの
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -16,7 +16,7 @@ raw_text: |
   - ３冠動脈血行再建術（２吻合以上）を伴うもの91,910点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

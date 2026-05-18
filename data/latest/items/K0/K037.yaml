@@ -1,6 +1,6 @@
 code: K037
 name: 腱縫合術
-version: r6
+version: r8
 points: 13580
 unit: 回
 chapter:
@@ -18,7 +18,7 @@ notes:
     前腕から手根部の２指以上の腱縫合を実施した場合は、複数縫合加算として１指を追加するごとに所定点数の100分の50に相当する点数を加算する。
     ただし、加算は１側当たり３指を超えないものとする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

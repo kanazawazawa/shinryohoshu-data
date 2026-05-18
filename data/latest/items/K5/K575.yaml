@@ -1,6 +1,6 @@
 code: K575
 name: 三心房心手術
-version: r6
+version: r8
 points: 68940
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ５７５三心房心手術68,940点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

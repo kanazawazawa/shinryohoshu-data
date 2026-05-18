@@ -1,6 +1,6 @@
 code: C012
 name: 在宅患者共同診療料
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -45,7 +45,7 @@ notes:
   text: |
     往診又は訪問診療に要した交通費は、患家の負担とする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-02-01-在宅患者診療・指導料.txt
 _meta:

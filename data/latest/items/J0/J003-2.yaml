@@ -1,6 +1,6 @@
 code: J003-2
 name: 局所陰圧閉鎖処置（入院外）（１日につき）１100平方センチメートル未満
-version: r6
+version: r8
 points: 240
 unit: 日
 chapter:
@@ -17,7 +17,7 @@ notes:
   text: |
     初回の貼付に限り、１にあっては1,690点を、２にあっては2,650点を、３にあっては3,300点を、初回加算として、それぞれ所定点数に加算する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

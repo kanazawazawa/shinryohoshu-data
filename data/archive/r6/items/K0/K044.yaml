@@ -1,0 +1,34 @@
+code: K044
+name: 骨折非観血的整復術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第2款 筋骨格系・四肢・体幹
+raw_text: |
+  Ｋ０４４骨折非観血的整復術
+  - １肩甲骨、上腕、大腿1,840点
+  - ２前腕、下腿2,040点
+  - ３鎖骨、膝蓋骨、手、足その他1,440点
+tiers:
+- id: '1'
+  name: 肩甲骨、上腕、大腿1
+  points: 840
+- id: '2'
+  name: 前腕、下腿2
+  points: 40
+- id: '3'
+  name: 鎖骨、膝蓋骨、手、足その他
+  points: 1440
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

@@ -1,6 +1,6 @@
 code: K843-2
 name: 腹腔鏡下前立腺悪性腫瘍手術
-version: r6
+version: r8
 points: 77430
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ８４３－２腹腔鏡下前立腺悪性腫瘍手術77,430点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

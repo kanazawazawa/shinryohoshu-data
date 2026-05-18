@@ -1,6 +1,6 @@
 code: K340-4
 name: 内視鏡下鼻・副鼻腔
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -17,7 +17,7 @@ notes:
   text: |
     自家腸骨片を充填した場合は3,150点を所定点数に加算する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

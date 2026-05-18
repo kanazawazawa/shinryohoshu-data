@@ -1,6 +1,6 @@
 code: D216
 name: サーモグラフィー検査（記録に要する費用を含む。）
-version: r6
+version: r8
 points: 200
 unit: 回
 chapter:
@@ -18,7 +18,7 @@ notes:
   - name: 負荷検査加算
     points: 100
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

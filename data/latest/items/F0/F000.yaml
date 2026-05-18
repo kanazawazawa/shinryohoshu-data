@@ -1,6 +1,6 @@
 code: F000
 name: 調剤料
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -35,7 +35,7 @@ notes:
   - name: 麻薬等加算
     points: 1
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-05-01-調剤料.txt
 _meta:

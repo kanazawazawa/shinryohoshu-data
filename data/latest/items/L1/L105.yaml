@@ -1,6 +1,6 @@
 code: L105
 name: 神経ブロックにおける麻酔剤の持続的注入（１日につき）（チューブ挿入当日を除く。）
-version: r6
+version: r8
 points: 80
 unit: 日
 chapter:
@@ -18,7 +18,7 @@ notes:
   - name: 精密持続注入加算
     points: 80
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-11-02-神経ブロック料.txt
 _meta:

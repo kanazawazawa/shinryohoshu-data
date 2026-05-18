@@ -1,0 +1,34 @@
+code: K066
+name: 関節滑膜切除術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第2款 筋骨格系・四肢・体幹
+raw_text: |
+  Ｋ０６６関節滑膜切除術
+  - １肩、股、膝17,750点
+  - ２胸鎖、肘、手、足11,200点
+  - ３肩鎖、指（手、足）8,880点
+tiers:
+- id: '1'
+  name: 肩、股、膝1
+  points: 7750
+- id: '2'
+  name: 胸鎖、肘、手、足
+  points: 11200
+- id: '3'
+  name: 肩鎖、指（手、足）
+  points: 8880
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

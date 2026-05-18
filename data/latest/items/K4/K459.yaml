@@ -1,6 +1,6 @@
 code: K459
 name: 唾液腺管形成手術
-version: r6
+version: r8
 points: 13630
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ４５９唾液腺管形成手術13,630点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: D233
 name: 直腸肛門機能検査
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -24,7 +24,7 @@ notes:
   text: |
     直腸肛門機能検査は、患者１人につき月１回に限り算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

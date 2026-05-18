@@ -1,6 +1,6 @@
 code: G017
 name: 腋窩
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -13,7 +13,7 @@ raw_text: |
   多汗症注射（片側につき）200点Ｇ０１８外眼筋注射（ボツリヌス毒素によるもの）1,500点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-06-01-注射料.txt
 _meta:

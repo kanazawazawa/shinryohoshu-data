@@ -1,7 +1,7 @@
 code: K392-2
 name: 喉頭蓋嚢腫摘出術
-version: r6
-points: 3190
+version: r8
+points: null
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
@@ -9,10 +9,19 @@ chapter:
   section: 第1節 手術料
   subsection: 第5款 耳鼻咽喉
 raw_text: |
-  Ｋ３９２－２喉頭蓋嚢腫摘出術3,190点
+  Ｋ３９２－２喉頭蓋嚢腫摘出術
+  - １間接喉頭鏡又は直達鏡によるもの3,190点
+  - ２鏡視下によるもの5,890点
+tiers:
+- id: '1'
+  name: 間接喉頭鏡又は直達鏡によるもの
+  points: 3190
+- id: '2'
+  name: 鏡視下によるもの
+  points: 5890
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

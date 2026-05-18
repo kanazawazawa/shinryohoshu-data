@@ -1,6 +1,6 @@
 code: K335-3
 name: 上顎洞鼻外手術
-version: r6
+version: r8
 points: 2740
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ３３５－３上顎洞鼻外手術2,740点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

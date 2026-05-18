@@ -1,6 +1,6 @@
 code: B001-6
 name: 肺血栓塞栓症予防管理料
-version: r6
+version: r8
 points: 305
 unit: 回
 chapter:
@@ -18,7 +18,7 @@ notes:
   text: |
     肺血栓塞栓症の予防を目的として行った処置に用いた機器及び材料の費用は、所定点数に含まれるものとする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-01-01-医学管理料等.txt
 _meta:

@@ -1,6 +1,6 @@
 code: J007-2
 name: 硬膜外自家血注入
-version: r6
+version: r8
 points: 1000
 unit: 回
 chapter:
@@ -18,7 +18,7 @@ notes:
   text: |
     硬膜外自家血注入に伴って行われた採血及び穿刺等の費用は、所定点数に含まれるものとする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

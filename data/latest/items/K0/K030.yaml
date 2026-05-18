@@ -1,6 +1,6 @@
 code: K030
 name: 四肢・躯幹軟部腫瘍摘出術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -10,18 +10,42 @@ chapter:
   subsection: 第2款 筋骨格系・四肢・体幹
 raw_text: |
   Ｋ０３０四肢・躯幹軟部腫瘍摘出術
-  - １肩、上腕、前腕、大腿、下腿、躯幹8,490点
-  - ２手、足3,750点
+  - １肩軟部腫瘍摘出術8,490点
+  - ２上腕軟部腫瘍摘出術8,490点
+  - ３前腕軟部腫瘍摘出術8,490点
+  - ４大腿軟部腫瘍摘出術8,490点
+  - ５下腿軟部腫瘍摘出術8,490点
+  - ６躯幹軟部腫瘍摘出術8,490点
+  - ７手軟部腫瘍摘出術3,750点
+  - ８足軟部腫瘍摘出術3,750点
 tiers:
 - id: '1'
-  name: 肩、上腕、前腕、大腿、下腿、躯幹
+  name: 肩軟部腫瘍摘出術
   points: 8490
 - id: '2'
-  name: 手、足
+  name: 上腕軟部腫瘍摘出術
+  points: 8490
+- id: '3'
+  name: 前腕軟部腫瘍摘出術
+  points: 8490
+- id: '4'
+  name: 大腿軟部腫瘍摘出術
+  points: 8490
+- id: '5'
+  name: 下腿軟部腫瘍摘出術
+  points: 8490
+- id: '6'
+  name: 躯幹軟部腫瘍摘出術
+  points: 8490
+- id: '7'
+  name: 手軟部腫瘍摘出術
+  points: 3750
+- id: '8'
+  name: 足軟部腫瘍摘出術
   points: 3750
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: J081
 name: 分娩時鈍性頸管拡張法
-version: r6
+version: r8
 points: 456
 unit: 回
 chapter:
@@ -11,7 +11,7 @@ raw_text: |
   Ｊ０８１分娩時鈍性頸管拡張法456点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

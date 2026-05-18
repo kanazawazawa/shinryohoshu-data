@@ -1,6 +1,6 @@
 code: K916
 name: 体外式膜型人工肺管理料（１日につき）
-version: r6
+version: r8
 points: 4500
 unit: 日
 chapter:
@@ -27,7 +27,7 @@ notes:
   - name: 導入時加算
     points: 5000
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

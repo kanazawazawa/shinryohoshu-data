@@ -1,6 +1,6 @@
 code: G016
 name: 硝子体内注射
-version: r6
+version: r8
 points: 600
 unit: 回
 chapter:
@@ -19,7 +19,7 @@ notes:
   - name: 未熟児加算
     points: 600
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-06-01-注射料.txt
 _meta:

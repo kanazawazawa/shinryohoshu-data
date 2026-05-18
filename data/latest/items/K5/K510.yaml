@@ -1,6 +1,6 @@
 code: K510
 name: 気管支腫瘍摘出術（気管支鏡又は気管支ファイバースコープによるもの）
-version: r6
+version: r8
 points: 8040
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ５１０気管支腫瘍摘出術（気管支鏡又は気管支ファイバースコープによるもの）8,040点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

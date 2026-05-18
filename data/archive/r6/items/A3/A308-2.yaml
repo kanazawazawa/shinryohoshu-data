@@ -1,0 +1,19 @@
+code: A308-2
+name: 削除
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第1章 基本診療料
+  part: 第13部 第２節病理診断・判断料及び第14部その他の費用並びに第２節に規定する
+raw_text: |
+  Ａ３０８－２削除
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/01-13-00-第２節病理診断・判断料及び第14部その他の費用並びに第２節に規定する.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

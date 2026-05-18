@@ -1,6 +1,6 @@
 code: K849
 name: 女子外性器腫瘍摘出術
-version: r6
+version: r8
 points: 2810
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ８４９女子外性器腫瘍摘出術2,810点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: D281
 name: 瞳孔機能検査（電子瞳孔計使用）
-version: r6
+version: r8
 points: 160
 unit: 回
 chapter:
@@ -11,7 +11,7 @@ raw_text: |
   Ｄ２８１瞳孔機能検査（電子瞳孔計使用）160点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

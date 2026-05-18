@@ -1,6 +1,6 @@
 code: M000
 name: 放射線治療管理料（分布図の作成１回につき）
-version: r6
+version: r8
 points: 2700
 unit: 分布図の作成１回
 chapter:
@@ -50,7 +50,7 @@ notes:
     points: 2000
     limit: １回
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-12-01-放射線治療管理・実施料.txt
 _meta:

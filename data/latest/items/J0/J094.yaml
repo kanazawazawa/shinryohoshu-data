@@ -1,6 +1,6 @@
 code: J094
 name: 削除
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -19,7 +19,7 @@ notes:
   text: |
     点耳又は簡単な耳垢栓塞除去については、第１章基本診療料に含まれ、別に算定できない。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

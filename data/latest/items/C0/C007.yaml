@@ -1,6 +1,6 @@
 code: C007
 name: 訪問看護指示料
-version: r6
+version: r8
 points: 300
 unit: 回
 chapter:
@@ -39,7 +39,7 @@ notes:
   text: |
     訪問看護指示料を算定した場合には、区分番号Ｉ０１２－２に掲げる精神科訪問看護指示料は算定しない。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-02-01-在宅患者診療・指導料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: K939-2
 name: 術中血管等描出撮影加算
-version: r6
+version: r8
 points: 500
 unit: 回
 chapter:
@@ -15,7 +15,7 @@ notes:
   text: |
     手術に当たって、血管や腫瘍等を確認するために薬剤を用いて、血管撮影を行った場合に算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-03-手術医療機器等加算.txt
 _meta:

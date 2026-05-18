@@ -1,6 +1,6 @@
 code: D222
 name: 経皮的血液ガス分圧測定、血液ガス連続測定１１時間以内又は１時間につき
-version: r6
+version: r8
 points: 100
 unit: 回
 chapter:
@@ -16,7 +16,7 @@ notes:
   text: |
     人工呼吸と同時に行った経皮的動脈血酸素飽和度測定の費用は、人工呼吸の所定点数に含まれるものとする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

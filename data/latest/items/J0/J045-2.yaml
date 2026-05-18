@@ -1,6 +1,6 @@
 code: J045-2
 name: 一酸化窒素吸入療法（１日につき）１新生児の低酸素性呼吸不全に対して実施する場合
-version: r6
+version: r8
 points: 1680
 unit: 日
 chapter:
@@ -35,7 +35,7 @@ notes:
   - name: 一酸化窒素ガス加算
     points: 900
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

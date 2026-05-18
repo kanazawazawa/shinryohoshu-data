@@ -1,0 +1,59 @@
+code: D018
+name: 細菌培養同定検査
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第3部 検査
+  section: 第1節 検体検査料
+  subsection: 第1款 検体検査実施料
+raw_text: |
+  Ｄ０１８細菌培養同定検査
+  - １口腔、気道又は呼吸器からの検体180点
+  - ２消化管からの検体200点
+  - ３血液又は穿刺液225点
+  - ４泌尿器又は生殖器からの検体190点
+  - ５その他の部位からの検体180点
+  - ６簡易培養60点
+  - 注１１から６までについては、同一検体について一般培養と併せて嫌気性培養を行った場合は、嫌気性培養加算として、122点を所定点数に加算する。
+  - ２入院中の患者に対して、質量分析装置を用いて細菌の同定を行った場合は、質量分析装置加算として、40点を所定点数に加算する。
+tiers:
+- id: '1'
+  name: 口腔、気道又は呼吸器からの検体1
+  points: 80
+- id: '2'
+  name: 消化管からの検体2
+  points: 0
+- id: '3'
+  name: 血液又は穿刺液
+  points: 225
+- id: '4'
+  name: 泌尿器又は生殖器からの検体
+  points: 190
+- id: '5'
+  name: その他の部位からの検体
+  points: 180
+- id: '6'
+  name: 簡易培養6
+  points: 0
+notes:
+- id: 注11
+  text: から６までについては、同一検体について一般培養と併せて嫌気性培養を行った場合は、嫌気性培養加算として、122点を所定点数に加算する。
+  additions:
+  - name: 嫌気性培養加算
+    points: 122
+- id: 注2
+  text: |
+    入院中の患者に対して、質量分析装置を用いて細菌の同定を行った場合は、質量分析装置加算として、40点を所定点数に加算する。
+  additions:
+  - name: 質量分析装置加算
+    points: 40
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-03-01-検体検査料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

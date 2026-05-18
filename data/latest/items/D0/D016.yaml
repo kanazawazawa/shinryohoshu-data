@@ -1,6 +1,6 @@
 code: D016
 name: 細胞機能検査
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -19,7 +19,7 @@ raw_text: |
   - ７リンパ球刺激試験（ＬＳＴ）
       - イ１薬剤345点
       - ロ２薬剤425点
-      - ハ３薬剤以上515点
+      - ハ３薬剤以上700点
   - ８顆粒球表面抗原検査640点（微生物学的検査）
 tiers:
 - id: '1'
@@ -51,12 +51,12 @@ tiers:
     points: 425
   - label: ハ
     name: ３薬剤以上
-    points: 515
+    points: 700
 - id: '8'
   name: 顆粒球表面抗原検査640点（微生物学的検査）
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-01-検体検査料.txt
 _meta:

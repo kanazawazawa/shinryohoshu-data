@@ -1,6 +1,6 @@
 code: D248
 name: 耳管機能測定装置を用いた耳管機能測定
-version: r6
+version: r8
 points: 450
 unit: 回
 chapter:
@@ -11,7 +11,7 @@ raw_text: |
   Ｄ２４８耳管機能測定装置を用いた耳管機能測定450点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

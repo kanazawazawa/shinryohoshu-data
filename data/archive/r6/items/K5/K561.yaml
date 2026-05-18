@@ -1,0 +1,42 @@
+code: K561
+name: ステントグラフト内挿術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第8款 心・脈管
+raw_text: |
+  Ｋ５６１ステントグラフト内挿術
+  - １血管損傷の場合43,830点
+  - ２１以外の場合
+      - イ胸部大動脈56,560点
+      - ロ腹部大動脈49,440点
+      - ハ腸骨動脈43,830点
+tiers:
+- id: '1'
+  name: 血管損傷の場合
+  points: 43830
+- id: '2'
+  name: 1以外の場合
+  sub_tiers:
+  - label: イ
+    name: 胸部大動脈
+    points: 56560
+  - label: ロ
+    name: 腹部大動脈
+    points: 49440
+  - label: ハ
+    name: 腸骨動脈
+    points: 43830
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

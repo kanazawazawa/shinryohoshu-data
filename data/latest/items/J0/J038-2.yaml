@@ -1,6 +1,6 @@
 code: J038-2
 name: 持続緩徐式血液濾
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -33,7 +33,7 @@ notes:
     区分番号Ｊ０３８に掲げる人工腎臓の実施回数と併せて１月に14回に限り算定する。
     ただし、区分番号Ｊ０３８に掲げる人工腎臓の注８に規定する別に厚生労働大臣が定める患者にあってはこの限りでない。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

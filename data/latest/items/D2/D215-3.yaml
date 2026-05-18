@@ -1,6 +1,6 @@
 code: D215-3
 name: 超音波エラストグラフィー
-version: r6
+version: r8
 points: 200
 unit: 回
 chapter:
@@ -15,7 +15,7 @@ notes:
   text: |
     区分番号Ｄ２１５－２に掲げる肝硬度測定を算定する患者については、当該検査の費用は別に算定しない。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: K380
 name: 過長茎状突起切除術
-version: r6
+version: r8
 points: 6440
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ３８０過長茎状突起切除術6,440点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

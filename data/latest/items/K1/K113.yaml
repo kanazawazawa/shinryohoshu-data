@@ -1,6 +1,6 @@
 code: K113
 name: 腸骨窩膿瘍掻爬術
-version: r6
+version: r8
 points: 13920
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ１１３腸骨窩膿瘍掻爬術13,920点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: K152
 name: 耳性頭蓋内合併症手術
-version: r6
+version: r8
 points: 56950
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ１５２耳性頭蓋内合併症手術56,950点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

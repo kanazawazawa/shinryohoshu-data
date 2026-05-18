@@ -1,6 +1,6 @@
 code: K653-6
 name: 内視鏡的逆流防止粘膜切除術
-version: r6
+version: r8
 points: 12000
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ６５３－６内視鏡的逆流防止粘膜切除術12,000点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

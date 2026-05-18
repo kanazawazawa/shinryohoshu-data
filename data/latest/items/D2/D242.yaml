@@ -1,6 +1,6 @@
 code: D242
 name: 尿水力学的検査
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -9,14 +9,14 @@ chapter:
   section: 第3節 生体検査料
 raw_text: |
   Ｄ２４２尿水力学的検査
-  - １膀胱内圧測定260点
+  - １膀胱内圧測定312点
   - ２尿道圧測定図260点
   - ３尿流測定205点
   - ４括約筋筋電図310点（耳鼻咽喉科学的検査）
 tiers:
 - id: '1'
   name: 膀胱内圧測定
-  points: 260
+  points: 312
 - id: '2'
   name: 尿道圧測定図2
   points: 60
@@ -27,7 +27,7 @@ tiers:
   name: 括約筋筋電図310点（耳鼻咽喉科学的検査）
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

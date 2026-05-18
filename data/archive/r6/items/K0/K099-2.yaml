@@ -1,0 +1,34 @@
+code: K099-2
+name: デュプイトレン拘縮手術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第2款 筋骨格系・四肢・体幹
+raw_text: |
+  Ｋ０９９－２デュプイトレン拘縮手術
+  - １１指10,430点
+  - ２２指から３指22,480点
+  - ３４指以上32,710点
+tiers:
+- id: '1'
+  name: 1指1
+  points: 430
+- id: '2'
+  name: 2指から３指2
+  points: 2480
+- id: '3'
+  name: 4指以上3
+  points: 2710
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

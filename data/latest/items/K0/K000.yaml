@@ -1,6 +1,6 @@
 code: K000
 name: 創傷処理
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -55,7 +55,7 @@ notes:
   text: |
     汚染された挫創に対してデブリードマンを行った場合は、当初の１回に限り100点を加算する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

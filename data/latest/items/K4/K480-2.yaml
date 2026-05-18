@@ -1,6 +1,6 @@
 code: K480-2
 name: 流注膿瘍切開掻爬術
-version: r6
+version: r8
 points: 7670
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ４８０－２流注膿瘍切開掻爬術7,670点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

@@ -1,12 +1,12 @@
 code: I011
 name: 精神科退院指導料
-version: r6
+version: r8
 points: 320
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
   part: 第8部 精神科専門療法
-  section: 第1節 精神科専門療法料
+  section: 第2節 薬剤料
 raw_text: |
   Ｉ０１１精神科退院指導料320点
   - 注１入院期間が１月を超える精神障害者である患者又はその家族等に対して、精神科の医師、看護師、作業療法士及び精神保健福祉士が共同して、退院後に必要となる保健医療サービス又は福祉サービス等に関する計画を策定し、当該計画に基づき必要な指導を行った場合に、当該入院中１回に限り算定する。
@@ -22,9 +22,9 @@ notes:
     points: 200
     limit: １回
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+  raw_file: raw/02-08-02-薬剤料.txt
 _meta:
   generated_by: rule-based
   human_reviewed: false

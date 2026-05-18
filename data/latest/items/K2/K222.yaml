@@ -1,6 +1,6 @@
 code: K222
 name: 結膜下異物除去術
-version: r6
+version: r8
 points: 470
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ２２２結膜下異物除去術470点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

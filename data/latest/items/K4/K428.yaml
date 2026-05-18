@@ -1,6 +1,6 @@
 code: K428
 name: 下顎骨折非観血的整復術
-version: r6
+version: r8
 points: 1240
 unit: 回
 chapter:
@@ -16,7 +16,7 @@ notes:
   text: |
     三内式線副子以上を使用する連続歯結紮法を行った場合は、650点を加算する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

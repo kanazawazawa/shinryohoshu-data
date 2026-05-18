@@ -1,0 +1,25 @@
+code: G005-5
+name: 上腕静脈用カテーテル挿入
+version: r8
+points: 350
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第6部 注射
+  section: 第1節 注射料
+  subsection: 第1款 注射実施料
+raw_text: |
+  Ｇ００５－５上腕静脈用カテーテル挿入350点
+  - 注カテーテルの挿入に伴う検査及び画像診断の費用は当該点数に含まれるものとする。
+notes:
+- id: 注1
+  text: |
+    カテーテルの挿入に伴う検査及び画像診断の費用は当該点数に含まれるものとする。
+source:
+  pdf: 001686842.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-06-01-注射料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

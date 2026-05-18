@@ -1,6 +1,6 @@
 code: K164
 name: 頭蓋内血腫除去術（開頭して行うもの）
-version: r6
+version: r8
 points: 35790
 unit: 回
 chapter:
@@ -23,7 +23,7 @@ tiers:
   points: 47020
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

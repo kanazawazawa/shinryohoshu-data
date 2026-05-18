@@ -1,6 +1,6 @@
 code: C102-2
 name: 在宅血液透析指導管理料
-version: r6
+version: r8
 points: 10000
 unit: 回
 chapter:
@@ -26,7 +26,7 @@ notes:
     points: 115
     limit: 月１回
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-02-02-在宅療養指導管理料.txt
 _meta:

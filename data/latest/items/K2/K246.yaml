@@ -1,6 +1,6 @@
 code: K246
 name: 角膜・強膜縫合術
-version: r6
+version: r8
 points: 3580
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ２４６角膜・強膜縫合術3,580点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

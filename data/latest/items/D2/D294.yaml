@@ -1,6 +1,6 @@
 code: D294
 name: ラジオアイソトープ検査判断料
-version: r6
+version: r8
 points: 110
 unit: 回
 chapter:
@@ -17,7 +17,7 @@ notes:
     ラジオアイソトープを用いた諸検査の種類又は回数にかかわらず月１回に限り算定するものとする。
     （内視鏡検査）
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

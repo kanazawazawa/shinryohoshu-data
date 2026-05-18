@@ -1,6 +1,6 @@
 code: D318
 name: 尿管カテーテル法（ファイバースコープによるもの）（両側）
-version: r6
+version: r8
 points: 1200
 unit: 回
 chapter:
@@ -15,7 +15,7 @@ notes:
   text: |
     膀胱尿道ファイバースコピー及び膀胱尿道鏡検査の費用は、所定点数に含まれるものとする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

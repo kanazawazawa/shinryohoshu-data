@@ -1,6 +1,6 @@
 code: K857
 name: 腟壁悪性腫瘍手術
-version: r6
+version: r8
 points: 44480
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ８５７腟壁悪性腫瘍手術44,480点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

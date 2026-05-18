@@ -1,6 +1,6 @@
 code: K610
 name: 動脈形成術、吻合術１頭蓋内動脈
-version: r6
+version: r8
 points: 99700
 unit: 回
 chapter:
@@ -16,7 +16,7 @@ raw_text: |
   - ５その他の動脈21,700点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

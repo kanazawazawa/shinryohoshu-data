@@ -1,6 +1,6 @@
 code: D417
 name: 組織試験採取、切採法１皮膚（皮下、筋膜、腱及び腱鞘を含む。）
-version: r6
+version: r8
 points: 500
 unit: 回
 chapter:
@@ -20,7 +20,7 @@ raw_text: |
   - ８咽頭、喉頭650点
   - ９甲状腺650点
   - 10乳腺650点
-  - 11直腸650点
+  - 11直腸780点
   - 12精巣（睾丸）、精巣上体（副睾丸）400点
   - 13末梢神経1,620点
   - 14心筋6,000点
@@ -33,7 +33,7 @@ notes:
   - name: 乳幼児加算
     points: 100
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-04-診断穿刺・検体採取料.txt
 _meta:

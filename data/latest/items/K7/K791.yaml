@@ -1,6 +1,6 @@
 code: K791
 name: 尿管皮膚瘻閉鎖術
-version: r6
+version: r8
 points: 30450
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ７９１尿管皮膚瘻閉鎖術30,450点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

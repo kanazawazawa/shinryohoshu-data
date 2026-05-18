@@ -1,6 +1,6 @@
 code: K372
 name: 中咽頭腫瘍摘出術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -12,6 +12,7 @@ raw_text: |
   Ｋ３７２中咽頭腫瘍摘出術
   - １経口腔2,710点
   - ２外切開によるもの16,260点
+  - ３鏡視下によるもの5,410点
 tiers:
 - id: '1'
   name: 経口腔
@@ -19,9 +20,12 @@ tiers:
 - id: '2'
   name: 外切開によるもの
   points: 16260
+- id: '3'
+  name: 鏡視下によるもの
+  points: 5410
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

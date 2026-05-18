@@ -1,6 +1,6 @@
 code: D274
 name: 前房隅角検査
-version: r6
+version: r8
 points: 38
 unit: 回
 chapter:
@@ -11,7 +11,7 @@ raw_text: |
   Ｄ２７４前房隅角検査38点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

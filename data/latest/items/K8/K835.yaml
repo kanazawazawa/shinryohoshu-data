@@ -1,6 +1,6 @@
 code: K835
 name: 陰嚢水腫手術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -11,17 +11,17 @@ chapter:
 raw_text: |
   Ｋ８３５陰嚢水腫手術
   - １鼠径部切開によるもの3,980点
-  - ２その他2,630点
+  - ２その他3,156点
 tiers:
 - id: '1'
   name: 鼠径部切開によるもの
   points: 3980
 - id: '2'
-  name: その他2
-  points: 630
+  name: その他
+  points: 3156
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

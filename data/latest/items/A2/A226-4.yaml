@@ -1,6 +1,6 @@
 code: A226-4
 name: 小児緩和ケア診療加算（１日につき）
-version: r6
+version: r8
 points: 700
 unit: 日
 chapter:
@@ -26,7 +26,7 @@ notes:
   - name: 小児個別栄養食事管理加算
     points: 70
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/01-02-02-入院基本料等加算.txt
 _meta:

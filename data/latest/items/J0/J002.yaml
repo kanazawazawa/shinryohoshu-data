@@ -1,6 +1,6 @@
 code: J002
 name: ドレーン法（ドレナージ）（１日につき）
-version: r6
+version: r8
 points: 50
 unit: 日
 chapter:
@@ -25,7 +25,7 @@ notes:
   - name: 乳幼児加算
     points: 110
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

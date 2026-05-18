@@ -1,6 +1,6 @@
 code: B007-2
 name: 退院後訪問指導料
-version: r6
+version: r8
 points: 580
 unit: 回
 chapter:
@@ -25,7 +25,7 @@ notes:
   text: |
     注１及び注２に掲げる指導に要した交通費は、患家の負担とする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-01-01-医学管理料等.txt
 _meta:

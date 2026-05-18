@@ -1,6 +1,6 @@
 code: K669
 name: 胆管切開術
-version: r6
+version: r8
 points: 12460
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ６６９胆管切開術12,460点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

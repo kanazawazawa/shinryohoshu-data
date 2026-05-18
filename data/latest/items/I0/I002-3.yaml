@@ -1,12 +1,12 @@
 code: I002-3
 name: 救急患者精神科継続支援料
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
   part: 第8部 精神科専門療法
-  section: 第1節 精神科専門療法料
+  section: 第2節 薬剤料
 raw_text: |
   Ｉ００２－３救急患者精神科継続支援料
   - １入院中の患者900点
@@ -30,9 +30,9 @@ notes:
   text: |
     入院中の患者以外の患者については、退院後、電話等で継続的な指導等を行った場合に、退院後24週を限度として、週１回に限り算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+  raw_file: raw/02-08-02-薬剤料.txt
 _meta:
   generated_by: rule-based
   human_reviewed: false

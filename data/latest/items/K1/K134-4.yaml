@@ -1,6 +1,6 @@
 code: K134-4
 name: 椎間板内酵素注入療法
-version: r6
+version: r8
 points: 5350
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ１３４－４椎間板内酵素注入療法5,350点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

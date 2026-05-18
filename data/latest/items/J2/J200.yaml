@@ -1,6 +1,6 @@
 code: J200
 name: 腰部、胸部又は頸部固定帯加算（初回のみ）
-version: r6
+version: r8
 points: 170
 unit: 回
 chapter:
@@ -11,7 +11,7 @@ raw_text: |
   Ｊ２００腰部、胸部又は頸部固定帯加算（初回のみ）170点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-02-処置医療機器等加算.txt
 _meta:

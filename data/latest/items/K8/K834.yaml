@@ -1,7 +1,7 @@
 code: K834
 name: 精索静脈瘤手術
-version: r6
-points: 3410
+version: r8
+points: 4092
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
@@ -9,10 +9,10 @@ chapter:
   section: 第1節 手術料
   subsection: 第11款 性器
 raw_text: |
-  Ｋ８３４精索静脈瘤手術3,410点
+  Ｋ８３４精索静脈瘤手術4,092点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

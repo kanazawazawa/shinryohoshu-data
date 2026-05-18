@@ -1,6 +1,6 @@
 code: K365
 name: 経上顎洞的翼突管神経切除術
-version: r6
+version: r8
 points: 28210
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ３６５経上顎洞的翼突管神経切除術28,210点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

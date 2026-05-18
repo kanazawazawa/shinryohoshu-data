@@ -1,6 +1,6 @@
 code: K617-2
 name: 大伏在静脈抜去術
-version: r6
+version: r8
 points: 10200
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ６１７－２大伏在静脈抜去術10,200点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

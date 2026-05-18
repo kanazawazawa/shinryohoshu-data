@@ -1,6 +1,6 @@
 code: N007
 name: 病理判断料
-version: r6
+version: r8
 points: 130
 unit: 回
 chapter:
@@ -18,7 +18,7 @@ notes:
   text: |
     区分番号Ｎ００６に掲げる病理診断料を算定した場合には、算定しない。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-13-02-病理診断・判断料.txt
 _meta:

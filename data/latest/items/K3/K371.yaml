@@ -1,6 +1,6 @@
 code: K371
 name: 上咽頭腫瘍摘出術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -14,6 +14,7 @@ raw_text: |
   - ２経鼻腔6,070点
   - ３経副鼻腔8,790点
   - ４外切開によるもの16,590点
+  - ５鏡視下によるもの8,050点
 tiers:
 - id: '1'
   name: 経口腔
@@ -27,9 +28,12 @@ tiers:
 - id: '4'
   name: 外切開によるもの
   points: 16590
+- id: '5'
+  name: 鏡視下によるもの
+  points: 8050
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

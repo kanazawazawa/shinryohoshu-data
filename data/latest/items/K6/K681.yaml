@@ -1,6 +1,6 @@
 code: K681
 name: 胆嚢外瘻造設術
-version: r6
+version: r8
 points: 9420
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ６８１胆嚢外瘻造設術9,420点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

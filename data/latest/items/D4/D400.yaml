@@ -1,6 +1,6 @@
 code: D400
 name: 血液採取（１日につき）
-version: r6
+version: r8
 points: 40
 unit: 日
 chapter:
@@ -31,7 +31,7 @@ notes:
   text: |
     血液回路から採血した場合は算定しない。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-04-診断穿刺・検体採取料.txt
 _meta:

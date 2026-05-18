@@ -1,6 +1,6 @@
 code: J001-7
 name: 爪
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -9,14 +9,14 @@ chapter:
   section: 第1節 処置料
 raw_text: |
   Ｊ００１－７爪
-  甲除去（麻酔を要しないもの）70点
+  甲除去（麻酔を要しないもの）80点
   - 注入院中の患者以外の患者についてのみ算定する。
 notes:
 - id: 注1
   text: |
     入院中の患者以外の患者についてのみ算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

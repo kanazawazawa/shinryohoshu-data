@@ -1,6 +1,6 @@
 code: F500
 name: 調剤技術基本料
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -36,7 +36,7 @@ notes:
   text: |
     区分番号Ｂ００８に掲げる薬剤管理指導料又は区分番号Ｃ００８に掲げる在宅患者訪問薬剤管理指導料を算定している患者については、算定しない。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-05-06-調剤技術基本料.txt
 _meta:

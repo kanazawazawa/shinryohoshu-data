@@ -1,12 +1,12 @@
 code: I009
 name: 精神科デイ・ケア（１日につき）
-version: r6
+version: r8
 points: 590
 unit: 日
 chapter:
   chapter: 第2章 特掲診療料
   part: 第8部 精神科専門療法
-  section: 第1節 精神科専門療法料
+  section: 第2節 薬剤料
 raw_text: |
   Ｉ００９精神科デイ・ケア（１日につき）１小規模なもの590点
   - ２大規模なもの700点
@@ -46,9 +46,9 @@ notes:
   text: |
     精神科デイ・ケアを算定した場合は、区分番号Ｉ００８－２に掲げる精神科ショート・ケア、区分番号Ｉ０１０に掲げる精神科ナイト・ケア、区分番号Ｉ０１０－２に掲げる精神科デイ・ナイト・ケア及び区分番号Ｉ０１５に掲げる重度認知症患者デイ・ケア料は算定しない。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+  raw_file: raw/02-08-02-薬剤料.txt
 _meta:
   generated_by: rule-based
   human_reviewed: false

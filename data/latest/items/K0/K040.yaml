@@ -1,6 +1,6 @@
 code: K040
 name: 腱移行術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -10,18 +10,18 @@ chapter:
   subsection: 第2款 筋骨格系・四肢・体幹
 raw_text: |
   Ｋ０４０腱移行術
-  - １指（手、足）15,570点
-  - ２その他のもの18,080点
+  - １手指及び足趾腱移行術15,570点
+  - ２その他の腱移行術18,080点
 tiers:
 - id: '1'
-  name: 指（手、足）1
+  name: 手指及び足趾腱移行術1
   points: 5570
 - id: '2'
-  name: その他のもの
+  name: その他の腱移行術
   points: 18080
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

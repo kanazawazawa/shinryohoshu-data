@@ -1,6 +1,6 @@
 code: E002
 name: 撮影
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -85,7 +85,7 @@ notes:
   - name: 乳房トモシンセシス加算
     points: 100
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-04-01-エックス線診断料.txt
 _meta:

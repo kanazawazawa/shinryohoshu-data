@@ -1,6 +1,6 @@
 code: K027
 name: 筋炎手術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -10,18 +10,18 @@ chapter:
   subsection: 第2款 筋骨格系・四肢・体幹
 raw_text: |
   Ｋ０２７筋炎手術
-  - １腸腰筋、殿筋、大腿筋2,060点
-  - ２その他の筋1,210点
+  - １筋炎手術（腸腰筋、殿筋、大腿筋）2,060点
+  - ２その他の筋炎手術1,210点
 tiers:
 - id: '1'
-  name: 腸腰筋、殿筋、大腿筋
+  name: 筋炎手術（腸腰筋、殿筋、大腿筋）
   points: 2060
 - id: '2'
-  name: その他の筋
+  name: その他の筋炎手術
   points: 1210
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

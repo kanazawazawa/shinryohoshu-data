@@ -1,6 +1,6 @@
 code: J201
 name: 酸素加算
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -18,7 +18,7 @@ notes:
   text: |
     酸素及び窒素の価格は、別に厚生労働大臣が定める。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-02-処置医療機器等加算.txt
 _meta:

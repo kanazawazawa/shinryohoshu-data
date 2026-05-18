@@ -1,0 +1,46 @@
+code: K595
+name: 経皮的カテーテル心筋焼灼術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第8款 心・脈管
+raw_text: |
+  Ｋ５９５経皮的カテーテル心筋焼灼術
+  - １心房中隔穿刺又は心外膜アプローチを伴うもの40,760点
+  - ２その他のもの34,370点
+  - 注１三次元カラーマッピング下で行った場合には、三次元カラーマッピング加算として、17,000点を所定点数に加算する。
+  - ２磁気ナビゲーション法により行った場合は、磁気ナビゲーション加算として、5,000点を所定点数に加算する。
+  - ３手術に伴う画像診断及び検査の費用は算定しない。
+tiers:
+- id: '1'
+  name: 心房中隔穿刺又は心外膜アプローチを伴うもの
+  points: 40760
+- id: '2'
+  name: その他のもの
+  points: 34370
+notes:
+- id: 注1
+  text: 三次元カラーマッピング下で行った場合には、三次元カラーマッピング加算として、17,000点を所定点数に加算する。
+  additions:
+  - name: 三次元カラーマッピング加算
+    points: 17000
+- id: 注2
+  text: 磁気ナビゲーション法により行った場合は、磁気ナビゲーション加算として、5,000点を所定点数に加算する。
+  additions:
+  - name: 磁気ナビゲーション加算
+    points: 5000
+- id: 注3
+  text: |
+    手術に伴う画像診断及び検査の費用は算定しない。
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

@@ -1,17 +1,17 @@
 code: L000
-name: 迷もう麻酔
-version: r6
-points: 31
+name: 削除
+version: r8
+points: null
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
   part: 第11部 麻酔
   section: 第1節 麻酔料
 raw_text: |
-  Ｌ０００迷もう麻酔31点
+  Ｌ０００削除
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-11-01-麻酔料.txt
 _meta:

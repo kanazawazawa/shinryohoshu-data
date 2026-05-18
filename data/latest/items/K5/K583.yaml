@@ -1,6 +1,6 @@
 code: K583
 name: 大血管転位症手術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -33,7 +33,7 @@ notes:
   text: |
     については、過去に当該手術を行ったものに対して同一部位の人工血管等の再置換術を実施した場合は、人工血管等再置換術加算として、所定点数に所定点数の100分の50に相当する点数を加算する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

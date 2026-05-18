@@ -1,6 +1,6 @@
 code: J052
 name: ショックパンツ（１日につき）
-version: r6
+version: r8
 points: 150
 unit: 日
 chapter:
@@ -15,7 +15,7 @@ notes:
   text: |
     日目以降については、所定点数にかかわらず１日につき50点を算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: K043
 name: 骨掻爬術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -10,22 +10,50 @@ chapter:
   subsection: 第2款 筋骨格系・四肢・体幹
 raw_text: |
   Ｋ０４３骨掻爬術
-  - １肩甲骨、上腕、大腿12,270点
-  - ２前腕、下腿8,040点
-  - ３鎖骨、膝蓋骨、手、足その他3,590点
+  - １肩甲骨掻爬術12,270点
+  - ２上腕骨掻爬術12,270点
+  - ３大腿骨掻爬術12,270点
+  - ４前腕骨掻爬術8,040点
+  - ５下腿骨掻爬術8,040点
+  - ６鎖骨掻爬術3,590点
+  - ７膝蓋骨掻爬術3,590点
+  - ８手部骨掻爬術3,590点
+  - ９足部骨掻爬術3,590点
+  - 10その他の骨掻爬術3,590点
 tiers:
 - id: '1'
-  name: 肩甲骨、上腕、大腿1
+  name: 肩甲骨掻爬術1
   points: 2270
 - id: '2'
-  name: 前腕、下腿
-  points: 8040
+  name: 上腕骨掻爬術
+  points: 12270
 - id: '3'
-  name: 鎖骨、膝蓋骨、手、足その他3
-  points: 590
+  name: 大腿骨掻爬術
+  points: 12270
+- id: '4'
+  name: 前腕骨掻爬術
+  points: 8040
+- id: '5'
+  name: 下腿骨掻爬術
+  points: 8040
+- id: '6'
+  name: 鎖骨掻爬術
+  points: 3590
+- id: '7'
+  name: 膝蓋骨掻爬術
+  points: 3590
+- id: '8'
+  name: 手部骨掻爬術
+  points: 3590
+- id: '9'
+  name: 足部骨掻爬術
+  points: 3590
+- id: '10'
+  name: その他の骨掻爬術
+  points: 3590
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: K225
 name: 結膜腫瘍冷凍凝固術
-version: r6
+version: r8
 points: 800
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ２２５結膜腫瘍冷凍凝固術800点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: C108-3
 name: 在宅強心剤持続投与指導管理料
-version: r6
+version: r8
 points: 1500
 unit: 回
 chapter:
@@ -16,7 +16,7 @@ notes:
   text: |
     別に厚生労働大臣が定める注射薬の持続投与を行っている入院中の患者以外の患者に対して、在宅心不全管理に関する指導管理を行った場合に算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-02-02-在宅療養指導管理料.txt
 _meta:

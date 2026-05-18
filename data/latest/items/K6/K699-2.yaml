@@ -1,6 +1,6 @@
 code: K699-2
 name: 体外衝撃波膵
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -21,7 +21,7 @@ notes:
     points: 5640
     limit: １回
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: C119
 name: 在宅経肛門的自己洗腸指導管理料
-version: r6
+version: r8
 points: 800
 unit: 回
 chapter:
@@ -22,7 +22,7 @@ notes:
   - name: 導入初期加算
     points: 500
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-02-02-在宅療養指導管理料.txt
 _meta:

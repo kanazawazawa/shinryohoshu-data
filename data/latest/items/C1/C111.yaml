@@ -1,6 +1,6 @@
 code: C111
 name: 在宅肺高血圧症患者指導管理料
-version: r6
+version: r8
 points: 1500
 unit: 回
 chapter:
@@ -16,7 +16,7 @@ notes:
   text: |
     肺高血圧症の患者であって入院中の患者以外の患者に対して、プロスタグランジンＩ２製剤の投与等に関する医学管理等を行った場合に算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-02-02-在宅療養指導管理料.txt
 _meta:

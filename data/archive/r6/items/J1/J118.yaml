@@ -1,0 +1,25 @@
+code: J118
+name: 介達牽
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第9部 処置
+  section: 第1節 処置料
+raw_text: |
+  Ｊ１１８介達牽
+  引（１日につき）35点
+  - 注消炎鎮痛等処置を併せて行った場合は、主たるものいずれかの所定点数のみにより算定する。
+notes:
+- id: 注1
+  text: |
+    消炎鎮痛等処置を併せて行った場合は、主たるものいずれかの所定点数のみにより算定する。
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-09-01-処置料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

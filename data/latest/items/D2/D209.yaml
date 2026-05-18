@@ -1,6 +1,6 @@
 code: D209
 name: 負荷心電図検査
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -27,7 +27,7 @@ notes:
   text: |
     区分番号Ｄ２０８に掲げる心電図検査であって、同一の患者につき、負荷心電図検査と同一日に行われたものの費用は、所定点数に含まれるものとする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

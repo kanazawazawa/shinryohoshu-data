@@ -1,0 +1,34 @@
+code: K063
+name: 関節脱臼観血的整復術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第2款 筋骨格系・四肢・体幹
+raw_text: |
+  Ｋ０６３関節脱臼観血的整復術
+  - １肩、股、膝28,210点
+  - ２胸鎖、肘、手、足18,810点
+  - ３肩鎖、指（手、足）15,080点
+tiers:
+- id: '1'
+  name: 肩、股、膝
+  points: 28210
+- id: '2'
+  name: 胸鎖、肘、手、足
+  points: 18810
+- id: '3'
+  name: 肩鎖、指（手、足）
+  points: 15080
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

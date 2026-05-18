@@ -1,0 +1,25 @@
+code: C171-2
+name: 在宅持続陽圧呼吸療法材料加算
+version: r6
+points: 100
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第2部 在宅医療
+  section: 第2節 在宅療養指導管理料
+  subsection: 第2款 在宅療養指導管理材料加算
+raw_text: |
+  Ｃ１７１－２在宅持続陽圧呼吸療法材料加算100点
+  - 注在宅持続陽圧呼吸療法を行っている入院中の患者以外の患者に対して、当該療法に係る機器を使用した場合に、３月に３回に限り、第１款の所定点数に加算する。
+notes:
+- id: 注1
+  text: |
+    在宅持続陽圧呼吸療法を行っている入院中の患者以外の患者に対して、当該療法に係る機器を使用した場合に、３月に３回に限り、第１款の所定点数に加算する。
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-02-02-在宅療養指導管理料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

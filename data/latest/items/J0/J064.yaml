@@ -1,6 +1,6 @@
 code: J064
 name: 導尿（尿道拡張を要するもの）
-version: r6
+version: r8
 points: 40
 unit: 回
 chapter:
@@ -15,7 +15,7 @@ notes:
   text: |
     区分番号Ｃ１０６に掲げる在宅自己導尿指導管理料又は区分番号Ｃ１０９に掲げる在宅寝たきり患者処置指導管理料を算定している患者に対して行った導尿の費用は算定しない。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

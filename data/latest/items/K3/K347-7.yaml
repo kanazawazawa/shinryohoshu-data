@@ -1,6 +1,6 @@
 code: K347-7
 name: 内視鏡下鼻腔
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -13,7 +13,7 @@ raw_text: |
   手術Ⅲ型（鼻孔閉鎖症手術）19,940点Ｋ３４７－８内視鏡下鼻中隔手術Ⅲ型（前彎矯正術）29,680点Ｋ３４７－９内視鏡下鼻中隔手術IV型（外鼻形成術）46,070点（副鼻腔）
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

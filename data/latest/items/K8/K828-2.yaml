@@ -1,6 +1,6 @@
 code: K828-2
 name: 陰茎持続勃起症手術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -20,7 +20,7 @@ tiers:
   name: その他のシャント術によるもの18,600点（陰嚢、精巣、精巣上体、精管、精索）
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

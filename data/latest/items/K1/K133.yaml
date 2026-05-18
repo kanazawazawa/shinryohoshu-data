@@ -1,7 +1,7 @@
 code: K133
 name: 黄色靱帯骨化症手術
-version: r6
-points: 28730
+version: r8
+points: null
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
@@ -9,10 +9,27 @@ chapter:
   section: 第1節 手術料
   subsection: 第2款 筋骨格系・四肢・体幹
 raw_text: |
-  Ｋ１３３黄色靱帯骨化症手術28,730点
+  Ｋ１３３黄色靱帯骨化症手術
+  - １頸椎黄色靱帯骨化症手術28,730点
+  - ２胸椎黄色靱帯骨化症手術28,730点
+  - ３腰椎黄色靱帯骨化症手術28,730点
+  - ４仙椎黄色靱帯骨化症手術28,730点
+tiers:
+- id: '1'
+  name: 頸椎黄色靱帯骨化症手術
+  points: 28730
+- id: '2'
+  name: 胸椎黄色靱帯骨化症手術2
+  points: 8730
+- id: '3'
+  name: 腰椎黄色靱帯骨化症手術
+  points: 28730
+- id: '4'
+  name: 仙椎黄色靱帯骨化症手術
+  points: 28730
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

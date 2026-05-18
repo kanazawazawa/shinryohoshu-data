@@ -1,6 +1,6 @@
 code: K727
 name: 腹壁外腸管前置術
-version: r6
+version: r8
 points: 8340
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ７２７腹壁外腸管前置術8,340点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

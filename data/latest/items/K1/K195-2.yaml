@@ -1,6 +1,6 @@
 code: K195-2
 name: 尾動脈腺摘出術
-version: r6
+version: r8
 points: 7750
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ１９５－２尾動脈腺摘出術7,750点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

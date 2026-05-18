@@ -1,6 +1,6 @@
 code: G015
 name: テノン氏嚢内注射
-version: r6
+version: r8
 points: 80
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｇ０１５テノン氏嚢内注射80点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-06-01-注射料.txt
 _meta:

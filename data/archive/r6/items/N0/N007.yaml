@@ -1,0 +1,27 @@
+code: N007
+name: 病理判断料
+version: r6
+points: 130
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第13部 病理診断
+  section: 第2節 病理診断・判断料
+raw_text: |
+  Ｎ００７病理判断料130点
+  - 注１行われた病理標本作製の種類又は回数にかかわらず、月１回に限り算定する。
+  - ２区分番号Ｎ００６に掲げる病理診断料を算定した場合には、算定しない。
+notes:
+- id: 注1
+  text: 行われた病理標本作製の種類又は回数にかかわらず、月１回に限り算定する。
+- id: 注2
+  text: |
+    区分番号Ｎ００６に掲げる病理診断料を算定した場合には、算定しない。
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-13-02-病理診断・判断料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

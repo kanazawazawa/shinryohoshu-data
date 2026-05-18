@@ -1,6 +1,6 @@
 code: K719-6
 name: 腹腔鏡下全結腸・直腸切除嚢肛門吻合術
-version: r6
+version: r8
 points: 75690
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ７１９－６腹腔鏡下全結腸・直腸切除嚢肛門吻合術75,690点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

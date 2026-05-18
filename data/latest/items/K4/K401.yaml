@@ -1,7 +1,7 @@
 code: K401
 name: 気管口狭窄拡大術
-version: r6
-points: 3090
+version: r8
+points: 3708
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
@@ -9,10 +9,10 @@ chapter:
   section: 第1節 手術料
   subsection: 第5款 耳鼻咽喉
 raw_text: |
-  Ｋ４０１気管口狭窄拡大術3,090点
+  Ｋ４０１気管口狭窄拡大術3,708点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: K609-2
 name: 経皮的頸動脈ステント留置術
-version: r6
+version: r8
 points: 34740
 unit: 回
 chapter:
@@ -19,7 +19,7 @@ notes:
   text: |
     内頸動脈又は総頸動脈に対して行われた場合に限り算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

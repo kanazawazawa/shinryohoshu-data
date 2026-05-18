@@ -1,17 +1,17 @@
 code: J034
 name: イレウス用ロングチューブ挿入法
-version: r6
-points: 912
+version: r8
+points: 1094
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
   part: 第9部 処置
   section: 第1節 処置料
 raw_text: |
-  Ｊ０３４イレウス用ロングチューブ挿入法912点
+  Ｊ０３４イレウス用ロングチューブ挿入法1,094点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

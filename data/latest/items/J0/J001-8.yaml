@@ -1,6 +1,6 @@
 code: J001-8
 name: 穿刺排膿後薬液注入
-version: r6
+version: r8
 points: 45
 unit: 回
 chapter:
@@ -15,7 +15,7 @@ notes:
   text: |
     入院中の患者以外の患者についてのみ算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

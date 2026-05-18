@@ -1,6 +1,6 @@
 code: K614
 name: 血管移植術、バイパス移植術１大動脈
-version: r6
+version: r8
 points: 70700
 unit: 回
 chapter:
@@ -25,7 +25,7 @@ notes:
   text: |
     手術に伴う画像診断及び検査の費用は算定しない。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

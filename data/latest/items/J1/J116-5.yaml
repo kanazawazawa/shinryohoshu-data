@@ -1,6 +1,6 @@
 code: J116-5
 name: 酵素注射療法
-version: r6
+version: r8
 points: 2490
 unit: 回
 chapter:
@@ -11,7 +11,7 @@ raw_text: |
   Ｊ１１６－５酵素注射療法2,490点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

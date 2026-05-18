@@ -1,6 +1,6 @@
 code: K564
 name: 血管輪又は重複大動脈弓離断手術
-version: r6
+version: r8
 points: 43150
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ５６４血管輪又は重複大動脈弓離断手術43,150点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

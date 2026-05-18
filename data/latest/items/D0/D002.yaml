@@ -1,6 +1,6 @@
 code: D002
 name: 尿沈渣
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -26,7 +26,7 @@ notes:
   - name: 染色標本加算
     points: 9
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-01-検体検査料.txt
 _meta:

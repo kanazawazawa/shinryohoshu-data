@@ -1,6 +1,6 @@
 code: K616-4
 name: 経皮的シャント拡張術・血栓除去術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -10,13 +10,21 @@ chapter:
   subsection: 第8款 心・脈管
 raw_text: |
   Ｋ６１６－４経皮的シャント拡張術・血栓除去術
-  - １初回12,000点
+  - １初回
+      - イ透析シャント閉塞又は高度狭窄の場合12,000点
+      - ロその他の場合9,840点
   - ２１の実施後３月以内に実施する場合12,000点
   - 注手術に伴う画像診断及び検査の費用は算定しない。
 tiers:
 - id: '1'
-  name: 初回1
-  points: 2000
+  name: 初回
+  sub_tiers:
+  - label: イ
+    name: 透析シャント閉塞又は高度狭窄の場合
+    points: 12000
+  - label: ロ
+    name: その他の場合
+    points: 9840
 - id: '2'
   name: 1の実施後３月以内に実施する場合
   points: 12000
@@ -25,7 +33,7 @@ notes:
   text: |
     手術に伴う画像診断及び検査の費用は算定しない。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

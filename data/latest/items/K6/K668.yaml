@@ -1,6 +1,6 @@
 code: K668
 name: 胃横断術（静脈瘤手術）
-version: r6
+version: r8
 points: 28210
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ６６８胃横断術（静脈瘤手術）28,210点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

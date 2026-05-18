@@ -1,6 +1,6 @@
 code: K157
 name: 三叉神経節後線維切截術
-version: r6
+version: r8
 points: 36290
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ１５７三叉神経節後線維切截術36,290点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

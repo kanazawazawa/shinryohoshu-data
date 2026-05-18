@@ -1,6 +1,6 @@
 code: K302
 name: 上鼓室開放術
-version: r6
+version: r8
 points: 15110
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ３０２上鼓室開放術15,110点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

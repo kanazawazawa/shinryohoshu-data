@@ -1,6 +1,6 @@
 code: K308-2
 name: 耳管狭窄ビニール管挿入術
-version: r6
+version: r8
 points: 1420
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ３０８－２耳管狭窄ビニール管挿入術1,420点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

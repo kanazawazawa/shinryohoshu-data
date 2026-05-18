@@ -1,0 +1,34 @@
+code: J089
+name: 睫毛抜去
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第9部 処置
+  section: 第1節 処置料
+raw_text: |
+  Ｊ０８９睫毛抜去
+  - １少数の場合25点
+  - 注入院中の患者以外の患者についてのみ算定する。
+  - ２多数の場合45点
+  - 注１上眼瞼と下眼瞼についてそれぞれ処置した場合であっても１回の算定とする。
+  - ２１日に１回に限り算定する。
+notes:
+- id: 注1
+  text: 入院中の患者以外の患者についてのみ算定する。
+- id: 注2
+  text: 多数の場合45点
+- id: 注1
+  text: 上眼瞼と下眼瞼についてそれぞれ処置した場合であっても１回の算定とする。
+- id: 注2
+  text: |
+    1日に１回に限り算定する。
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-09-01-処置料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

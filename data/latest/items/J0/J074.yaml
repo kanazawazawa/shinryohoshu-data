@@ -1,6 +1,6 @@
 code: J074
 name: 卵管内薬液注入法
-version: r6
+version: r8
 points: 60
 unit: 回
 chapter:
@@ -11,7 +11,7 @@ raw_text: |
   Ｊ０７４卵管内薬液注入法60点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

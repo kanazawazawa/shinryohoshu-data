@@ -1,14 +1,14 @@
 code: J043-5
 name: 尿路ストーマカテーテル交換法
-version: r6
-points: 100
+version: r8
+points: 150
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
   part: 第9部 処置
   section: 第1節 処置料
 raw_text: |
-  Ｊ０４３－５尿路ストーマカテーテル交換法100点
+  Ｊ０４３－５尿路ストーマカテーテル交換法150点
   - 注１区分番号Ｊ０００に掲げる創傷処置、区分番号Ｋ０００に掲げる創傷処理、区分番号Ｊ０４３－３に掲げるストーマ処置（尿路ストーマに対して行ったものに限る。）の費用は所定点数に含まれるものとする。
   - ２６歳未満の乳幼児の場合は、乳幼児加算として、55点を加算する。
 notes:
@@ -21,7 +21,7 @@ notes:
   - name: 乳幼児加算
     points: 55
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

@@ -1,0 +1,39 @@
+code: K007
+name: 皮膚悪性腫瘍切除術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第1款 皮膚・皮下組織
+raw_text: |
+  Ｋ００７皮膚悪性腫瘍切除術
+  - １広汎切除28,210点
+  - ２単純切除11,000点
+  - 注放射性同位元素及び色素を用いたセンチネルリンパ節生検（悪性黒色腫等に係るものに限る。）を併せて行った場合には、皮膚悪性腫瘍センチネルリンパ節生検加算として、5,000点を所定点数に加算する。
+  ただし、当該手術に用いた色素の費用は、算定しない。
+tiers:
+- id: '1'
+  name: 広汎切除
+  points: 28210
+- id: '2'
+  name: 単純切除
+  points: 11000
+notes:
+- id: 注1
+  text: |
+    放射性同位元素及び色素を用いたセンチネルリンパ節生検（悪性黒色腫等に係るものに限る。）を併せて行った場合には、皮膚悪性腫瘍センチネルリンパ節生検加算として、5,000点を所定点数に加算する。
+    ただし、当該手術に用いた色素の費用は、算定しない。
+  additions:
+  - name: 皮膚悪性腫瘍センチネルリンパ節生検加算
+    points: 5000
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

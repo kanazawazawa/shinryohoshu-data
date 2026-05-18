@@ -1,6 +1,6 @@
 code: K645-2
 name: 腹腔鏡下骨盤内臓全摘術
-version: r6
+version: r8
 points: 168110
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ６４５－２腹腔鏡下骨盤内臓全摘術168,110点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

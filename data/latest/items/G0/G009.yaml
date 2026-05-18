@@ -1,6 +1,6 @@
 code: G009
 name: 脳脊髄腔注射
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -10,17 +10,17 @@ chapter:
   subsection: 第1款 注射実施料
 raw_text: |
   Ｇ００９脳脊髄腔注射
-  - １脳室300点
-  - ２後頭下220点
+  - １脳室360点
+  - ２後頭下264点
   - ３腰椎160点
   - 注６歳未満の乳幼児に対して行った場合は、乳幼児加算として、60点を所定点数に加算する。
 tiers:
 - id: '1'
   name: 脳室
-  points: 300
+  points: 360
 - id: '2'
   name: 後頭下2
-  points: 20
+  points: 64
 - id: '3'
   name: 腰椎
   points: 160
@@ -32,7 +32,7 @@ notes:
   - name: 乳幼児加算
     points: 60
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-06-01-注射料.txt
 _meta:

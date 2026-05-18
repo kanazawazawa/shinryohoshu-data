@@ -1,6 +1,6 @@
 code: C006
 name: 在宅患者訪問リハビリテーション指導管理料（１単位）
-version: r6
+version: r8
 points: 300
 unit: 回
 chapter:
@@ -28,7 +28,7 @@ notes:
   text: |
     在宅患者訪問リハビリテーション指導管理に要した交通費は、患家の負担とする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-02-01-在宅患者診療・指導料.txt
 _meta:

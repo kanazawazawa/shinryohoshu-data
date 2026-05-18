@@ -1,6 +1,6 @@
 code: K425
 name: 口腔
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -17,7 +17,7 @@ raw_text: |
   - ３鼻腔底形成を伴う場合36,620点（顔面骨、顎関節）
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

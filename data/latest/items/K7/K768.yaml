@@ -1,6 +1,6 @@
 code: K768
 name: 体外衝撃波腎・尿管結石破砕術（一連につき）
-version: r6
+version: r8
 points: 19300
 unit: 一連
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ７６８体外衝撃波腎・尿管結石破砕術（一連につき）19,300点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: K921-3
 name: 末梢
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -13,7 +13,7 @@ raw_text: |
   - ２採取、細胞調製及び凍結保存を行う場合19,410点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-02-輸血料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: K163
 name: 頭蓋骨膜下血腫摘出術
-version: r6
+version: r8
 points: 10680
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ１６３頭蓋骨膜下血腫摘出術10,680点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

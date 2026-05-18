@@ -1,6 +1,6 @@
 code: K393
 name: 喉頭腫瘍摘出術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -12,6 +12,7 @@ raw_text: |
   Ｋ３９３喉頭腫瘍摘出術
   - １間接喉頭鏡によるもの3,420点
   - ２直達鏡によるもの4,310点
+  - ３鏡視下によるもの6,120点
 tiers:
 - id: '1'
   name: 間接喉頭鏡によるもの
@@ -19,9 +20,12 @@ tiers:
 - id: '2'
   name: 直達鏡によるもの
   points: 4310
+- id: '3'
+  name: 鏡視下によるもの
+  points: 6120
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

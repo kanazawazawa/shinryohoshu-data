@@ -1,6 +1,6 @@
 code: G008
 name: 骨髄内注射
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -21,7 +21,7 @@ tiers:
   points: 90
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-06-01-注射料.txt
 _meta:

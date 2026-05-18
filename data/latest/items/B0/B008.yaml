@@ -1,6 +1,6 @@
 code: B008
 name: 薬剤管理指導料
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -30,7 +30,7 @@ notes:
   - name: 麻薬管理指導加算
     points: 50
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-01-01-医学管理料等.txt
 _meta:

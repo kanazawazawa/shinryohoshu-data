@@ -1,6 +1,6 @@
 code: K083
 name: 鋼線等による直達牽
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -18,7 +18,7 @@ notes:
   text: |
     介達牽引又は消炎鎮痛等処置と併せて行った場合は、鋼線等による直達牽引の所定点数のみにより算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

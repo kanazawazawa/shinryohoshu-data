@@ -1,6 +1,6 @@
 code: K151-2
 name: 広範囲頭蓋底腫瘍切除・再建術
-version: r6
+version: r8
 points: 216230
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ１５１－２広範囲頭蓋底腫瘍切除・再建術216,230点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: K716-5
 name: 移植用小腸採取術（死体）
-version: r6
+version: r8
 points: 65140
 unit: 回
 chapter:
@@ -16,7 +16,7 @@ notes:
   text: |
     小腸提供者に係る組織適合性試験の費用は、所定点数に含まれる。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

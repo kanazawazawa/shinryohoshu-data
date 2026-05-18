@@ -1,7 +1,7 @@
 code: K450
 name: 唾石摘出術（一連につき）
-version: r6
-points: 720
+version: r8
+points: null
 unit: 一連
 chapter:
   chapter: 第2章 特掲診療料
@@ -9,13 +9,14 @@ chapter:
   section: 第1節 手術料
   subsection: 第6款 顔面・口腔・頸部
 raw_text: |
-  Ｋ４５０唾石摘出術（一連につき）１表在性のもの720点
+  Ｋ４５０唾石摘出術（一連につき）１表在性のもの1,080点
   - ２深在性のもの4,330点
   - ３腺体内に存在するもの6,550点
   - 注２又は３の場合であって内視鏡を用いた場合は、1,000点を所定点数に加算する。
 tiers:
 - id: '1'
-  name: 表在性のもの
+  name: 表在性のもの１
+  points: 80
 - id: '2'
   name: 深在性のもの
   points: 4330
@@ -27,7 +28,7 @@ notes:
   text: |
     又は３の場合であって内視鏡を用いた場合は、1,000点を所定点数に加算する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

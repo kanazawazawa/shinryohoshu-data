@@ -1,6 +1,6 @@
 code: D269-2
 name: 光学的眼軸長測定
-version: r6
+version: r8
 points: 150
 unit: 回
 chapter:
@@ -11,7 +11,7 @@ raw_text: |
   Ｄ２６９－２光学的眼軸長測定150点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

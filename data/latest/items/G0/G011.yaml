@@ -1,7 +1,7 @@
 code: G011
 name: 気管内注入
-version: r6
-points: 100
+version: r8
+points: 120
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
@@ -9,10 +9,10 @@ chapter:
   section: 第1節 注射料
   subsection: 第1款 注射実施料
 raw_text: |
-  Ｇ０１１気管内注入100点
+  Ｇ０１１気管内注入120点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-06-01-注射料.txt
 _meta:

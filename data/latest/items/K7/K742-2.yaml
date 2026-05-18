@@ -1,6 +1,6 @@
 code: K742-2
 name: 腹腔鏡下直腸脱手術
-version: r6
+version: r8
 points: 30810
 unit: 回
 chapter:
@@ -13,7 +13,7 @@ raw_text: |
   （肛門、その周辺）
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

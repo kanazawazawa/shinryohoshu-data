@@ -1,7 +1,7 @@
 code: K241
 name: 眼球摘出術
-version: r6
-points: 4220
+version: r8
+points: 5064
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
@@ -9,10 +9,10 @@ chapter:
   section: 第1節 手術料
   subsection: 第4款 眼
 raw_text: |
-  Ｋ２４１眼球摘出術4,220点
+  Ｋ２４１眼球摘出術5,064点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

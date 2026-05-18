@@ -1,6 +1,6 @@
 code: K513-4
 name: 胸腔鏡下肺縫縮術
-version: r6
+version: r8
 points: 53130
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ５１３－４胸腔鏡下肺縫縮術53,130点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: K720
 name: 結腸腫瘍（回盲部腫瘍摘出術を含む。）、結腸憩室摘出術、結腸ポリープ切除術（開腹によるもの）
-version: r6
+version: r8
 points: 16610
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ７２０結腸腫瘍（回盲部腫瘍摘出術を含む。）、結腸憩室摘出術、結腸ポリープ切除術（開腹によるもの）16,610点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

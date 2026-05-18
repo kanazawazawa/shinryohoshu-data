@@ -1,6 +1,6 @@
 code: D302-2
 name: 気管支カテーテル気管支肺胞洗浄法検査
-version: r6
+version: r8
 points: 320
 unit: 回
 chapter:
@@ -11,7 +11,7 @@ raw_text: |
   Ｄ３０２－２気管支カテーテル気管支肺胞洗浄法検査320点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: K769-2
 name: 腹腔鏡下腎部分切除術
-version: r6
+version: r8
 points: 49200
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ７６９－２腹腔鏡下腎部分切除術49,200点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

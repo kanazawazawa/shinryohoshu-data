@@ -1,6 +1,6 @@
 code: D214
 name: 脈波図、心機図、ポリグラフ検査１１検査
-version: r6
+version: r8
 points: 60
 unit: 回
 chapter:
@@ -26,7 +26,7 @@ notes:
   text: |
     検査の実施ごとに１から６までに掲げる所定点数を算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

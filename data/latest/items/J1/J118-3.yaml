@@ -1,6 +1,6 @@
 code: J118-3
 name: 変形機械矯正術（１日につき）
-version: r6
+version: r8
 points: 35
 unit: 日
 chapter:
@@ -15,7 +15,7 @@ notes:
   text: |
     消炎鎮痛等処置を併せて行った場合は、主たるものいずれかの所定点数のみにより算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: B011-3
 name: 薬剤情報提供料
-version: r6
+version: r8
 points: 4
 unit: 回
 chapter:
@@ -24,7 +24,7 @@ notes:
   text: |
     保険薬局において調剤を受けるために処方箋を交付した患者については、算定しない。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-01-01-医学管理料等.txt
 _meta:

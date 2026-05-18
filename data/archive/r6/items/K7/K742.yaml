@@ -1,0 +1,46 @@
+code: K742
+name: 直腸脱手術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第9款 腹部
+raw_text: |
+  Ｋ７４２直腸脱手術
+  - １経会陰によるもの
+      - イ腸管切除を伴わないもの8,410点
+      - ロ腸管切除を伴うもの25,780点
+  - ２直腸挙上固定を行うもの10,900点
+  - ３骨盤底形成を行うもの18,810点
+  - ４腹会陰からのもの（腸切除を含む。）37,620点
+tiers:
+- id: '1'
+  name: 経会陰によるもの
+  sub_tiers:
+  - label: イ
+    name: 腸管切除を伴わないもの
+    points: 8410
+  - label: ロ
+    name: 腸管切除を伴うもの
+    points: 25780
+- id: '2'
+  name: 直腸挙上固定を行うもの
+  points: 10900
+- id: '3'
+  name: 骨盤底形成を行うもの
+  points: 18810
+- id: '4'
+  name: 腹会陰からのもの（腸切除を含む。）
+  points: 37620
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

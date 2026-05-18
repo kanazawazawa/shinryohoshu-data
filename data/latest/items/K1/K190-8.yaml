@@ -1,6 +1,6 @@
 code: K190-8
 name: 舌下神経電気刺激装置植込術
-version: r6
+version: r8
 points: 28030
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ１９０－８舌下神経電気刺激装置植込術28,030点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

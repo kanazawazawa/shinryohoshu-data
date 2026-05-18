@@ -1,7 +1,7 @@
 code: K339
 name: 粘膜下下鼻甲介骨切除術
-version: r6
-points: 4890
+version: r8
+points: 5868
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
@@ -9,10 +9,10 @@ chapter:
   section: 第1節 手術料
   subsection: 第5款 耳鼻咽喉
 raw_text: |
-  Ｋ３３９粘膜下下鼻甲介骨切除術4,890点
+  Ｋ３３９粘膜下下鼻甲介骨切除術5,868点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

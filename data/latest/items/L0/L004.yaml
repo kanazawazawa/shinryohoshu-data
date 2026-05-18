@@ -1,6 +1,6 @@
 code: L004
 name: 脊椎麻酔
-version: r6
+version: r8
 points: 850
 unit: 回
 chapter:
@@ -18,7 +18,7 @@ notes:
   - name: 麻酔管理時間加算
     points: 128
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-11-01-麻酔料.txt
 _meta:

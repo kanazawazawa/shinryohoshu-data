@@ -1,6 +1,6 @@
 code: D312
 name: 直腸ファイバースコピー
-version: r6
+version: r8
 points: 550
 unit: 回
 chapter:
@@ -18,7 +18,7 @@ notes:
   - name: 粘膜点墨法加算
     points: 60
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

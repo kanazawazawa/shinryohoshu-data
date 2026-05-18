@@ -1,6 +1,6 @@
 code: K847
 name: 輪状処女膜切除術
-version: r6
+version: r8
 points: 2230
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ８４７輪状処女膜切除術2,230点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

@@ -1,0 +1,33 @@
+code: G002
+name: 動脈注射（１日につき）
+version: r6
+points: null
+unit: 日
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第6部 注射
+  section: 第1節 注射料
+  subsection: 第1款 注射実施料
+raw_text: |
+  Ｇ００２動脈注射（１日につき）１内臓の場合155点
+  - ２その他の場合45点Ｇ００３抗悪性腫瘍剤局所持続注入（１日につき）165点
+  - 注皮下植込型カテーテルアクセス等を用いて抗悪性腫瘍剤を動脈内、静脈内又は腹腔内に局所持続注入した場合に算定する。
+tiers:
+- id: '1'
+  name: 内臓の場合１
+  points: 55
+- id: '2'
+  name: その他の場合45点Ｇ００３抗悪性腫瘍剤局所持続注入（１日につき）
+  points: 165
+notes:
+- id: 注1
+  text: |
+    皮下植込型カテーテルアクセス等を用いて抗悪性腫瘍剤を動脈内、静脈内又は腹腔内に局所持続注入した場合に算定する。
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-06-01-注射料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

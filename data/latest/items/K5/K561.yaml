@@ -1,6 +1,6 @@
 code: K561
 name: ステントグラフト内挿術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -13,8 +13,9 @@ raw_text: |
   - １血管損傷の場合43,830点
   - ２１以外の場合
       - イ胸部大動脈56,560点
-      - ロ腹部大動脈49,440点
-      - ハ腸骨動脈43,830点
+      - ロ腹部大動脈（腸骨動脈の再建を伴うもの）56,000点
+      - ハ腹部大動脈（その他のもの）49,440点
+      - ニ腸骨動脈43,830点
 tiers:
 - id: '1'
   name: 血管損傷の場合
@@ -26,14 +27,17 @@ tiers:
     name: 胸部大動脈
     points: 56560
   - label: ロ
-    name: 腹部大動脈
-    points: 49440
+    name: 腹部大動脈（腸骨動脈の再建を伴うもの）
+    points: 56000
   - label: ハ
+    name: 腹部大動脈（その他のもの）
+    points: 49440
+  - label: ニ
     name: 腸骨動脈
     points: 43830
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

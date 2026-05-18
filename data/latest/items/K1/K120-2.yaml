@@ -1,6 +1,6 @@
 code: K120-2
 name: 恥骨結合離開非観血的整復固定術
-version: r6
+version: r8
 points: 1810
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ１２０－２恥骨結合離開非観血的整復固定術1,810点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

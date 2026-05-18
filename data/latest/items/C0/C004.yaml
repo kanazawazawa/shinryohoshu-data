@@ -1,6 +1,6 @@
 code: C004
 name: 救急搬送診療料
-version: r6
+version: r8
 points: 1300
 unit: 回
 chapter:
@@ -35,7 +35,7 @@ notes:
   - name: 重症患者搬送加算
     points: 1800
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-02-01-在宅患者診療・指導料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: K845
 name: 処女膜切開術
-version: r6
+version: r8
 points: 790
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ８４５処女膜切開術790点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

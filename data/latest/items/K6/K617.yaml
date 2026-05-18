@@ -1,6 +1,6 @@
 code: K617
 name: 下肢静脈瘤手術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ６１７下肢静脈瘤手術
   - １抜去切除術10,200点
   - ２硬化療法（一連として）1,720点
-  - ３高位結紮術3,130点
+  - ３高位結紮術3,756点
   - ４静脈瘤切除術1,820点
 tiers:
 - id: '1'
@@ -23,13 +23,13 @@ tiers:
   points: 1720
 - id: '3'
   name: 高位結紮術3
-  points: 130
+  points: 756
 - id: '4'
   name: 静脈瘤切除術
   points: 1820
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

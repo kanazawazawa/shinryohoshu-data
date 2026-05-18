@@ -1,7 +1,7 @@
 code: K392
-name: 喉頭蓋切除術
-version: r6
-points: 3660
+name: 削除
+version: r8
+points: null
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
@@ -9,10 +9,10 @@ chapter:
   section: 第1節 手術料
   subsection: 第5款 耳鼻咽喉
 raw_text: |
-  Ｋ３９２喉頭蓋切除術3,660点
+  Ｋ３９２削除
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

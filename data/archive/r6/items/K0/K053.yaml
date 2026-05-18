@@ -1,0 +1,41 @@
+code: K053
+name: 骨悪性腫瘍手術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第2款 筋骨格系・四肢・体幹
+raw_text: |
+  Ｋ０５３骨悪性腫瘍手術
+  - １肩甲骨、上腕、大腿36,600点
+  - ２前腕、下腿35,000点
+  - ３鎖骨、膝蓋骨、手、足その他25,310点
+  - 注自家処理骨を用いた再建を行った場合は、処理骨再建加算として、15,000点を所定点数に加算する。
+tiers:
+- id: '1'
+  name: 肩甲骨、上腕、大腿
+  points: 36600
+- id: '2'
+  name: 前腕、下腿
+  points: 35000
+- id: '3'
+  name: 鎖骨、膝蓋骨、手、足その他
+  points: 25310
+notes:
+- id: 注1
+  text: |
+    自家処理骨を用いた再建を行った場合は、処理骨再建加算として、15,000点を所定点数に加算する。
+  additions:
+  - name: 処理骨再建加算
+    points: 15000
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

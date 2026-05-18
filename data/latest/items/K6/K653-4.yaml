@@ -1,6 +1,6 @@
 code: K653-4
 name: 内視鏡的表在性胃悪性腫瘍光線力学療法
-version: r6
+version: r8
 points: 6460
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ６５３－４内視鏡的表在性胃悪性腫瘍光線力学療法6,460点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: J034-3
 name: 内視鏡的結腸軸捻転解除術（一連につき）
-version: r6
+version: r8
 points: 5360
 unit: 一連
 chapter:
@@ -11,7 +11,7 @@ raw_text: |
   Ｊ０３４－３内視鏡的結腸軸捻転解除術（一連につき）5,360点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

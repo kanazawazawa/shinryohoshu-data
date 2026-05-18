@@ -1,6 +1,6 @@
 code: K829
 name: 精管切断、切除術（両側）
-version: r6
+version: r8
 points: 2550
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ８２９精管切断、切除術（両側）2,550点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

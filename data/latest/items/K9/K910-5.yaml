@@ -1,6 +1,6 @@
 code: K910-5
 name: 胎児輸血術（一連につき）
-version: r6
+version: r8
 points: 13880
 unit: 一連
 chapter:
@@ -19,7 +19,7 @@ notes:
   text: |
     臍帯穿刺の費用は、所定点数に含まれる。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

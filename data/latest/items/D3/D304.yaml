@@ -1,6 +1,6 @@
 code: D304
 name: 縦隔鏡検査
-version: r6
+version: r8
 points: 7000
 unit: 回
 chapter:
@@ -11,7 +11,7 @@ raw_text: |
   Ｄ３０４縦隔鏡検査7,000点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

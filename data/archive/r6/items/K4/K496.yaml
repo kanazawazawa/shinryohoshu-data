@@ -1,0 +1,23 @@
+code: K496
+name: 醸膿
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第7款 胸部
+raw_text: |
+  Ｋ４９６醸膿
+  胸膜、胸膜胼胝切除術１１肺葉に相当する範囲以内のもの26,340点
+  - ２１肺葉に相当する範囲を超えるもの33,150点
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

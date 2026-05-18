@@ -1,6 +1,6 @@
 code: J057-2
 name: 面皰圧出法
-version: r6
+version: r8
 points: 49
 unit: 回
 chapter:
@@ -11,7 +11,7 @@ raw_text: |
   Ｊ０５７－２面皰圧出法49点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

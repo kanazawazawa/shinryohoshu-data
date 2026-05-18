@@ -1,6 +1,6 @@
 code: D298-2
 name: 内視鏡下嚥下機能検査
-version: r6
+version: r8
 points: 720
 unit: 回
 chapter:
@@ -11,7 +11,7 @@ raw_text: |
   Ｄ２９８－２内視鏡下嚥下機能検査720点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

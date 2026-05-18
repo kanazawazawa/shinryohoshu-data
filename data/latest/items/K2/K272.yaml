@@ -1,6 +1,6 @@
 code: K272
 name: 毛様体冷凍凝固術
-version: r6
+version: r8
 points: 2160
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ２７２毛様体冷凍凝固術2,160点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

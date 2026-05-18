@@ -1,6 +1,6 @@
 code: K798
 name: 膀胱
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -11,11 +11,11 @@ chapter:
 raw_text: |
   Ｋ７９８膀胱
   結石、異物摘出術１経尿道的手術8,320点
-  - ２膀胱高位切開術3,150点
+  - ２膀胱高位切開術3,780点
   - ３レーザーによるもの11,980点Ｋ７９８－２経尿道的尿管凝血除去術（バスケットワイヤーカテーテル使用）8,320点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

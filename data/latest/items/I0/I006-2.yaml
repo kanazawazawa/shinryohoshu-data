@@ -1,12 +1,12 @@
 code: I006-2
 name: 依存症集団療法（１回につき）
-version: r6
+version: r8
 points: 340
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
   part: 第8部 精神科専門療法
-  section: 第1節 精神科専門療法料
+  section: 第2節 薬剤料
 raw_text: |
   Ｉ００６－２依存症集団療法（１回につき）１薬物依存症の場合340点
   - ２ギャンブル依存症の場合300点
@@ -38,9 +38,9 @@ notes:
   text: |
     依存症集団療法と同一日に行う他の精神科専門療法は、所定点数に含まれるものとする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+  raw_file: raw/02-08-02-薬剤料.txt
 _meta:
   generated_by: rule-based
   human_reviewed: false

@@ -1,8 +1,8 @@
 # shinryohoshu-data
 
 厚生労働省告示「診療報酬の算定方法」（点数表本表）を、電子カルテ・レセコン等のベンダーが
-**機械可読な形で利用できる YAML データセット** に変換し、改定版を **並列に保持** して
-構造差分を取れるようにすることを目的としたリポジトリ。
+**機械可読な形で利用できる YAML データセット** に変換し、改定差分を
+**GitHub のファイル History でそのまま追える** ように構造化したリポジトリ。
 
 > ⚠️ **本リポジトリのデータは未レビューの自動抽出結果です。**
 > 法的・実務的に唯一正しい情報は厚生労働省告示の原典 PDF です。
@@ -15,21 +15,20 @@
 ```
 sources/                 原典 PDF（告示そのまま）
 data/
-  r6/                    令和6年度版（現行）
-    raw/                 T3: 章節単位プレーンテキスト（lossless）
-    index.yaml           T1: 全区分の索引（コード・名称・点数・章節）
-    items/<XX>/<CODE>.yaml T2: 区分ごと詳細（raw_text 必須保持） ; <XX>=コード先頭2文字でシャード
-  r8/                    令和8年度版（改定）  同構成
-docs/                    自動生成 Markdown（人間閲覧用 / .gitignore）
-  r6/items/<XX>/<CODE>.md
-  r8/items/<XX>/<CODE>.md
-  diff/r6-r8/            R6→R8 構造差分
+  latest/                ← 現行版（R8 = 令和8年度）。改定のたびにここを上書き
+    raw/                 T3: 章節単位プレーンテキスト（lossless, .gitignore）
+    index.yaml           T1: 全区分の索引
+    items/<XX>/<CODE>.yaml T2: 区分ごと詳細（raw_text 同梱）
+  archive/
+    r6/                  ← 旧版スナップショット（令和6年度）。同構成
+docs/                    自動生成 Markdown（.gitignore）
+  diff/r6-r8/            R6→R8 構造差分サマリ
 schema/                  JSON Schema (Draft 2020-12)
 scripts/                 抽出・検証・差分パイプライン
 ```
 
 `data/**/raw/` と `docs/` は生成物のため `.gitignore`。
-利用側は `data/<ver>/index.yaml` と `data/<ver>/items/<CODE>.yaml` を読めば足ります。
+利用側は `data/latest/index.yaml` と `data/latest/items/<XX>/<CODE>.yaml` を読めば足ります。
 
 ---
 
@@ -37,23 +36,11 @@ scripts/                 抽出・検証・差分パイプライン
 
 | 層 | ファイル | 目的 | 損失 |
 |---|---|---|---|
-| **T3** | `data/<ver>/raw/*.txt` | PDF→正規化テキスト（章節単位） | ゼロ（章ごとの SHA-256 と文字数を `_manifest.yaml` に記録） |
-| **T1** | `data/<ver>/index.yaml` | 全区分の一覧（コード・名称・点数・章節） | 構造化のため一部欠落あり |
-| **T2** | `data/<ver>/items/<XX>/<CODE>.yaml` | 区分ごと（注・加算等） + **必ず原文 `raw_text` を同梱** | `raw_text` で原文保持 |
+| **T3** | `data/<ver>/raw/*.txt` | PDF→正規化テキスト（章節単位） | ゼロ（`_manifest.yaml` に SHA-256 と文字数） |
+| **T1** | `data/<ver>/index.yaml` | 全区分の一覧 | 構造化のため一部欠落あり |
+| **T2** | `data/<ver>/items/<XX>/<CODE>.yaml` | 区分ごと（注・加算等） + **必ず原文 `raw_text` 同梱** | `raw_text` で原文保持 |
 
-> `<XX>` はコード先頭 2 文字（例: `K6/K637-2.yaml`）。GitHub Web UI の 1 ディレクトリ 1000 ファイル上限を回避するためのシャーディング。
-
-T1 / T2 は機械的抽出のため誤りを含み得るが、`raw_text` を必ず残すことで
-**「自動抽出結果」と「原文」の両方を 1 ファイルで照合できる** 設計になっている。
-
----
-
-## 並列バージョン保持
-
-R6（現行）と R8（改定）は **両方とも `data/r6/` と `data/r8/` に共存**。
-ベンダーは適用日に応じて参照ディレクトリを切り替えるだけで使える。
-
-スナップショットを固定したい場合は Git タグ (`r6-published`, `r8-published`) を参照。
+> `<XX>` はコード先頭 2 文字（例: `K6/K637-2.yaml`）。GitHub の 1 ディレクトリ 1000 ファイル上限を回避するためのシャーディング。
 
 ---
 
@@ -61,9 +48,15 @@ R6（現行）と R8（改定）は **両方とも `data/r6/` と `data/r8/` に
 
 | 目的 | 推奨手段 |
 |---|---|
-| **構造化サマリ** (改定なし区分は表示されず、変化のあった区分だけ要点抽出) | **[`docs/diff/r6-r8/`](docs/diff/r6-r8/)** ← 第一推奨。GitHub Web UI で直接読める |
-| **生 YAML diff** (フィールド単位で完全差分) | `revisions` ブランチで `git log -p data/items/<XX>/<CODE>.yaml`<br>または [Blame ビュー](https://github.com/kanazawazawa/shinryohoshu-data/blame/revisions/data/items/A0/A001.yaml) |
-| **任意 2 ファイル比較** | `git diff --no-index data/r6/items/<XX>/<CODE>.yaml data/r8/items/<XX>/<CODE>.yaml` |
+| **1 区分の改定履歴を見る** | GitHub 上で [`data/latest/items/A0/A001.yaml`](data/latest/items/A0/A001.yaml) を開き **History** ボタン。R6→R8 の 2 commit で差分が表示される |
+| **構造化サマリ**（変化があった区分だけ要点抽出） | [`docs/diff/r6-r8/`](docs/diff/r6-r8/) を参照（自動生成 Markdown） |
+| **旧版（R6）を丸ごと参照** | [`data/archive/r6/`](data/archive/r6/) または `git checkout v-r6` |
+| **任意 2 ファイル比較** | `git diff v-r6 v-r8 -- data/latest/items/<XX>/<CODE>.yaml` |
+
+仕掛け: `main` ブランチは「R6 を `data/latest/` に投入」→「R8 で `data/latest/` を上書き
+＋ R6 を `data/archive/r6/` にコピー」という 2 commit の直列履歴を持っており、
+`data/latest/<CODE>.yaml` は **同一パス上で R6→R8 と modify されている** ため
+GitHub の per-file History / Blame がそのまま改定差分ビューになります。
 
 サマリ統計 (R6 → R8): 削除 37 / 新設 50 / 構造変化 213 件。
 
@@ -73,19 +66,17 @@ R6（現行）と R8（改定）は **両方とも `data/r6/` と `data/r8/` に
 
 ```bash
 uv sync
+
+# 最新版だけビルド（高速。日常の検証用）
 PYTHONIOENCODING=utf-8 uv run python scripts/build_all.py
+
+# 履歴ごと再構築（R6 commit → R8 commit を作り直す。リリース時のみ）
+PYTHONIOENCODING=utf-8 uv run python scripts/build_history.py
 ```
 
-下記が順に実行される:
+`build_all.py` は `data/latest/` のみ生成（既定では R8）。
+`build_history.py` は R6/R8 を順に build → commit → tag (`v-r6`, `v-r8`) します。
 
-1. `extract_raw.py` &nbsp; PDF → `data/<ver>/raw/`
-2. `extract_index.py` &nbsp; raw → `data/<ver>/index.yaml`
-3. `extract_items.py` &nbsp; index + raw → `data/<ver>/items/<XX>/<CODE>.yaml`
-4. `validate.py` &nbsp; JSON Schema 検証 + 索引↔個別ファイル整合 + 文字数突合
-5. `render_md.py` &nbsp; YAML → `docs/<ver>/`
-6. `diff_revisions.py` &nbsp; R6 vs R8 → `docs/diff/r6-r8/`
-
-完全冪等です（再ビルド後 `git status` がクリーン）。
 **詳細な再現手順・Copilot 介入工程・既知の落とし穴は [REPRODUCE.md](REPRODUCE.md) を参照。**
 
 ---

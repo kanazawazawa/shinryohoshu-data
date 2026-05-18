@@ -1,6 +1,6 @@
 code: J057-3
 name: 鶏眼・胼胝処置
-version: r6
+version: r8
 points: 170
 unit: 回
 chapter:
@@ -15,7 +15,7 @@ notes:
   text: |
     月２回に限り算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

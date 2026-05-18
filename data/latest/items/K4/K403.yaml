@@ -1,6 +1,6 @@
 code: K403
 name: 気管形成手術（管状気管、気管移植等）
-version: r6
+version: r8
 points: 49940
 unit: 回
 chapter:
@@ -19,7 +19,7 @@ tiers:
   points: 76040
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

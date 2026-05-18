@@ -1,6 +1,6 @@
 code: C106
 name: 在宅自己導尿指導管理料
-version: r6
+version: r8
 points: 1400
 unit: 回
 chapter:
@@ -19,7 +19,7 @@ notes:
   text: |
     カテーテルの費用は、第２款に定める所定点数により算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-02-02-在宅療養指導管理料.txt
 _meta:

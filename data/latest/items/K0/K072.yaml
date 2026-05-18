@@ -1,6 +1,6 @@
 code: K072
 name: 関節切除術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -10,22 +10,50 @@ chapter:
   subsection: 第2款 筋骨格系・四肢・体幹
 raw_text: |
   Ｋ０７２関節切除術
-  - １肩、股、膝23,280点
-  - ２胸鎖、肘、手、足16,070点
-  - ３肩鎖、指（手、足）6,800点
+  - １肩関節切除術23,280点
+  - ２股関節切除術23,280点
+  - ３膝関節切除術23,280点
+  - ４胸鎖関節切除術16,070点
+  - ５肘関節切除術16,070点
+  - ６手関節切除術16,070点
+  - ７足関節及び距骨周囲関節切除術16,070点
+  - ８肩鎖関節切除術6,800点
+  - ９手指関節切除術6,800点
+  - 10足趾関節切除術6,800点
 tiers:
 - id: '1'
-  name: 肩、股、膝
+  name: 肩関節切除術
   points: 23280
 - id: '2'
-  name: 胸鎖、肘、手、足
-  points: 16070
+  name: 股関節切除術2
+  points: 3280
 - id: '3'
-  name: 肩鎖、指（手、足）
+  name: 膝関節切除術
+  points: 23280
+- id: '4'
+  name: 胸鎖関節切除術
+  points: 16070
+- id: '5'
+  name: 肘関節切除術
+  points: 16070
+- id: '6'
+  name: 手関節切除術
+  points: 16070
+- id: '7'
+  name: 足関節及び距骨周囲関節切除術
+  points: 16070
+- id: '8'
+  name: 肩鎖関節切除術
+  points: 6800
+- id: '9'
+  name: 手指関節切除術
+  points: 6800
+- id: '10'
+  name: 足趾関節切除術
   points: 6800
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

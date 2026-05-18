@@ -1,6 +1,6 @@
 code: K188-3
 name: 癒着性脊髄くも膜炎手術（脊髄くも膜剥離操作を行うもの）
-version: r6
+version: r8
 points: 38790
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ１８８－３癒着性脊髄くも膜炎手術（脊髄くも膜剥離操作を行うもの）38,790点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

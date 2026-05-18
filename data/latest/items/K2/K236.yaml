@@ -1,6 +1,6 @@
 code: K236
 name: 眼窩悪性腫瘍手術
-version: r6
+version: r8
 points: 51940
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ２３６眼窩悪性腫瘍手術51,940点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

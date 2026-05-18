@@ -1,6 +1,6 @@
 code: J000-2
 name: 下肢創傷処置
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -24,7 +24,7 @@ tiers:
   points: 270
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

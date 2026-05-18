@@ -1,6 +1,6 @@
 code: K070
 name: ガングリオン摘出術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -10,18 +10,30 @@ chapter:
   subsection: 第2款 筋骨格系・四肢・体幹
 raw_text: |
   Ｋ０７０ガングリオン摘出術
-  - １手、足、指（手、足）3,050点
-  - ２その他（ヒグローム摘出術を含む。）3,190点
+  - １手部ガングリオン摘出術3,050点
+  - ２足部ガングリオン摘出術3,050点
+  - ３手指ガングリオン摘出術3,050点
+  - ４足趾ガングリオン摘出術3,050点
+  - ５その他のガングリオン摘出術（ヒグローム摘出術を含む。）3,190点
 tiers:
 - id: '1'
-  name: 手、足、指（手、足）
+  name: 手部ガングリオン摘出術
   points: 3050
 - id: '2'
-  name: その他（ヒグローム摘出術を含む。）
+  name: 足部ガングリオン摘出術
+  points: 3050
+- id: '3'
+  name: 手指ガングリオン摘出術3
+  points: 50
+- id: '4'
+  name: 足趾ガングリオン摘出術
+  points: 3050
+- id: '5'
+  name: その他のガングリオン摘出術（ヒグローム摘出術を含む。）
   points: 3190
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

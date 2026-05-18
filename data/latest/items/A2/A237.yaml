@@ -1,6 +1,6 @@
 code: A237
 name: ハイリスク分娩
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -23,7 +23,7 @@ notes:
   text: |
     ハイリスク分娩管理又は地域連携分娩管理と同一日に行うハイリスク妊娠管理に係る費用は、１又は２に含まれるものとする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/01-02-02-入院基本料等加算.txt
 _meta:

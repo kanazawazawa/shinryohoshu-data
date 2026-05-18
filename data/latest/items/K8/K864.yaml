@@ -1,6 +1,6 @@
 code: K864
 name: 子宮位置矯正術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -10,22 +10,18 @@ chapter:
   subsection: 第11款 性器
 raw_text: |
   Ｋ８６４子宮位置矯正術
-  - １アレキサンダー手術4,040点
-  - ２開腹による位置矯正術8,140点
-  - ３癒着剥離矯正術16,420点
+  - １開腹による位置矯正術8,140点
+  - ２癒着剥離矯正術16,420点
 tiers:
 - id: '1'
-  name: アレキサンダー手術
-  points: 4040
-- id: '2'
   name: 開腹による位置矯正術
   points: 8140
-- id: '3'
+- id: '2'
   name: 癒着剥離矯正術
   points: 16420
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

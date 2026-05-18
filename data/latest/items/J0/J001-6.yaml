@@ -1,6 +1,6 @@
 code: J001-6
 name: 精神病棟等長期療養患者褥瘡
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -28,7 +28,7 @@ notes:
       - （１）100平方センチメートル以上500平方センチメートル未満
       - （２）500平方センチメートル以上3,000平方センチメートル未満２注１に掲げる処置に係る処置料は、所定点数に含まれるものとする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

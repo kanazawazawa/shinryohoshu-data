@@ -1,6 +1,6 @@
 code: D411
 name: 甲状腺穿刺又は針生検
-version: r6
+version: r8
 points: 150
 unit: 回
 chapter:
@@ -11,7 +11,7 @@ raw_text: |
   Ｄ４１１甲状腺穿刺又は針生検150点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-04-診断穿刺・検体採取料.txt
 _meta:

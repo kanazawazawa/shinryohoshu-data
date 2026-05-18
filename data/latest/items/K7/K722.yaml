@@ -1,6 +1,6 @@
 code: K722
 name: 小腸結腸内視鏡的止血術
-version: r6
+version: r8
 points: 10390
 unit: 回
 chapter:
@@ -25,7 +25,7 @@ notes:
   - name: スパイラル内視鏡加算
     points: 3500
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

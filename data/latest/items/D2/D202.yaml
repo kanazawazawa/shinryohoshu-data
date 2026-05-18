@@ -1,6 +1,6 @@
 code: D202
 name: 肺内ガス分布
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -20,7 +20,7 @@ tiers:
   points: 135
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

@@ -1,12 +1,12 @@
 code: I002-2
 name: 精神科継続外来支援・指導料（１日につき）
-version: r6
+version: r8
 points: 55
 unit: 日
 chapter:
   chapter: 第2章 特掲診療料
   part: 第8部 精神科専門療法
-  section: 第1節 精神科専門療法料
+  section: 第2節 薬剤料
 raw_text: |
   Ｉ００２－２精神科継続外来支援・指導料（１日につき）55点
   - 注１入院中の患者以外の患者について、精神科を担当する医師が、患者又はその家族等に対して、病状、服薬状況及び副作用の有無等の確認を主とした支援を行った場合に、患者１人につき１日に１回に限り算定する。
@@ -37,9 +37,9 @@ notes:
   text: |
     他の精神科専門療法と同一日に行う精神科継続外来支援・指導に係る費用は、他の精神科専門療法の所定点数に含まれるものとする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+  raw_file: raw/02-08-02-薬剤料.txt
 _meta:
   generated_by: rule-based
   human_reviewed: false

@@ -1,6 +1,6 @@
 code: D239-2
 name: 電流知覚閾
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   値測定（一連につき）200点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

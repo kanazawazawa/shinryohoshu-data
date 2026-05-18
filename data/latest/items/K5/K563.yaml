@@ -1,6 +1,6 @@
 code: K563
 name: 肺動脈絞扼術
-version: r6
+version: r8
 points: 39410
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ５６３肺動脈絞扼術39,410点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

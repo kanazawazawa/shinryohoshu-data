@@ -1,6 +1,6 @@
 code: D408
 name: ダグラス窩穿刺
-version: r6
+version: r8
 points: 240
 unit: 回
 chapter:
@@ -11,7 +11,7 @@ raw_text: |
   Ｄ４０８ダグラス窩穿刺240点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-04-診断穿刺・検体採取料.txt
 _meta:

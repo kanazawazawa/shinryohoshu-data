@@ -1,6 +1,6 @@
 code: J047-3
 name: 心不全に対する遠赤外線温熱療法（１日につき）
-version: r6
+version: r8
 points: 115
 unit: 日
 chapter:
@@ -18,7 +18,7 @@ notes:
   text: |
     入院中の患者であって、別に厚生労働大臣が定めるものに対して行われた場合に、治療開始日から起算して30日を限度として、週５回に限り所定点数を算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

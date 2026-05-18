@@ -1,6 +1,6 @@
 code: M002
 name: 全身照射（一連につき）
-version: r6
+version: r8
 points: 30000
 unit: 一連
 chapter:
@@ -15,7 +15,7 @@ notes:
   text: |
     造血幹細胞移植を目的として行われるものに限る。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-12-01-放射線治療管理・実施料.txt
 _meta:

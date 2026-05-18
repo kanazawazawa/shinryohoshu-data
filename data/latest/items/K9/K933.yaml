@@ -1,6 +1,6 @@
 code: K933
 name: イオントフォレーゼ加算
-version: r6
+version: r8
 points: 45
 unit: 回
 chapter:
@@ -15,7 +15,7 @@ notes:
   text: |
     区分番号Ｋ３００及びＫ３０９に掲げる手術に当たって、イオントフォレーゼを使用した場合に算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-03-手術医療機器等加算.txt
 _meta:

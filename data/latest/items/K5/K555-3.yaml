@@ -1,6 +1,6 @@
 code: K555-3
 name: 胸腔鏡下弁置換術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -25,7 +25,7 @@ notes:
   text: |
     過去に心臓弁手術を行ったものに対して弁手術を行った場合には、心臓弁再置換術加算として、所定点数に所定点数の100分の50に相当する点数を加算する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

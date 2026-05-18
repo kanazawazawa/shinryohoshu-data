@@ -1,6 +1,6 @@
 code: J043-4
 name: 経管栄養・薬剤投与用カテーテル交換法
-version: r6
+version: r8
 points: 200
 unit: 回
 chapter:
@@ -15,7 +15,7 @@ notes:
   text: |
     区分番号Ｊ０００に掲げる創傷処置、区分番号Ｋ０００に掲げる創傷処理の費用は所定点数に含まれるものとする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

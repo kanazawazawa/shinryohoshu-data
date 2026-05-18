@@ -1,6 +1,6 @@
 code: K570
 name: 肺動脈狭窄
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -14,7 +14,7 @@ raw_text: |
   - ２右室流出路形成又は肺動脈形成を伴うもの83,400点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

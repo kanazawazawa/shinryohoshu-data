@@ -1,6 +1,6 @@
 code: K642-3
 name: 腹腔鏡下小切開後腹膜腫瘍摘出術
-version: r6
+version: r8
 points: 30310
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ６４２－３腹腔鏡下小切開後腹膜腫瘍摘出術30,310点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

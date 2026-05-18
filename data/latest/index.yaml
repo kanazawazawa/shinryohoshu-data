@@ -1,18 +1,18 @@
-version: r6
+version: r8
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
 _stats:
-  total: 2227
-  deleted: 122
-  without_points: 751
-  rejected_lines: 70
-  structured_ok: 2227
+  total: 2240
+  deleted: 112
+  without_points: 778
+  rejected_lines: 69
+  structured_ok: 2240
   has_unparsed: 0
-  notes_extracted: 1897
-  with_additions: 260
-  with_tiers: 596
-  tier_points_total: 2137
+  notes_extracted: 2682
+  with_additions: 276
+  with_tiers: 619
+  tier_points_total: 2431
 items:
 - code: A000
   name: 初診料
@@ -24,7 +24,7 @@ items:
   raw_file: raw/01-01-01-初診料.txt
 - code: A001
   name: 再診料
-  points: 75
+  points: 76
   chapter:
     chapter: 第1章 基本診療料
     part: 第1部 初・再診料
@@ -32,15 +32,7 @@ items:
   raw_file: raw/01-01-02-再診料.txt
 - code: A002
   name: 外来診療料
-  points: 76
-  chapter:
-    chapter: 第1章 基本診療料
-    part: 第1部 初・再診料
-    section: 第2節 再診料
-  raw_file: raw/01-01-02-再診料.txt
-- code: A003
-  name: 削除
-  points: null
+  points: 77
   chapter:
     chapter: 第1章 基本診療料
     part: 第1部 初・再診料
@@ -63,8 +55,8 @@ items:
     section: 第1節 入院基本料
   raw_file: raw/01-02-01-入院基本料.txt
 - code: A103
-  name: 精神病棟入院基本料（１日につき）１10対１入院基本料
-  points: 1306
+  name: 精神病棟入院基本料（１日につき）
+  points: null
   chapter:
     chapter: 第1章 基本診療料
     part: 第2部 入院料等
@@ -78,17 +70,9 @@ items:
     part: 第2部 入院料等
     section: 第1節 入院基本料
   raw_file: raw/01-02-01-入院基本料.txt
-- code: A105
-  name: 専門病院入院基本料（１日につき）１７対１入院基本料
-  points: 1705
-  chapter:
-    chapter: 第1章 基本診療料
-    part: 第2部 入院料等
-    section: 第1節 入院基本料
-  raw_file: raw/01-02-01-入院基本料.txt
 - code: A106
   name: 障害者施設等入院基本料（１日につき）１７対１入院基本料
-  points: 1637
+  points: 1749
   chapter:
     chapter: 第1章 基本診療料
     part: 第2部 入院料等
@@ -111,15 +95,7 @@ items:
     section: 第1節 入院基本料
   raw_file: raw/01-02-01-入院基本料.txt
 - code: A200
-  name: 総合入院体制加算（１日につき）
-  points: null
-  chapter:
-    chapter: 第1章 基本診療料
-    part: 第2部 入院料等
-    section: 第2節 入院基本料等加算
-  raw_file: raw/01-02-02-入院基本料等加算.txt
-- code: A200-2
-  name: 急性期充実体制加算（１日につき）
+  name: 急性期総合体制加算（１日につき）
   points: null
   chapter:
     chapter: 第1章 基本診療料
@@ -174,6 +150,14 @@ items:
     part: 第2部 入院料等
     section: 第2節 入院基本料等加算
   raw_file: raw/01-02-02-入院基本料等加算.txt
+- code: A204-4
+  name: 包括期充実体制加算（１日につき）
+  points: 80
+  chapter:
+    chapter: 第1章 基本診療料
+    part: 第2部 入院料等
+    section: 第2節 入院基本料等加算
+  raw_file: raw/01-02-02-入院基本料等加算.txt
 - code: A205
   name: 救急医療管理加算（１日につき）
   points: null
@@ -217,6 +201,14 @@ items:
 - code: A207-3
   name: 急性期看護補助体制加算（１日につき）１25対１急性期看護補助体制加算（看護補助者５割以上）
   points: 240
+  chapter:
+    chapter: 第1章 基本診療料
+    part: 第2部 入院料等
+    section: 第2節 入院基本料等加算
+  raw_file: raw/01-02-02-入院基本料等加算.txt
+- code: A207-5
+  name: 電子的診療情報連携体制整備加算
+  points: null
   chapter:
     chapter: 第1章 基本診療料
     part: 第2部 入院料等
@@ -278,30 +270,6 @@ items:
     part: 第2部 入院料等
     section: 第2節 入院基本料等加算
   raw_file: raw/01-02-02-入院基本料等加算.txt
-- code: A215
-  name: 削除
-  points: null
-  chapter:
-    chapter: 第1章 基本診療料
-    part: 第2部 入院料等
-    section: 第2節 入院基本料等加算
-  raw_file: raw/01-02-02-入院基本料等加算.txt
-- code: A216
-  name: 削除
-  points: null
-  chapter:
-    chapter: 第1章 基本診療料
-    part: 第2部 入院料等
-    section: 第2節 入院基本料等加算
-  raw_file: raw/01-02-02-入院基本料等加算.txt
-- code: A217
-  name: 削除
-  points: null
-  chapter:
-    chapter: 第1章 基本診療料
-    part: 第2部 入院料等
-    section: 第2節 入院基本料等加算
-  raw_file: raw/01-02-02-入院基本料等加算.txt
 - code: A218
   name: 地域加算（１日につき）
   points: null
@@ -312,7 +280,7 @@ items:
   raw_file: raw/01-02-02-入院基本料等加算.txt
 - code: A218-2
   name: 離島加算（１日につき）
-  points: 18
+  points: 25
   chapter:
     chapter: 第1章 基本診療料
     part: 第2部 入院料等
@@ -342,9 +310,25 @@ items:
     part: 第2部 入院料等
     section: 第2節 入院基本料等加算
   raw_file: raw/01-02-02-入院基本料等加算.txt
+- code: A221
+  name: 重症者等療養環境特別加算（１日につき）
+  points: 300
+  chapter:
+    chapter: 第1章 基本診療料
+    part: 第2部 入院料等
+    section: 第2節 入院基本料等加算
+  raw_file: raw/01-02-02-入院基本料等加算.txt
 - code: A221-2
   name: 小児療養環境特別加算（１日につき）
   points: 300
+  chapter:
+    chapter: 第1章 基本診療料
+    part: 第2部 入院料等
+    section: 第2節 入院基本料等加算
+  raw_file: raw/01-02-02-入院基本料等加算.txt
+- code: A221-3
+  name: 産科管理加算（１日につき）
+  points: 250
   chapter:
     chapter: 第1章 基本診療料
     part: 第2部 入院料等
@@ -479,8 +463,16 @@ items:
     section: 第2節 入院基本料等加算
   raw_file: raw/01-02-02-入院基本料等加算.txt
 - code: A230-4
-  name: 精神科リエゾンチーム加算（週１回）
-  points: 300
+  name: 精神科リエゾンチーム加算
+  points: null
+  chapter:
+    chapter: 第1章 基本診療料
+    part: 第2部 入院料等
+    section: 第2節 入院基本料等加算
+  raw_file: raw/01-02-02-入院基本料等加算.txt
+- code: A230-5
+  name: 精神科慢性身体合併症管理加算
+  points: 700
   chapter:
     chapter: 第1章 基本診療料
     part: 第2部 入院料等
@@ -534,6 +526,14 @@ items:
     part: 第2部 入院料等
     section: 第2節 入院基本料等加算
   raw_file: raw/01-02-02-入院基本料等加算.txt
+- code: A233-3
+  name: 口腔管理連携加算
+  points: 600
+  chapter:
+    chapter: 第1章 基本診療料
+    part: 第2部 入院料等
+    section: 第2節 入院基本料等加算
+  raw_file: raw/01-02-02-入院基本料等加算.txt
 - code: A234
   name: 医療安全対策加算（入院初日）
   points: null
@@ -567,8 +567,8 @@ items:
     section: 第2節 入院基本料等加算
   raw_file: raw/01-02-02-入院基本料等加算.txt
 - code: A235
-  name: 削除
-  points: null
+  name: 身体的拘束最小化推進体制加算（１日につき）
+  points: 40
   chapter:
     chapter: 第1章 基本診療料
     part: 第2部 入院料等
@@ -631,7 +631,7 @@ items:
     section: 第2節 入院基本料等加算
   raw_file: raw/01-02-02-入院基本料等加算.txt
 - code: A243
-  name: 後発医薬品使用体制加算（入院初日）
+  name: 地域支援・医薬品供給対応体制加算（入院初日）
   points: null
   chapter:
     chapter: 第1章 基本診療料
@@ -639,7 +639,7 @@ items:
     section: 第2節 入院基本料等加算
   raw_file: raw/01-02-02-入院基本料等加算.txt
 - code: A243-2
-  name: バイオ後続品使用体制加算（入院初日）
+  name: バイオ後続品使用体制加算
   points: 100
   chapter:
     chapter: 第1章 基本診療料
@@ -720,7 +720,7 @@ items:
   raw_file: raw/01-02-02-入院基本料等加算.txt
 - code: A250
   name: 薬剤総合評価調整加算（退院時１回）
-  points: 100
+  points: 160
   chapter:
     chapter: 第1章 基本診療料
     part: 第2部 入院料等
@@ -728,7 +728,7 @@ items:
   raw_file: raw/01-02-02-入院基本料等加算.txt
 - code: A252
   name: 地域医療体制確保加算（入院初日）
-  points: 620
+  points: null
   chapter:
     chapter: 第1章 基本診療料
     part: 第2部 入院料等
@@ -742,8 +742,32 @@ items:
     part: 第2部 入院料等
     section: 第2節 入院基本料等加算
   raw_file: raw/01-02-02-入院基本料等加算.txt
+- code: A254
+  name: 医療提供機能連携確保加算（入院初日）
+  points: 600
+  chapter:
+    chapter: 第1章 基本診療料
+    part: 第2部 入院料等
+    section: 第2節 入院基本料等加算
+  raw_file: raw/01-02-02-入院基本料等加算.txt
+- code: A255
+  name: 精神科地域密着多機能体制加算（１日につき）
+  points: null
+  chapter:
+    chapter: 第1章 基本診療料
+    part: 第2部 入院料等
+    section: 第2節 入院基本料等加算
+  raw_file: raw/01-02-02-入院基本料等加算.txt
 - code: A300
   name: 救命救急入院料（１日につき）
+  points: null
+  chapter:
+    chapter: 第1章 基本診療料
+    part: 第2部 入院料等
+    section: 第3節 特定入院料
+  raw_file: raw/01-02-03-特定入院料.txt
+- code: A301
+  name: 特定集中治療室管理料（１日につき）
   points: null
   chapter:
     chapter: 第1章 基本診療料
@@ -760,7 +784,7 @@ items:
   raw_file: raw/01-02-03-特定入院料.txt
 - code: A301-3
   name: 脳卒中ケアユニット入院医療管理料（１日につき）
-  points: 6045
+  points: 6365
   chapter:
     chapter: 第1章 基本診療料
     part: 第2部 入院料等
@@ -784,15 +808,7 @@ items:
   raw_file: raw/01-02-03-特定入院料.txt
 - code: A303-2
   name: 新生児治療回復室入院医療管理料（１日につき）
-  points: 5728
-  chapter:
-    chapter: 第1章 基本診療料
-    part: 第2部 入院料等
-    section: 第3節 特定入院料
-  raw_file: raw/01-02-03-特定入院料.txt
-- code: A305
-  name: 一類感染症患者入院医療管理料（１日につき）１14日以内の期間
-  points: 9413
+  points: 5931
   chapter:
     chapter: 第1章 基本診療料
     part: 第2部 入院料等
@@ -811,96 +827,97 @@ items:
   points: null
   chapter:
     chapter: 第1章 基本診療料
-    part: 第13部 第２節病理診断・判断料及び第14部その他の費用並びに第２節に規定する
-  raw_file: raw/01-13-00-第２節病理診断・判断料及び第14部その他の費用並びに第２節に規定する.txt
+    part: 第2部 入院料等
+    section: 第3節 特定入院料
+  raw_file: raw/01-02-03-特定入院料.txt
 - code: A308-3
   name: 地域包括ケア病棟入院料（１日につき）
   points: null
   chapter:
     chapter: 第1章 基本診療料
-    part: 第13部 第２節病理診断・判断料及び第14部その他の費用並びに第２節に規定する
-  raw_file: raw/01-13-00-第２節病理診断・判断料及び第14部その他の費用並びに第２節に規定する.txt
+    part: 第2部 入院料等
+    section: 第3節 特定入院料
+  raw_file: raw/01-02-03-特定入院料.txt
 - code: A309
   name: 特殊疾患病棟入院料（１日につき）
   points: null
   chapter:
     chapter: 第1章 基本診療料
-    part: 第13部 第２節病理診断・判断料及び第14部その他の費用並びに第２節に規定する
-  raw_file: raw/01-13-00-第２節病理診断・判断料及び第14部その他の費用並びに第２節に規定する.txt
+    part: 第2部 入院料等
+    section: 第3節 特定入院料
+  raw_file: raw/01-02-03-特定入院料.txt
 - code: A311
   name: 精神科救急急性期医療入院料（１日につき）１30日以内の期間
-  points: 2420
+  points: 2516
   chapter:
     chapter: 第1章 基本診療料
-    part: 第13部 第２節病理診断・判断料及び第14部その他の費用並びに第２節に規定する
-  raw_file: raw/01-13-00-第２節病理診断・判断料及び第14部その他の費用並びに第２節に規定する.txt
-- code: A311-3
-  name: 精神科救急・合併症入院料（１日につき）１30日以内の期間
-  points: 3624
-  chapter:
-    chapter: 第2章 第１部医学管理等の区分番号Ｂ０１５に掲げる精神科退院時共同指導料
-  raw_file: raw/02-00-00-特掲診療料.txt
+    part: 第2部 入院料等
+    section: 第3節 特定入院料
+  raw_file: raw/01-02-03-特定入院料.txt
 - code: A311-4
   name: 児童・思春期精神科入院医療管理料（１日につき）
-  points: 3016
+  points: 3144
   chapter:
-    chapter: 第2章 第１部医学管理等の区分番号Ｂ０１５に掲げる精神科退院時共同指導料
-  raw_file: raw/02-00-00-特掲診療料.txt
+    chapter: 第1章 基本診療料
+    part: 第2部 入院料等
+    section: 第3節 特定入院料
+  raw_file: raw/01-02-03-特定入院料.txt
 - code: A312
   name: 精神療養病棟入院料（１日につき）
-  points: 1108
+  points: 1174
   chapter:
-    chapter: 第2章 第１部医学管理等の区分番号Ｂ０１５に掲げる精神科退院時共同指導料
-  raw_file: raw/02-00-00-特掲診療料.txt
+    chapter: 第1章 基本診療料
+    part: 第2部 入院料等
+    section: 第3節 特定入院料
+  raw_file: raw/01-02-03-特定入院料.txt
 - code: A313
   name: 削除
   points: null
   chapter:
-    chapter: 第2章 第１部医学管理等の区分番号Ｂ０１５に掲げる精神科退院時共同指導料
-  raw_file: raw/02-00-00-特掲診療料.txt
+    chapter: 第1章 基本診療料
+    part: 第2部 入院料等
+    section: 第3節 特定入院料
+  raw_file: raw/01-02-03-特定入院料.txt
 - code: A314
   name: 認知症治療病棟入院料（１日につき）
   points: null
   chapter:
-    chapter: 第2章 第１部医学管理等の区分番号Ｂ０１５に掲げる精神科退院時共同指導料
-  raw_file: raw/02-00-00-特掲診療料.txt
-- code: A315
-  name: 精神科地域包括ケア病棟入院料（１日につき）
-  points: 1535
-  chapter:
-    chapter: 第2章 第１部医学管理等の区分番号Ｂ０１５に掲げる精神科退院時共同指導料
-  raw_file: raw/02-00-00-特掲診療料.txt
-- code: A316
-  name: 削除
-  points: null
-  chapter:
-    chapter: 第2章 第１部医学管理等の区分番号Ｂ０１５に掲げる精神科退院時共同指導料
-  raw_file: raw/02-00-00-特掲診療料.txt
+    chapter: 第1章 基本診療料
+    part: 第2部 入院料等
+    section: 第3節 特定入院料
+  raw_file: raw/01-02-03-特定入院料.txt
 - code: A317
   name: 特定一般病棟入院料（１日につき）
   points: null
   chapter:
-    chapter: 第2章 第１部医学管理等の区分番号Ｂ０１５に掲げる精神科退院時共同指導料
-  raw_file: raw/02-00-00-特掲診療料.txt
+    chapter: 第1章 基本診療料
+    part: 第2部 入院料等
+    section: 第3節 特定入院料
+  raw_file: raw/01-02-03-特定入院料.txt
 - code: A318
   name: 地域移行機能強化病棟入院料（１日につき）
-  points: 1557
+  points: 1627
   chapter:
-    chapter: 第2章 第１部医学管理等の区分番号Ｂ０１５に掲げる精神科退院時共同指導料
-  raw_file: raw/02-00-00-特掲診療料.txt
+    chapter: 第1章 基本診療料
+    part: 第2部 入院料等
+    section: 第3節 特定入院料
+  raw_file: raw/01-02-03-特定入院料.txt
 - code: A319
   name: 特定機能病院リハビリテーション病棟入院料
-  points: 2229
+  points: 2399
   chapter:
-    chapter: 第2章 第１部医学管理等の区分番号Ｂ０１５に掲げる精神科退院時共同指導料
-  raw_file: raw/02-00-00-特掲診療料.txt
+    chapter: 第1章 基本診療料
+    part: 第2部 入院料等
+    section: 第3節 特定入院料
+  raw_file: raw/01-02-03-特定入院料.txt
 - code: A400
   name: 短期滞在手術等基本料
   points: null
   chapter:
-    chapter: 第2章 第１部医学管理等の区分番号Ｂ０１５に掲げる精神科退院時共同指導料
+    chapter: 第1章 基本診療料
+    part: 第2部 入院料等
     section: 第4節 短期滞在手術等基本料
-  raw_file: raw/02-00-04-短期滞在手術等基本料.txt
+  raw_file: raw/01-02-04-短期滞在手術等基本料.txt
 - code: B000
   name: 特定疾患療養管理料
   points: null
@@ -1015,7 +1032,7 @@ items:
   raw_file: raw/02-01-01-医学管理料等.txt
 - code: B005-1
   name: －２介護支援等連携指導料
-  points: 400
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第1部 医学管理等
@@ -1104,6 +1121,14 @@ items:
 - code: B007-2
   name: 退院後訪問指導料
   points: 580
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第1部 医学管理等
+    section: 第1節 医学管理料等
+  raw_file: raw/02-01-01-医学管理料等.txt
+- code: B007-3
+  name: 退院後訪問栄養食事指導料（１回につき）
+  points: 530
   chapter:
     chapter: 第2章 特掲診療料
     part: 第1部 医学管理等
@@ -1277,14 +1302,6 @@ items:
     part: 第2部 在宅医療
     section: 第1節 在宅患者診療・指導料
   raw_file: raw/02-02-01-在宅患者診療・指導料.txt
-- code: C001-2
-  name: 在宅患者訪問診療料（Ⅱ）（１日につき）
-  points: 150
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第2部 在宅医療
-    section: 第1節 在宅患者診療・指導料
-  raw_file: raw/02-02-01-在宅患者診療・指導料.txt
 - code: C004
   name: 救急搬送診療料
   points: 1300
@@ -1304,6 +1321,14 @@ items:
 - code: C005
   name: 在宅患者訪問看護・指導料（１日につき）
   points: null
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第2部 在宅医療
+    section: 第1節 在宅患者診療・指導料
+  raw_file: raw/02-02-01-在宅患者診療・指導料.txt
+- code: C005-1
+  name: －３訪問看護遠隔診療補助料（１日につき）
+  points: 265
   chapter:
     chapter: 第2章 特掲診療料
     part: 第2部 在宅医療
@@ -1381,6 +1406,14 @@ items:
     part: 第2部 在宅医療
     section: 第1節 在宅患者診療・指導料
   raw_file: raw/02-02-01-在宅患者診療・指導料.txt
+- code: C012-2
+  name: 訪問診療薬剤師同時指導料
+  points: 300
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第2部 在宅医療
+    section: 第1節 在宅患者診療・指導料
+  raw_file: raw/02-02-01-在宅患者診療・指導料.txt
 - code: C013
   name: 在宅患者訪問褥瘡管理指導料
   points: 750
@@ -1443,7 +1476,7 @@ items:
   raw_file: raw/02-02-02-在宅療養指導管理料.txt
 - code: C102
   name: 在宅自己腹膜灌流指導管理料
-  points: 4000
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第2部 在宅医療
@@ -1533,7 +1566,7 @@ items:
   raw_file: raw/02-02-02-在宅療養指導管理料.txt
 - code: C107-3
   name: 在宅ハイフローセラピー指導管理料
-  points: 2400
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第2部 在宅医療
@@ -1704,7 +1737,7 @@ items:
   raw_file: raw/02-02-02-在宅療養指導管理料.txt
 - code: C118
   name: 在宅腫瘍治療電場療法指導管理料
-  points: 2800
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第2部 在宅医療
@@ -2106,6 +2139,15 @@ items:
     section: 第1節 検体検査料
     subsection: 第1款 検体検査実施料
   raw_file: raw/02-03-01-検体検査料.txt
+- code: D004-3
+  name: ＤＮＡメチル化検出検査
+  points: 2500
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第3部 検査
+    section: 第1節 検体検査料
+    subsection: 第1款 検体検査実施料
+  raw_file: raw/02-03-01-検体検査料.txt
 - code: D005
   name: 血液形態・機能検査
   points: null
@@ -2162,7 +2204,7 @@ items:
   raw_file: raw/02-03-01-検体検査料.txt
 - code: D006-6
   name: 免疫関連遺伝子再構成
-  points: 2373
+  points: 2362
   chapter:
     chapter: 第2章 特掲診療料
     part: 第3部 検査
@@ -2315,7 +2357,7 @@ items:
   raw_file: raw/02-03-01-検体検査料.txt
 - code: D019-2
   name: 酵母様真菌薬剤感受性検査
-  points: 150
+  points: 165
   chapter:
     chapter: 第2章 特掲診療料
     part: 第3部 検査
@@ -2472,6 +2514,14 @@ items:
     part: 第3部 検査
     section: 第3節 生体検査料
   raw_file: raw/02-03-03-生体検査料.txt
+- code: D210-3
+  name: 植込型心電図検査
+  points: 90
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第3部 検査
+    section: 第3節 生体検査料
+  raw_file: raw/02-03-03-生体検査料.txt
 - code: D210-4
   name: Ｔ波オルタナンス検査
   points: 1100
@@ -2600,6 +2650,14 @@ items:
     part: 第3部 検査
     section: 第3節 生体検査料
   raw_file: raw/02-03-03-生体検査料.txt
+- code: D216-3
+  name: 蛍光リンパ管・リンパ節造影
+  points: 500
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第3部 検査
+    section: 第3節 生体検査料
+  raw_file: raw/02-03-03-生体検査料.txt
 - code: D217
   name: 骨塩定量検査
   points: null
@@ -2706,7 +2764,7 @@ items:
   raw_file: raw/02-03-03-生体検査料.txt
 - code: D232
   name: 食道内圧測定検査
-  points: 780
+  points: 936
   chapter:
     chapter: 第2章 特掲診療料
     part: 第3部 検査
@@ -2858,7 +2916,7 @@ items:
   raw_file: raw/02-03-03-生体検査料.txt
 - code: D241
   name: 神経・筋検査判断料
-  points: 180
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第3部 検査
@@ -3490,7 +3548,7 @@ items:
   raw_file: raw/02-03-03-生体検査料.txt
 - code: D309
   name: 胆道ファイバースコピー
-  points: 4000
+  points: 4800
   chapter:
     chapter: 第2章 特掲診療料
     part: 第3部 検査
@@ -3506,7 +3564,7 @@ items:
   raw_file: raw/02-03-03-生体検査料.txt
 - code: D310-2
   name: 消化管通過性検査
-  points: 600
+  points: 720
   chapter:
     chapter: 第2章 特掲診療料
     part: 第3部 検査
@@ -3554,7 +3612,7 @@ items:
   raw_file: raw/02-03-03-生体検査料.txt
 - code: D314
   name: 腹腔鏡検査
-  points: 2270
+  points: 2724
   chapter:
     chapter: 第2章 特掲診療料
     part: 第3部 検査
@@ -3666,7 +3724,7 @@ items:
   raw_file: raw/02-03-04-診断穿刺・検体採取料.txt
 - code: D401
   name: 脳室穿刺
-  points: 500
+  points: 600
   chapter:
     chapter: 第2章 特掲診療料
     part: 第3部 検査
@@ -3746,7 +3804,7 @@ items:
   raw_file: raw/02-03-04-診断穿刺・検体採取料.txt
 - code: D409
   name: リンパ節等穿刺又は針生検
-  points: 200
+  points: 240
   chapter:
     chapter: 第2章 特掲診療料
     part: 第3部 検査
@@ -3778,7 +3836,7 @@ items:
   raw_file: raw/02-03-04-診断穿刺・検体採取料.txt
 - code: D412
   name: 経皮的針生検法（透視、心電図検査及び超音波検査を含む。）
-  points: 1600
+  points: 1920
   chapter:
     chapter: 第2章 特掲診療料
     part: 第3部 検査
@@ -3786,7 +3844,7 @@ items:
   raw_file: raw/02-03-04-診断穿刺・検体採取料.txt
 - code: D412-2
   name: 経皮的腎生検法
-  points: 2000
+  points: 2400
   chapter:
     chapter: 第2章 特掲診療料
     part: 第3部 検査
@@ -3848,6 +3906,14 @@ items:
     part: 第3部 検査
     section: 第4節 診断穿刺・検体採取料
   raw_file: raw/02-03-04-診断穿刺・検体採取料.txt
+- code: D415-6
+  name: 壁側胸膜凍結生検法
+  points: 15800
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第3部 検査
+    section: 第4節 診断穿刺・検体採取料
+  raw_file: raw/02-03-04-診断穿刺・検体採取料.txt
 - code: D416
   name: 臓器穿
   points: null
@@ -3865,7 +3931,7 @@ items:
     section: 第4節 診断穿刺・検体採取料
   raw_file: raw/02-03-04-診断穿刺・検体採取料.txt
 - code: D418
-  name: 子宮腟部等からの検体採取
+  name: 子宮膣部等からの検体採取
   points: null
   chapter:
     chapter: 第2章 特掲診療料
@@ -3985,8 +4051,8 @@ items:
     section: 第3節 コンピューター断層撮影診断料
   raw_file: raw/02-04-03-コンピューター断層撮影診断料.txt
 - code: E200-2
-  name: 血流予備量比コンピューター断層撮影
-  points: 9400
+  name: 血流予備量比コンピューター断層撮影解析
+  points: 7800
   chapter:
     chapter: 第2章 特掲診療料
     part: 第4部 画像診断
@@ -4092,7 +4158,7 @@ items:
     subsection: 第1款 注射実施料
   raw_file: raw/02-06-01-注射料.txt
 - code: G003-2
-  name: 削除
+  name: 薬液膀胱
   points: null
   chapter:
     chapter: 第2章 特掲診療料
@@ -4130,6 +4196,15 @@ items:
 - code: G005-4
   name: カフ型緊急時ブラッドアクセス用留置カテーテル挿入
   points: 2500
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第6部 注射
+    section: 第1節 注射料
+    subsection: 第1款 注射実施料
+  raw_file: raw/02-06-01-注射料.txt
+- code: G005-5
+  name: 上腕静脈用カテーテル挿入
+  points: 350
   chapter:
     chapter: 第2章 特掲診療料
     part: 第6部 注射
@@ -4192,7 +4267,7 @@ items:
   raw_file: raw/02-06-01-注射料.txt
 - code: G011
   name: 気管内注入
-  points: 100
+  points: 120
   chapter:
     chapter: 第2章 特掲診療料
     part: 第6部 注射
@@ -4335,262 +4410,238 @@ items:
     part: 第7部 リハビリテーション
     section: 第1節 リハビリテーション料
   raw_file: raw/02-07-01-リハビリテーション料.txt
-- code: H003-3
-  name: 削除
-  points: null
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第7部 リハビリテーション
-    section: 第1節 リハビリテーション料
-  raw_file: raw/02-07-01-リハビリテーション料.txt
-- code: H003-4
-  name: 目標設定等支援・管理料
-  points: null
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第7部 リハビリテーション
-    section: 第1節 リハビリテーション料
-  raw_file: raw/02-07-01-リハビリテーション料.txt
-- code: H004
-  name: 摂食機能療法（１日につき）１30分以上の場合
-  points: 185
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第7部 リハビリテーション
-    section: 第1節 リハビリテーション料
-  raw_file: raw/02-07-01-リハビリテーション料.txt
 - code: H007-3
   name: 認知症患者リハビリテーション料（１日につき）
   points: 240
   chapter:
     chapter: 第2章 特掲診療料
-    part: 第7部 リハビリテーション
-    section: 第1節 リハビリテーション料
-  raw_file: raw/02-07-01-リハビリテーション料.txt
+    part: 第8部 精神科専門療法
+    section: 第1節 精神科専門療法料
+  raw_file: raw/02-08-01-精神科専門療法料.txt
 - code: H007-4
   name: リンパ浮腫複合的治療料
   points: null
   chapter:
     chapter: 第2章 特掲診療料
-    part: 第7部 リハビリテーション
-    section: 第1節 リハビリテーション料
-  raw_file: raw/02-07-01-リハビリテーション料.txt
+    part: 第8部 精神科専門療法
+    section: 第1節 精神科専門療法料
+  raw_file: raw/02-08-01-精神科専門療法料.txt
 - code: H008
   name: 集団コミュニケーション療法料（１単位）
   points: 50
   chapter:
     chapter: 第2章 特掲診療料
-    part: 第7部 リハビリテーション
-    section: 第1節 リハビリテーション料
-  raw_file: raw/02-07-01-リハビリテーション料.txt
+    part: 第8部 精神科専門療法
+    section: 第1節 精神科専門療法料
+  raw_file: raw/02-08-01-精神科専門療法料.txt
 - code: I000
   name: 精神科電気痙攣療法
   points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: I000-2
   name: 経頭蓋磁気刺激療法
   points: 2000
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: I001
   name: 入院精神療法（１回につき）
   points: 400
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: I002
   name: 通院・在宅精神療法（１回につき）
   points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: I002-2
   name: 精神科継続外来支援・指導料（１日につき）
   points: 55
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: I002-3
   name: 救急患者精神科継続支援料
   points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: I003
   name: 標準型精神分析療法（１回につき）
   points: 390
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: I003-2
   name: 認知療法・認知行動療法（１日につき）
   points: 480
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: I004
   name: 心身医学療法（１回につき）
   points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: I005
   name: 入院集団精神療法（１日につき）
   points: 100
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: I006
   name: 通院集団精神療法（１日につき）
   points: 270
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: I006-2
   name: 依存症集団療法（１回につき）
   points: 340
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: I007
   name: 精神科作業療法（１日につき）
   points: 220
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: I008
   name: 入院生活技能訓練療法
   points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: I008-2
   name: 精神科ショート・ケア（１日につき）
   points: 275
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: I009
   name: 精神科デイ・ケア（１日につき）
   points: 590
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: I010
   name: 精神科ナイト・ケア（１日につき）
   points: 540
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: I010-2
   name: 精神科デイ・ナイト・ケア（１日につき）
   points: 1000
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: I011
   name: 精神科退院指導料
   points: 320
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: I011-2
   name: 精神科退院前訪問指導料
   points: 380
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: I012
   name: 精神科訪問看護・指導料
   points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: I012-2
   name: 精神科訪問看護指示料
   points: 300
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: I013
   name: 抗精神病特定薬剤治療指導管理料
   points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: I014
   name: 医療保護入院等診療料
-  points: 300
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: I015
   name: 重度認知症患者デイ・ケア料（１日につき）
   points: 1040
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: I016
   name: 精神科在宅患者支援管理料（月１回）
   points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第8部 精神科専門療法
-    section: 第1節 精神科専門療法料
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+    section: 第2節 薬剤料
+  raw_file: raw/02-08-02-薬剤料.txt
 - code: J000
   name: 創傷処置
   points: null
@@ -4697,7 +4748,7 @@ items:
   raw_file: raw/02-09-01-処置料.txt
 - code: J003-3
   name: 局所陰圧閉鎖処置（腹部開放創）（１日につき）
-  points: 1375
+  points: 1650
   chapter:
     chapter: 第2章 特掲診療料
     part: 第9部 処置
@@ -4721,7 +4772,7 @@ items:
   raw_file: raw/02-09-01-処置料.txt
 - code: J005
   name: 脳室穿刺
-  points: 750
+  points: 900
   chapter:
     chapter: 第2章 特掲診療料
     part: 第9部 処置
@@ -4793,7 +4844,7 @@ items:
   raw_file: raw/02-09-01-処置料.txt
 - code: J012
   name: 腎嚢胞又は水腎症穿刺
-  points: 350
+  points: 420
   chapter:
     chapter: 第2章 特掲診療料
     part: 第9部 処置
@@ -4825,7 +4876,7 @@ items:
   raw_file: raw/02-09-01-処置料.txt
 - code: J016
   name: リンパ節等穿刺
-  points: 200
+  points: 240
   chapter:
     chapter: 第2章 特掲診療料
     part: 第9部 処置
@@ -4929,7 +4980,7 @@ items:
   raw_file: raw/02-09-01-処置料.txt
 - code: J023
   name: 気管支カテーテル薬液注入法
-  points: 150
+  points: 180
   chapter:
     chapter: 第2章 特掲診療料
     part: 第9部 処置
@@ -4961,7 +5012,7 @@ items:
   raw_file: raw/02-09-01-処置料.txt
 - code: J026-3
   name: 体外式陰圧人工呼吸器治療（１日につき）
-  points: 160
+  points: 192
   chapter:
     chapter: 第2章 特掲診療料
     part: 第9部 処置
@@ -4969,7 +5020,7 @@ items:
   raw_file: raw/02-09-01-処置料.txt
 - code: J026-4
   name: ハイフローセラピー（１日につき）
-  points: 282
+  points: 338
   chapter:
     chapter: 第2章 特掲診療料
     part: 第9部 処置
@@ -5001,7 +5052,7 @@ items:
   raw_file: raw/02-09-01-処置料.txt
 - code: J030
   name: 食道ブジー法
-  points: 150
+  points: 180
   chapter:
     chapter: 第2章 特掲診療料
     part: 第9部 処置
@@ -5009,7 +5060,7 @@ items:
   raw_file: raw/02-09-01-処置料.txt
 - code: J031
   name: 直腸ブジー法
-  points: 150
+  points: 180
   chapter:
     chapter: 第2章 特掲診療料
     part: 第9部 処置
@@ -5033,7 +5084,7 @@ items:
   raw_file: raw/02-09-01-処置料.txt
 - code: J034
   name: イレウス用ロングチューブ挿入法
-  points: 912
+  points: 1094
   chapter:
     chapter: 第2章 特掲診療料
     part: 第9部 処置
@@ -5153,7 +5204,7 @@ items:
   raw_file: raw/02-09-01-処置料.txt
 - code: J043-5
   name: 尿路ストーマカテーテル交換法
-  points: 100
+  points: 150
   chapter:
     chapter: 第2章 特掲診療料
     part: 第9部 処置
@@ -5176,7 +5227,7 @@ items:
     section: 第1節 処置料
   raw_file: raw/02-09-01-処置料.txt
 - code: J044
-  name: 救命のための気管内挿管
+  name: 救命のための気管挿管
   points: 500
   chapter:
     chapter: 第2章 特掲診療料
@@ -5185,7 +5236,7 @@ items:
   raw_file: raw/02-09-01-処置料.txt
 - code: J044-2
   name: 体表面ペーシング法又は食道ペーシング法（１日につき）
-  points: 600
+  points: 720
   chapter:
     chapter: 第2章 特掲診療料
     part: 第9部 処置
@@ -5202,6 +5253,14 @@ items:
 - code: J045-2
   name: 一酸化窒素吸入療法（１日につき）１新生児の低酸素性呼吸不全に対して実施する場合
   points: 1680
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第9部 処置
+    section: 第1節 処置料
+  raw_file: raw/02-09-01-処置料.txt
+- code: J045-3
+  name: 電気インピーダンス断層撮影（１日につき）
+  points: 1550
   chapter:
     chapter: 第2章 特掲診療料
     part: 第9部 処置
@@ -5233,7 +5292,7 @@ items:
   raw_file: raw/02-09-01-処置料.txt
 - code: J048
   name: 心膜穿刺
-  points: 625
+  points: 750
   chapter:
     chapter: 第2章 特掲診療料
     part: 第9部 処置
@@ -5249,7 +5308,7 @@ items:
   raw_file: raw/02-09-01-処置料.txt
 - code: J050
   name: 気管内洗浄（１日につき）
-  points: 425
+  points: 510
   chapter:
     chapter: 第2章 特掲診療料
     part: 第9部 処置
@@ -5257,7 +5316,7 @@ items:
   raw_file: raw/02-09-01-処置料.txt
 - code: J051
   name: 胃洗浄
-  points: 375
+  points: 450
   chapter:
     chapter: 第2章 特掲診療料
     part: 第9部 処置
@@ -5410,6 +5469,14 @@ items:
 - code: J062
   name: 腎盂
   points: null
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第9部 処置
+    section: 第1節 処置料
+  raw_file: raw/02-09-01-処置料.txt
+- code: J062-2
+  name: 同種死体移植腎機械灌流保存
+  points: 18848
   chapter:
     chapter: 第2章 特掲診療料
     part: 第9部 処置
@@ -5649,7 +5716,7 @@ items:
   raw_file: raw/02-09-01-処置料.txt
 - code: J085-2
   name: 人工羊水注入法
-  points: 720
+  points: 864
   chapter:
     chapter: 第2章 特掲診療料
     part: 第9部 処置
@@ -6400,7 +6467,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K028
-  name: 腱鞘
+  name: 腱鞘切開術
   points: null
   chapter:
     chapter: 第2章 特掲診療料
@@ -6454,7 +6521,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K034
-  name: 腱
+  name: 腱切離・切除術
   points: null
   chapter:
     chapter: 第2章 特掲診療料
@@ -6463,7 +6530,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K035
-  name: 腱剥
+  name: 腱剥離術
   points: null
   chapter:
     chapter: 第2章 特掲診療料
@@ -6499,7 +6566,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K037-2
-  name: アキレス腱断裂手術
+  name: アキレス腱断裂修復手術
   points: 8710
   chapter:
     chapter: 第2章 特掲診療料
@@ -6579,24 +6646,6 @@ items:
     section: 第1節 手術料
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
-- code: K043-2
-  name: 削除
-  points: null
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第10部 手術
-    section: 第1節 手術料
-    subsection: 第2款 筋骨格系・四肢・体幹
-  raw_file: raw/02-10-01-手術料.txt
-- code: K043-3
-  name: 削除
-  points: null
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第10部 手術
-    section: 第1節 手術料
-    subsection: 第2款 筋骨格系・四肢・体幹
-  raw_file: raw/02-10-01-手術料.txt
 - code: K044
   name: 骨折非観血的整復術
   points: null
@@ -6625,7 +6674,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K046-2
-  name: 観血的整復固定術（インプラント周囲骨折に対するもの）
+  name: 骨折観血的整復固定術（インプラント周囲骨折に対するもの）
   points: 23420
   chapter:
     chapter: 第2章 特掲診療料
@@ -6634,8 +6683,8 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K046-3
-  name: 一時的創外固定骨折治療術
-  points: 34000
+  name: 骨折一時的創外固定術
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -6643,7 +6692,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K048
-  name: 骨内異物（挿入物を含む。）除去術１頭蓋、顔面（複数切開を要するもの）
+  name: 骨内異物（挿入物を含む。）除去術１頭蓋、顔面骨骨内異物除去術（複数切開を要するもの）
   points: 12100
   chapter:
     chapter: 第2章 特掲診療料
@@ -6687,24 +6736,6 @@ items:
     section: 第1節 手術料
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
-- code: K052-2
-  name: 削除
-  points: null
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第10部 手術
-    section: 第1節 手術料
-    subsection: 第2款 筋骨格系・四肢・体幹
-  raw_file: raw/02-10-01-手術料.txt
-- code: K052-3
-  name: 削除
-  points: null
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第10部 手術
-    section: 第1節 手術料
-    subsection: 第2款 筋骨格系・四肢・体幹
-  raw_file: raw/02-10-01-手術料.txt
 - code: K053
   name: 骨悪性腫瘍手術
   points: null
@@ -6723,6 +6754,15 @@ items:
     section: 第1節 手術料
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
+- code: K053-3
+  name: 骨悪性腫瘍、類骨骨腫及び四肢軟部腫瘍凝固・焼灼術（冷凍凝固によるもの）
+  points: 51200
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第2款 筋骨格系・四肢・体幹
+  raw_file: raw/02-10-01-手術料.txt
 - code: K054
   name: 骨切り術
   points: null
@@ -6735,6 +6775,15 @@ items:
 - code: K054-2
   name: 脛骨近位骨切り術
   points: 28300
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第2款 筋骨格系・四肢・体幹
+  raw_file: raw/02-10-01-手術料.txt
+- code: K054-3
+  name: 脛骨遠位骨切り術
+  points: 28000
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -6805,8 +6854,26 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K059-2
-  name: 関節鏡下自家骨軟骨移植術
+  name: 自家骨軟骨移植術（関節鏡下）
   points: 22340
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第2款 筋骨格系・四肢・体幹
+  raw_file: raw/02-10-01-手術料.txt
+- code: K059-3
+  name: 軟骨修復材移植術
+  points: 14030
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第2款 筋骨格系・四肢・体幹
+  raw_file: raw/02-10-01-手術料.txt
+- code: K059-4
+  name: 軟骨修復材移植術（関節鏡下）22,340点（四肢関節、靱帯）
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -6868,7 +6935,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K065
-  name: 関節内異物（挿入物を含む。）除去術１肩、股、膝
+  name: 関節内異物（挿入物を含む。）除去術１肩関節内異物除去術
   points: 12540
   chapter:
     chapter: 第2章 特掲診療料
@@ -6885,26 +6952,8 @@ items:
     section: 第1節 手術料
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
-- code: K066-2
-  name: 関節鏡下関節滑膜切除術
-  points: null
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第10部 手術
-    section: 第1節 手術料
-    subsection: 第2款 筋骨格系・四肢・体幹
-  raw_file: raw/02-10-01-手術料.txt
 - code: K066-3
-  name: 滑液膜摘出術
-  points: null
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第10部 手術
-    section: 第1節 手術料
-    subsection: 第2款 筋骨格系・四肢・体幹
-  raw_file: raw/02-10-01-手術料.txt
-- code: K066-4
-  name: 関節鏡下滑液膜摘出術
+  name: 関節滑液包摘出術
   points: null
   chapter:
     chapter: 第2章 特掲診療料
@@ -6913,7 +6962,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K066-5
-  name: 膝蓋骨滑液嚢切除術
+  name: 膝蓋骨滑液包切除術
   points: 11200
   chapter:
     chapter: 第2章 特掲診療料
@@ -6922,26 +6971,8 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K066-6
-  name: 関節鏡下膝蓋骨滑液嚢切除術
-  points: 17030
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第10部 手術
-    section: 第1節 手術料
-    subsection: 第2款 筋骨格系・四肢・体幹
-  raw_file: raw/02-10-01-手術料.txt
-- code: K066-7
-  name: 掌指関節滑膜切除術
-  points: 7930
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第10部 手術
-    section: 第1節 手術料
-    subsection: 第2款 筋骨格系・四肢・体幹
-  raw_file: raw/02-10-01-手術料.txt
-- code: K066-8
-  name: 関節鏡下掌指関節滑膜切除術
-  points: 16060
+  name: 膝
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -6958,7 +6989,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K067-2
-  name: 関節鏡下関節鼠摘出手術
+  name: 関節鼠
   points: null
   chapter:
     chapter: 第2章 特掲診療料
@@ -6976,7 +7007,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K068-2
-  name: 関節鏡下半月板切除術
+  name: 半月板切除術（関節鏡下）
   points: 15090
   chapter:
     chapter: 第2章 特掲診療料
@@ -6994,26 +7025,8 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K069-2
-  name: 関節鏡下三角線維軟骨複合体切除・縫合術
-  points: 16730
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第10部 手術
-    section: 第1節 手術料
-    subsection: 第2款 筋骨格系・四肢・体幹
-  raw_file: raw/02-10-01-手術料.txt
-- code: K069-3
-  name: 関節鏡下半月板縫合術
-  points: 18810
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第10部 手術
-    section: 第1節 手術料
-    subsection: 第2款 筋骨格系・四肢・体幹
-  raw_file: raw/02-10-01-手術料.txt
-- code: K069-4
-  name: 関節鏡下半月板制動術
-  points: 21700
+  name: 削除
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -7056,15 +7069,6 @@ items:
     section: 第1節 手術料
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
-- code: K073-2
-  name: 関節鏡下関節内骨折観血的手術
-  points: null
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第10部 手術
-    section: 第1節 手術料
-    subsection: 第2款 筋骨格系・四肢・体幹
-  raw_file: raw/02-10-01-手術料.txt
 - code: K074
   name: 靱帯断裂縫合術
   points: null
@@ -7075,7 +7079,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K074-2
-  name: 関節鏡下靱帯断裂縫合術
+  name: 靱
   points: null
   chapter:
     chapter: 第2章 特掲診療料
@@ -7084,7 +7088,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K075
-  name: 非観血的関節授動術
+  name: 関節非観血的授動術
   points: null
   chapter:
     chapter: 第2章 特掲診療料
@@ -7093,16 +7097,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K076
-  name: 観血的関節授動術
-  points: null
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第10部 手術
-    section: 第1節 手術料
-    subsection: 第2款 筋骨格系・四肢・体幹
-  raw_file: raw/02-10-01-手術料.txt
-- code: K076-2
-  name: 関節鏡下関節授動術
+  name: 関節観血的授動術
   points: null
   chapter:
     chapter: 第2章 特掲診療料
@@ -7111,7 +7106,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K077
-  name: 観血的関節制動術
+  name: 関節観血的制動術
   points: null
   chapter:
     chapter: 第2章 特掲診療料
@@ -7129,7 +7124,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K078
-  name: 観血的関節固定術
+  name: 関節観血的固定術
   points: null
   chapter:
     chapter: 第2章 特掲診療料
@@ -7147,7 +7142,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K079-2
-  name: 関節鏡下靱帯断裂形成手術
+  name: 靱
   points: null
   chapter:
     chapter: 第2章 特掲診療料
@@ -7183,26 +7178,8 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K080-4
-  name: 関節鏡下肩腱板断裂手術
+  name: 肩腱
   points: null
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第10部 手術
-    section: 第1節 手術料
-    subsection: 第2款 筋骨格系・四肢・体幹
-  raw_file: raw/02-10-01-手術料.txt
-- code: K080-5
-  name: 関節鏡下肩関節唇形成術
-  points: null
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第10部 手術
-    section: 第1節 手術料
-    subsection: 第2款 筋骨格系・四肢・体幹
-  raw_file: raw/02-10-01-手術料.txt
-- code: K080-6
-  name: 関節鏡下股関節唇形成術
-  points: 44830
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -7254,15 +7231,6 @@ items:
     section: 第1節 手術料
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
-- code: K082-4
-  name: 自家肋骨肋軟骨関節全置換術
-  points: 91500
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第10部 手術
-    section: 第1節 手術料
-    subsection: 第2款 筋骨格系・四肢・体幹
-  raw_file: raw/02-10-01-手術料.txt
 - code: K082-5
   name: 人工距骨全置換術
   points: 27210
@@ -7290,6 +7258,15 @@ items:
     section: 第1節 手術料
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
+- code: K082-8
+  name: 人工膝
+  points: null
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第2款 筋骨格系・四肢・体幹
+  raw_file: raw/02-10-01-手術料.txt
 - code: K083
   name: 鋼線等による直達牽
   points: null
@@ -7302,6 +7279,15 @@ items:
 - code: K083-2
   name: 内反足足板挺子固定
   points: 2330
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第2款 筋骨格系・四肢・体幹
+  raw_file: raw/02-10-01-手術料.txt
+- code: K084
+  name: 四肢切断術
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -7327,7 +7313,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K088
-  name: 切断四肢再接合術
+  name: 四肢切断再接合術
   points: null
   chapter:
     chapter: 第2章 特掲診療料
@@ -7347,15 +7333,6 @@ items:
 - code: K090
   name: ひょう疽手術
   points: null
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第10部 手術
-    section: 第1節 手術料
-    subsection: 第2款 筋骨格系・四肢・体幹
-  raw_file: raw/02-10-01-手術料.txt
-- code: K090-2
-  name: 風棘手術
-  points: 990
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -7389,24 +7366,6 @@ items:
     section: 第1節 手術料
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
-- code: K093-2
-  name: 関節鏡下手根管開放手術
-  points: 10400
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第10部 手術
-    section: 第1節 手術料
-    subsection: 第2款 筋骨格系・四肢・体幹
-  raw_file: raw/02-10-01-手術料.txt
-- code: K094
-  name: 足三関節固定（ランブリヌディ）手術
-  points: 27890
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第10部 手術
-    section: 第1節 手術料
-    subsection: 第2款 筋骨格系・四肢・体幹
-  raw_file: raw/02-10-01-手術料.txt
 - code: K095
   name: 削除
   points: null
@@ -7417,8 +7376,8 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K096
-  name: 手掌、足底腱膜切離・切除術１鏡視下によるもの
-  points: 4340
+  name: 手掌、足底腱膜切離・切除術１手掌腱膜切離・切除術
+  points: 2750
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -7444,7 +7403,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K099
-  name: 指瘢痕拘縮手術
+  name: 手指及び足趾瘢痕拘縮手術
   points: 8150
   chapter:
     chapter: 第2章 特掲診療料
@@ -7507,7 +7466,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K105
-  name: 裂手、裂足手術
+  name: 裂手、裂足手術１裂手手術
   points: 27890
   chapter:
     chapter: 第2章 特掲診療料
@@ -7543,7 +7502,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K109
-  name: 神経血管柄付植皮術（手、足）
+  name: 神経血管柄付皮弁術（手、足）
   points: 40460
   chapter:
     chapter: 第2章 特掲診療料
@@ -7552,7 +7511,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K110
-  name: 第四足指短縮症手術
+  name: 第四足趾短縮症手術
   points: 10790
   chapter:
     chapter: 第2章 特掲診療料
@@ -7561,7 +7520,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K110-2
-  name: 第一足指外反症矯正手術
+  name: 第一足趾外反症矯正手術
   points: 10790
   chapter:
     chapter: 第2章 特掲診療料
@@ -7597,7 +7556,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K116
-  name: 脊椎、骨盤骨掻爬術
+  name: 脊椎、骨盤骨掻爬術１脊椎骨掻爬術
   points: 17170
   chapter:
     chapter: 第2章 特掲診療料
@@ -7633,7 +7592,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K118
-  name: 脊椎、骨盤脱臼観血的手術
+  name: 脊椎脱臼観血的手術
   points: 31030
   chapter:
     chapter: 第2章 特掲診療料
@@ -7714,7 +7673,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K128
-  name: 脊椎、骨盤内異物（挿入物）除去術
+  name: 脊椎、骨盤内異物（挿入物を含む。）除去術１脊椎内異物除去術
   points: 13520
   chapter:
     chapter: 第2章 特掲診療料
@@ -7750,8 +7709,8 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K131-2
-  name: 内視鏡下椎弓切除術
-  points: 17300
+  name: 椎弓切除術（内視鏡下）
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -7769,7 +7728,7 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K133
   name: 黄色靱帯骨化症手術
-  points: 28730
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -7795,7 +7754,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K134-2
-  name: 内視鏡下椎間板摘出（切除）術１前方摘出術
+  name: 椎間板摘出（切除）術（内視鏡下）
   points: 75600
   chapter:
     chapter: 第2章 特掲診療料
@@ -7804,7 +7763,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K134-3
-  name: 人工椎間板置換術（頸椎）
+  name: 頸椎人工椎間板置換術
   points: 40460
   chapter:
     chapter: 第2章 特掲診療料
@@ -7821,9 +7780,18 @@ items:
     section: 第1節 手術料
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
+- code: K135
+  name: 脊椎、骨盤腫瘍切除術１頸椎腫瘍切除術
+  points: 36620
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第2款 筋骨格系・四肢・体幹
+  raw_file: raw/02-10-01-手術料.txt
 - code: K136-2
   name: 腫瘍脊椎骨全摘術
-  points: 113830
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -7850,7 +7818,7 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K139
   name: 脊椎骨切り術
-  points: 60330
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -7912,8 +7880,8 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K142-3
-  name: 内視鏡下脊椎固定術（胸椎又は腰椎前方固定）
-  points: 101910
+  name: 胸椎又は腰椎前方固定術（内視鏡下）
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -7930,7 +7898,7 @@ items:
     subsection: 第2款 筋骨格系・四肢・体幹
   raw_file: raw/02-10-01-手術料.txt
 - code: K142-5
-  name: 内視鏡下椎弓形成術
+  name: 椎弓形成術（内視鏡下）
   points: 30390
   chapter:
     chapter: 第2章 特掲診療料
@@ -7950,15 +7918,6 @@ items:
 - code: K142-7
   name: 腰椎分離部修復術
   points: 28210
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第10部 手術
-    section: 第1節 手術料
-    subsection: 第2款 筋骨格系・四肢・体幹
-  raw_file: raw/02-10-01-手術料.txt
-- code: K142-8
-  name: 顕微鏡下腰部脊柱管拡大減圧術
-  points: 24560
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -7994,7 +7953,7 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K145-2
   name: 皮下髄液貯溜槽留置術
-  points: 5290
+  points: 6348
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -8480,7 +8439,7 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K178-4
   name: 経皮的脳血栓回収術
-  points: 33150
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -8714,7 +8673,7 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K190-4
   name: 重症痙性麻痺治療薬髄腔内持続注入用植込型ポンプ交換術
-  points: 8380
+  points: 10056
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -9335,7 +9294,7 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K241
   name: 眼球摘出術
-  points: 4220
+  points: 5064
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -9479,7 +9438,7 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K256
   name: 角膜潰瘍結膜被覆術
-  points: 3040
+  points: 3648
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -9524,6 +9483,15 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K259-3
   name: ヒト羊膜基質使用自家培養口腔粘膜上皮細胞移植術
+  points: 52600
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第4款 眼
+  raw_file: raw/02-10-01-手術料.txt
+- code: K259-4
+  name: 培養ヒト角膜内皮細胞移植術
   points: 52600
   chapter:
     chapter: 第2章 特掲診療料
@@ -9660,6 +9628,15 @@ items:
 - code: K276
   name: 網膜光凝固術
   points: null
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第4款 眼
+  raw_file: raw/02-10-01-手術料.txt
+- code: K276-2
+  name: 経皮的選択的眼動脈注入術
+  points: 10000
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -9920,7 +9897,7 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K301
   name: 鼓室開放術
-  points: 8370
+  points: 10044
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -10388,7 +10365,7 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K339
   name: 粘膜下下鼻甲介骨切除術
-  points: 4890
+  points: 5868
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -10757,7 +10734,7 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K367
   name: 咽後膿瘍切開術
-  points: 1900
+  points: 2280
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -10946,7 +10923,7 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K384-2
   name: 深頸部膿瘍切開術
-  points: 5520
+  points: 6624
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -11044,8 +11021,8 @@ items:
     subsection: 第5款 耳鼻咽喉
   raw_file: raw/02-10-01-手術料.txt
 - code: K392
-  name: 喉頭蓋切除術
-  points: 3660
+  name: 削除
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -11054,7 +11031,7 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K392-2
   name: 喉頭蓋嚢腫摘出術
-  points: 3190
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -11144,7 +11121,7 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K401
   name: 気管口狭窄拡大術
-  points: 3090
+  points: 3708
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -11423,7 +11400,7 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K430
   name: 顎関節脱臼非観血的整復術
-  points: 410
+  points: 800
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -11621,7 +11598,7 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K450
   name: 唾石摘出術（一連につき）
-  points: 720
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -11918,7 +11895,7 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K481
   name: 肋骨骨折観血的手術
-  points: 10330
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -12474,6 +12451,15 @@ items:
     section: 第1節 手術料
     subsection: 第7款 胸部
   raw_file: raw/02-10-01-手術料.txt
+- code: K514-8
+  name: 肺悪性腫瘍及び胸腔内軟部腫瘍凝固・焼灼
+  points: null
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第7款 胸部
+  raw_file: raw/02-10-01-手術料.txt
 - code: K515
   name: 肺剥皮術
   points: 32600
@@ -12654,9 +12640,36 @@ items:
     section: 第1節 手術料
     subsection: 第7款 胸部
   raw_file: raw/02-10-01-手術料.txt
+- code: K526-5
+  name: 内視鏡的食道悪性腫瘍冷凍焼灼術
+  points: 6300
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第7款 胸部
+  raw_file: raw/02-10-01-手術料.txt
 - code: K527
   name: 食道悪性腫瘍手術（単に切除のみのもの）
   points: 47530
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第7款 胸部
+  raw_file: raw/02-10-01-手術料.txt
+- code: K527-3
+  name: 胸腔
+  points: null
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第7款 胸部
+  raw_file: raw/02-10-01-手術料.txt
+- code: K527-4
+  name: 胸腔
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -12684,6 +12697,15 @@ items:
 - code: K528-3
   name: 胸腔鏡下先天性食道閉鎖症根治手術
   points: 76320
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第7款 胸部
+  raw_file: raw/02-10-01-手術料.txt
+- code: K528-4
+  name: 先天性気管食道瘻閉鎖術
+  points: 35000
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -13061,7 +13083,7 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K552-2
   name: 冠動脈、大動脈バイパス移植術（人工心肺を使用しないもの）
-  points: 71570
+  points: 66570
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -13115,6 +13137,15 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K555-3
   name: 胸腔鏡下弁置換術
+  points: null
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第8款 心・脈管
+  raw_file: raw/02-10-01-手術料.txt
+- code: K555-4
+  name: 経カテーテル弁周囲欠損孔閉鎖術
   points: null
   chapter:
     chapter: 第2章 特掲診療料
@@ -13187,6 +13218,15 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K559-3
   name: 経皮的僧帽弁クリップ術
+  points: 34930
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第8款 心・脈管
+  raw_file: raw/02-10-01-手術料.txt
+- code: K559-4
+  name: 経皮的三尖弁クリップ術
   points: 34930
   chapter:
     chapter: 第2章 特掲診療料
@@ -13726,8 +13766,8 @@ items:
     subsection: 第8款 心・脈管
   raw_file: raw/02-10-01-手術料.txt
 - code: K600
-  name: 大動脈バルーンパンピング法（ＩＡＢＰ法）（１日につき）
-  points: 8780
+  name: 大動脈内バルーンパンピング法（ＩＡＢＰ法）（１日につき）
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -13772,7 +13812,7 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K604-2
   name: 植込型補助人工心臓（非拍動流型）
-  points: 58500
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -13896,6 +13936,15 @@ items:
     section: 第1節 手術料
     subsection: 第8款 心・脈管
   raw_file: raw/02-10-01-手術料.txt
+- code: K609-3
+  name: 経頸動脈的頸動脈ステント留置術
+  points: 34740
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第8款 心・脈管
+  raw_file: raw/02-10-01-手術料.txt
 - code: K610
   name: 動脈形成術、吻合術１頭蓋内動脈
   points: 99700
@@ -13950,6 +13999,15 @@ items:
     section: 第1節 手術料
     subsection: 第8款 心・脈管
   raw_file: raw/02-10-01-手術料.txt
+- code: K613-2
+  name: 腎神経焼灼術
+  points: 31840
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第8款 心・脈管
+  raw_file: raw/02-10-01-手術料.txt
 - code: K614
   name: 血管移植術、バイパス移植術１大動脈
   points: 70700
@@ -13970,7 +14028,7 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K616
   name: 四肢の血管拡張術・血栓除去術
-  points: 22590
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -14121,6 +14179,15 @@ items:
     section: 第1節 手術料
     subsection: 第8款 心・脈管
   raw_file: raw/02-10-01-手術料.txt
+- code: K619-3
+  name: 腸骨静脈及び大腿静脈ステント留置術
+  points: 32100
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第8款 心・脈管
+  raw_file: raw/02-10-01-手術料.txt
 - code: K620
   name: 下大静脈フィルター留置術
   points: 10160
@@ -14230,8 +14297,8 @@ items:
     subsection: 第8款 心・脈管
   raw_file: raw/02-10-01-手術料.txt
 - code: K627-3
-  name: 腹腔
-  points: null
+  name: 腹腔鏡下小切開骨盤内リンパ節群郭清術
+  points: 26460
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -14239,8 +14306,8 @@ items:
     subsection: 第8款 心・脈管
   raw_file: raw/02-10-01-手術料.txt
 - code: K627-4
-  name: 腹腔
-  points: null
+  name: 腹腔鏡下小切開後腹膜リンパ節群郭清術
+  points: 39720
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -14321,7 +14388,7 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K635
   name: 胸水・腹水濾過濃縮再静注法
-  points: 4990
+  points: 5988
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -14508,6 +14575,15 @@ items:
     section: 第1節 手術料
     subsection: 第9款 腹部
   raw_file: raw/02-10-01-手術料.txt
+- code: K643-3
+  name: 腹膜切除を伴う多臓器合併切除術
+  points: 105000
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第9款 腹部
+  raw_file: raw/02-10-01-手術料.txt
 - code: K644
   name: 臍腸管瘻手術
   points: null
@@ -14537,6 +14613,15 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K645-3
   name: 骨盤内悪性腫瘍及び腹腔内軟部腫瘍ラジオ波焼灼
+  points: null
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第9款 腹部
+  raw_file: raw/02-10-01-手術料.txt
+- code: K645-4
+  name: 骨盤内悪性腫瘍及び腹腔内軟部腫瘍凝固・焼灼
   points: null
   chapter:
     chapter: 第2章 特掲診療料
@@ -15111,6 +15196,15 @@ items:
     section: 第1節 手術料
     subsection: 第9款 腹部
   raw_file: raw/02-10-01-手術料.txt
+- code: K682-5
+  name: 超音波内視鏡下胆嚢ドレナージ術
+  points: 13820
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第9款 腹部
+  raw_file: raw/02-10-01-手術料.txt
 - code: K683
   name: 削除
   points: null
@@ -15321,6 +15415,15 @@ items:
 - code: K697-7
   name: 同種死体肝移植術
   points: 193060
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第9款 腹部
+  raw_file: raw/02-10-01-手術料.txt
+- code: K697-8
+  name: 肝悪性腫瘍凝固・焼灼
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -16102,7 +16205,7 @@ items:
     subsection: 第9款 腹部
   raw_file: raw/02-10-01-手術料.txt
 - code: K740-3
-  name: 削除
+  name: 腹腔
   points: null
   chapter:
     chapter: 第2章 特掲診療料
@@ -16121,7 +16224,7 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K741-2
   name: 直腸瘤手術
-  points: 6620
+  points: 7944
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -16778,7 +16881,7 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K783-2
   name: 経尿道的尿管ステント留置術
-  points: 3400
+  points: 4080
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -17371,8 +17474,8 @@ items:
     subsection: 第10款 尿路系・副腎
   raw_file: raw/02-10-01-手術料.txt
 - code: K823-2
-  name: 尿失禁又は膀胱
-  points: null
+  name: 尿失禁又は膀胱尿管逆流現象コラーゲン注入手術
+  points: 23320
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -17516,7 +17619,7 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K830
   name: 精巣摘出術
-  points: 3180
+  points: 3816
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -17561,7 +17664,7 @@ items:
   raw_file: raw/02-10-01-手術料.txt
 - code: K834
   name: 精索静脈瘤手術
-  points: 3410
+  points: 4092
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -17595,6 +17698,15 @@ items:
     section: 第1節 手術料
     subsection: 第11款 性器
   raw_file: raw/02-10-01-手術料.txt
+- code: K835-2
+  name: 陰嚢
+  points: null
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第11款 性器
+  raw_file: raw/02-10-01-手術料.txt
 - code: K836
   name: 停留精巣固定術
   points: 11200
@@ -17614,8 +17726,8 @@ items:
     subsection: 第11款 性器
   raw_file: raw/02-10-01-手術料.txt
 - code: K836-3
-  name: 腹腔鏡下停留精巣内精巣動静脈結紮術
-  points: 20500
+  name: 腹腔鏡下停留精巣内精巣動静脈結紮
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -18019,8 +18131,8 @@ items:
     subsection: 第11款 性器
   raw_file: raw/02-10-01-手術料.txt
 - code: K862
-  name: クレニッヒ手術
-  points: 7710
+  name: 削除
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -18549,6 +18661,24 @@ items:
     section: 第1節 手術料
     subsection: 第11款 性器
   raw_file: raw/02-10-01-手術料.txt
+- code: K906-2
+  name: 子宮頸
+  points: null
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第11款 性器
+  raw_file: raw/02-10-01-手術料.txt
+- code: K906-3
+  name: 腹腔鏡下子宮頸管縫縮術
+  points: 15000
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第10部 手術
+    section: 第1節 手術料
+    subsection: 第11款 性器
+  raw_file: raw/02-10-01-手術料.txt
 - code: K907
   name: 胎児外回転術
   points: 800
@@ -18963,8 +19093,8 @@ items:
     section: 第3節 手術医療機器等加算
   raw_file: raw/02-10-03-手術医療機器等加算.txt
 - code: K939-4
-  name: 削除
-  points: null
+  name: 内視鏡手術用支援機器加算
+  points: 15000
   chapter:
     chapter: 第2章 特掲診療料
     part: 第10部 手術
@@ -19019,23 +19149,15 @@ items:
     section: 第5節 特定保険医療材料料
   raw_file: raw/02-10-05-特定保険医療材料料.txt
 - code: L000
-  name: 迷もう麻酔
-  points: 31
+  name: 削除
+  points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第11部 麻酔
     section: 第1節 麻酔料
   raw_file: raw/02-11-01-麻酔料.txt
 - code: L001
-  name: 筋肉注射による全身麻酔、注腸による麻酔
-  points: 120
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第11部 麻酔
-    section: 第1節 麻酔料
-  raw_file: raw/02-11-01-麻酔料.txt
-- code: L001-2
-  name: 静脈麻酔
+  name: 吸入麻酔又は静脈麻酔による鎮静
   points: null
   chapter:
     chapter: 第2章 特掲診療料
@@ -19082,16 +19204,8 @@ items:
     part: 第11部 麻酔
     section: 第1節 麻酔料
   raw_file: raw/02-11-01-麻酔料.txt
-- code: L007
-  name: 開放点滴式全身麻酔
-  points: 310
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第11部 麻酔
-    section: 第1節 麻酔料
-  raw_file: raw/02-11-01-麻酔料.txt
 - code: L008
-  name: マスク又は気管内挿管による閉鎖循環式全身麻酔
+  name: 声門上器具又は気管挿管による気道確保を伴う閉鎖循環式全身麻酔
   points: null
   chapter:
     chapter: 第2章 特掲診療料
@@ -19101,6 +19215,22 @@ items:
 - code: L008-2
   name: 体温維持療法（１日につき）
   points: 12200
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第11部 麻酔
+    section: 第1節 麻酔料
+  raw_file: raw/02-11-01-麻酔料.txt
+- code: L008-3
+  name: 体温調節療法（一連につき）
+  points: 5000
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第11部 麻酔
+    section: 第1節 麻酔料
+  raw_file: raw/02-11-01-麻酔料.txt
+- code: L009
+  name: 麻酔管理料（Ⅰ）
+  points: 250
   chapter:
     chapter: 第2章 特掲診療料
     part: 第11部 麻酔
@@ -19290,9 +19420,9 @@ items:
     part: 第13部 病理診断
     section: 第1節 病理標本作製料
   raw_file: raw/02-13-01-病理標本作製料.txt
-- code: N005-5
-  name: ＢＲＡＦＶ600Ｅ変異タンパク免疫染色（免疫抗体法）病理組織標本作製
-  points: 1600
+- code: N005-7
+  name: ＦＧＦＲ２融合遺伝子標本作製
+  points: 7824
   chapter:
     chapter: 第2章 特掲診療料
     part: 第13部 病理診断
@@ -19320,21 +19450,29 @@ items:
   chapter:
     chapter: 第2章 特掲診療料
     part: 第14部 その他
-    section: 第1節 看護職員処遇改善評価料
-  raw_file: raw/02-14-01-看護職員処遇改善評価料.txt
-- code: O100
-  name: 外来・在宅ベースアップ評価料（Ⅰ）（１日につき）
-  points: 6
-  chapter:
-    chapter: 第2章 特掲診療料
-    part: 第14部 その他
-    section: 第2節 ベースアップ評価料
-  raw_file: raw/02-14-02-ベースアップ評価料.txt
-- code: O102
-  name: 入院ベースアップ評価料（１日につき）
+    section: 第1節 ベースアップ評価料等
+  raw_file: raw/02-14-01-ベースアップ評価料等.txt
+- code: O001
+  name: 外来・在宅ベースアップ評価料（Ⅰ）
   points: null
   chapter:
     chapter: 第2章 特掲診療料
     part: 第14部 その他
-    section: 第2節 ベースアップ評価料
-  raw_file: raw/02-14-02-ベースアップ評価料.txt
+    section: 第1節 ベースアップ評価料等
+  raw_file: raw/02-14-01-ベースアップ評価料等.txt
+- code: O002
+  name: 外来・在宅ベースアップ評価料（Ⅱ）
+  points: null
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第14部 その他
+    section: 第1節 ベースアップ評価料等
+  raw_file: raw/02-14-01-ベースアップ評価料等.txt
+- code: O100
+  name: 物価対応料
+  points: null
+  chapter:
+    chapter: 第2章 特掲診療料
+    part: 第14部 その他
+    section: 第2節 物価対応料
+  raw_file: raw/02-14-02-物価対応料.txt

@@ -1,6 +1,6 @@
 code: M003
 name: 電磁波温熱療法（一連につき）
-version: r6
+version: r8
 points: 9000
 unit: 一連
 chapter:
@@ -63,7 +63,7 @@ notes:
   - name: 画像誘導密封小線源治療加算
     points: 1200
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-12-01-放射線治療管理・実施料.txt
 _meta:

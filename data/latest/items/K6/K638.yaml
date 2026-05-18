@@ -1,6 +1,6 @@
 code: K638
 name: 骨盤腹膜外膿瘍切開排膿術
-version: r6
+version: r8
 points: 3290
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ６３８骨盤腹膜外膿瘍切開排膿術3,290点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

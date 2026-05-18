@@ -1,6 +1,6 @@
 code: K890-2
 name: 卵管鏡下卵管形成術
-version: r6
+version: r8
 points: 46410
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ８９０－２卵管鏡下卵管形成術46,410点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

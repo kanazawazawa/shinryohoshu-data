@@ -3,9 +3,6 @@ __pycache__/
 *.pyc
 .venv/
 
-# 過去成果物（履歴のみ git log で参照可。作業ツリーからは Git 追跡外）
-archive/
-
 # 生成物（後フェーズで定義する T3 / docs などの自動生成物）
 data/**/raw/
 # 各版の Markdown レンダリング結果は巨大なので公開対象外

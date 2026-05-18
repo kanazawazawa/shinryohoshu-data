@@ -1,6 +1,6 @@
 code: J097-2
 name: 副鼻腔自然口開大処置
-version: r6
+version: r8
 points: 25
 unit: 回
 chapter:
@@ -15,7 +15,7 @@ notes:
   text: |
     処置に用いた薬剤の費用は、所定点数に含まれるものとする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

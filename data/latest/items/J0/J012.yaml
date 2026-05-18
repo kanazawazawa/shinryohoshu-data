@@ -1,14 +1,14 @@
 code: J012
 name: 腎嚢胞又は水腎症穿刺
-version: r6
-points: 350
+version: r8
+points: 420
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
   part: 第9部 処置
   section: 第1節 処置料
 raw_text: |
-  Ｊ０１２腎嚢胞又は水腎症穿刺350点
+  Ｊ０１２腎嚢胞又は水腎症穿刺420点
   - 注６歳未満の乳幼児の場合は、乳幼児加算として、110点を加算する。
 notes:
 - id: 注6
@@ -18,7 +18,7 @@ notes:
   - name: 乳幼児加算
     points: 110
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

@@ -1,0 +1,29 @@
+code: K930
+name: 脊髄誘発電位測定等加算
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第3節 手術医療機器等加算
+raw_text: |
+  Ｋ９３０脊髄誘発電位測定等加算
+  - １脳、脊椎、脊髄、大動脈瘤又は食道の手術に用いた場合3,630点
+  - ２甲状腺又は副甲状腺の手術に用いた場合3,130点
+tiers:
+- id: '1'
+  name: 脳、脊椎、脊髄、大動脈瘤又は食道の手術に用いた場合
+  points: 3630
+- id: '2'
+  name: 甲状腺又は副甲状腺の手術に用いた場合
+  points: 3130
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-03-手術医療機器等加算.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

@@ -1,6 +1,6 @@
 code: K802-6
 name: 腹腔鏡下膀胱脱手術
-version: r6
+version: r8
 points: 41160
 unit: 回
 chapter:
@@ -16,7 +16,7 @@ notes:
   text: |
     メッシュを使用した場合に算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

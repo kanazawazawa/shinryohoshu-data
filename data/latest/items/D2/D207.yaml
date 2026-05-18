@@ -1,6 +1,6 @@
 code: D207
 name: 体液量等測定
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -43,7 +43,7 @@ notes:
   text: |
     脳循環測定（笑気法によるもの）1,350点
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

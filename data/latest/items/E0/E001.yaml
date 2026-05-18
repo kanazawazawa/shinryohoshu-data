@@ -1,6 +1,6 @@
 code: E001
 name: 写真診断
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -40,7 +40,7 @@ notes:
   text: |
     間接撮影を行った場合は、所定点数の100分の50に相当する点数により算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-04-01-エックス線診断料.txt
 _meta:

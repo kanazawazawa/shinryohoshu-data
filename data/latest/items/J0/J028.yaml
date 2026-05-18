@@ -1,6 +1,6 @@
 code: J028
 name: インキュベーター（１日につき）
-version: r6
+version: r8
 points: 120
 unit: 日
 chapter:
@@ -15,7 +15,7 @@ notes:
   text: |
     使用した精製水の費用及びインキュベーターと同時に行った酸素吸入の費用は、所定点数に含まれるものとする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:

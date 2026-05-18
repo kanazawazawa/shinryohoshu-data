@@ -1,6 +1,6 @@
 code: E101
 name: シングルホトンエミッションコンピューター断層撮影（同一のラジオアイソトープを用いた一連の検査につき）
-version: r6
+version: r8
 points: 1800
 unit: 同一のラジオアイソトープを用いた一連の検査
 chapter:
@@ -27,7 +27,7 @@ notes:
   text: |
     ラジオアイソトープの注入手技料は、所定点数に含まれるものとする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-04-02-核医学診断料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: D274-2
 name: 前眼部三次元画像解析
-version: r6
+version: r8
 points: 265
 unit: 回
 chapter:
@@ -17,7 +17,7 @@ notes:
     前眼部三次元画像解析は、患者１人につき月１回に限り算定する。
     ただし、当該検査と併せて行った区分番号Ｄ２６５－２に掲げる角膜形状解析検査及び区分番号Ｄ２７４に掲げる前房隅角検査に係る費用は、所定点数に含まれるものとする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-03-生体検査料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: E102
 name: 核医学診断
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -24,7 +24,7 @@ notes:
   text: |
     行った核医学診断の種類又は回数にかかわらず、月１回に限り算定できるものとする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-04-02-核医学診断料.txt
 _meta:

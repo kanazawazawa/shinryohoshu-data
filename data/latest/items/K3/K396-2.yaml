@@ -1,6 +1,6 @@
 code: K396-2
 name: 気管縫合術
-version: r6
+version: r8
 points: 1040
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ３９６－２気管縫合術1,040点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

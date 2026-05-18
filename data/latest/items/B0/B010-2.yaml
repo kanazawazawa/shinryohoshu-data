@@ -1,6 +1,6 @@
 code: B010-2
 name: 診療情報連携共有料
-version: r6
+version: r8
 points: 120
 unit: 回
 chapter:
@@ -18,7 +18,7 @@ notes:
   text: |
     区分番号Ｂ００９に掲げる診療情報提供料（Ⅰ）（同一の保険医療機関に対して紹介を行った場合に限る。）を算定した同一月においては、別に算定できない。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-01-01-医学管理料等.txt
 _meta:

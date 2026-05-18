@@ -1,12 +1,12 @@
 code: I016
 name: 精神科在宅患者支援管理料（月１回）
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
   part: 第8部 精神科専門療法
-  section: 第1節 精神科専門療法料
+  section: 第2節 薬剤料
 raw_text: |
   Ｉ０１６精神科在宅患者支援管理料（月１回）１精神科在宅患者支援管理料１
       - イ別に厚生労働大臣が定める患者のうち、集中的な支援を必要とする者の場合
@@ -73,9 +73,9 @@ notes:
   text: |
     精神科在宅患者支援管理に要した交通費は、患家の負担とする。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
-  raw_file: raw/02-08-01-精神科専門療法料.txt
+  raw_file: raw/02-08-02-薬剤料.txt
 _meta:
   generated_by: rule-based
   human_reviewed: false

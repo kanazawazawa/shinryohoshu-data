@@ -1,6 +1,6 @@
 code: K841-7
 name: 経尿道的前立腺水蒸気治療
-version: r6
+version: r8
 points: 12300
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ８４１－７経尿道的前立腺水蒸気治療12,300点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

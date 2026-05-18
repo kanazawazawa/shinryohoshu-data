@@ -1,7 +1,7 @@
 code: K145-2
 name: 皮下髄液貯溜槽留置術
-version: r6
-points: 5290
+version: r8
+points: 6348
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
@@ -9,10 +9,10 @@ chapter:
   section: 第1節 手術料
   subsection: 第3款 神経系・頭蓋
 raw_text: |
-  Ｋ１４５－２皮下髄液貯溜槽留置術5,290点
+  Ｋ１４５－２皮下髄液貯溜槽留置術6,348点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

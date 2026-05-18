@@ -1,6 +1,6 @@
 code: K514-6
 name: 生体部分肺移植術
-version: r6
+version: r8
 points: 130260
 unit: 回
 chapter:
@@ -31,7 +31,7 @@ notes:
   - name: 両側肺移植加算
     points: 45000
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

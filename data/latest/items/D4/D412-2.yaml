@@ -1,17 +1,17 @@
 code: D412-2
 name: 経皮的腎生検法
-version: r6
-points: 2000
+version: r8
+points: 2400
 unit: 回
 chapter:
   chapter: 第2章 特掲診療料
   part: 第3部 検査
   section: 第4節 診断穿刺・検体採取料
 raw_text: |
-  Ｄ４１２－２経皮的腎生検法2,000点
+  Ｄ４１２－２経皮的腎生検法2,400点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-03-04-診断穿刺・検体採取料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: K872-5
 name: 子宮頸部初期癌又は異形成光線力学療法
-version: r6
+version: r8
 points: 8450
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ８７２－５子宮頸部初期癌又は異形成光線力学療法8,450点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

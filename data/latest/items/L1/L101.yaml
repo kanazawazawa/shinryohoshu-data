@@ -1,6 +1,6 @@
 code: L101
 name: 神経ブロック（神経破壊剤、高周波凝固法又はパルス高周波法使用）
-version: r6
+version: r8
 points: 3000
 unit: 回
 chapter:
@@ -30,7 +30,7 @@ notes:
   text: |
     上記以外の神経ブロック（神経破壊剤、高周波凝固法又はパルス高周波法使用）は、区分番号Ｌ１０２に掲げる神経幹内注射で算定する。
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-11-02-神経ブロック料.txt
 _meta:

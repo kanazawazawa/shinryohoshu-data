@@ -1,6 +1,6 @@
 code: K159-2
 name: 顔面神経管開放術
-version: r6
+version: r8
 points: 44500
 unit: 回
 chapter:
@@ -12,7 +12,7 @@ raw_text: |
   Ｋ１５９－２顔面神経管開放術44,500点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

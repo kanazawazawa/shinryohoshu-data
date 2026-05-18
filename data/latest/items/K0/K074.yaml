@@ -1,6 +1,6 @@
 code: K074
 name: 靱帯断裂縫合術
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -10,22 +10,30 @@ chapter:
   subsection: 第2款 筋骨格系・四肢・体幹
 raw_text: |
   Ｋ０７４靱帯断裂縫合術
-  - １十字靱帯17,070点
-  - ２膝側副靱帯16,560点
-  - ３指（手、足）その他の靱帯7,600点
+  - １十字靱帯断裂縫合術17,070点
+  - ２膝側副靱帯断裂縫合術16,560点
+  - ３手指靱帯断裂縫合術7,600点
+  - ４足趾靱帯断裂縫合術7,600点
+  - ５その他の靱帯断裂縫合術7,600点
 tiers:
 - id: '1'
-  name: 十字靱帯1
+  name: 十字靱帯断裂縫合術1
   points: 7070
 - id: '2'
-  name: 膝側副靱帯
+  name: 膝側副靱帯断裂縫合術
   points: 16560
 - id: '3'
-  name: 指（手、足）その他の靱帯
+  name: 手指靱帯断裂縫合術
+  points: 7600
+- id: '4'
+  name: 足趾靱帯断裂縫合術
+  points: 7600
+- id: '5'
+  name: その他の靱帯断裂縫合術
   points: 7600
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

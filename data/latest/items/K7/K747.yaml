@@ -1,6 +1,6 @@
 code: K747
 name: 肛
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -13,7 +13,7 @@ raw_text: |
   門良性腫瘍、肛門ポリープ、肛門尖圭コンジローム切除術1,250点
 notes: []
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-10-01-手術料.txt
 _meta:

@@ -1,6 +1,6 @@
 code: J010
 name: 腹腔穿
-version: r6
+version: r8
 points: null
 unit: 回
 chapter:
@@ -9,7 +9,7 @@ chapter:
   section: 第1節 処置料
 raw_text: |
   Ｊ０１０腹腔穿
-  刺（人工気腹、洗浄、注入及び排液を含む。）287点
+  刺（人工気腹、洗浄、注入及び排液を含む。）344点
   - 注６歳未満の乳幼児の場合は、乳幼児加算として、110点を加算する。
 notes:
 - id: 注6
@@ -19,7 +19,7 @@ notes:
   - name: 乳幼児加算
     points: 110
 source:
-  pdf: 001251499.pdf
+  pdf: 001686842.pdf
   url: https://www.mhlw.go.jp/
   raw_file: raw/02-09-01-処置料.txt
 _meta:
