@@ -19,6 +19,14 @@ dependencies = [
     "jsonschema>=4.21",
 ]
 
+[project.optional-dependencies]
+docs = [
+    "mkdocs>=1.6",
+    "mkdocs-material>=9.5",
+    "mkdocs-awesome-pages-plugin>=2.9",
+    "pymdown-extensions>=10.7",
+]
+
 [project.urls]
 Homepage = "https://github.com/kanazawazawa/shinryohoshu-data"
 Repository = "https://github.com/kanazawazawa/shinryohoshu-data"

@@ -11,6 +11,9 @@ data/**/raw/
 docs/r*/
 # ※ docs/diff/ は人間が一次窓口として参照するため追跡対象（上のパターンに含まれない）
 
+# MkDocs のビルド成果物
+site/
+
 # ---- 注意: 以下は追跡対象。.gitignore で誤って隠さないこと ----
 # data/latest/      現行版データ
 # data/archive/     旧版スナップショット

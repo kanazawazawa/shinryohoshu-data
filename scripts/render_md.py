@@ -29,9 +29,10 @@ def render_item(item: dict) -> str:
     lines.append("> " + " / ".join(bits))
     lines.append("")
     src = item["source"]
+    # raw/*.txt は .gitignore のため公開サイトからはリンクできない。ファイル名のみ表示
     lines.append(
         f"> 版: `{item['version']}` / 出典: [{src['pdf']}]({src['url']}) / "
-        f"原文: [`{src['raw_file']}`](../../{src['raw_file']})"
+        f"原文: `{src['raw_file']}`"
     )
     if item["_meta"].get("has_unparsed"):
         lines.append("")
@@ -185,8 +186,17 @@ def main() -> None:
             (shard_dir / f"{item['code']}.md").write_text(
                 render_item(item), encoding="utf-8"
             )
-        (out_dir / "README.md").write_text(render_toc(ver, idx), encoding="utf-8")
-        print(f"[{ver}] wrote {len(idx['items'])} item md + README")
+        # MkDocs ではディレクトリの入口は index.md。同居する README.md は削除
+        (out_dir / "index.md").write_text(render_toc(ver, idx), encoding="utf-8")
+        old_readme = out_dir / "README.md"
+        if old_readme.exists():
+            old_readme.unlink()
+        # awesome-pages: サイドバーには index のみ表示（items は URL でアクセス可だが
+        # 2200+ あるためサイドバーには出さず、index.md の章節 TOC から辿らせる）
+        (out_dir / ".pages").write_text(
+            "nav:\n  - index.md\n", encoding="utf-8"
+        )
+        print(f"[{ver}] wrote {len(idx['items'])} item md + index.md + .pages")
 
 
 if __name__ == "__main__":
