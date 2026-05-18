@@ -2,30 +2,57 @@
 
 本リポジトリには性質の異なる 2 種類の成果物が含まれる。
 
-## 1. 告示本文（PDF / 抽出済テキスト / Markdown）
+---
 
-対象: `001251499.pdf`, `001686842.pdf`, `md/`, `raw/`, `normalized/` 配下のテキスト。
+## 1. 告示原典および機械抽出データ（公有）
 
-これらは厚生労働省告示「診療報酬の算定方法」およびその抜粋・整形物であり、
-著作権法第 13 条により**著作権の対象とならない**（権利の目的とならない著作物）:
+**対象ファイル**
+
+- `sources/r6/001251499.pdf`, `sources/r8/001686842.pdf`
+  （厚生労働省告示「診療報酬の算定方法」原典 PDF そのまま）
+- `data/latest/raw/*.txt`, `data/archive/*/raw/*.txt`
+  （PDF からテキスト化したもの。`.gitignore` で追跡外だが再生成可能）
+- `data/latest/index.yaml`, `data/latest/items/**/*.yaml`
+  および `data/archive/<ver>/` 配下の同種ファイル
+  （告示本文を機械的に構造化抽出した YAML データ）
+- `docs/diff/r6-r8/*.md`（改定差分の自動生成 Markdown）
+
+**ライセンス条項**
+
+これらは厚生労働省告示「診療報酬の算定方法」およびその抽出・整形物であり、
+**著作権法第 13 条**により著作権の対象とならない。
 
 > 第十三条　次の各号のいずれかに該当する著作物は、この章の規定による権利の目的となることができない。
 > 一　憲法その他の法令
 > 二　国若しくは地方公共団体の機関、独立行政法人……が発する告示、訓令、通達その他これらに類するもの
 
-したがって誰でも自由に複製・改変・再配布が可能。利用に際しては
-原典が厚生労働省告示であることを明示することが望ましい。
+派生物としての抽出データについても、原著作物が権利の目的とならない以上、
+本リポジトリのメンテナは追加の著作権主張を行わない（**実質 Public Domain / CC0 相当**）。
 
-## 2. 正規化スクリプト等
+利用者は誰でも自由に複製・改変・再配布・商用利用が可能。
+利用に際しては以下を満たすことが望ましい:
 
-対象: `scripts/` 配下、`README.md`、`LICENSE`、`.gitattributes`、`.gitignore`。
+1. 原典が厚生労働省告示であることを明示する
+2. 抽出データには誤りが含まれる可能性があることを利用者に通知する
+   （本リポジトリは自動抽出の未レビュー結果であり、実装に用いる場合は原典との突合が必須）
 
-MIT License。
+---
+
+## 2. パイプラインスクリプト等（MIT License）
+
+**対象ファイル**
+
+- `scripts/` 配下の Python スクリプト
+- `schema/` 配下の JSON Schema
+- `README.md`, `REPRODUCE.md`, `CONTRIBUTING.md`, `LICENSE`
+- `pyproject.toml`, `uv.lock`, `.gitignore`, `.gitattributes`, `.vscode/`
+
+**ライセンス条項**
 
 ```
 MIT License
 
-Copyright (c) 2026 shinryouhousyu contributors
+Copyright (c) 2026 kanazawazawa
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

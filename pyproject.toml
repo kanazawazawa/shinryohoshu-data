@@ -1,10 +1,25 @@
 [project]
 name = "shinryohoshu-data-tools"
 version = "0.1.0"
-description = "診療報酬点数表 構造化パイプライン"
+description = "厚生労働省告示「診療報酬の算定方法」点数表の機械可読化パイプライン"
+readme = "README.md"
 requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "kanazawazawa" }]
+keywords = ["healthcare", "japan", "mhlw", "medical-fee", "診療報酬", "shinryohoshu"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Scientific/Engineering",
+]
 dependencies = [
     "pymupdf>=1.24",
     "pyyaml>=6.0",
     "jsonschema>=4.21",
 ]
+
+[project.urls]
+Homepage = "https://github.com/kanazawazawa/shinryohoshu-data"
+Repository = "https://github.com/kanazawazawa/shinryohoshu-data"
+Issues = "https://github.com/kanazawazawa/shinryohoshu-data/issues"
