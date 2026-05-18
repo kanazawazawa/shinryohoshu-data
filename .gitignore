@@ -3,13 +3,19 @@ __pycache__/
 *.pyc
 .venv/
 
-# 生成物（後フェーズで定義する T3 / docs などの自動生成物）
+# ---- データ生成物（git 追跡外） ----
+# T3 raw テキスト: PDF から再生成可能。data/latest/raw/ と data/archive/<ver>/raw/ 両方にマッチ
 data/**/raw/
-# 各版の Markdown レンダリング結果は巨大なので公開対象外
-docs/r6/
-docs/r8/
-# ※ docs/diff/ は人間が一次窓口として参照するため公開する
+
+# 各版の Markdown レンダリング結果（巨大かつ自動生成）。r6, r8, r10... 任意の版に対応
+docs/r*/
+# ※ docs/diff/ は人間が一次窓口として参照するため追跡対象（上のパターンに含まれない）
+
+# ---- 注意: 以下は追跡対象。.gitignore で誤って隠さないこと ----
+# data/latest/      現行版データ
+# data/archive/     旧版スナップショット
+#                   （かつて "archive/" と書いて data/archive/ も全部無視してハマった）
+# docs/diff/        改定差分 Markdown
 
 # 一時ファイル
 .tmp-cleanup/
-shinryou.txt
