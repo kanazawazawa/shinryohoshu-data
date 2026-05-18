@@ -25,7 +25,7 @@ PYTHONIOENCODING=utf-8 uv run python scripts/build_all.py
 [r8] 2240 items (structured_ok=2240, has_unparsed=0, notes=2682, with_additions=276)
 [OK] index.yaml ↔ items/ 完全一致
 [OK] raw 文字数突合 (delta=0)
-diff: removed=37 added=50 changed=212
+diff: removed=37 added=50 changed=205
 ```
 
 再ビルド後 `git status` がクリーンであることが冪等性の証拠。
