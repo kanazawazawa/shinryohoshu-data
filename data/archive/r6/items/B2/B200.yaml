@@ -16,7 +16,7 @@ notes:
     使用した特定保険医療材料の材料価格は、別に厚生労働大臣が定める。
 source:
   pdf: 001251499.pdf
-  url: https://www.mhlw.go.jp/
+  url: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000188411_00045.html
   raw_file: raw/02-01-03-特定保険医療材料料.txt
 _meta:
   generated_by: rule-based

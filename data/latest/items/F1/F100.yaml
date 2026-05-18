@@ -87,7 +87,7 @@ notes:
     limit: 月１回
 source:
   pdf: 001686842.pdf
-  url: https://www.mhlw.go.jp/
+  url: https://www.mhlw.go.jp/stf/newpage_67729.html
   raw_file: raw/02-05-02-処方料.txt
 _meta:
   generated_by: rule-based

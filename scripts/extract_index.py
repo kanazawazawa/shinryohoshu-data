@@ -75,8 +75,8 @@ def _is_valid_code_line(line: str, name: str, points, has_pts: bool) -> tuple[bo
 
 
 PDF_BY_VER = {
-    "r6": ("001251499.pdf", "https://www.mhlw.go.jp/"),
-    "r8": ("001686842.pdf", "https://www.mhlw.go.jp/"),
+    "r6": ("001251499.pdf", "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000188411_00045.html"),
+    "r8": ("001686842.pdf", "https://www.mhlw.go.jp/stf/newpage_67729.html"),
 }
 
 

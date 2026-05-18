@@ -138,7 +138,7 @@ tiers:
 notes: []
 source:
   pdf: 001251499.pdf
-  url: https://www.mhlw.go.jp/
+  url: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000188411_00045.html
   raw_file: raw/02-00-04-短期滞在手術等基本料.txt
 _meta:
   generated_by: rule-based

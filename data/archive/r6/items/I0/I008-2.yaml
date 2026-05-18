@@ -53,7 +53,7 @@ notes:
     limit: 週１回
 source:
   pdf: 001251499.pdf
-  url: https://www.mhlw.go.jp/
+  url: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000188411_00045.html
   raw_file: raw/02-08-01-精神科専門療法料.txt
 _meta:
   generated_by: rule-based

@@ -1,7 +1,7 @@
 version: r6
 source:
   pdf: 001251499.pdf
-  url: https://www.mhlw.go.jp/
+  url: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000188411_00045.html
 _stats:
   total: 2227
   deleted: 122

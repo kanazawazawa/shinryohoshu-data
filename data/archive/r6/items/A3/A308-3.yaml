@@ -134,7 +134,7 @@ tiers:
 notes: []
 source:
   pdf: 001251499.pdf
-  url: https://www.mhlw.go.jp/
+  url: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000188411_00045.html
   raw_file: raw/01-13-00-第２節病理診断・判断料及び第14部その他の費用並びに第２節に規定する.txt
 _meta:
   generated_by: rule-based

@@ -237,7 +237,7 @@ notes:
         - ハ15対１入院基本料の施設基準を届け出た病棟に入院している場合1,388点
 source:
   pdf: 001686842.pdf
-  url: https://www.mhlw.go.jp/
+  url: https://www.mhlw.go.jp/stf/newpage_67729.html
   raw_file: raw/01-02-01-入院基本料.txt
 _meta:
   generated_by: rule-based

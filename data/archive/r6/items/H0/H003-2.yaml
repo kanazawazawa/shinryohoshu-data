@@ -42,7 +42,7 @@ notes:
     limit: 月１回
 source:
   pdf: 001251499.pdf
-  url: https://www.mhlw.go.jp/
+  url: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000188411_00045.html
   raw_file: raw/02-07-01-リハビリテーション料.txt
 _meta:
   generated_by: rule-based

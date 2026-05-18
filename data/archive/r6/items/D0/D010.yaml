@@ -79,7 +79,7 @@ notes:
     （免疫学的検査）
 source:
   pdf: 001251499.pdf
-  url: https://www.mhlw.go.jp/
+  url: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000188411_00045.html
   raw_file: raw/02-03-01-検体検査料.txt
 _meta:
   generated_by: rule-based

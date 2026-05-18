@@ -78,7 +78,7 @@ notes:
     1、２及び３について、直近３月に処方箋を交付した回数が一定以上である保険医療機関が、別表第三調剤報酬点数表区分番号００調剤基本料に掲げる特別調剤基本料Ａを算定する薬局であって、当該保険医療機関から集中的に処方箋を受け付けているものと不動産取引等その他の特別な関係を有する場合は、１、２又は３の所定点数に代えて、それぞれ18点、29点又は42点を算定する。
 source:
   pdf: 001251499.pdf
-  url: https://www.mhlw.go.jp/
+  url: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000188411_00045.html
   raw_file: raw/02-05-05-処方箋料.txt
 _meta:
   generated_by: rule-based
