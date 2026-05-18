@@ -1,0 +1,30 @@
+code: K922-2
+name: ＣＡＲ発現生Ｔ細胞投与（一連につき）
+version: r6
+points: 30850
+unit: 一連
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第2節 輸血料
+raw_text: |
+  Ｋ９２２－２ＣＡＲ発現生Ｔ細胞投与（一連につき）30,850点
+  - 注１６歳未満の乳幼児の場合は、乳幼児加算として、26点を所定点数に加算する。
+  - ２ＣＡＲ発現生Ｔ細胞投与に当たって使用した輸血用バッグ及び輸血用針は、所定点数に含まれるものとする。
+notes:
+- id: 注16
+  text: 歳未満の乳幼児の場合は、乳幼児加算として、26点を所定点数に加算する。
+  additions:
+  - name: 乳幼児加算
+    points: 26
+- id: 注2
+  text: |
+    ＣＡＲ発現生Ｔ細胞投与に当たって使用した輸血用バッグ及び輸血用針は、所定点数に含まれるものとする。
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-02-輸血料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

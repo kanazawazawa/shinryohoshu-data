@@ -1,0 +1,30 @@
+code: K346
+name: 後鼻孔閉鎖症手術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第5款 耳鼻咽喉
+raw_text: |
+  Ｋ３４６後鼻孔閉鎖症手術
+  - １単純なもの（膜性閉鎖）4,360点
+  - ２複雑なもの（骨性閉鎖）27,040点
+tiers:
+- id: '1'
+  name: 単純なもの（膜性閉鎖）
+  points: 4360
+- id: '2'
+  name: 複雑なもの（骨性閉鎖）2
+  points: 7040
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

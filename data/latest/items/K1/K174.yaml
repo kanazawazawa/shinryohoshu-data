@@ -1,0 +1,46 @@
+code: K174
+name: 水頭症手術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第3款 神経系・頭蓋
+raw_text: |
+  Ｋ１７４水頭症手術
+  - １脳室穿破術（神経内視鏡手術によるもの）38,840点
+  - ２シャント手術24,310点
+  - ３シャント再建術
+      - イ頭側のもの15,850点
+      - ロ腹側のもの6,600点
+      - ハ頭側及び腹側のもの19,150点
+tiers:
+- id: '1'
+  name: 脳室穿破術（神経内視鏡手術によるもの）
+  points: 38840
+- id: '2'
+  name: シャント手術2
+  points: 4310
+- id: '3'
+  name: シャント再建術
+  sub_tiers:
+  - label: イ
+    name: 頭側のもの
+    points: 15850
+  - label: ロ
+    name: 腹側のもの
+    points: 6600
+  - label: ハ
+    name: 頭側及び腹側のもの
+    points: 19150
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

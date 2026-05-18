@@ -1,0 +1,30 @@
+code: K828
+name: 包茎手術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第11款 性器
+raw_text: |
+  Ｋ８２８包茎手術
+  - １背面切開術830点
+  - ２環状切除術2,040点
+tiers:
+- id: '1'
+  name: 背面切開術
+  points: 830
+- id: '2'
+  name: 環状切除術2
+  points: 40
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

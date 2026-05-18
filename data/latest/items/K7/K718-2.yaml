@@ -1,0 +1,30 @@
+code: K718-2
+name: 腹腔鏡下虫垂切除術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第9款 腹部
+raw_text: |
+  Ｋ７１８－２腹腔鏡下虫垂切除術
+  - １虫垂周囲膿瘍を伴わないもの13,760点
+  - ２虫垂周囲膿瘍を伴うもの22,050点
+tiers:
+- id: '1'
+  name: 虫垂周囲膿瘍を伴わないもの1
+  points: 3760
+- id: '2'
+  name: 虫垂周囲膿瘍を伴うもの2
+  points: 2050
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

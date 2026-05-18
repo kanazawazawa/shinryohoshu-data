@@ -1,0 +1,25 @@
+code: K523-2
+name: 硬性内視鏡下食道異物摘出術
+version: r6
+points: 5360
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第7款 胸部
+raw_text: |
+  Ｋ５２３－２硬性内視鏡下食道異物摘出術5,360点
+  - 注硬性内視鏡下食道異物摘出術と併せて行った、区分番号Ｋ３６９に掲げる咽頭異物摘出術（２に限る。）及び区分番号Ｋ６５３－３に掲げる内視鏡的食道及び胃内異物摘出術の費用は所定点数に含まれる。
+notes:
+- id: 注1
+  text: |
+    硬性内視鏡下食道異物摘出術と併せて行った、区分番号Ｋ３６９に掲げる咽頭異物摘出術（２に限る。）及び区分番号Ｋ６５３－３に掲げる内視鏡的食道及び胃内異物摘出術の費用は所定点数に含まれる。
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

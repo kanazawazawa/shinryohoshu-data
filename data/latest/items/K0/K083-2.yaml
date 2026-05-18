@@ -1,0 +1,27 @@
+code: K083-2
+name: 内反足足板挺子固定
+version: r6
+points: 2330
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第2款 筋骨格系・四肢・体幹
+raw_text: |
+  Ｋ０８３－２内反足足板挺子固定2,330点
+  - 注介達牽引又は消炎鎮痛等処置と併せて行った場合は、内反足足板挺子固定の所定点数のみにより算定する。
+  （四肢切断、離断、再接合）Ｋ０８４四肢切断術（上腕、前腕、手、大腿、下腿、足）24,320点
+notes:
+- id: 注1
+  text: |
+    介達牽引又は消炎鎮痛等処置と併せて行った場合は、内反足足板挺子固定の所定点数のみにより算定する。
+    （四肢切断、離断、再接合）Ｋ０８４四肢切断術（上腕、前腕、手、大腿、下腿、足）24,320点
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

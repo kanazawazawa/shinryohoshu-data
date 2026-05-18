@@ -1,0 +1,27 @@
+code: E400
+name: フィルム材料価格を10円で除して得た点数
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第4部 画像診断
+  section: 第5節 特定保険医療材料料
+raw_text: |
+  Ｅ４００フィルム材料価格を10円で除して得た点数
+  - 注１６歳未満の乳幼児に対して胸部単純撮影又は腹部単純撮影を行った場合は、材料価格に1.1を乗じて得た額を10円で除して得た点数とする。
+  - ２使用したフィルムの材料価格は、別に厚生労働大臣が定める。
+notes:
+- id: 注16
+  text: 歳未満の乳幼児に対して胸部単純撮影又は腹部単純撮影を行った場合は、材料価格に1.1を乗じて得た額を10円で除して得た点数とする。
+- id: 注2
+  text: |
+    使用したフィルムの材料価格は、別に厚生労働大臣が定める。
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-04-05-特定保険医療材料料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

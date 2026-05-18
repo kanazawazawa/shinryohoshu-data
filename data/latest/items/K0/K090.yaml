@@ -1,0 +1,30 @@
+code: K090
+name: ひょう疽手術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第2款 筋骨格系・四肢・体幹
+raw_text: |
+  Ｋ０９０ひょう疽手術
+  - １軟部組織のもの1,190点
+  - ２骨、関節のもの1,470点
+tiers:
+- id: '1'
+  name: 軟部組織のもの1
+  points: 190
+- id: '2'
+  name: 骨、関節のもの
+  points: 1470
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

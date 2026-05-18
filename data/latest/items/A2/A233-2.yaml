@@ -1,0 +1,21 @@
+code: A233-2
+name: 栄養サポートチーム加算（週１回）
+version: r6
+points: 200
+unit: 回
+chapter:
+  chapter: 第1章 基本診療料
+  part: 第2部 入院料等
+  section: 第2節 入院基本料等加算
+raw_text: |
+  Ａ２３３－２に掲げる栄養サポートチーム加算及び区分番号Ｂ００１の10に掲げ
+  る入院栄養食事指導料は別に算定できない。
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/01-02-02-入院基本料等加算.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

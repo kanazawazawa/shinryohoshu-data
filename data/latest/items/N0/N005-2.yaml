@@ -1,0 +1,20 @@
+code: N005-2
+name: ＡＬＫ融合遺伝子標本作製
+version: r6
+points: 6520
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第13部 病理診断
+  section: 第1節 病理標本作製料
+raw_text: |
+  Ｎ００５－２ＡＬＫ融合遺伝子標本作製6,520点
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-13-01-病理標本作製料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

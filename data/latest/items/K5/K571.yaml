@@ -1,0 +1,38 @@
+code: K571
+name: 肺静脈還流異常症手術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第8款 心・脈管
+raw_text: |
+  Ｋ５７１肺静脈還流異常症手術
+  - １部分肺静脈還流異常50,970点
+  - ２総肺静脈還流異常
+      - イ心臓型109,310点
+      - ロその他のもの129,310点
+tiers:
+- id: '1'
+  name: 部分肺静脈還流異常
+  points: 50970
+- id: '2'
+  name: 総肺静脈還流異常
+  sub_tiers:
+  - label: イ
+    name: 心臓型
+    points: 109310
+  - label: ロ
+    name: その他のもの
+    points: 129310
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

@@ -1,0 +1,7 @@
+{
+  "yaml.schemas": {
+    "./schema/index.schema.json": ["data/*/index.yaml"],
+    "./schema/item.schema.json": ["data/*/items/*.yaml"]
+  },
+  "files.eol": "\n"
+}

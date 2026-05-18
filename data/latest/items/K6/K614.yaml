@@ -1,0 +1,34 @@
+code: K614
+name: 血管移植術、バイパス移植術１大動脈
+version: r6
+points: 70700
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第8款 心・脈管
+raw_text: |
+  Ｋ６１４血管移植術、バイパス移植術１大動脈70,700点
+  - ２胸腔内動脈64,050点
+  - ３腹腔内動脈63,350点
+  - ４頭、頸部動脈61,660点
+  - ５下腿、足部動脈70,190点
+  - ６膝窩動脈42,500点
+  - ７その他の動脈30,290点Ｋ６１５血管塞栓術（頭部、胸腔、腹腔内血管等）１止血術26,570点
+  - ２選択的動脈化学塞栓術20,040点
+  - ３門脈塞栓術（開腹によるもの）27,140点
+  - ４その他のもの20,480点
+  - 注手術に伴う画像診断及び検査の費用は算定しない。
+notes:
+- id: 注1
+  text: |
+    手術に伴う画像診断及び検査の費用は算定しない。
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

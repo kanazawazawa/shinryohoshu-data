@@ -1,0 +1,38 @@
+code: K576
+name: 心室中隔欠損閉鎖術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第8款 心・脈管
+raw_text: |
+  Ｋ５７６心室中隔欠損閉鎖術
+  - １単独のもの52,320点
+  - ２肺動脈絞扼術後肺動脈形成を伴うもの65,830点
+  - ３大動脈弁形成を伴うもの66,060点
+  - ４右室流出路形成を伴うもの71,570点
+tiers:
+- id: '1'
+  name: 単独のもの
+  points: 52320
+- id: '2'
+  name: 肺動脈絞扼術後肺動脈形成を伴うもの
+  points: 65830
+- id: '3'
+  name: 大動脈弁形成を伴うもの
+  points: 66060
+- id: '4'
+  name: 右室流出路形成を伴うもの
+  points: 71570
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

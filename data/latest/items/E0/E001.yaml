@@ -1,0 +1,49 @@
+code: E001
+name: 写真診断
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第4部 画像診断
+  section: 第1節 エックス線診断料
+raw_text: |
+  Ｅ００１写真診断
+  - １単純撮影
+      - イ頭部、胸部、腹部又は脊椎85点
+      - ロその他43点
+  - ２特殊撮影（一連につき）96点
+  - ３造影剤使用撮影72点
+  - ４乳房撮影（一連につき）306点
+  - 注間接撮影を行った場合は、所定点数の100分の50に相当する点数により算定する。
+tiers:
+- id: '1'
+  name: 単純撮影
+  sub_tiers:
+  - label: イ
+    name: 頭部、胸部、腹部又は脊椎
+    points: 85
+  - label: ロ
+    name: その他
+    points: 43
+- id: '2'
+  name: 特殊撮影（一連につき）
+  points: 96
+- id: '3'
+  name: 造影剤使用撮影
+  points: 72
+- id: '4'
+  name: 乳房撮影（一連につき）
+  points: 306
+notes:
+- id: 注1
+  text: |
+    間接撮影を行った場合は、所定点数の100分の50に相当する点数により算定する。
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-04-01-エックス線診断料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

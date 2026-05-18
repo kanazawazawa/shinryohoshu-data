@@ -1,0 +1,35 @@
+code: D002
+name: 尿沈渣
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第3部 検査
+  section: 第1節 検体検査料
+  subsection: 第1款 検体検査実施料
+raw_text: |
+  Ｄ００２尿沈渣
+  （鏡検法）27点
+  - 注１同一検体について当該検査と区分番号Ｄ０１７に掲げる排泄物、滲出物又は分泌物の細菌顕微鏡検査を併せて行った場合は、主たる検査の所定点数のみ算定する。
+  - ２当該保険医療機関内で検査を行った場合に算定する。
+  - ３染色標本による検査を行った場合は、染色標本加算として、９点を所定点数に加算する。
+notes:
+- id: 注1
+  text: 同一検体について当該検査と区分番号Ｄ０１７に掲げる排泄物、滲出物又は分泌物の細菌顕微鏡検査を併せて行った場合は、主たる検査の所定点数のみ算定する。
+- id: 注2
+  text: 当該保険医療機関内で検査を行った場合に算定する。
+- id: 注3
+  text: |
+    染色標本による検査を行った場合は、染色標本加算として、９点を所定点数に加算する。
+  additions:
+  - name: 染色標本加算
+    points: 9
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-03-01-検体検査料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

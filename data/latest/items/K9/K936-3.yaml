@@ -1,0 +1,24 @@
+code: K936-3
+name: 微小血管自動縫合器加算
+version: r6
+points: 2500
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第3節 手術医療機器等加算
+raw_text: |
+  Ｋ９３６－３微小血管自動縫合器加算2,500点
+  - 注区分番号Ｋ０１７及びＫ０２０に掲げる手術に当たって、微小血管自動縫合器を使用した場合に算定する。
+notes:
+- id: 注1
+  text: |
+    区分番号Ｋ０１７及びＫ０２０に掲げる手術に当たって、微小血管自動縫合器を使用した場合に算定する。
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-03-手術医療機器等加算.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

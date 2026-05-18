@@ -1,0 +1,25 @@
+code: K605
+name: 移植用心採取術
+version: r6
+points: 68490
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第8款 心・脈管
+raw_text: |
+  Ｋ６０５移植用心採取術68,490点
+  - 注心提供者に係る組織適合性試験の費用は、所定点数に含まれる。
+notes:
+- id: 注1
+  text: |
+    心提供者に係る組織適合性試験の費用は、所定点数に含まれる。
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

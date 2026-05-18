@@ -1,0 +1,29 @@
+code: J056
+name: いぼ等冷凍凝固法
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第9部 処置
+  section: 第1節 処置料
+raw_text: |
+  Ｊ０５６いぼ等冷凍凝固法
+  - １３箇所以下210点
+  - ２４箇所以上270点
+tiers:
+- id: '1'
+  name: 3箇所以下
+  points: 210
+- id: '2'
+  name: 4箇所以上2
+  points: 70
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-09-01-処置料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

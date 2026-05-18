@@ -1,0 +1,30 @@
+code: K182
+name: 神経縫合術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第3款 神経系・頭蓋
+raw_text: |
+  Ｋ１８２神経縫合術
+  - １指（手、足）15,160点
+  - ２その他のもの24,510点
+tiers:
+- id: '1'
+  name: 指（手、足）1
+  points: 5160
+- id: '2'
+  name: その他のもの2
+  points: 4510
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

@@ -1,0 +1,18 @@
+code: A313
+name: 削除
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 第１部医学管理等の区分番号Ｂ０１５に掲げる精神科退院時共同指導料
+raw_text: |
+  Ａ３１３削除
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-00-00-特掲診療料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

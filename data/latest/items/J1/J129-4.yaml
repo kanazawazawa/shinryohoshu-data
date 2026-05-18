@@ -1,0 +1,33 @@
+code: J129-4
+name: 治療用装具採型法
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第9部 処置
+  section: 第1節 処置料
+raw_text: |
+  Ｊ１２９－４治療用装具採型法
+  - １体幹装具700点
+  - ２四肢装具（１肢につき）700点
+  - ３その他（１肢につき）200点
+tiers:
+- id: '1'
+  name: 体幹装具
+  points: 700
+- id: '2'
+  name: 四肢装具（１肢につき）
+  points: 700
+- id: '3'
+  name: その他（１肢につき）
+  points: 200
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-09-01-処置料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

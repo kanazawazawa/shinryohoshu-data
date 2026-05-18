@@ -1,0 +1,25 @@
+code: C101-2
+name: 在宅小児低血糖症患者指導管理料
+version: r6
+points: 820
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第2部 在宅医療
+  section: 第2節 在宅療養指導管理料
+  subsection: 第1款 在宅療養指導管理料
+raw_text: |
+  Ｃ１０１－２在宅小児低血糖症患者指導管理料820点
+  - 注12歳未満の小児低血糖症であって入院中の患者以外の患者に対して、重篤な低血糖の予防のために適切な指導管理を行った場合に算定する。
+notes:
+- id: 注12
+  text: |
+    歳未満の小児低血糖症であって入院中の患者以外の患者に対して、重篤な低血糖の予防のために適切な指導管理を行った場合に算定する。
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-02-02-在宅療養指導管理料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

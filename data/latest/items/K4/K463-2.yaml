@@ -1,0 +1,31 @@
+code: K463-2
+name: 内視鏡下甲状腺悪性腫瘍手術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第6款 顔面・口腔・頸部
+raw_text: |
+  Ｋ４６３－２内視鏡下甲状腺悪性腫瘍手術
+  - １切除27,550点
+  - ２全摘及び亜全摘37,160点Ｋ４６４副甲状腺（上皮小体）腺腫過形成手術１副甲状腺（上皮小体）摘出術15,680点
+  - ２副甲状腺（上皮小体）全摘術（一部筋肉移植）33,790点Ｋ４６４－２内視鏡下副甲状腺（上皮小体）腺腫過形成手術20,660点Ｋ４６５副甲状腺（上皮小体）悪性腫瘍手術（広汎）39,000点（その他の頸部）
+tiers:
+- id: '1'
+  name: 切除
+  points: 27550
+- id: '2'
+  name: 全摘及び亜全摘37,160点Ｋ４６４副甲状腺（上皮小体）腺腫過形成手術１副甲状腺（上皮小体）摘出術
+  points: 15680
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

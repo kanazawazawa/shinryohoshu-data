@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/shinryohoshu/index.schema.json",
+  "title": "診療報酬点数表 区分インデックス (T1)",
+  "type": "object",
+  "required": ["version", "source", "items"],
+  "properties": {
+    "version": { "type": "string", "enum": ["r6", "r8"] },
+    "source": {
+      "type": "object",
+      "required": ["pdf", "url"],
+      "properties": {
+        "pdf": { "type": "string" },
+        "url": { "type": "string", "format": "uri" }
+      }
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["code", "name", "chapter", "raw_file"],
+        "properties": {
+          "code":   { "type": "string", "pattern": "^[A-Z][0-9]{3}(-[0-9]+)?$" },
+          "name":   { "type": "string" },
+          "points": {
+            "type": ["integer", "string", "null"],
+            "description": "所定点数。複雑な表で1点に決まらない場合は文字列、削除区分は null"
+          },
+          "chapter": {
+            "type": "object",
+            "required": ["chapter"],
+            "properties": {
+              "chapter": { "type": "string" },
+              "part":    { "type": "string" },
+              "section": { "type": "string" },
+              "subsection": { "type": "string" }
+            }
+          },
+          "raw_file": { "type": "string", "description": "raw/ 配下の参照先" }
+        }
+      }
+    }
+  }
+}

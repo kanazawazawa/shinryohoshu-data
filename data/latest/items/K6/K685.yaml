@@ -1,0 +1,37 @@
+code: K685
+name: 内視鏡的胆道結石除去術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第9款 腹部
+raw_text: |
+  Ｋ６８５内視鏡的胆道結石除去術
+  - １胆道砕石術を伴うもの14,300点
+  - ２その他のもの9,980点
+  - 注バルーン内視鏡を用いて実施した場合は、バルーン内視鏡加算として、3,500点を所定点数に加算する。
+tiers:
+- id: '1'
+  name: 胆道砕石術を伴うもの1
+  points: 4300
+- id: '2'
+  name: その他のもの
+  points: 9980
+notes:
+- id: 注1
+  text: |
+    バルーン内視鏡を用いて実施した場合は、バルーン内視鏡加算として、3,500点を所定点数に加算する。
+  additions:
+  - name: バルーン内視鏡加算
+    points: 3500
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

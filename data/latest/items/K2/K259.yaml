@@ -1,0 +1,34 @@
+code: K259
+name: 角膜移植術
+version: r6
+points: 52600
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第4款 眼
+raw_text: |
+  Ｋ２５９角膜移植術52,600点
+  - 注１レーザーによる場合は、レーザー使用加算として、所定点数に5,500点を加算する。
+  - ２内皮移植による角膜移植を実施した場合は、内皮移植加算として、8,000点を所定点数に加算する。
+notes:
+- id: 注1
+  text: レーザーによる場合は、レーザー使用加算として、所定点数に5,500点を加算する。
+  additions:
+  - name: レーザー使用加算
+    points: 5500
+- id: 注2
+  text: |
+    内皮移植による角膜移植を実施した場合は、内皮移植加算として、8,000点を所定点数に加算する。
+  additions:
+  - name: 内皮移植加算
+    points: 8000
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

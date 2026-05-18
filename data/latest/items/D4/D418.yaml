@@ -1,0 +1,33 @@
+code: D418
+name: 子宮腟部等からの検体採取
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第3部 検査
+  section: 第4節 診断穿刺・検体採取料
+raw_text: |
+  Ｄ４１８子宮腟部等からの検体採取
+  - １子宮頸管粘液採取40点
+  - ２子宮腟部組織採取200点
+  - ３子宮内膜組織採取370点
+tiers:
+- id: '1'
+  name: 子宮頸管粘液採取
+  points: 40
+- id: '2'
+  name: 子宮腟部組織採取2
+  points: 0
+- id: '3'
+  name: 子宮内膜組織採取3
+  points: 70
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-03-04-診断穿刺・検体採取料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

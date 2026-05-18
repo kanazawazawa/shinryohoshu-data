@@ -1,0 +1,30 @@
+code: K703-2
+name: 腹腔鏡下膵頭部腫瘍切除術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第9款 腹部
+raw_text: |
+  Ｋ７０３－２腹腔鏡下膵頭部腫瘍切除術
+  - １膵頭十二指腸切除術の場合158,450点
+  - ２リンパ節・神経叢郭清等を伴う腫瘍切除術の場合173,640点
+tiers:
+- id: '1'
+  name: 膵頭十二指腸切除術の場合1
+  points: 58450
+- id: '2'
+  name: リンパ節・神経叢郭清等を伴う腫瘍切除術の場合
+  points: 173640
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

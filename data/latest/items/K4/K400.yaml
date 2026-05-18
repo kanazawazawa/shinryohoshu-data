@@ -1,0 +1,34 @@
+code: K400
+name: 喉頭形成手術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第5款 耳鼻咽喉
+raw_text: |
+  Ｋ４００喉頭形成手術
+  - １人工形成材料挿置術、軟骨片挿置術18,750点
+  - ２筋弁転位術、軟骨転位術、軟骨除去術28,510点
+  - ３甲状軟骨固定用器具を用いたもの34,840点
+tiers:
+- id: '1'
+  name: 人工形成材料挿置術、軟骨片挿置術1
+  points: 8750
+- id: '2'
+  name: 筋弁転位術、軟骨転位術、軟骨除去術2
+  points: 8510
+- id: '3'
+  name: 甲状軟骨固定用器具を用いたもの3
+  points: 4840
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

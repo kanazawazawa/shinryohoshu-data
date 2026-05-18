@@ -1,0 +1,58 @@
+code: K633
+name: ヘルニア手術
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第9款 腹部
+raw_text: |
+  Ｋ６３３ヘルニア手術
+  - １腹壁瘢痕ヘルニア9,950点
+  - ２半月状線ヘルニア、白線ヘルニア、腹直筋離開6,200点
+  - ３臍ヘルニア4,200点
+  - ４臍帯ヘルニア18,810点
+  - ５鼠径ヘルニア6,000点
+  - ６大腿ヘルニア8,860点
+  - ７腰ヘルニア8,880点
+  - ８骨盤部ヘルニア（閉鎖孔ヘルニア、坐骨ヘルニア、会陰ヘルニア）18,810点
+  - ９内ヘルニア18,810点
+tiers:
+- id: '1'
+  name: 腹壁瘢痕ヘルニア
+  points: 9950
+- id: '2'
+  name: 半月状線ヘルニア、白線ヘルニア、腹直筋離開
+  points: 6200
+- id: '3'
+  name: 臍ヘルニア
+  points: 4200
+- id: '4'
+  name: 臍帯ヘルニア
+  points: 18810
+- id: '5'
+  name: 鼠径ヘルニア
+  points: 6000
+- id: '6'
+  name: 大腿ヘルニア
+  points: 8860
+- id: '7'
+  name: 腰ヘルニア
+  points: 8880
+- id: '8'
+  name: 骨盤部ヘルニア（閉鎖孔ヘルニア、坐骨ヘルニア、会陰ヘルニア）
+  points: 18810
+- id: '9'
+  name: 内ヘルニア
+  points: 18810
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

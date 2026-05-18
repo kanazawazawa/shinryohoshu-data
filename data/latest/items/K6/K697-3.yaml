@@ -1,0 +1,34 @@
+code: K697-3
+name: 肝悪性腫瘍ラジオ波焼灼
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第10部 手術
+  section: 第1節 手術料
+  subsection: 第9款 腹部
+raw_text: |
+  Ｋ６９７－３肝悪性腫瘍ラジオ波焼灼
+  療法（一連として）１２センチメートル以内のもの
+      - イ腹腔鏡によるもの16,300点
+      - ロその他のもの15,000点
+  - ２２センチメートルを超えるもの
+      - イ腹腔鏡によるもの23,260点
+      - ロその他のもの21,960点
+  - 注フュージョンイメージングを用いて行った場合は、フュージョンイメージング加算として、200点を所定点数に加算する。
+notes:
+- id: 注1
+  text: |
+    フュージョンイメージングを用いて行った場合は、フュージョンイメージング加算として、200点を所定点数に加算する。
+  additions:
+  - name: フュージョンイメージング加算
+    points: 200
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-10-01-手術料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false

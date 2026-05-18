@@ -1,0 +1,21 @@
+code: D414-2
+name: 超音波内視鏡下穿
+version: r6
+points: null
+unit: 回
+chapter:
+  chapter: 第2章 特掲診療料
+  part: 第3部 検査
+  section: 第4節 診断穿刺・検体採取料
+raw_text: |
+  Ｄ４１４－２超音波内視鏡下穿
+  刺吸引生検法（ＥＵＳ－ＦＮＡ）4,800点
+notes: []
+source:
+  pdf: 001251499.pdf
+  url: https://www.mhlw.go.jp/
+  raw_file: raw/02-03-04-診断穿刺・検体採取料.txt
+_meta:
+  generated_by: rule-based
+  human_reviewed: false
+  has_unparsed: false
