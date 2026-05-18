@@ -63,3 +63,16 @@
 }
 #explore-root table#explore-table td.num { text-align: right; white-space: nowrap; }
 #explore-root table#explore-table tbody tr:hover { background: var(--md-default-fg-color--lightest); }
+#explore-root .diff-badge {
+  display: inline-block;
+  padding: 0.05rem 0.4rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+#explore-root .diff-added { background: #2e7d32; color: #fff; }
+#explore-root .diff-deleted { background: #c62828; color: #fff; }
+#explore-root .diff-changed { background: #ef6c00; color: #fff; }
+#explore-root .diff-unchanged { background: transparent; color: var(--md-default-fg-color--light); }
+#explore-root .chk { display: inline-flex; gap: 0.3rem; align-items: center; font-size: 0.85rem; }

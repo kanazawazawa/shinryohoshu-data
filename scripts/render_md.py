@@ -198,45 +198,86 @@ def main() -> None:
         )
         print(f"[{ver}] wrote {len(idx['items'])} item md + index.md + .pages")
 
-    # explore ページ用の軽量 JSON を data/latest から生成
+    # explore ページ用の軽量 JSON を R6 + R8 から生成
     # （ブラウザで全件読み込んでフィルタ + CSV ダウンロードする用途）
     import json
-    latest_dir = version_dir("r8")  # SHINRYO_LATEST_VERSION の指す版
-    latest_idx_path = latest_dir / "index.yaml"
-    if latest_idx_path.exists():
-        latest_idx = yaml.safe_load(latest_idx_path.read_text(encoding="utf-8"))
-        records = []
-        for f in (latest_dir / "items").rglob("*.yaml"):
+
+    def collect(ver: str) -> dict[str, dict]:
+        d = version_dir(ver)
+        idx_path = d / "index.yaml"
+        if not idx_path.exists():
+            return {}
+        out: dict[str, dict] = {}
+        for f in (d / "items").rglob("*.yaml"):
             it = yaml.safe_load(f.read_text(encoding="utf-8"))
-            ch = it.get("chapter") or {}
-            shard = it["code"][:2]
-            records.append({
-                "code": it["code"],
-                "name": it.get("name") or "",
-                "points": it.get("points"),
-                "unit": it.get("unit") or "",
-                "chapter": ch.get("chapter") or "",
-                "part": ch.get("part") or "",
-                "section": ch.get("section") or "",
-                "url": f"../r8/items/{shard}/{it['code']}/",
-            })
-        records.sort(key=lambda r: r["code"])
-        assets_dir = ROOT / "docs" / "assets"
-        assets_dir.mkdir(parents=True, exist_ok=True)
-        out_json = assets_dir / "items.json"
-        out_json.write_text(
-            json.dumps(
-                {
-                    "version": "r8",
-                    "source": latest_idx.get("source", {}),
-                    "items": records,
-                },
-                ensure_ascii=False,
-                separators=(",", ":"),
-            ),
-            encoding="utf-8",
-        )
-        print(f"[explore] wrote {len(records)} records to {out_json.relative_to(ROOT)}")
+            out[it["code"]] = it
+        return out
+
+    items_r8 = collect("r8")
+    items_r6 = collect("r6")
+
+    def diff_status(code: str) -> str:
+        in_r6 = code in items_r6
+        in_r8 = code in items_r8
+        if in_r6 and not in_r8:
+            return "deleted"  # R8 で削除
+        if in_r8 and not in_r6:
+            return "added"    # R8 で新設
+        old, new = items_r6[code], items_r8[code]
+        if (
+            old.get("name") != new.get("name")
+            or old.get("points") != new.get("points")
+            or (old.get("raw_text") or "") != (new.get("raw_text") or "")
+        ):
+            return "changed"
+        return "unchanged"
+
+    def record(ver: str, it: dict) -> dict:
+        ch = it.get("chapter") or {}
+        shard = it["code"][:2]
+        src = it.get("source") or {}
+        return {
+            "version": ver,
+            "code": it["code"],
+            "name": it.get("name") or "",
+            "points": it.get("points"),
+            "unit": it.get("unit") or "",
+            "chapter": ch.get("chapter") or "",
+            "part": ch.get("part") or "",
+            "section": ch.get("section") or "",
+            "subsection": ch.get("subsection") or "",
+            "diff_status": diff_status(it["code"]),
+            "notes_count": len(it.get("notes") or []),
+            "tiers_count": len(it.get("tiers") or []),
+            "raw_text": it.get("raw_text") or "",
+            "source_pdf": src.get("pdf") or "",
+            "source_url": src.get("url") or "",
+            "page_url": f"../{ver}/items/{shard}/{it['code']}/",
+        }
+
+    records: list[dict] = []
+    for code, it in items_r8.items():
+        records.append(record("r8", it))
+    for code, it in items_r6.items():
+        records.append(record("r6", it))
+    records.sort(key=lambda r: (r["code"], r["version"]))
+
+    assets_dir = ROOT / "docs" / "assets"
+    assets_dir.mkdir(parents=True, exist_ok=True)
+    out_json = assets_dir / "items.json"
+    out_json.write_text(
+        json.dumps(
+            {"versions": ["r8", "r6"], "items": records},
+            ensure_ascii=False,
+            separators=(",", ":"),
+        ),
+        encoding="utf-8",
+    )
+    print(
+        f"[explore] wrote {len(records)} records "
+        f"(r8={len(items_r8)} + r6={len(items_r6)}) to {out_json.relative_to(ROOT)}"
+        f" [{out_json.stat().st_size / 1024:.0f} KB]"
+    )
 
 
 if __name__ == "__main__":
