@@ -66,5 +66,8 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/kanazawazawa/shinryohoshu-data
 
+extra_css:
+  - stylesheets/extra.css
+
 # 巨大データのためビルド時に欠落リンクが出ても fail させない
 strict: false

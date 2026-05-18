@@ -1,0 +1,9 @@
+/* 原文ブロック (```...```) を横スクロールではなく見た目だけ折り返す。
+   コピー時の改行構造は元のまま保たれる (white-space: pre-wrap)。 */
+.md-typeset pre > code,
+.md-typeset .highlight pre,
+.md-typeset .highlight code {
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
