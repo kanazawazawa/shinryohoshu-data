@@ -11,6 +11,9 @@ data/**/raw/
 docs/r*/
 # ※ docs/diff/ は人間が一次窓口として参照するため追跡対象（上のパターンに含まれない）
 
+# explore ページ用に render_md.py が吐く軽量 JSON（YAML から自動再生成可能）
+docs/assets/items.json
+
 # MkDocs のビルド成果物
 site/
 

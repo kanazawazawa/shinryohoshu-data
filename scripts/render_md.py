@@ -198,6 +198,46 @@ def main() -> None:
         )
         print(f"[{ver}] wrote {len(idx['items'])} item md + index.md + .pages")
 
+    # explore ページ用の軽量 JSON を data/latest から生成
+    # （ブラウザで全件読み込んでフィルタ + CSV ダウンロードする用途）
+    import json
+    latest_dir = version_dir("r8")  # SHINRYO_LATEST_VERSION の指す版
+    latest_idx_path = latest_dir / "index.yaml"
+    if latest_idx_path.exists():
+        latest_idx = yaml.safe_load(latest_idx_path.read_text(encoding="utf-8"))
+        records = []
+        for f in (latest_dir / "items").rglob("*.yaml"):
+            it = yaml.safe_load(f.read_text(encoding="utf-8"))
+            ch = it.get("chapter") or {}
+            shard = it["code"][:2]
+            records.append({
+                "code": it["code"],
+                "name": it.get("name") or "",
+                "points": it.get("points"),
+                "unit": it.get("unit") or "",
+                "chapter": ch.get("chapter") or "",
+                "part": ch.get("part") or "",
+                "section": ch.get("section") or "",
+                "url": f"../r8/items/{shard}/{it['code']}/",
+            })
+        records.sort(key=lambda r: r["code"])
+        assets_dir = ROOT / "docs" / "assets"
+        assets_dir.mkdir(parents=True, exist_ok=True)
+        out_json = assets_dir / "items.json"
+        out_json.write_text(
+            json.dumps(
+                {
+                    "version": "r8",
+                    "source": latest_idx.get("source", {}),
+                    "items": records,
+                },
+                ensure_ascii=False,
+                separators=(",", ":"),
+            ),
+            encoding="utf-8",
+        )
+        print(f"[explore] wrote {len(records)} records to {out_json.relative_to(ROOT)}")
+
 
 if __name__ == "__main__":
     main()

@@ -7,3 +7,59 @@
   word-break: break-word;
   overflow-wrap: anywhere;
 }
+
+/* explore ページ (区分を探す) */
+#explore-root .explore-toolbar,
+#explore-root .explore-status {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 0.75rem 0;
+}
+#explore-root .explore-toolbar input,
+#explore-root .explore-toolbar select,
+#explore-root .explore-status button {
+  padding: 0.35rem 0.6rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 4px;
+  font-size: 0.85rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+#explore-root .explore-toolbar input[type="number"] { width: 7em; }
+#explore-root .explore-toolbar input[type="text"] { min-width: 12em; }
+#explore-root .explore-status .spacer { flex: 1; }
+#explore-root .explore-status button {
+  cursor: pointer;
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  border-color: transparent;
+}
+#explore-root .explore-status button:hover { opacity: 0.85; }
+#explore-root .explore-table-wrap {
+  max-height: 70vh;
+  overflow: auto;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 4px;
+}
+#explore-root table#explore-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+#explore-root table#explore-table th,
+#explore-root table#explore-table td {
+  padding: 0.35rem 0.5rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  text-align: left;
+  vertical-align: top;
+}
+#explore-root table#explore-table thead th {
+  position: sticky;
+  top: 0;
+  background: var(--md-default-bg-color);
+  z-index: 1;
+}
+#explore-root table#explore-table td.num { text-align: right; white-space: nowrap; }
+#explore-root table#explore-table tbody tr:hover { background: var(--md-default-fg-color--lightest); }

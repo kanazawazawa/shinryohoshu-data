@@ -1,5 +1,6 @@
 nav:
   - ホーム: index.md
+  - 区分を探す: explore.md
   - 令和8年度版 (R8): r8
   - 令和6年度版 (R6): r6
   - 改定差分: diff
